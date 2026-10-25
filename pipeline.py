@@ -31,7 +31,9 @@ class BillingError(Exception):
 
 def http(url, data=None, headers=None, method=None):
     body = json.dumps(data).encode() if isinstance(data, (dict, list)) else data
-    h = {"Content-Type": "application/json"} if isinstance(data, (dict, list)) else {}
+    h = {"User-Agent": "Mozilla/5.0 (crayon-babies-autopilot)"}
+    if isinstance(data, (dict, list)):
+        h["Content-Type"] = "application/json"
     h.update(headers or {})
     req = urllib.request.Request(url, data=body, headers=h, method=method)
     try:
@@ -114,7 +116,7 @@ def frames(clips, work):
 
 def music_prompt(frame_files, job):
     parts = [{"text": (
-        "These are frames from a short 3D-animated video for toddlers featuring two babies, Jimmy and Eva. "
+        "These are frames from a short 3D-animated video for toddlers featuring two babies, Jimmy and Ava. "
         f"Story idea: {job['idea']}\n"
         "Write ONE prompt (max 60 words) for an AI music generator describing a fitting background track: "
         "genre, mood, tempo in BPM, 3-4 instruments, how energy evolves. Instrumental only, no vocals, "
@@ -199,6 +201,11 @@ def upload(video, job):
     if code not in (200, 201):
         raise RuntimeError(f"YouTube upload HTTP {code}: {body[:400]!r}")
     vid = json.loads(body)["id"]
+    # videos.insert can drop containsSyntheticMedia, so set the status again explicitly.
+    code, body, _ = http("https://www.googleapis.com/youtube/v3/videos?part=status",
+                         {"id": vid, "status": meta["status"]}, {"Authorization": f"Bearer {token}"}, "PUT")
+    if code != 200:
+        print(f"[status] update HTTP {code}: {body[:300]!r}")
     try:
         add_to_playlist(token, vid, job.get("playlist", "Magic Crayon Stories"))
     except Exception as e:
@@ -209,7 +216,7 @@ def upload(video, job):
 def add_to_playlist(token, vid, name):
     auth = {"Authorization": f"Bearer {token}"}
     code, body, _ = http("https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&maxResults=50", headers=auth)
-    pl = [i["id"] for i in json.loads(body).get("items", []) if i["snippet"]["title"].strip().lower() == name.lower()]
+    pl = [i["id"] for i in json.loads(body).get("items", []) if name.lower() in i["snippet"]["title"].lower()]
     if not pl:
         raise RuntimeError(f"playlist '{name}' not found (HTTP {code})")
     code, body, _ = http("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet",

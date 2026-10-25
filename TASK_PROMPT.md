@@ -2,6 +2,10 @@
 
 Everything is in English (titles, descriptions, tags, prompts). No Arabic anywhere.
 
+0. **Setup.** If `/home/user/autopilot-repo` doesn't exist: attach repo `lumilolandkids-lang/lumilolandkids-lang.github.io`
+   (push access), then `git clone --depth 1 -b autopilot https://github.com/lumilolandkids-lang/lumilolandkids-lang.github.io /home/user/autopilot-repo`.
+   Work inside that folder. Commit as `Claude <noreply@anthropic.com>` and push to the `autopilot` branch only — never touch `main`.
+
 1. **Credits.** Call ViewMax `get_credits`. One video = 3 shots × 40 = 120 credits.
    If remaining < 120: send a push notification "ViewMax credits low: N left, video skipped", append a
    `skipped: low credits` line to `log/videos.jsonl`, and stop.

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Crayon Babies video autopilot: clips -> music (Lyria) -> ffmpeg edit -> YouTube upload -> log.
 
-Usage: python3 pipeline.py job.json [--no-upload]
+Usage: python3 pipeline.py job.json [--no-upload] [--no-music]
 
 job.json (written by the scheduled Claude session after generating clips in ViewMax):
 {
@@ -152,12 +152,16 @@ def edit(norm, music, work):
         fc.append(f"{v}[{i}:v]xfade=transition=fade:duration={XFADE}:offset={offset:.3f}[v{i}]")
         fc.append(f"{a}[{i}:a]acrossfade=d={XFADE}[a{i}]")
         v, a = f"[v{i}]", f"[a{i}]"
-    m = len(norm)
-    fc.append(f"{a}volume={CLIP_VOL}[clipa]")
-    fc.append(f"[{m}:a]atrim=0:{total:.3f},asetpts=PTS-STARTPTS,afade=t=in:d={FADE_IN},"
-              f"afade=t=out:st={total - FADE_OUT:.3f}:d={FADE_OUT},volume={MUSIC_VOL}[mus]")
-    fc.append("[clipa][mus]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
     out = work / "final.mp4"
+    if music is None:
+        fc.append(f"{a}loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
+        inputs = inputs[:-2]
+    else:
+        m = len(norm)
+        fc.append(f"{a}volume={CLIP_VOL}[clipa]")
+        fc.append(f"[{m}:a]atrim=0:{total:.3f},asetpts=PTS-STARTPTS,afade=t=in:d={FADE_IN},"
+                  f"afade=t=out:st={total - FADE_OUT:.3f}:d={FADE_OUT},volume={MUSIC_VOL}[mus]")
+        fc.append("[clipa][mus]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[aout]")
     run(["ffmpeg", "-y", *inputs, "-filter_complex", ";".join(fc), "-map", v, "-map", "[aout]",
          "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", "-t", f"{total:.3f}", str(out)])
@@ -194,7 +198,25 @@ def upload(video, job):
     code, body, _ = http(loc, video.read_bytes(), {"Authorization": f"Bearer {token}", "Content-Type": "video/mp4"}, "PUT")
     if code not in (200, 201):
         raise RuntimeError(f"YouTube upload HTTP {code}: {body[:400]!r}")
-    return json.loads(body)["id"]
+    vid = json.loads(body)["id"]
+    try:
+        add_to_playlist(token, vid, job.get("playlist", "Magic Crayon Stories"))
+    except Exception as e:
+        print(f"[playlist] skipped: {e}")
+    return vid
+
+
+def add_to_playlist(token, vid, name):
+    auth = {"Authorization": f"Bearer {token}"}
+    code, body, _ = http("https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&maxResults=50", headers=auth)
+    pl = [i["id"] for i in json.loads(body).get("items", []) if i["snippet"]["title"].strip().lower() == name.lower()]
+    if not pl:
+        raise RuntimeError(f"playlist '{name}' not found (HTTP {code})")
+    code, body, _ = http("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet",
+                         {"snippet": {"playlistId": pl[0], "resourceId": {"kind": "youtube#video", "videoId": vid}}}, auth)
+    if code != 200:
+        raise RuntimeError(f"playlistItems.insert HTTP {code}: {body[:300]!r}")
+    print(f"[playlist] added to '{name}'")
 
 
 def log(entry):
@@ -216,10 +238,13 @@ def main():
              "viewmax_credits_used": job.get("viewmax_credits_used"), "status": "started"}
     try:
         clips = normalize(download(job["clips"], work), work)
-        tm, mprompt = music_prompt(frames(clips, work), job)
-        print(f"[music prompt via {tm}] {mprompt}")
-        mm, music = make_music(mprompt, work)
-        print(f"[music via {mm}] {music}")
+        if "--no-music" in sys.argv:
+            mprompt, mm, music = None, None, None
+        else:
+            tm, mprompt = music_prompt(frames(clips, work), job)
+            print(f"[music prompt via {tm}] {mprompt}")
+            mm, music = make_music(mprompt, work)
+            print(f"[music via {mm}] {music}")
         final, total = edit(clips, music, work)
         entry.update(music_prompt=mprompt, music_model=mm, duration_s=round(total, 1), file=str(final))
         print(f"[edit] {final} ({total:.1f}s)")

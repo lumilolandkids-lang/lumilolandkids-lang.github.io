@@ -9,7 +9,8 @@ Everything is in English (titles, descriptions, tags, prompts). No Arabic anywhe
    Jimmy and Ava: daily routines, colors, animals, sharing, bedtime, playground, weather, etc.).
 3. **Shots.** Write 3 cinematic shot prompts (~8s each) that form one mini story: beginning, middle, payoff.
    Each prompt: soft 3D Pixar-like animation, warm lighting, camera move, action, setting, mood,
-   "no text, no subtitles, no speech, gentle ambient sounds only". Always describe the characters:
+   one short spoken line (a phrase, never a single word, e.g. "Wow! A big apple!"), "No text on screen, no background music".
+   Always describe the characters:
    - **Jimmy**: chubby 1-year-old baby boy, fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks, barefoot, light blue SHORT-SLEEVE onesie with a small yellow star.
    - **Ava**: chubby 1-year-old baby girl, short fluffy curly brown hair, small curly ponytail on top with a sparkly pink star clip, big brown eyes, rosy cheeks, soft yellow dress with ruffle sleeves and a small pink flower, pink baby shoes with bows.
 4. **Video.** For each shot: ViewMax `generate_video` with model `viewmax-c1`, mode `reference-to-video`,

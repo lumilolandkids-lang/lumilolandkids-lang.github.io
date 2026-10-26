@@ -11,7 +11,7 @@ job.json (written by the scheduled Claude session after generating clips in View
   "viewmax_credits_before": 8143, "viewmax_credits_used": 120
 }
 
-Exit codes: 0 ok, 2 bad input, 3 Gemini billing/quota (402/429), 4 other API error, 5 ffmpeg error.
+Exit codes: 0 ok, 2 bad input, 3 Gemini billing/quota (402/429; video still uploaded without music if clips were fine), 4 other API error, 5 ffmpeg error.
 """
 import base64, datetime, json, os, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
@@ -243,15 +243,22 @@ def main():
     entry = {"time": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
              "idea": job.get("idea"), "title": job.get("title"), "clips": job.get("clips"),
              "viewmax_credits_used": job.get("viewmax_credits_used"), "status": "started"}
+    billing_error = None
     try:
         clips = normalize(download(job["clips"], work), work)
         if "--no-music" in sys.argv:
             mprompt, mm, music = None, None, None
         else:
-            tm, mprompt = music_prompt(frames(clips, work), job)
-            print(f"[music prompt via {tm}] {mprompt}")
-            mm, music = make_music(mprompt, work)
-            print(f"[music via {mm}] {music}")
+            try:
+                tm, mprompt = music_prompt(frames(clips, work), job)
+                print(f"[music prompt via {tm}] {mprompt}")
+                mm, music = make_music(mprompt, work)
+                print(f"[music via {mm}] {music}")
+            except BillingError as e:
+                # Don't waste the ViewMax clips: publish without music, then exit 3 so the task reminds to top up.
+                mprompt, mm, music, billing_error = None, None, None, str(e)
+                entry["music_warning"] = "Gemini 402/429 - published without music: " + billing_error[:300]
+                print("[music] GEMINI BILLING/QUOTA ERROR - continuing without music")
         final, total = edit(clips, music, work)
         entry.update(music_prompt=mprompt, music_model=mm, duration_s=round(total, 1), file=str(final))
         print(f"[edit] {final} ({total:.1f}s)")
@@ -262,6 +269,9 @@ def main():
             entry.update(status="uploaded", youtube_id=vid, url=f"https://youtube.com/shorts/{vid}")
             print(f"[upload] https://youtube.com/shorts/{vid}")
         log(entry)
+        if billing_error:
+            print("GEMINI BILLING/QUOTA ERROR (402/429): top up $5 for Gemini API on project Video Autopilot.")
+            return 3
         return 0
     except BillingError as e:
         entry.update(status="failed: gemini billing/quota", error=str(e))

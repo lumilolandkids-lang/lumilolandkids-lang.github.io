@@ -30,6 +30,13 @@ notification "ViewMax credits low: N left – video skipped", append `{"time":..
 - Write `W/plan.json`: idea, lesson, place, characters + outfits, shots[{role, frame_prompt, motion_prompt}],
   song (style + timestamped lyrics), sound effects wanted, title, description, tags, playlist.
 
+## 2b. SONG FIRST — before spending any ViewMax credit
+Do step 7 (the Lyria song) right now, before any frame or shot. If `song.py` exits 3 (Gemini billing/quota, e.g.
+"limit: 0 requests per day on Free Tier"), STOP the whole run: no frames, no shots, no credits spent. Append
+`{"time":..,"status":"skipped: gemini song quota/billing","error":"<line>"}` to `log/videos.jsonl`, commit, push, and send
+the push notification "Video skipped – Gemini song not available (check AI Studio → Billing, project Video Autopilot)".
+A video is never published without its song.
+
 ## 3. Start frames — Nano Banana 2 (section 13, Step 1)
 `generate_image` model `nano-banana-2`, aspect_ratio `9:16`, quality `2K`, image_urls = the character sheets in the
 shot + the place image (links in section 5), and for shots 2–4 ALSO the approved hook frame as identity anchor.
@@ -64,7 +71,7 @@ with timestamps so each line lands on its beat, e.g.
 `[0:00 - 0:03] Hook: "Oh no! ..."` … `[0:26 - 0:30] Outro: "Bye bye, friends!"`.
 Short lines, repetition, the lesson as the chorus. Then:
 `python3 song.py W/song_prompt.txt W/song.mp3` (model `lyria-3-clip-preview`, exactly 30 s, about 8 US cents).
-- Exit 3 = Gemini prepaid credits empty/quota → continue with NO song (`"song": null`) and say so in the notification.
+- Exit 3 = Gemini prepaid credits empty/quota → see step 2b: stop the run (never publish without a song).
 - Other error: read it; if the Interactions API response shape changed, fix `song.py`, commit the fix, retry once.
 - You cannot hear audio: never claim it sounds good. Check the duration and that mean_volume is not silent.
 - Find where the singing starts: `ffmpeg -i W/song.mp3 -af silencedetect=n=-35dB:d=0.3 -f null -` → `song_start`.

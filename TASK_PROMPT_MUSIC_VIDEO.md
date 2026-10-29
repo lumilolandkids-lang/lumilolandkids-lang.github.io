@@ -15,7 +15,9 @@ Work folder `W = runs/<date>-mv-<slug>`. Budget: at most 230 ViewMax credits (�
   ONE clear learning goal (e.g. brushing teeth steps, counting 1–10, animal sounds), Jimmy + Ava singing,
   at most one extra character/pet, one or two places with reference images.
 - Write `W/song_prompt.txt` in the section 8 style (a cappella children's voices, humming/"la la", ONLY daf and
-  claps, ~110 BPM, major key, boy + girl voices, verses alternate, chorus together) with **timestamped sections**
+  claps, ~110 BPM, major key, boy + girl voices, verses alternate, chorus together).
+  **NO musical instruments at all** (her firm rule, for religious reasons): only children's voices singing, humming and "la la", mouth sounds (soft beatbox, "boom-chk", tongue clicks), hand claps, finger snaps and a daf/frame drum. Write in the prompt: "NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats".
+   with **timestamped sections**
   for a 2:45 song: `[0:00 - 0:06] Hook …`, intro, chorus, verse 1, chorus, verse 2, clap break, final chorus,
   `[2:35 - 2:45] Outro: "Bye bye, friends!"`. Short lines, lots of repetition, one learning item per line.
 - `python3 song.py W/song_prompt.txt W/song.mp3 --model lyria-3.5`. Exit 3 (Gemini billing) → stop and notify

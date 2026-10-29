@@ -57,7 +57,9 @@ redo only that shot once (`-r1`, 14 credits). Never more than one redo in the wh
 
 ## 7. Song — Lyria clip, 30 s (section 8 style)
 Write `W/song_prompt.txt`: the section 8 style (a cappella children's voices, humming and "la la", ONLY daf and hand
-claps, ~110 BPM, major key, a sweet little boy and girl singing slowly and clearly in simple English) + the lyrics
+claps, ~110 BPM, major key, a sweet little boy and girl singing slowly and clearly in simple English).
+  **NO musical instruments at all** (her firm rule, for religious reasons): only children's voices singing, humming and "la la", mouth sounds (soft beatbox, "boom-chk", tongue clicks), hand claps, finger snaps and a daf/frame drum. Write in the prompt: "NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats".
+   + the lyrics
 with timestamps so each line lands on its beat, e.g.
 `[0:00 - 0:03] Hook: "Oh no! ..."` … `[0:26 - 0:30] Outro: "Bye bye, friends!"`.
 Short lines, repetition, the lesson as the chorus. Then:

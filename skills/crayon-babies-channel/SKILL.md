@@ -271,7 +271,7 @@ Formats:
 ---
 
 ## 8. SONGS (Gemini) – voices + melody + daf only
-The user wants songs with NO musical instruments except a hand drum (daf) and clapping: only children's voices, humming/"la la" melodies, daf rhythm and claps.
+The user wants songs with NO musical instruments (her firm rule, for religious reasons) – only children's voices, humming/"la la" melodies, mouth sounds (soft beatbox, clicks), hand claps, finger snaps and a daf. This applies to every song: Shorts, the weekly music video, everything.
 ```
 Create a happy children's nursery song called "[TITLE]".
 Style: a cappella children's song. ONLY children's voices singing a simple catchy melody, soft humming and "la la la" harmonies, with a hand drum (daf / frame drum) rhythm and hand claps. NO other instruments: no piano, no guitar, no ukulele, no synth, no strings. Bouncy and joyful, about 110 BPM, major key, very easy for toddlers to sing along.

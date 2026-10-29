@@ -1,0 +1,118 @@
+{
+  "workdir": "runs/2026-10-29-sad-pumpkin",
+  "out": "final.mp4",
+  "song": null,
+  "song_start": 0.0,
+  "cuts": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "dur": 0.9,
+      "speed": 0.6,
+      "word": "Oh no!"
+    },
+    {
+      "shot": 1,
+      "start": 7.0,
+      "dur": 1.6,
+      "zoom": 1.1,
+      "word": "Sad pumpkin!"
+    },
+    {
+      "shot": 2,
+      "start": 2.75,
+      "dur": 1.9,
+      "word": "Pat, pat, pat!"
+    },
+    {
+      "shot": 2,
+      "start": 5.9,
+      "dur": 1.6,
+      "zoom": 1.1,
+      "word": "Don't be sad!"
+    },
+    {
+      "shot": 3,
+      "start": 4.45,
+      "dur": 1.9,
+      "word": "I have an idea!"
+    },
+    {
+      "shot": 3,
+      "start": 6.9,
+      "dur": 1.3,
+      "zoom": 1.1,
+      "word": "Draw a smile!"
+    },
+    {
+      "shot": 4,
+      "start": 0.0,
+      "dur": 1.6,
+      "word": "Happy pumpkin!"
+    },
+    {
+      "shot": 4,
+      "start": 2.0,
+      "dur": 1.9,
+      "zoom": 1.1,
+      "word": "Clap, clap!"
+    },
+    {
+      "shot": 4,
+      "start": 4.45,
+      "dur": 1.0,
+      "word": "Hooray!"
+    },
+    {
+      "shot": 4,
+      "start": 8.0,
+      "dur": 1.8,
+      "zoom": 1.12,
+      "word": "Share a smile!"
+    },
+    {
+      "shot": 5,
+      "start": 0.5,
+      "dur": 2.4,
+      "word": "Bye bye!"
+    },
+    {
+      "shot": 5,
+      "start": 3.0,
+      "dur": 1.5,
+      "zoom": 1.1,
+      "word": "Bye bye, friends!"
+    }
+  ],
+  "sfx": [
+    {
+      "file": "sfx/toddlers_gasp.mp3",
+      "cut": 0,
+      "offset": 0.05,
+      "vol": 0.8,
+      "max": 0.7
+    },
+    {
+      "file": "sfx/crayon_scribble.mp3",
+      "cut": 5,
+      "offset": 0.1,
+      "vol": 2.0,
+      "max": 1.2
+    },
+    {
+      "file": "sfx/sparkle_chime.mp3",
+      "cut": 6,
+      "offset": 0.05,
+      "vol": 0.8,
+      "max": 1.35
+    },
+    {
+      "file": "sfx/toddlers_cheer_clap.mp3",
+      "cut": 8,
+      "offset": 0.0,
+      "vol": 0.75,
+      "max": 2.1
+    }
+  ],
+  "pop_on_words": true
+}

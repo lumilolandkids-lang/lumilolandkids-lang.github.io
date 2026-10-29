@@ -10,6 +10,9 @@ Made with ViewMax `generate_sound_effect` (5 credits each). Reuse these before g
 | kitten_meow.mp3 | one cute surprised meow | 0.85 s | 0.6 |
 | lion_cub_roar.mp3 | big proud friendly cub ROAR (not scary) | 1.9 s | 1.0 |
 | toddlers_cheer_clap.mp3 | two toddlers "yay!" + clapping + giggles | 2.1 s | 0.75 |
+| toddlers_gasp.mp3 | two toddlers gasp "ooh!" in surprise (hooks, "Oh no!") | 0.65 s | 0.8 |
+| crayon_scribble.mp3 | crayon scribbling/drawing (quiet file, max -16 dB) | 1.5 s | 2.0 |
+| sparkle_chime.mp3 | magic sparkle chime, something lights up | 1.35 s | 0.8 |
 
 When you generate a new effect that could be reused (giggle, gasp, sparkle chime, splash, boing, whoosh,
 puppy bark, ...), save it here with a clear name and add a row.

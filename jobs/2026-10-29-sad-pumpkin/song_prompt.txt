@@ -1,0 +1,13 @@
+Create a happy 30-second children's nursery song called "Happy Pumpkin".
+Style: a cappella children's song. ONLY children's voices singing a simple catchy melody, soft humming and "la la la" harmonies, with a hand drum (daf / frame drum) rhythm and hand claps. NO other instruments: no piano, no guitar, no ukulele, no synth, no strings, no bells. Bouncy and joyful, about 110 BPM, major key, very easy for toddlers to sing along. The first line starts right away at 0:00 with no instrumental intro.
+Vocals: a sweet little boy and a sweet little girl singing, high-pitched, slowly and clearly in simple English; the boy and girl alternate lines, the chorus is sung together. Every word clear and easy to understand.
+
+Lyrics:
+[0:00 - 0:03] Hook (boy and girl together, surprised): "Oh no! Oh no! Sad pumpkin!"
+[0:03 - 0:07] Verse (girl, gentle and kind): "Pat, pat, pat. Don't be sad!"
+[0:07 - 0:11] Verse (boy, excited): "I have an idea! Crayon, crayon!"
+[0:11 - 0:15] Verse (boy and girl): "Draw, draw, draw a big smile!"
+[0:15 - 0:19] Chorus (together, joyful): "Happy, happy pumpkin! La la la!"
+[0:19 - 0:23] Chorus (together): "Share a smile, share a smile, make a friend happy!"
+[0:23 - 0:26] Clap break (daf and hand claps, children cheer): "Clap, clap, hooray!"
+[0:26 - 0:30] Outro (together, waving goodbye, gentle ending): "Bye bye, pumpkin! Bye bye, friends!"

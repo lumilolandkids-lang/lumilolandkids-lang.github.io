@@ -1,0 +1,84 @@
+{
+  "idea": "Seasonal (Halloween) music clip in the PLAYROOM: a pumpkin on the little table has a sad crayon face; Jimmy and Ava gasp, Ava pats it kindly, Jimmy has an idea with the black crayon, they draw it a big smile and it glows happily. Lesson: share a smile - a kind smile makes a friend happy.",
+  "lesson": "Share a smile – a kind smile makes a friend happy.",
+  "place": "PLAYROOM (references/places/playroom.jpg)",
+  "characters": [
+    "Jimmy (HOME): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot.",
+    "Ava (HOME): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+  ],
+  "supporting": "THE PUMPKIN: a round smooth bright orange pumpkin about the size of a beach ball, with a short curly green stem and one small green leaf, with a cute simple SAD face drawn in thick black crayon (later a BIG HAPPY crayon smile, glowing softly). Never scary, not carved.",
+  "shots": [
+    {
+      "role": "HOOK",
+      "frame": "f1",
+      "frame_prompt": "Both babies gasp at the sad pumpkin, eyes WIDE OPEN, mouths round 'oh' (full prompt: identity keys in CAPS, playroom block word for word)",
+      "motion_prompt": "big surprised worried gasp, small lean toward the pumpkin, still camera"
+    },
+    {
+      "role": "problem / first try",
+      "frame": "f2",
+      "frame_prompt": "Ava pats the pumpkin with one hand, kind smile; Jimmy sympathetic pout",
+      "motion_prompt": "Ava pats 2-3 times, Jimmy slow nod"
+    },
+    {
+      "role": "idea",
+      "frame": "f3",
+      "frame_prompt": "Jimmy holds up one chunky black crayon at chest height, 'I have an idea!' smile; Ava excited",
+      "motion_prompt": "Jimmy wiggles the crayon, small bounce; Ava nods"
+    },
+    {
+      "role": "solution",
+      "frame": "f4",
+      "frame_prompt": "pumpkin now has a big happy crayon smile and glows; babies clap at chest height",
+      "motion_prompt": "gentle clapping and happy bouncing, pumpkin glows"
+    },
+    {
+      "role": "LOOP ENDING",
+      "frame": "f5",
+      "frame_prompt": "EDIT of f1: only the pumpkin face (big smile, glow), happy expressions, one hand waving bye-bye",
+      "motion_prompt": "gentle bye-bye waves"
+    }
+  ],
+  "song": null,
+  "song_note": "Lyria lyria-3-clip-preview failed: HTTP 429 'Rate limit exceeded for model lyria-3-clip (limit: 0 requests per day on Free Tier)'. Song prompt kept in song_prompt.txt for a rebuild.",
+  "words": [
+    "Oh no!",
+    "Sad pumpkin!",
+    "Pat, pat, pat!",
+    "Don't be sad!",
+    "I have an idea!",
+    "Draw a smile!",
+    "Happy pumpkin!",
+    "Clap, clap!",
+    "Hooray!",
+    "Share a smile!",
+    "Bye bye!",
+    "Bye bye, friends!"
+  ],
+  "sound_effects": [
+    "sfx/toddlers_gasp.mp3 (new)",
+    "sfx/crayon_scribble.mp3 (new)",
+    "sfx/sparkle_chime.mp3 (new)",
+    "sfx/toddlers_cheer_clap.mp3",
+    "sfx/pop.mp3"
+  ],
+  "title": "Oh No! Sad Halloween Pumpkin! 🎃 Share a Smile | Crayon Babies",
+  "description": "Oh no! The pumpkin in the playroom looks so sad! 🎃 Baby Jimmy and Baby Ava pat it gently, grab a crayon and draw a big happy smile – and the pumpkin glows with joy!\n\n🎬 What happens in this video:\n😮 \"Oh no! Sad pumpkin!\"\n🤗 Ava pats the pumpkin: \"Don't be sad!\"\n🖍️ Jimmy has an idea with his crayon\n😊 They draw a big smile\n✨ Happy pumpkin! Clap, clap, hooray!\n👋 Bye bye, friends!\n\n📚 Kids learn: share a smile and be kind to friends • English words: sad, happy, pumpkin, smile, crayon, clap\n\nA fun, friendly Halloween cartoon for toddlers and preschoolers about kindness, feelings and sharing a smile – nothing scary!\n\nKids cartoon • Halloween for kids • Pumpkin song • Feelings for kids • Kindness for kids • Learn English for kids • Toddler learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+  "tags": [
+    "crayon babies",
+    "baby jimmy",
+    "baby ava",
+    "sad pumpkin",
+    "happy pumpkin",
+    "halloween for kids",
+    "friendly halloween",
+    "pumpkin cartoon",
+    "share a smile",
+    "kindness for kids",
+    "feelings for kids",
+    "kids cartoon",
+    "nursery rhymes",
+    "toddler learning"
+  ],
+  "playlist": "Crayon Babies Songs"
+}

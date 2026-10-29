@@ -8,6 +8,9 @@ Job keys:
   title, description, tags, playlist
   publish_at   optional RFC3339 UTC time ("2026-10-28T18:53:00Z"). The video is uploaded as private and
                YouTube makes it public at that time. If the time has already passed, it is uploaded public now.
+  thumbnail    optional path of a 1280x720 JPG (< 2 MB) inside this repo - set as the custom thumbnail
+               (long videos; made with `compile.py thumb`)
+  short        optional, default true; false for long videos (only changes the logged link format)
 
 Channel rules: Made for kids, altered/synthetic (AI) = yes, NO hashtags added to the description.
 Exit codes: 0 ok, 2 bad input, 4 API error.
@@ -33,7 +36,14 @@ def build_meta(job):
     return {"snippet": snippet, "status": status}
 
 
-def upload(video, meta, playlist):
+def set_thumbnail(token, vid, path):
+    code, body, _ = P.http(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}&uploadType=media",
+                           Path(path).read_bytes(), {"Authorization": f"Bearer {token}", "Content-Type": "image/jpeg"},
+                           "POST")
+    print(f"[thumbnail] HTTP {code}" + ("" if code == 200 else f": {body[:300]!r}"))
+
+
+def upload(video, meta, playlist, thumbnail=None):
     token = P.yt_token()
     auth = {"Authorization": f"Bearer {token}"}
     size = video.stat().st_size
@@ -52,6 +62,11 @@ def upload(video, meta, playlist):
                            {"id": vid, "status": meta["status"]}, auth, "PUT")
     if code != 200:
         print(f"[status] update HTTP {code}: {body[:300]!r}")
+    if thumbnail:
+        try:
+            set_thumbnail(token, vid, thumbnail)
+        except Exception as e:
+            print(f"[thumbnail] skipped: {e}")
     try:
         P.add_to_playlist(token, vid, playlist)
     except Exception as e:
@@ -81,10 +96,12 @@ def main():
              "idea": job.get("idea"), "title": job.get("title"), "file": job["video"],
              "viewmax_credits_used": job.get("viewmax_credits_used"), "status": "started"}
     try:
-        vid, st = upload(video, meta, job.get("playlist", "Crayon Babies Songs"))
-        entry.update(status="uploaded", youtube_id=vid, url=f"https://youtube.com/shorts/{vid}",
-                     privacy=st.get("privacyStatus"), publish_at=st.get("publishAt"))
-        print(f"[upload] https://youtube.com/shorts/{vid}")
+        thumb = (P.ROOT / job["thumbnail"]) if job.get("thumbnail") else None
+        vid, st = upload(video, meta, job.get("playlist", "Crayon Babies Songs"), thumb)
+        url = f"https://youtube.com/shorts/{vid}" if job.get("short", True) else f"https://www.youtube.com/watch?v={vid}"
+        entry.update(status="uploaded", youtube_id=vid, url=url, kind="short" if job.get("short", True) else "long",
+                     job=str(job_path), privacy=st.get("privacyStatus"), publish_at=st.get("publishAt"))
+        print(f"[upload] {url}")
         P.log(entry)
         return 0
     except Exception as e:

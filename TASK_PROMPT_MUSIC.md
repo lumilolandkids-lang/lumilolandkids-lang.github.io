@@ -87,7 +87,12 @@ if needed (free). Final file name for people: `Crayon Babies - <Title>.mp4`.
 English + emoji title with the hook first; description template with NO hashtags; 11–15 tags starting with
 `crayon babies, baby jimmy, baby ava`; playlist "Crayon Babies Songs". Write `jobs/<date>-<slug>.json`:
 `{"idea", "video": "ready/<date>-<slug>.mp4", "title", "description", "tags", "playlist", "publish_at", "viewmax_credits_used"}`.
-Also copy `W/plan.json`, `W/edit.json`, `W/song_prompt.txt` (+ `W/song.txt` if any) into `jobs/<date>-<slug>/`.
+Also save everything needed to REBUILD this short later (the Sunday compilation rebuilds the week's shorts; the
+mp4 itself is not kept in the repo) into `jobs/<date>-<slug>/`: `plan.json`, `edit.json`, `song_prompt.txt`
+(+ `song.txt`), `song.mp3`, any new effect files used by edit.json, and `shots.json` =
+`{"shot1": "<seedance mp4 url>", ..., "frames": {"f1": "<frame url>", ...}}`. In this copy of edit.json set
+`"workdir"` to `"runs/<date>-<slug>"` (relative) and point `song`/effect paths at files that exist in
+`jobs/<date>-<slug>/` or `sfx/` (montage.py looks in the workdir first, then the repo root).
 
 ## 11. Deliver
 - **TEST:** copy `W/final.mp4` to `ready/test-<date>-<slug>.mp4` and `W/final_sheet.jpg` to

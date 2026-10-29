@@ -22,10 +22,12 @@ EDIT.json
   "sfx": [                                        # "cut" = index in cuts, "offset" = seconds after that cut starts
     {"file": "sfx/squeak.mp3", "cut": 0, "offset": 0.05, "vol": 0.55, "max": 1.0}
   ],
-  "pop_on_words": true                            # adds sfx/pop.mp3 when each word appears
+  "pop_on_words": true,                           # adds sfx/pop.mp3 when each word appears
+  "size": [1080, 1920]                            # optional: [1920, 1080] for 16:9 long videos (music video)
 }
 sfx paths are looked up in W first, then in this repo. "max" (optional) trims the effect to that many seconds.
-Words: Poppins Bold, yellow 0xFFD21F, purple border 0x5B2A86, at y=h*0.11, pop-in 0.25 s, from 0.12 s into the cut.
+Words: Poppins Bold, yellow 0xFFD21F, purple border 0x5B2A86, at y=h*0.11 (9:16) or y=h*0.83 (16:9),
+pop-in 0.25 s, from 0.12 s into the cut. Any input size works (Seedance 1088x1920 or 16:9): cover-scale + crop.
 Audio: song trimmed to the video length with a 1.5 s fade-out, effects mixed on top and the song ducked
 slightly under them, limited to about -1.5 dBFS. Output: 1080x1920, 24 fps, H.264 CRF 17, AAC 192k, +faststart.
 """
@@ -104,25 +106,29 @@ def find_file(w, rel):
     raise SystemExit(f"file not found: {rel}")
 
 
-def build_cut(w, i, c, seg_dir):
+def build_cut(w, i, c, seg_dir, size=(1080, 1920)):
+    W, H = size
     speed = float(c.get("speed", 1.0))
     zoom = float(c.get("zoom", 1.0))
     frames = max(1, round(float(c["dur"]) / speed * FPS))
     vf = []
     if speed != 1.0:
         vf.append(f"setpts=PTS/{speed}")
-    vf.append(f"scale=trunc(1088*{zoom}/2)*2:trunc(1920*{zoom}/2)*2:flags=lanczos")
-    vf.append("crop=1080:1920:(iw-1080)/2:(ih-1920)/2*0.85")
+    vf.append(f"scale=w=trunc({W}*{zoom}/2)*2:h=trunc({H}*{zoom}/2)*2:force_original_aspect_ratio=increase:"
+              f"force_divisible_by=2:flags=lanczos")
+    vf.append(f"crop={W}:{H}:(iw-{W})/2:(ih-{H})/2*0.85")
     vf.append(f"setsar=1,fps={FPS},format=yuv420p")
     word = (c.get("word") or "").strip()
     if word:
         txt = seg_dir / f"{i:02d}.txt"
         txt.write_text(word)
-        s = font_size(word)
+        landscape = W > H
+        s = font_size(word, max_size=110 if landscape else 130, max_width=W - 100)
+        ty = 0.83 if landscape else 0.11
         vf.append(
             f"drawtext=fontfile={FONT}:textfile={txt}:fontcolor=0xFFD21F:borderw=10:bordercolor=0x5B2A86:"
             f"fontsize='if(lt(t-{TEXT_DELAY},0.25),40+{s - 40}*max(t-{TEXT_DELAY},0)/0.25,{s})':"
-            f"x=(w-text_w)/2:y=h*0.11-text_h/2:enable='gte(t,{TEXT_DELAY})'")
+            f"x=(w-text_w)/2:y=h*{ty}-text_h/2:enable='gte(t,{TEXT_DELAY})'")
     out = seg_dir / f"{i:02d}.mp4"
     run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", str(c["start"]), "-t", str(float(c["dur"]) + 0.5),
          "-i", str(w / f"shot{c['shot']}.mp4"), "-vf", ",".join(vf), "-frames:v", str(frames), "-an",
@@ -139,11 +145,12 @@ def cmd_build(edit_path):
     shutil.rmtree(seg_dir, ignore_errors=True)
     seg_dir.mkdir(parents=True)
     cuts = edit["cuts"]
+    size = tuple(edit.get("size", [1080, 1920]))
 
     # 1. video cuts
     starts, t_frames, lst = [], 0, []
     for i, c in enumerate(cuts):
-        out, n = build_cut(w, i, c, seg_dir)
+        out, n = build_cut(w, i, c, seg_dir, size)
         starts.append(t_frames / FPS)
         t_frames += n
         lst.append(f"file '{out}'")

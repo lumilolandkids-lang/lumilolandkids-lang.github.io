@@ -38,14 +38,12 @@ hook frame, "Bye bye!"). Write `W/plan.json`.
 - Cuts of 2–4 s following the song timeline (cut on the beat/line changes), total = song length minus
   `song_start`. Chorus = the same chorus shots each time but different pieces/zooms so it never looks frozen.
 - Hook first (strongest 1–1.5 s, speed 0.6–0.75), end on the loop shot with "Bye bye, friends!".
-- Words (bottom of the screen automatically for 16:9): the learning words / key lyric words only, not every line.
-- Effects: optional, at most 4 small ones (pops are automatic on words; set `"pop_on_words": false` if words are
-  frequent). `python3 montage.py build W/edit.json` → LOOK at `final_sheet.jpg` and `final_hook.jpg`; fix and
+- **NO on-screen words** (her rule, 29 Oct 2026) — never set `show_words`.
+- Effects: optional, at most 4 small ones on clear visual moments. `python3 montage.py build W/edit.json` → LOOK at `final_sheet.jpg` and `final_hook.jpg`; fix and
   rebuild if anything is off.
 
-## 5. Thumbnail
-`python3 compile.py thumb W/final.mp4 <seconds> "<2-4 WORDS>" ready/<date>-mv-<slug>.jpg` on the frame with the
-biggest happiest faces + the song's object. LOOK at it.
+## 5. Thumbnail — designed with Gemini (Nano Banana 2), see THUMBNAIL.md
+Follow `THUMBNAIL.md` → `ready/<date>-mv-<slug>.jpg`.
 
 ## 6. Publish (Friday 3:15 PM New York time)
 Copy to `ready/<date>-mv-<slug>.mp4`. Write `jobs/<date>-mv-<slug>.json`: title in the song formula

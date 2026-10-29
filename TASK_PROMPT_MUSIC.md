@@ -28,7 +28,7 @@ notification "ViewMax credits low: N left – video skipped", append `{"time":..
   first try · 3 help or idea · 4 the big happy solution moment · 5 **LOOP ENDING** (mirror of shot 1, problem solved,
   "Bye bye!"). One simple lesson.
 - Write `W/plan.json`: idea, lesson, place, characters + outfits, shots[{role, frame_prompt, motion_prompt}],
-  song (style + timestamped lyrics), words (one per beat), sound effects wanted, title, description, tags, playlist.
+  song (style + timestamped lyrics), sound effects wanted, title, description, tags, playlist.
 
 ## 3. Start frames — Nano Banana 2 (section 13, Step 1)
 `generate_image` model `nano-banana-2`, aspect_ratio `9:16`, quality `2K`, image_urls = the character sheets in the
@@ -74,13 +74,14 @@ Save reusable ones into `sfx/` with a row in `sfx/README.md`.
 
 ## 9. Edit plan — the approved montage (Step 5)
 `python3 montage.py sheets W` → LOOK at every sheet. Then write `W/edit.json` (format in `montage.py` docstring):
-- 10–14 cuts of 1.2–3.5 s, total ≈ 30 s (the song length). Hook = the strongest 1–1.5 s at `speed` 0.6–0.75,
-  word from the first frames. A second cut from the same shot gets `zoom` 1.10–1.12. Skip blinks, look-downs,
-  blur, drift, extra hands. End on shot 5 with "Bye bye!".
-- Words: one short phrase per beat, matching the lyrics (never a single long sentence).
+- 10–14 cuts of 1.2–3.5 s, total ≈ 30 s (the song length). Hook = the strongest 1–1.5 s at `speed` 0.6–0.75.
+  A second cut from the same shot gets `zoom` 1.10–1.12. Skip blinks, look-downs, blur, drift, extra hands.
+  End on shot 5 (the loop shot).
+- **NO on-screen words** (her rule, 29 Oct 2026: text like "ROAR?" / "Meow?!" looked out of place). Never set
+  `show_words`; the picture, the song and the sound effects tell the story.
 - Effects on the exact visual moments (mouth opens, clap, pop…) read from the sheets; character sounds vol 0.5–1.0.
 `python3 montage.py build W/edit.json` → `W/final.mp4`, `W/final_sheet.jpg`, `W/final_hook.jpg`.
-LOOK at both sheets (first 2 s especially, words readable, no bad frames, identity OK). Fix edit.json and rebuild
+LOOK at both sheets (first 2 s especially, no text on screen, no bad frames, identity OK). Fix edit.json and rebuild
 if needed (free). Final file name for people: `Crayon Babies - <Title>.mp4`.
 
 ## 10. Title, description, tags (section 10)

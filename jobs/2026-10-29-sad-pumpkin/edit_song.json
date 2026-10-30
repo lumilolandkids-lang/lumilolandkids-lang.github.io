@@ -1,0 +1,105 @@
+{
+  "workdir": "runs/pumpkin",
+  "out": "final.mp4",
+  "song": "song.mp3",
+  "song_start": 0.0,
+  "cuts": [
+    {
+      "shot": 1,
+      "start": 0.0,
+      "dur": 1.2,
+      "speed": 0.6
+    },
+    {
+      "shot": 1,
+      "start": 7.0,
+      "dur": 2.0,
+      "zoom": 1.1
+    },
+    {
+      "shot": 2,
+      "start": 2.75,
+      "dur": 2.2
+    },
+    {
+      "shot": 2,
+      "start": 5.9,
+      "dur": 2.0,
+      "zoom": 1.1
+    },
+    {
+      "shot": 3,
+      "start": 4.45,
+      "dur": 2.4
+    },
+    {
+      "shot": 3,
+      "start": 6.9,
+      "dur": 1.8,
+      "zoom": 1.1
+    },
+    {
+      "shot": 4,
+      "start": 0.0,
+      "dur": 2.4
+    },
+    {
+      "shot": 4,
+      "start": 7.0,
+      "dur": 3.0,
+      "zoom": 1.1
+    },
+    {
+      "shot": 5,
+      "start": 7.0,
+      "dur": 3.0,
+      "zoom": 1.1
+    },
+    {
+      "shot": 4,
+      "start": 2.0,
+      "dur": 3.4
+    },
+    {
+      "shot": 5,
+      "start": 0.8,
+      "dur": 3.4
+    },
+    {
+      "shot": 5,
+      "start": 3.6,
+      "dur": 2.3,
+      "zoom": 1.1
+    }
+  ],
+  "sfx": [
+    {
+      "file": "sfx/toddlers_gasp.mp3",
+      "cut": 0,
+      "offset": 0.05,
+      "vol": 0.8,
+      "max": 0.7
+    },
+    {
+      "file": "sfx/crayon_scribble.mp3",
+      "cut": 5,
+      "offset": 0.1,
+      "vol": 2.0,
+      "max": 1.2
+    },
+    {
+      "file": "sfx/sparkle_chime.mp3",
+      "cut": 6,
+      "offset": 0.05,
+      "vol": 0.8,
+      "max": 1.35
+    },
+    {
+      "file": "sfx/toddlers_cheer_clap.mp3",
+      "cut": 9,
+      "offset": 0.0,
+      "vol": 0.75,
+      "max": 2.1
+    }
+  ]
+}

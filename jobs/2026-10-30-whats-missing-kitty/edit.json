@@ -129,5 +129,6 @@
       "max": 0.73
     }
   ],
-  "pop_on_words": true
+  "pop_on_words": false,
+  "note": "published version: no on-screen words (words below are ignored unless show_words is true)"
 }

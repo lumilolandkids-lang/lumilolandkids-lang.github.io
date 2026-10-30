@@ -15,7 +15,9 @@ Work folder `W = runs/<date>-mv-<slug>`. Budget: at most 230 ViewMax credits (�
   ONE clear learning goal (e.g. brushing teeth steps, counting 1–10, animal sounds), Jimmy + Ava singing,
   at most one extra character/pet, one or two places with reference images.
 - Write `W/song_prompt.txt` in the section 8 style (a cappella children's voices, humming/"la la", ONLY daf and
-  claps, ~110 BPM, major key, boy + girl voices, verses alternate, chorus together) with **timestamped sections**
+  claps, ~110 BPM, major key, boy + girl voices, verses alternate, chorus together).
+  **NO musical instruments at all** (her firm rule, for religious reasons): only children's voices singing, humming and "la la", mouth sounds (soft beatbox, "boom-chk", tongue clicks), hand claps, finger snaps and a daf/frame drum. Write in the prompt: "NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats".
+   with **timestamped sections**
   for a 2:45 song: `[0:00 - 0:06] Hook …`, intro, chorus, verse 1, chorus, verse 2, clap break, final chorus,
   `[2:35 - 2:45] Outro: "Bye bye, friends!"`. Short lines, lots of repetition, one learning item per line.
 - `python3 song.py W/song_prompt.txt W/song.mp3 --model lyria-3.5`. Exit 3 (Gemini billing) → stop and notify
@@ -38,14 +40,12 @@ hook frame, "Bye bye!"). Write `W/plan.json`.
 - Cuts of 2–4 s following the song timeline (cut on the beat/line changes), total = song length minus
   `song_start`. Chorus = the same chorus shots each time but different pieces/zooms so it never looks frozen.
 - Hook first (strongest 1–1.5 s, speed 0.6–0.75), end on the loop shot with "Bye bye, friends!".
-- Words (bottom of the screen automatically for 16:9): the learning words / key lyric words only, not every line.
-- Effects: optional, at most 4 small ones (pops are automatic on words; set `"pop_on_words": false` if words are
-  frequent). `python3 montage.py build W/edit.json` → LOOK at `final_sheet.jpg` and `final_hook.jpg`; fix and
+- **NO on-screen words** (her rule, 29 Oct 2026) — never set `show_words`.
+- Effects: optional, at most 4 small ones on clear visual moments. `python3 montage.py build W/edit.json` → LOOK at `final_sheet.jpg` and `final_hook.jpg`; fix and
   rebuild if anything is off.
 
-## 5. Thumbnail
-`python3 compile.py thumb W/final.mp4 <seconds> "<2-4 WORDS>" ready/<date>-mv-<slug>.jpg` on the frame with the
-biggest happiest faces + the song's object. LOOK at it.
+## 5. Thumbnail — designed with Gemini (Nano Banana 2), see THUMBNAIL.md
+Follow `THUMBNAIL.md` → `ready/<date>-mv-<slug>.jpg`.
 
 ## 6. Publish (Friday 3:15 PM New York time)
 Copy to `ready/<date>-mv-<slug>.mp4`. Write `jobs/<date>-mv-<slug>.json`: title in the song formula

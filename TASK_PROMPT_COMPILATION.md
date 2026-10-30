@@ -24,10 +24,9 @@ Pick the strongest hook of the week (the most exciting first 3–5 s) for `"hook
 `runs/compile/compilation.chapters.txt`. Check: sample frames at the hook, an episode card, an episode, the outro
 (Read the images), duration, loudness printed by ffmpeg.
 
-## 4. Thumbnail
-Choose the frame with the biggest, happiest faces + the week's best moment, then
-`python3 compile.py thumb <that short's final.mp4> <seconds> "<2-4 WORDS>" ready/<date>-compilation.jpg [ycenter]`.
-LOOK at it: faces big and sharp, words readable, nothing cut badly. Adjust seconds/ycenter if needed.
+## 4. Thumbnail — designed with Gemini (Nano Banana 2), see THUMBNAIL.md
+Use the week's best moment (its saved start-frame URLs are in the shorts' `shots.json` → `frames`). Follow
+`THUMBNAIL.md` → `ready/<date>-compilation.jpg`.
 
 ## 5. Publish (Sunday 8:15 AM New York time)
 Copy the video to `ready/<date>-compilation.mp4`. Write `jobs/<date>-compilation.json`:

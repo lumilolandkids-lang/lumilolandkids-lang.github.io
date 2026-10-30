@@ -2,7 +2,8 @@
 """Crayon Babies weekly compilation (16:9 long video) and YouTube thumbnails.
 
   python3 compile.py build LIST.json OUT.mp4
-  python3 compile.py thumb VIDEO.mp4 SECONDS "2-4 WORDS" OUT.jpg [YCENTER 0-1, default 0.55]
+  python3 compile.py fit IMAGE OUT.jpg          (Gemini/Nano Banana thumbnail -> 1280x720 JPG < 2 MB, see THUMBNAIL.md)
+  python3 compile.py thumb VIDEO.mp4 SECONDS "2-4 WORDS" OUT.jpg [YCENTER 0-1, default 0.55]   (fallback only)
 
 LIST.json
 {
@@ -173,9 +174,21 @@ def cmd_thumb(video, seconds, words, out, ycenter=0.55):
     print(f"[thumbnail] {out} {Path(out).stat().st_size // 1024} KB")
 
 
+def cmd_fit(src, out):
+    """Any image (e.g. a Nano Banana 2 thumbnail) -> 1280x720 JPG under 2 MB for YouTube."""
+    for q in (2, 3, 5, 8):
+        run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(src), "-vf",
+             "scale=1280:720:force_original_aspect_ratio=increase:flags=lanczos,crop=1280:720", "-q:v", str(q), str(out)])
+        if Path(out).stat().st_size < 2_000_000:
+            break
+    print(f"[thumbnail] {out} {Path(out).stat().st_size // 1024} KB")
+
+
 def main():
     if len(sys.argv) >= 4 and sys.argv[1] == "build":
         cmd_build(sys.argv[2], sys.argv[3])
+    elif len(sys.argv) >= 4 and sys.argv[1] == "fit":
+        cmd_fit(sys.argv[2], sys.argv[3])
     elif len(sys.argv) >= 6 and sys.argv[1] == "thumb":
         cmd_thumb(sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], *(sys.argv[6:7]))
     else:

@@ -28,7 +28,14 @@ notification "ViewMax credits low: N left – video skipped", append `{"time":..
   first try · 3 help or idea · 4 the big happy solution moment · 5 **LOOP ENDING** (mirror of shot 1, problem solved,
   "Bye bye!"). One simple lesson.
 - Write `W/plan.json`: idea, lesson, place, characters + outfits, shots[{role, frame_prompt, motion_prompt}],
-  song (style + timestamped lyrics), words (one per beat), sound effects wanted, title, description, tags, playlist.
+  song (style + timestamped lyrics), sound effects wanted, title, description, tags, playlist.
+
+## 2b. SONG FIRST — before spending any ViewMax credit
+Do step 7 (the Lyria song) right now, before any frame or shot. If `song.py` exits 3 (Gemini billing/quota, e.g.
+"limit: 0 requests per day on Free Tier"), STOP the whole run: no frames, no shots, no credits spent. Append
+`{"time":..,"status":"skipped: gemini song quota/billing","error":"<line>"}` to `log/videos.jsonl`, commit, push, and send
+the push notification "Video skipped – Gemini song not available (check AI Studio → Billing, project Video Autopilot)".
+A video is never published without its song.
 
 ## 3. Start frames — Nano Banana 2 (section 13, Step 1)
 `generate_image` model `nano-banana-2`, aspect_ratio `9:16`, quality `2K`, image_urls = the character sheets in the
@@ -57,12 +64,14 @@ redo only that shot once (`-r1`, 14 credits). Never more than one redo in the wh
 
 ## 7. Song — Lyria clip, 30 s (section 8 style)
 Write `W/song_prompt.txt`: the section 8 style (a cappella children's voices, humming and "la la", ONLY daf and hand
-claps, ~110 BPM, major key, a sweet little boy and girl singing slowly and clearly in simple English) + the lyrics
+claps, ~110 BPM, major key, a sweet little boy and girl singing slowly and clearly in simple English).
+  **NO musical instruments at all** (her firm rule, for religious reasons): only children's voices singing, humming and "la la", mouth sounds (soft beatbox, "boom-chk", tongue clicks), hand claps, finger snaps and a daf/frame drum. Write in the prompt: "NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats".
+   + the lyrics
 with timestamps so each line lands on its beat, e.g.
 `[0:00 - 0:03] Hook: "Oh no! ..."` … `[0:26 - 0:30] Outro: "Bye bye, friends!"`.
 Short lines, repetition, the lesson as the chorus. Then:
 `python3 song.py W/song_prompt.txt W/song.mp3` (model `lyria-3-clip-preview`, exactly 30 s, about 8 US cents).
-- Exit 3 = Gemini prepaid credits empty/quota → continue with NO song (`"song": null`) and say so in the notification.
+- Exit 3 = Gemini prepaid credits empty/quota → see step 2b: stop the run (never publish without a song).
 - Other error: read it; if the Interactions API response shape changed, fix `song.py`, commit the fix, retry once.
 - You cannot hear audio: never claim it sounds good. Check the duration and that mean_volume is not silent.
 - Find where the singing starts: `ffmpeg -i W/song.mp3 -af silencedetect=n=-35dB:d=0.3 -f null -` → `song_start`.
@@ -74,13 +83,14 @@ Save reusable ones into `sfx/` with a row in `sfx/README.md`.
 
 ## 9. Edit plan — the approved montage (Step 5)
 `python3 montage.py sheets W` → LOOK at every sheet. Then write `W/edit.json` (format in `montage.py` docstring):
-- 10–14 cuts of 1.2–3.5 s, total ≈ 30 s (the song length). Hook = the strongest 1–1.5 s at `speed` 0.6–0.75,
-  word from the first frames. A second cut from the same shot gets `zoom` 1.10–1.12. Skip blinks, look-downs,
-  blur, drift, extra hands. End on shot 5 with "Bye bye!".
-- Words: one short phrase per beat, matching the lyrics (never a single long sentence).
+- 10–14 cuts of 1.2–3.5 s, total ≈ 30 s (the song length). Hook = the strongest 1–1.5 s at `speed` 0.6–0.75.
+  A second cut from the same shot gets `zoom` 1.10–1.12. Skip blinks, look-downs, blur, drift, extra hands.
+  End on shot 5 (the loop shot).
+- **NO on-screen words** (her rule, 29 Oct 2026: text like "ROAR?" / "Meow?!" looked out of place). Never set
+  `show_words`; the picture, the song and the sound effects tell the story.
 - Effects on the exact visual moments (mouth opens, clap, pop…) read from the sheets; character sounds vol 0.5–1.0.
 `python3 montage.py build W/edit.json` → `W/final.mp4`, `W/final_sheet.jpg`, `W/final_hook.jpg`.
-LOOK at both sheets (first 2 s especially, words readable, no bad frames, identity OK). Fix edit.json and rebuild
+LOOK at both sheets (first 2 s especially, no text on screen, no bad frames, identity OK). Fix edit.json and rebuild
 if needed (free). Final file name for people: `Crayon Babies - <Title>.mp4`.
 
 ## 10. Title, description, tags (section 10)

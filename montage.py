@@ -15,19 +15,22 @@ EDIT.json
   "song": "song.mp3",                             # inside W, or null for a silent track
   "song_start": 0.0,                              # seconds to skip at the start of the song (leading silence)
   "cuts": [                                       # in order; output length of a cut = dur / speed
-    {"shot": 1, "start": 0.0, "dur": 1.2, "speed": 0.6, "word": "Oh no!"},   # hook: slowed, word from the start
-    {"shot": 1, "start": 3.0, "dur": 2.0, "zoom": 1.10},                     # same shot again -> punch-in
-    {"shot": 2, "start": 0.4, "dur": 2.6, "word": "Can I try?"}
+    {"shot": 1, "start": 0.0, "dur": 1.2, "speed": 0.6},   # hook: slowed
+    {"shot": 1, "start": 3.0, "dur": 2.0, "zoom": 1.10},   # same shot again -> punch-in
+    {"shot": 2, "start": 0.4, "dur": 2.6}
   ],
   "sfx": [                                        # "cut" = index in cuts, "offset" = seconds after that cut starts
-    {"file": "sfx/squeak.mp3", "cut": 0, "offset": 0.05, "vol": 0.55, "max": 1.0}
+    {"file": "sfx/baby_lion_squeak.mp3", "cut": 0, "offset": 0.05, "vol": 0.55, "max": 1.0}
   ],
-  "pop_on_words": true,                           # adds sfx/pop.mp3 when each word appears
   "size": [1080, 1920]                            # optional: [1920, 1080] for 16:9 long videos (music video)
 }
 sfx paths are looked up in W first, then in this repo. "max" (optional) trims the effect to that many seconds.
-Words: Poppins Bold, yellow 0xFFD21F, purple border 0x5B2A86, at y=h*0.11 (9:16) or y=h*0.83 (16:9),
-pop-in 0.25 s, from 0.12 s into the cut. Any input size works (Seedance 1088x1920 or 16:9): cover-scale + crop.
+
+ON-SCREEN WORDS ARE OFF (her rule, 29 Oct 2026: words like "ROAR?" / "Meow?!" looked out of place).
+Any "word" in a cut is ignored unless EDIT.json has "show_words": true - only use that if she asks for text again.
+(With show_words: Poppins Bold, yellow 0xFFD21F, purple border 0x5B2A86, y=h*0.11 for 9:16 or y=h*0.83 for 16:9,
+pop-in 0.25 s from 0.12 s into the cut, plus a soft sfx/pop.mp3 unless "pop_on_words": false.)
+Any input size works (Seedance 1088x1920 or 16:9): cover-scale + crop.
 Audio: song trimmed to the video length with a 1.5 s fade-out, effects mixed on top and the song ducked
 slightly under them, limited to about -1.5 dBFS. Output: 1080x1920, 24 fps, H.264 CRF 17, AAC 192k, +faststart.
 """
@@ -106,7 +109,7 @@ def find_file(w, rel):
     raise SystemExit(f"file not found: {rel}")
 
 
-def build_cut(w, i, c, seg_dir, size=(1080, 1920)):
+def build_cut(w, i, c, seg_dir, size=(1080, 1920), show_words=False):
     W, H = size
     speed = float(c.get("speed", 1.0))
     zoom = float(c.get("zoom", 1.0))
@@ -118,7 +121,7 @@ def build_cut(w, i, c, seg_dir, size=(1080, 1920)):
               f"force_divisible_by=2:flags=lanczos")
     vf.append(f"crop={W}:{H}:(iw-{W})/2:(ih-{H})/2*0.85")
     vf.append(f"setsar=1,fps={FPS},format=yuv420p")
-    word = (c.get("word") or "").strip()
+    word = (c.get("word") or "").strip() if show_words else ""
     if word:
         txt = seg_dir / f"{i:02d}.txt"
         txt.write_text(word)
@@ -146,11 +149,12 @@ def cmd_build(edit_path):
     seg_dir.mkdir(parents=True)
     cuts = edit["cuts"]
     size = tuple(edit.get("size", [1080, 1920]))
+    show_words = bool(edit.get("show_words", False))
 
     # 1. video cuts
     starts, t_frames, lst = [], 0, []
     for i, c in enumerate(cuts):
-        out, n = build_cut(w, i, c, seg_dir, size)
+        out, n = build_cut(w, i, c, seg_dir, size, show_words)
         starts.append(t_frames / FPS)
         t_frames += n
         lst.append(f"file '{out}'")
@@ -161,11 +165,11 @@ def cmd_build(edit_path):
          "-c", "copy", str(video)])
     print(f"[video] {len(cuts)} cuts, {total:.2f} s")
     for i, (c, s) in enumerate(zip(cuts, starts)):
-        print(f"  cut {i:2d} @ {s:6.2f}s  shot{c['shot']} {c['start']}+{c['dur']}s  {c.get('word') or ''}")
+        print(f"  cut {i:2d} @ {s:6.2f}s  shot{c['shot']} {c['start']}+{c['dur']}s  {(c.get('word') or '') if show_words else ''}")
 
     # 2. effects bus
     fx = list(edit.get("sfx", []))
-    if edit.get("pop_on_words", True):
+    if show_words and edit.get("pop_on_words", True):
         fx += [{"file": POP, "cut": i, "offset": TEXT_DELAY, "vol": 0.45, "max": 0.2}
                for i, c in enumerate(cuts) if (c.get("word") or "").strip()]
     fx_wav = seg_dir / "fx.wav"

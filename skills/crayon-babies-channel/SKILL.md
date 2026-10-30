@@ -27,8 +27,8 @@ The channel is NOT only about crayons: "Crayon Babies" = colorful little kids wh
 10. **Voice lines never a single word** (View Max voice fails on "Cat!"/"Happy!"). Use short phrases ("A little cat!", "I am so happy!"). If View Max offers to change a line, accept the option that keeps a child/adult voice; never accept "stop".
 11. **SAVE CREDITS block** in every prompt (below). Tell her to stop View Max with ■ if it regenerates a shot.
 12. Always remind her to upload the reference images (section 5 names) of every character and location used – only those that appear in the video.
-13. **Every edit uses the approved fast-cut montage style** (section 13, Step 5) unless she asks for something else.
-14. **Top quality level, always** (her request, 29 Oct 2026): for everything written for the channel – video and image prompts, song prompts and lyrics, titles, descriptions, tags, edit plans and publishing – use the newest, most capable Claude model available (every scheduled/automated task is set to the newest Claude model) and the extra-high effort level: think it through, draft, check every line against this bible (hook, identity keys in CAPS, places word for word, loop ending, one lesson, no hashtags), improve, and only then use it. Never take shortcuts on prompts, songs or publishing.
+13. **Every edit uses the approved fast-cut montage style** (section 13, Step 5) unless she asks for something else. **No on-screen words** in the montage (her rule, 29 Oct 2026: "ROAR?", "Meow?!" and similar text looked out of place) – only add text if she asks for it again.
+14. **Top quality level, always** (her request, 29 Oct 2026): for everything written for the channel – video and image prompts, song prompts and lyrics, titles, descriptions, tags, edit plans and publishing – use **Claude Opus 5.5** for every chat and scheduled/automated task (her choice, 29 Oct 2026: Fable 5.1 hit the plan's usage limit and costs more – never switch to a pricier model without asking her) and the extra-high effort level: think it through, draft, check every line against this bible (hook, identity keys in CAPS, places word for word, loop ending, one lesson, no hashtags), improve, and only then use it. Never take shortcuts on prompts, songs or publishing.
 
 Fixed blocks to paste in every video prompt:
 ```
@@ -231,7 +231,7 @@ Check-up visit · Getting a vaccine (brave, gentle) · Having a cold · Tummy ac
 
 ### D. Learning
 ABC (one letter per short, A–Z series; long video = full alphabet) · Phonics sounds · Numbers 1–10 then 1–20 · Counting objects · Colors · Shapes · Animals and their sounds · Fruits & vegetables · Opposites (big/small, hot/cold) · Feelings (happy, sad, angry, scared) · Days of the week · Weather · Vehicles · Clothes · Rooms of the house · Family members.
-Teaching tricks: "Can you guess what I'm drawing?" with a 2 s pause · "Can you say it with me? CAT!" · counting out loud · each new word big on screen in editing.
+Teaching tricks: "Can you guess what I'm drawing?" with a 2 s pause · "Can you say it with me? CAT!" · counting out loud.
 
 ### E. Family life & outings
 Shopping at the supermarket (healthy choices) · Lost at the mall (stay close) · Picnic in Sunny Park · Playdate with Leo and Mia · First day at Little Stars Nursery · Cooking with Mommy Lily · Fixing a toy with Daddy Tom · Visiting Grandma's Farm · Library story time · Rainy day at home · A friend's birthday.
@@ -271,7 +271,7 @@ Formats:
 ---
 
 ## 8. SONGS (Gemini) – voices + melody + daf only
-The user wants songs with NO musical instruments except a hand drum (daf) and clapping: only children's voices, humming/"la la" melodies, daf rhythm and claps.
+The user wants songs with NO musical instruments (her firm rule, for religious reasons) – only children's voices, humming/"la la" melodies, mouth sounds (soft beatbox, clicks), hand claps, finger snaps and a daf. This applies to every song: Shorts, the weekly music video, everything.
 ```
 Create a happy children's nursery song called "[TITLE]".
 Style: a cappella children's song. ONLY children's voices singing a simple catchy melody, soft humming and "la la la" harmonies, with a hand drum (daf / frame drum) rhythm and hand claps. NO other instruments: no piano, no guitar, no ukulele, no synth, no strings. Bouncy and joyful, about 110 BPM, major key, very easy for toddlers to sing along.
@@ -295,7 +295,9 @@ Lyrics rules: short lines, lots of repetition, one learning item per line, sound
 - Long 1: a new story episode (Magic Crayon, habits, doctor or outing).
 - Long 2: a learning video or a song, or every few days a compilation (5–10 episodes with chapters).
 - Short 1 & 2: cut from today's long videos (30–45 s self-contained mini-story starting on the hook, 9:16 with blurred background), or a quick learning short (one letter/number/word).
-- Shorts publish at **6:53 AM and 1:30 PM New York time** (1:53 PM and 8:30 PM Baghdad; she asked for the best time for New York). Kids' viewing follows school hours: before school, an after-school peak around 3 PM and an evening peak around 7 PM. Upload as private with a scheduled publishAt so there is time to check.
+- Shorts publish at **6:53 AM and 1:30 PM New York time** (she asked for the best time for New York; in Baghdad that is 1:53 PM and 8:30 PM in US summer time, 2:53 PM and 9:30 PM from 1 Nov when New York is UTC-5). Kids' viewing follows school hours: before school, an after-school peak around 3 PM and an evening peak around 7 PM. Upload as private with a scheduled publishAt so there is time to check.
+- **Weekly long videos (automated, 16:9):** Friday = a 3-minute music video (Lyria full song first, then 12–16 Seedance shots with the chorus shots reused, ≈ 170–230 credits, custom thumbnail), published 3:15 PM New York (11:15 PM Baghdad in winter). Sunday = compilation of the week's Shorts (rebuilt from their saved files, 0 credits: hook → intro card → "Episode N" cards with chime → SUBSCRIBE outro, chapters, custom thumbnail with big faces), published 8:15 AM New York (4:15 PM Baghdad in winter); skipped if fewer than 6 Shorts.
+- Weekly budget ≈ 14 Shorts × 90 + 1 music video × 230 ≈ 1,500 ViewMax credits; tell her when credits will run out.
 - Honest guidance: every upload must be clearly different (new story, new lesson); YouTube can limit channels that mass-upload repetitive AI content. Quality and hooks matter more than quantity; if credits or time are short, 1 long + 2 shorts per day beats rushed videos.
 
 ---
@@ -334,7 +336,7 @@ Tags: ~11–15 specific tags, starting with `crayon babies, baby jimmy, baby ava
 
 Upload settings: Made for kids · Altered/synthetic (AI) = Yes · Public · thumbnail 1280×720 JPG < 2 MB · playlists: Magic Crayon Stories / Good Habits / Learn with Crayon Babies / Crayon Babies Songs / Doctor Visits.
 
-Thumbnails (ChatGPT): big close-up faces with strong emotion, the problem object, 2–4 words of huge rounded text that match the hook, bright simple background, characters in the exact outfit used.
+Thumbnails: designed with **Gemini – Nano Banana 2** (her choice, 29 Oct 2026; 0 credits in the daily pool), never just a cut video frame: big close-up faces with strong emotion, the problem/song object, 2–4 words of huge rounded text (bright yellow, thick purple outline) that match the hook, bright simple background, characters in the exact outfit used. Inputs: 1–2 best approved start frames + the character sheets; identity keys in CAPS; check faces and spelling at full size; fit to 1280×720 JPG < 2 MB. Full recipe: `THUMBNAIL.md` in the repo. First example (29 Oct): "BABY LION ROARS!" – Sunny roaring in the middle, Jimmy and Ava cheering, backyard blurred – approved quality.
 
 ---
 
@@ -342,7 +344,7 @@ Thumbnails (ChatGPT): big close-up faces with strong emotion, the problem object
 - **Default style for every short = the approved fast-cut montage in section 13, Step 5.**
 - Inspect with ffprobe; review frames as a tile grid before commenting. Be honest about flaws (extra hands, objects appearing early, wrong clothes) and fix in editing when possible (cut, slow down, reorder) instead of asking her to spend credits.
 - If the opening is weak, move the strongest moment to the start as a hook; make sure the end mirrors the start.
-- On-screen English words: yellow `0xFFD21F`, purple border `0x5B2A86`, Poppins Bold, pop-in animation; bottom (`y=h*0.83`) for 16:9 so faces aren't covered; top (`y=h*0.11`) for 9:16 shorts.
+- On-screen words: **off by default** (her rule, 29 Oct 2026). Only if she asks for text again: yellow `0xFFD21F`, purple border `0x5B2A86`, Poppins Bold, pop-in animation; bottom (`y=h*0.83`) for 16:9, top (`y=h*0.11`) for 9:16 (montage.py `"show_words": true`).
 - Shorts from long episodes: 1080×1920 with blurred background, hook title at top.
 - Songs: subtitle timings from Gemini are approximate; ask her the exact second she hears a line, then shift video and lyrics. Color each color word in its own color.
 - Compilations: hook clip → intro card from banner → "Episode N" cards with chime → outro with SUBSCRIBE button (also show it briefly near the start); give chapter timestamps.
@@ -387,26 +389,18 @@ Approved by her on 26 Oct 2026 ("ابغا زي كذا مونتاج دائماً"
 1. **Review first:** make a 1-frame-per-second contact sheet of every 10 s shot. Mark and never use moments with closed eyes, faces looking down or away, blur, identity drift, extra hands, or objects that appear too early.
 2. **Cut fast:** from each 10 s shot take its best 1–2 pieces of **2–3.5 s**. A short = 8–10 cuts, about 20–30 s. Hard cuts on action. No extra credits – cutting is free.
 3. **Same shot twice → punch-in:** when the next cut comes from the same shot, zoom it ×1.10–1.12 (centred slightly high on the faces) so it feels like a new camera angle, not a jump cut.
-4. **Hook:** use only the strongest 1–1.5 s (the gasp/reaction with eyes wide open), slowed to 0.6× so it lasts about 2 s, and cut away before any blink or look-down. Its word appears from the first frames.
-5. **Learning words:** one short English word or phrase per beat (e.g. *Oh no!* → *Soap!* → *Scrub, scrub!* → *Clean hands!* → *Bye bye!*). Poppins Bold, size 130 on 1080×1920, yellow `0xFFD21F`, purple border `0x5B2A86` (border width 10), centred at `y=h*0.11` (the Shorts buttons cover the bottom), pop-in from size 40 to 130 in 0.25 s, starting 0.1–0.15 s into the cut. Not every cut needs a word; zoomed follow-up cuts usually have none.
-6. **Ending:** finish on the loop shot (mirror of the hook) with "Bye bye!", so the replay flows straight back into the hook.
+4. **Hook:** use only the strongest 1–1.5 s (the gasp/reaction with eyes wide open), slowed to 0.6× so it lasts about 2 s, and cut away before any blink or look-down.
+5. **No on-screen words** (changed 29 Oct 2026 – she found words like "ROAR?" / "Meow?!" out of place). The picture, the song and the sound effects carry the story. (Old style, only if she asks again: one short word per beat, Poppins Bold 130, yellow `0xFFD21F`, purple border `0x5B2A86`, `y=h*0.11`, pop-in 0.25 s.)
+6. **Ending:** finish on the loop shot (mirror of the hook), so the replay flows straight back into the hook.
 7. **Output:** 1080×1920 (crop 4 px each side from 1088), keep 24 fps, H.264 CRF 17 preset slow, AAC audio (the song, or a silent track if no song), `+faststart`. File name `Crayon Babies - <Title>.mp4`. With a song: song under the whole edit, 1.5 s fade-out, about -14 LUFS.
 8. **Final check:** contact sheet of the finished file (look closely at the first 2 s) before sending it to her.
 
-ffmpeg pattern per cut (run with `-nostdin` inside loops):
-```
-ffmpeg -nostdin -ss START -t DUR -i shotN.mp4 -f lavfi -t DUR -i anullsrc=r=48000:cl=stereo \
- -vf "scale=1088*Z:1920*Z:flags=lanczos,crop=1080:1920:(iw-1080)/2:(ih-1920)/2*0.85,setsar=1,fps=24,format=yuv420p,\
- drawtext=fontfile=Poppins-Bold.ttf:text='WORD':fontcolor=0xFFD21F:borderw=10:bordercolor=0x5B2A86:\
- fontsize='if(lt(t,0.25),40+90*t/0.25,130)':x=(w-text_w)/2:y=h*0.11-text_h/2:enable='gte(t,0.15)'" \
- -map 0:v -map 1:a -c:v libx264 -preset slow -crf 17 -c:a aac -b:a 128k -shortest cutX.mp4
-```
-(Z = 1.00 or 1.10–1.12; hook adds `setpts=PTS/0.6` first.) Then join the cuts with the concat demuxer (`-c copy -movflags +faststart`).
+How: `montage.py build edit.json` in the repo does all of this (cuts, speed, punch-in zoom, no text, song, effects, ducking, output settings); `montage.py sheets` and `faces` make the review images.
 Getting the clips: the chat workspace cannot reach r2.vibevideo.app; download them in the built-in browser on her laptop into Downloads (fetch → blob → link with `download` name), then copy them over with the device file tools. The Default cloud environment used by the automation can download them directly.
 
 ### Step 6 – SOUND EFFECTS (approved 28 Oct 2026)
 - ViewMax `generate_sound_effect`: **5 credits each**, returns at once (0.5–22 s). Prompt: `<one sound>, cartoon style, cute, kid-friendly, single short sound, clean, no music, no background noise.`, prompt_influence 0.6.
-- Per short: a soft "pop" when each on-screen word appears + 2–4 character moments (e.g. squeak when Sunny tries to roar, meow, big friendly roar, toddlers cheering). Place each on the exact frame (mouth opens, clap) using a 6 fps contact sheet.
+- Per short: 2–4 character moments (no word pops – there are no on-screen words now) (e.g. squeak when Sunny tries to roar, meow, big friendly roar, toddlers cheering). Place each on the exact frame (mouth opens, clap) using a 6 fps contact sheet.
 - Mix: effects about as loud as the singing, the song ducked a little under them (sidechain), limiter at about -1.5 dBFS. Measure the levels (I cannot hear).
 - Reusable library in the repo `sfx/` (pop, baby_lion_squeak, kitten_meow, lion_cub_roar, toddlers_cheer_clap): reuse for free; only new moments cost credits. Typical short = 70 (5 Seedance shots) + 10–25 (effects) ≈ 80–95 credits.
 
@@ -415,7 +409,8 @@ Getting the clips: the chat workspace cannot reach r2.vibevideo.app; download th
 - A Gemini-app song longer than wanted (e.g. 35.6 s for a 30 s short): never drop words – cut the leading silence and any gap, speed up with `atempo` (≤ 1.05, not noticeable), trim to the exact length with a 0.8–1.5 s fade-out, loudnorm -14 LUFS.
 
 ### Automation tools (repo lumilolandkids-lang/lumilolandkids-lang.github.io, branch `autopilot`)
-`TASK_PROMPT_MUSIC.md` (one full run, MODE TEST or LIVE) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, words, song, effects, ducking) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot.
+`TASK_PROMPT_MUSIC.md` (one Short, MODE TEST or LIVE) · `TASK_PROMPT_MUSIC_VIDEO.md` (Friday music video) · `TASK_PROMPT_COMPILATION.md` (Sunday compilation) · `compile.py` (compilation, `fit` for Gemini thumbnails) · `THUMBNAIL.md` (Gemini thumbnail recipe) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, song, effects, ducking, words off by default; 9:16 or 16:9) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`, optional custom thumbnail) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot. Each Short saves its rebuild files (edit.json, song.mp3, shots.json) in `jobs/<date>-<slug>/`; the mp4 is removed from the repo after upload.
+Scheduled tasks (all Opus 5.5, Default environment): Daily Music Short ×2 (runs 4:41 + 8:41 AM New York), Weekly Music Video (Fri 5:41 AM NY), Weekly Shorts Compilation (Sun 3:17 AM NY).
 
 ### Lesson learned (26 Oct 2026)
 In the first test, shot 4 (loop ending) changed the babies: Jimmy got brown eyes and lost his freckles, Ava's hair and dress changed. Cause: its start frame was generated from scratch with smaller faces, a big laughing pose and "cheeks pressed together", with no written identity keys, and it was approved from a small preview; then a hug in the motion hid the faces. Fix that worked: edit the hook frame instead + identity keys in CAPS + full-size face check + hug-free motion. The other 3 shots (playroom hook, bathroom with Mommy Lily, bathroom with Biscuit) kept identity well.

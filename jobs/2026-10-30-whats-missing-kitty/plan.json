@@ -1,0 +1,65 @@
+{
+  "series": "What's Missing? (episode 1)",
+  "idea": "NEW SIGNATURE SERIES 'What's Missing?' #1 (PLAYROOM): the babies' crayon drawing of a kitty comes to life as a real kid's crayon drawing (wobbly outlines, scribbly fill) - but it has NO TAIL. Ava asks the viewer 'What's missing?' (pause so kids can shout the answer), Jimmy draws the tail, the kitty hops and swishes it happily. Lesson: look carefully and fix it together; body parts (tail).",
+  "lesson": "Look carefully – and we fix it together!",
+  "place": "PLAYROOM",
+  "characters": [
+    "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot.",
+    "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+  ],
+  "supporting": "THE CRAYON KITTY: a small round cute orange kitty that looks exactly like a toddler's crayon drawing come to life: wobbly thick black crayon outlines, scribbly orange crayon fill with visible strokes, two big dot eyes, a smile, triangle ears, whiskers, curly tail (missing at first); flat paper cut-out look in the real 3D room.",
+  "method_note": "Image models refuse a 3-legged cat (they add the 4th leg) -> the missing part is the TAIL, made by EDITING the approved frame ('remove the tail'). All other frames are edits of that hook frame. Seedance tends to grow the missing part back when the prompt mentions 'looking at its back' -> keep the incomplete drawing still and say 'nothing is added'.",
+  "shots": [
+    {
+      "role": "HOOK",
+      "frame": "f1"
+    },
+    {
+      "role": "question 'What's missing?'",
+      "frame": "f2"
+    },
+    {
+      "role": "Jimmy draws the tail",
+      "frame": "f3"
+    },
+    {
+      "role": "happy kitty hops, babies clap",
+      "frame": "f4"
+    },
+    {
+      "role": "LOOP ENDING – bye bye",
+      "frame": "f5"
+    }
+  ],
+  "song": null,
+  "song_note": "Lyria still HTTP 429 (Gemini free tier, 0 requests). Sound effects only.",
+  "sound_effects": [
+    "sfx/magic_poof.mp3 (new)",
+    "sfx/kitten_meow.mp3",
+    "sfx/question_boing.mp3 (new)",
+    "sfx/sparkle_chime.mp3",
+    "sfx/crayon_scribble.mp3",
+    "sfx/happy_kitten_meow.mp3 (new)",
+    "sfx/toddlers_cheer_clap.mp3",
+    "sfx/pop.mp3"
+  ],
+  "title": "Oh No! Kitty Has No Tail! 🐱 What's Missing? | Crayon Babies",
+  "description": "Baby Jimmy and Baby Ava draw a kitty and – poof! – it comes to life… but something is missing! 🐱 Can you see what it is? Help the babies find it, then watch Jimmy draw it with his crayon!\n\n🎬 What happens in this video:\n✨ The crayon kitty pops off the paper!\n😮 Oh no! Something is missing…\n🤔 \"What's missing?\" – can you say it?\n🖍️ A tail! Jimmy draws it\n😺 Happy kitty swishes its new tail\n👋 Bye bye, kitty!\n\n📚 Kids learn: look carefully, body parts (tail, ears, legs, whiskers), fixing mistakes together • English words: kitty, tail, draw, missing, happy\n\nA fun interactive cartoon for toddlers and preschoolers: a magic crayon drawing comes to life and kids help find what's missing.\n\nKids cartoon • Interactive videos for kids • Magic crayon • Drawing for kids • Animals for kids • Learn English for kids • Toddler learning\n\n🔔 Subscribe to Crayon Babies for a new \"What's Missing?\" drawing every week!",
+  "tags": [
+    "crayon babies",
+    "baby jimmy",
+    "baby ava",
+    "whats missing",
+    "crayon kitty",
+    "kitty has no tail",
+    "magic crayon",
+    "drawing for kids",
+    "interactive videos for kids",
+    "body parts for kids",
+    "animals for kids",
+    "kids cartoon",
+    "toddler learning",
+    "learn english for kids"
+  ],
+  "playlist": "Magic Crayon Stories"
+}

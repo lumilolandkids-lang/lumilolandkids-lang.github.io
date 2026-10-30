@@ -13,6 +13,9 @@ Made with ViewMax `generate_sound_effect` (5 credits each). Reuse these before g
 | toddlers_gasp.mp3 | two toddlers gasp "ooh!" in surprise (hooks, "Oh no!") | 0.65 s | 0.8 |
 | crayon_scribble.mp3 | crayon scribbling/drawing (quiet file, max -16 dB) | 1.5 s | 2.0 |
 | sparkle_chime.mp3 | magic sparkle chime, something lights up | 1.35 s | 0.8 |
+| magic_poof.mp3 | magic poof + shimmer, a drawing pops off the paper (quiet file) | 0.8 s | 1.6 |
+| question_boing.mp3 | curious rising "hmm?" boing for questions (What's missing?) | 0.62 s | 0.6 |
+| happy_kitten_meow.mp3 | one bright happy kitten meow | 0.73 s | 0.5 |
 
 When you generate a new effect that could be reused (giggle, gasp, sparkle chime, splash, boing, whoosh,
 puppy bark, ...), save it here with a clear name and add a row.

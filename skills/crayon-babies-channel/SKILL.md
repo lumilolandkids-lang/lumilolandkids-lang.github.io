@@ -240,6 +240,7 @@ Shopping at the supermarket (healthy choices) · Lost at the mall (stay close) �
 Colors song (done) · ABC song · Numbers song · Clean-up song · Brush your teeth song · Wash your hands song (test clip made and edited 26 Oct, approved, not published) · Never give up song (Sunny, done 28 Oct) · Bath song · Healthy food song · Good night song · Animal sounds song · Family song (use the `Family` image) · Doctor song · Feelings song · Days of the week song.
 
 ### G. Signature elements
+- **Signature series "What's Missing?"** (started 30 Oct 2026, her choice for a unique channel format): the babies' crayon drawing comes to life looking like a REAL toddler's crayon drawing (wobbly thick black outlines, scribbly crayon fill, paper cut-out edge) inside the 3D room – but one part is missing. Ava asks the viewer "What's missing?" (≈2 s pause so kids can shout it), Jimmy draws it, the drawing celebrates; loop back to the paper. Ep. 1 published: "Oh No! Kitty Has No Tail! 🐱 What's Missing?" (PLAYROOM). Next: fish with no tail fin, sun with no rays, car with a missing wheel, giraffe with a short neck, butterfly with one wing, bunny with one ear, house with no door. How: image models refuse "only 3 legs" (they add the 4th) → make the COMPLETE drawing first, then EDIT it to remove the part; all other frames are edits of that hook frame. Keep the incomplete drawing still in motion prompts ("nothing is added to it") – Seedance grows the missing part back if the prompt says the drawing looks at it.
 - Catchphrase when the crayon appears: "Magic crayon, draw with me!" with a sparkle chime.
 - Closing line: "Bye bye, friends! See you next time!"
 - Seasonal episodes in time for searches (Halloween late Oct, winter/Christmas Dec, spring, back to school).
@@ -373,6 +374,7 @@ Approved format (26 Oct 2026, "Wash Your Hands Song" test): silent music-clip sh
   - Biscuit: fluffy golden puppy, floppy ears, RED collar with a GOLD paw tag.
   - (others: copy their lines from section 2 and capitalise hair color, eye color and signature item)
 - Medium close-up: every face large (at least about 1/5 of the frame height), eyes open, faces separate (no cheeks pressed together, no hugs in the start frame).
+- **STORY ORDER (her correction, 30 Oct 2026):** nothing that is drawn, made, fixed or brought may be visible before its moment. The "drawing" frame shows the crayon touching the EMPTY spot (nothing drawn yet) and the motion prompt has it drawn line by line following the crayon; never give that frame the finished result.
 - **LOOP ENDING frame: never generate from scratch.** EDIT the approved hook frame (image 1 = hook frame): "Keep EVERYTHING in image 1 exactly the same … ONLY CHANGE: …". This keeps identity and framing identical, so the loop is perfect.
 
 ### Step 2 – FACE CHECK before spending any credits (mandatory)
@@ -382,7 +384,7 @@ Crop every face at full resolution (never judge from a small preview) and tick e
 Seedance 1.0 Pro image-to-video, 1080p, 10 s. The motion prompt repeats the identity keys in CAPS and asks for small, gentle movements with a still camera. Forbidden in the motion: hugging, turning around, covering faces, long closed-eye laughing, someone passing in front of a face – Seedance only sees the first frame, so any face that disappears comes back re-invented. For a big action, use two shots, each from its own checked frame.
 
 ### Step 4 – check the clip
-Crop the faces at 3 s, 6 s and 9.5 s and compare with the start frame. If a shot drifted, redo only that shot (14 credits).
+Crop the faces at 3 s, 6 s and 9.5 s and compare with the start frame. Also check STORY ORDER on a 4 fps sheet: the drawn/fixed thing is absent before its moment, appears during it, present after (Seedance may add a missing part by itself). If a shot drifted or breaks the order, redo only that shot (14 credits).
 
 ### Step 5 – MONTAGE (approved style – use it for every short)
 Approved by her on 26 Oct 2026 ("ابغا زي كذا مونتاج دائماً"). Reference edit: `Crayon Babies - Wash Your Hands (test edit).mp4` – 23 s, 8 cuts.
@@ -411,6 +413,9 @@ Getting the clips: the chat workspace cannot reach r2.vibevideo.app; download th
 ### Automation tools (repo lumilolandkids-lang/lumilolandkids-lang.github.io, branch `autopilot`)
 `TASK_PROMPT_MUSIC.md` (one Short, MODE TEST or LIVE) · `TASK_PROMPT_MUSIC_VIDEO.md` (Friday music video) · `TASK_PROMPT_COMPILATION.md` (Sunday compilation) · `compile.py` (compilation, `fit` for Gemini thumbnails) · `THUMBNAIL.md` (Gemini thumbnail recipe) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, song, effects, ducking, words off by default; 9:16 or 16:9) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`, optional custom thumbnail) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot. Each Short saves its rebuild files (edit.json, song.mp3, shots.json) in `jobs/<date>-<slug>/`; the mp4 is removed from the repo after upload.
 Scheduled tasks (all Opus 5.5, Default environment): Daily Music Short ×2 (runs 4:41 + 8:41 AM New York), Weekly Music Video (Fri 5:41 AM NY), Weekly Shorts Compilation (Sun 3:17 AM NY).
+
+### Lesson learned (30 Oct 2026)
+"What's Missing?" ep. 1: in the drawing shot the kitty's tail was already finished from the first frame, so it looked like the tail appeared before Jimmy drew it (she noticed after publishing). Cause: the drawing start frame was generated with the tail half/fully drawn. Fix: STORY ORDER rule above (empty spot + crayon touching it; drawn line by line in the motion) and a story-order check in Step 4.
 
 ### Lesson learned (26 Oct 2026)
 In the first test, shot 4 (loop ending) changed the babies: Jimmy got brown eyes and lost his freckles, Ava's hair and dress changed. Cause: its start frame was generated from scratch with smaller faces, a big laughing pose and "cheeks pressed together", with no written identity keys, and it was approved from a small preview; then a hug in the motion hid the faces. Fix that worked: edit the hook frame instead + identity keys in CAPS + full-size face check + hug-free motion. The other 3 shots (playroom hook, bathroom with Mommy Lily, bathroom with Biscuit) kept identity well.

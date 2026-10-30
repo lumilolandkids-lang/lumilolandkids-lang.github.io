@@ -4,8 +4,9 @@ The scheduled prompt says **MODE: TEST** or **MODE: LIVE** (and, for LIVE, the p
 - TEST = do everything except the YouTube upload; deliver the video in the repo.
 - LIVE = upload with `upload_ready.py`, scheduled with `publish_at`.
 
-**Quality rule:** this run uses the newest Claude model. Work at extra-high effort on every prompt, lyric, title
-and description: plan, draft, check it line by line against the channel bible, improve, then use it.
+**Quality rule:** this run uses the newest Claude model at **EXTRA-HIGH effort (effort level: extra)** — her explicit
+request. Every prompt, lyric, title, description and edit decision: plan, draft, check it line by line against the
+channel bible, improve, then use it. Never rush a check to save time.
 Nobody is watching: never ask questions — decide and continue. Everything you write is in English.
 
 **Channel bible:** load the skill `crayon-babies-channel` with the Skill tool. If it isn't installed, read
@@ -46,6 +47,11 @@ idempotency_key `cb-<date>-<slug>-f<N>` (retries `-r1`, `-r2`). `wait_for_task` 
   eyes open, faces separate (no hugs, no cheeks pressed together), exactly two hands each, no text.
 - Shot 5 = EDIT of the hook frame: image_urls = [hook frame, + the same sheets], prompt "Keep EVERYTHING in image 1
   exactly the same … ONLY CHANGE: …".
+- **STORY ORDER (her correction, 30 Oct 2026):** anything the characters draw, make, fix or bring must NOT be visible
+  in any frame or cut before that moment. Write a before/after table in plan.json (e.g. tail: shots 1–2 absent, shot 3
+  being drawn, shots 4–5 present). The "doing it" frame shows the action STARTING (crayon touching the empty spot,
+  nothing drawn yet); its motion prompt says the part is drawn line by line following the crayon tip. Never give that
+  frame the finished result.
 
 ## 4. FACE CHECK — mandatory before animating (Step 2)
 Download each frame (`curl -sSL -o`), crop every face at full resolution (ffmpeg crop or PIL) and LOOK at the crops
@@ -61,6 +67,9 @@ a face. Silent. `wait_for_task`, then `curl -sSL -o W/shotN.mp4 <url>`.
 ## 6. Clip check (Step 4)
 `python3 montage.py faces W N 3 6 9.5` for every shot → look at the frames vs the start frame. If a shot drifted,
 redo only that shot once (`-r1`, 14 credits). Never more than one redo in the whole run.
+Also check STORY ORDER on the 4 fps sheets: the drawn/fixed/brought thing is absent before its moment (Seedance likes
+to add a missing part on its own — and in the 30 Oct kitty short the tail was already finished in the drawing shot),
+appears during it, present after. A shot that breaks the order is the redo, before any identity nit.
 
 ## 7. Song — Lyria clip, 30 s (section 8 style)
 Write `W/song_prompt.txt`: the section 8 style (a cappella children's voices, humming and "la la", ONLY daf and hand

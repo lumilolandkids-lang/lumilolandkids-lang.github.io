@@ -1,6 +1,6 @@
 {
   "idea": "Seasonal (Halloween) music clip in the PLAYROOM: a pumpkin on the little table has a sad crayon face; Jimmy and Ava gasp, Ava pats it kindly, Jimmy has an idea with the black crayon, they draw it a big smile and it glows happily. Lesson: share a smile - a kind smile makes a friend happy.",
-  "video": "ready/test-2026-10-29-sad-pumpkin.mp4",
+  "video": "ready/test-2026-10-29-sad-pumpkin-song.mp4",
   "title": "Oh No! Sad Halloween Pumpkin! 🎃 Share a Smile | Crayon Babies",
   "description": "Oh no! The pumpkin in the playroom looks so sad! 🎃 Baby Jimmy and Baby Ava pat it gently, grab a crayon and draw a big happy smile – and the pumpkin glows with joy!\n\n🎬 What happens in this video:\n😮 \"Oh no! Sad pumpkin!\"\n🤗 Ava pats the pumpkin: \"Don't be sad!\"\n🖍️ Jimmy has an idea with his crayon\n😊 They draw a big smile\n✨ Happy pumpkin! Clap, clap, hooray!\n👋 Bye bye, friends!\n\n📚 Kids learn: share a smile and be kind to friends • English words: sad, happy, pumpkin, smile, crayon, clap\n\nA fun, friendly Halloween cartoon for toddlers and preschoolers about kindness, feelings and sharing a smile – nothing scary!\n\nKids cartoon • Halloween for kids • Pumpkin song • Feelings for kids • Kindness for kids • Learn English for kids • Toddler learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
   "tags": [
@@ -20,9 +20,9 @@
     "toddler learning"
   ],
   "playlist": "Crayon Babies Songs",
-  "publish_at": null,
   "mode": "TEST",
   "song": null,
   "model": "seedence-1-0-pro + nano-banana-2 frames, ViewMax sound effects, no song (Lyria quota 0)",
-  "viewmax_credits_used": 85
+  "viewmax_credits_used": 85,
+  "short": true
 }

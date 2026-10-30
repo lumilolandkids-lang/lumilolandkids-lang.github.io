@@ -5,5 +5,6 @@
   "f3_crayon_touches_empty_spot": "https://r2.vibevideo.app/viewmax/creations/2026-10-30/image/e0ee3981-cab4-4f7f-a15b-a8d833918556.png",
   "f4_happy_swim_clap": "https://r2.vibevideo.app/viewmax/creations/2026-10-30/image/cfd11d6d-17d4-4461-a323-acfb15a9794c.png",
   "f5_loop_byebye": "https://r2.vibevideo.app/viewmax/creations/2026-10-30/image/ef8826bf-df3d-4f1b-9b20-d07e5579ba91.png",
-  "status": "frames approved (face check + story order OK); 0 ViewMax credits spent; WAITING for Gemini Lyria (still Free Tier 429 on 2026-10-30 16:22 UTC). Next: song.py -> then Seedance s1-s5 with the motion prompts from the 30 Oct chat (fish: NO tail in s1-s2, drawn line by line in s3)."
+  "status": "5 shots + close-up done (94 credits incl. 2 sfx). Edit ready without song; waiting for her Gemini-app song (or API billing) -> set song in edit.json, re-time cuts to the lyric timestamps, build, review, publish.",
+  "f2_closeup_no_fish": "https://r2.vibevideo.app/viewmax/creations/2026-10-30/image/b93468a4-5a00-4d81-bd7e-b95e2a3b279c.png"
 }

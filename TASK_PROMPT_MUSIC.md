@@ -9,8 +9,8 @@ request. Every prompt, lyric, title, description and edit decision: plan, draft,
 channel bible, improve, then use it. Never rush a check to save time.
 Nobody is watching: never ask questions — decide and continue. Everything you write is in English.
 
-**Channel bible:** load the skill `crayon-babies-channel` with the Skill tool. If it isn't installed, read
-`skills/crayon-babies-channel/SKILL.md` in this repo. Follow section 1 (rules), 2–5 (characters, places, reference
+**Channel bible:** read `skills/crayon-babies-channel/SKILL.md` in THIS repo – it is the newest version and wins over
+any installed copy of the skill. Also read `LEARNING.md` (the learning calendar and checks) before planning. Follow section 1 (rules), 2–5 (characters, places, reference
 links — copy descriptions word for word), 8 (songs), 10 (titles), 13 (identity lock + montage).
 
 Work folder `W = runs/<date>-<slug>` (git-ignored). Date = today in UTC, `YYYY-MM-DD`.
@@ -21,8 +21,12 @@ notification "ViewMax credits low: N left – video skipped", append `{"time":..
 `log/videos.jsonl`, commit, push, stop.
 
 ## 2. Idea and plan (extra-high effort)
-- ONE new idea from the idea bank (section 6) or a fresh one in the same spirit. It must not repeat any idea in
-  `log/videos.jsonl` or the "Done" lists. Seasonal ideas win when the date fits.
+- **Learning first (LEARNING.md):** take today's topic from the weekly calendar (New York weekday + this run's slot:
+  before 07:00 NY = slot 1, otherwise slot 2), continue series in order (next number/letter from `log/videos.jsonl`),
+  then build ONE fun story around that goal with 2–3 fun mechanics (interactive pause, say-it-with-me, copy-me action,
+  surprise). Fill `plan.json` → `learning` (goal, target_words, shown_how, song_repeats, interactive_moment,
+  fact_check, modeling, toddler_fit). Not cute-only: a child must learn, copy or answer something.
+- The idea must not repeat any idea in `log/videos.jsonl` or the "Done" lists. Seasonal ideas win when the date fits.
 - Jimmy and Ava are the stars; at most ONE more character (a pet, Leo/Mia, Mommy Lily or Daddy Tom).
   ONE place that has an online reference image (section 5). Pick outfits from the lists.
 - 5 shots × 10 s: 1 **HOOK** (problem or surprise in the first second, close-up, big reaction) · 2 the problem /
@@ -56,7 +60,8 @@ idempotency_key `cb-<date>-<slug>-f<N>` (retries `-r1`, `-r2`). `wait_for_task` 
 ## 4. FACE CHECK — mandatory before animating (Step 2)
 Download each frame (`curl -sSL -o`), crop every face at full resolution (ffmpeg crop or PIL) and LOOK at the crops
 with the Read tool. Tick every identity key (hair color/shape, EYE COLOR, freckles, star clip, outfit details, place
-details). Any miss → regenerate that frame (free; at most 3 tries per frame, then keep the best one).
+details). Also check the LEARNING facts in the frame: object counts match the number in the song, colors/shapes/
+letters are right. Any miss → regenerate that frame (free; at most 3 tries per frame, then keep the best one).
 
 ## 5. Animate — Seedance 1.0 Pro (Step 3)
 `generate_video` model `seedence-1-0-pro`, mode `image-to-video`, image_urls = [frame URL], resolution `1080p`,

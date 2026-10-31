@@ -2,7 +2,7 @@
 
 Nobody is watching: never ask questions — decide and continue. Work at extra-high effort on the title, description,
 chapters and thumbnail. No ViewMax credits are needed (everything is rebuilt from the week's saved files).
-Channel bible: skill `crayon-babies-channel` (or `skills/crayon-babies-channel/SKILL.md`), sections 10 and 11.
+Channel bible: `skills/crayon-babies-channel/SKILL.md` in THIS repo (newest), sections 10 and 11.
 
 ## 1. Collect the week
 From `log/videos.jsonl` take every entry with `"status": "uploaded"`, kind short (or no kind + a /shorts/ url),

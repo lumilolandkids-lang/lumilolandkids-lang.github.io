@@ -3,7 +3,7 @@ name: "crayon-babies-channel"
 description: "Use for any work on the Crayon Babies YouTube kids channel: View Max prompts, new episodes, songs, titles, descriptions, tags, thumbnails, editing clips."
 ---
 
-# Crayon Babies – complete channel bible (updated 29 Oct 2026)
+# Crayon Babies – complete channel bible (updated 31 Oct 2026)
 
 The user runs the YouTube kids channel **Crayon Babies** (@CrayonBabies-TV). She writes in Iraqi/Gulf Arabic; always reply in simple, warm Arabic, short and step-by-step. She sometimes writes Ava's name as "لافا" (Lava) – it means Ava. She makes videos in **View Max** (viewmax.studio – Veo/Kling/Seedance), images in **ChatGPT**, songs in **Gemini**. Every prompt for those tools is in English inside a code block so she can copy it. This file is the single source of truth: never change a character, outfit, room or place description – copy it word for word. When she sends a new image, compare it honestly with these descriptions (hair, eyes, clothes, all three views consistent) before she saves it.
 
@@ -29,6 +29,7 @@ The channel is NOT only about crayons: "Crayon Babies" = colorful little kids wh
 12. Always remind her to upload the reference images (section 5 names) of every character and location used – only those that appear in the video.
 13. **Every edit uses the approved fast-cut montage style** (section 13, Step 5) unless she asks for something else. **No on-screen words** in the montage (her rule, 29 Oct 2026: "ROAR?", "Meow?!" and similar text looked out of place) – only add text if she asks for it again.
 14. **Top quality level, always** (her request, 29 Oct 2026): for everything written for the channel – video and image prompts, song prompts and lyrics, titles, descriptions, tags, edit plans and publishing – use **Claude Opus 5.5** for every chat and scheduled/automated task (her choice, 29 Oct 2026: Fable 5.1 hit the plan's usage limit and costs more – never switch to a pricier model without asking her) and the extra-high effort level: think it through, draft, check every line against this bible (hook, identity keys in CAPS, places word for word, loop ending, one lesson, no hashtags), improve, and only then use it. Never take shortcuts on prompts, songs or publishing.
+15. **Every video teaches AND is fun** (her request, 31 Oct 2026: "important, educational and fun – a very special channel"): ONE concrete learning goal from the weekly learning calendar + 2–3 fun mechanics (interactive pause, say-it-with-me, copy-me action, surprise). See section 14.
 
 Fixed blocks to paste in every video prompt:
 ```
@@ -359,6 +360,25 @@ Thumbnails: designed with **Gemini – Nano Banana 2** (her choice, 29 Oct 2026;
 
 ---
 
+## 14. LEARNING DESIGN – every video teaches, every video is fun (31 Oct 2026)
+Audience 1–5 years. A video that is only cute, with nothing a child can learn, copy or answer, is not good enough. Full recipe for the automation: `LEARNING.md` in the repo.
+
+Weekly learning calendar (New York weekday; Short 1 = morning, Short 2 = afternoon):
+| Day | Short 1 – school readiness | Short 2 – life skills & values |
+|---|---|---|
+| Mon | Numbers & counting (1–10 in order, then 1–20) | Healthy habits (wash hands, brush teeth, veggies, water, sleep) |
+| Tue | Colors & shapes | Feelings & kindness (sharing, sorry, please/thank you, helping, turns) |
+| Wed | Animals & their sounds / nature | Safety (hold hands crossing, hot stove, stay close, seatbelt) |
+| Thu | Letters & first words (A–Z in order: letter + sound + 2 words) | Routines & independence (dressing, tidy up, bath, bedtime) |
+| Fri | Body parts & opposites | Family & friends (Lily, Tom, Leo, Mia, Biscuit) |
+| Sat | "What's Missing?" signature episode | Little science wonder (rain, shadows, seeds, float/sink) |
+| Sun | Review song of the week's best word, new story | Seasonal / holiday story |
+Series continue in order (next number / letter). The Friday music video is always a full learning song (counting, colors, ABC, animal sounds, body parts, days of the week, clean-up, brushing teeth, feelings).
+
+Fun mechanics (2–3 per video): interactive pause (a character asks the viewer, 1.5–2 s pause with a curious "hmm?" sound, then the answer is celebrated) · say-it-with-me (target word sung ≥ 3 times; the chorus is the lesson) · copy-me action (clap, jump, wave, touch your nose, count fingers) · surprise & payoff (magic crayon reveal, gentle funny mistake, big celebration) · signature touches ("Magic crayon, draw with me!" + sparkle chime, loop ending, "Bye bye, friends!").
+
+Learning checks before spending credits (plan.json → `learning`): goal · 2–4 target words · how the picture shows it · where the words repeat in the lyrics · timestamp of the interactive moment · fact check (numbers, colors, shapes, letters, animal sounds exactly right; objects on screen must match the number sung – ask for the exact number "in a clear row, easy to count" and COUNT them in the frame check) · positive modeling (any wrong choice is gently corrected in the same video) · toddler fit (simple words, bright but calm, nothing scary). Titles and descriptions name the learning goal ("Count to 5 with Jimmy! 🍎 | Learn Numbers | Crayon Babies").
+
 ## 13. AUTOMATED MUSIC CLIPS – Seedance 1.0 Pro + start frames (IDENTITY LOCK)
 
 Approved format (26 Oct 2026, "Wash Your Hands Song" test): silent music-clip shots, the Gemini song is added in editing.
@@ -411,7 +431,7 @@ Getting the clips: the chat workspace cannot reach r2.vibevideo.app; download th
 - A Gemini-app song longer than wanted (e.g. 35.6 s for a 30 s short): never drop words – cut the leading silence and any gap, speed up with `atempo` (≤ 1.05, not noticeable), trim to the exact length with a 0.8–1.5 s fade-out, loudnorm -14 LUFS.
 
 ### Automation tools (repo lumilolandkids-lang/lumilolandkids-lang.github.io, branch `autopilot`)
-`TASK_PROMPT_MUSIC.md` (one Short, MODE TEST or LIVE) · `TASK_PROMPT_MUSIC_VIDEO.md` (Friday music video) · `TASK_PROMPT_COMPILATION.md` (Sunday compilation) · `compile.py` (compilation, `fit` for Gemini thumbnails) · `THUMBNAIL.md` (Gemini thumbnail recipe) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, song, effects, ducking, words off by default; 9:16 or 16:9) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`, optional custom thumbnail) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot. Each Short saves its rebuild files (edit.json, song.mp3, shots.json) in `jobs/<date>-<slug>/`; the mp4 is removed from the repo after upload.
+`TASK_PROMPT_MUSIC.md` (one Short, MODE TEST or LIVE) · `LEARNING.md` (learning calendar + checks) · `TASK_PROMPT_MUSIC_VIDEO.md` (Friday music video) · `TASK_PROMPT_COMPILATION.md` (Sunday compilation) · `compile.py` (compilation, `fit` for Gemini thumbnails) · `THUMBNAIL.md` (Gemini thumbnail recipe) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, song, effects, ducking, words off by default; 9:16 or 16:9) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`, optional custom thumbnail) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot. Each Short saves its rebuild files (edit.json, song.mp3, shots.json) in `jobs/<date>-<slug>/`; the mp4 is removed from the repo after upload.
 Scheduled tasks (all Opus 5.5, Default environment): Daily Music Short ×2 (runs 4:41 + 8:41 AM New York), Weekly Music Video (Fri 5:41 AM NY), Weekly Shorts Compilation (Sun 3:17 AM NY).
 
 ### Lesson learned (30 Oct 2026)

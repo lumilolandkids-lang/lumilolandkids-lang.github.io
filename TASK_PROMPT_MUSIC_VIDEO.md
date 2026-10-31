@@ -2,7 +2,8 @@
 
 Nobody is watching: never ask questions — decide and continue. Work at extra-high effort on the song, every frame
 prompt, the edit, title, description and thumbnail (draft → check against the channel bible → improve → use).
-Channel bible: skill `crayon-babies-channel` (or `skills/crayon-babies-channel/SKILL.md`): sections 1, 2–5 (copy
+Channel bible: `skills/crayon-babies-channel/SKILL.md` in THIS repo (newest; wins over the installed skill) + `LEARNING.md`
+(the music video is always a LEARNING SONG with the fun mechanics and learning checks there): sections 1, 2–5 (copy
 descriptions word for word), 6F (song list), 8 (song style), 10, 13 (identity lock + montage), plus
 `TASK_PROMPT_MUSIC.md` for the exact tool calls (same tools, but 16:9).
 Work folder `W = runs/<date>-mv-<slug>`. Budget: at most 230 ViewMax credits (≤ 16 Seedance shots × 14 + effects).

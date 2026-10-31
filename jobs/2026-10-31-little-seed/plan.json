@@ -1,0 +1,95 @@
+{
+ "idea": "Little science wonder (BACKYARD): Jimmy and Ava have an empty flower pot and one tiny bean seed; Jimmy plants it, Ava asks the viewer 'What does the seed need?' (pause), they give it water (pink watering can) and sunshine, the babies stretch up tall as the sprout grows, and day by day it becomes a little yellow flower. Lesson: seeds need water and sun to grow.",
+ "lesson": "Seeds need water and sunshine to grow – day by day.",
+ "place": "BACKYARD (references/places/backyard.jpg)",
+ "calendar": "Saturday slot 2 – Little science wonder (Halloween seasonal already published this morning: 7FmfEYRmnxA)",
+ "characters": [
+  "Jimmy (OUTDOOR): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces.",
+  "Ava (OUTDOOR): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing pink overalls over a yellow t-shirt with a small flower and white sneakers with pink laces."
+ ],
+ "supporting": "THE FLOWER POT (small round terracotta pot of dark brown soil) · THE SEED (one big brown bean seed) · THE WATERING CAN (small pink toy watering can) · THE SPROUT (small bright green sprout with two round leaves) · THE FLOWER (one small sunny yellow flower with a round orange center).",
+ "learning": {
+  "goal": "Seeds need water and sunshine to grow (a seed grows into a plant and a flower, day by day).",
+  "target_words": [
+   "seed",
+   "water",
+   "sun",
+   "grow"
+  ],
+  "shown_how": "One big brown bean seed on Jimmy's palm; planted in a terracotta pot; Ava waters it with a pink watering can while golden sunbeams shine; a green sprout pushes up and opens two leaves; a yellow flower in the loop ending.",
+  "song_repeats": "seed 0:00, 0:04, 0:08, 0:17, 0:21 · water 0:13 (x2), 0:21 · sun(shine) 0:13 (x2), 0:21 · grow 0:17 (x2), 0:21",
+  "interactive_moment": "0:08-0:11 'What does the seed need? Hmm?' then 0:11-0:13 humming pause + curious boing, answer 'Water! Sunshine!' at 0:13",
+  "copy_me": "0:17-0:21 'Stretch up tall like me!' – both babies stretch their arms up as the sprout grows",
+  "fact_check": "Seeds need water, light/sun and soil – correct. Growth shown fast but the lyric says 'day by day'. One seed, one sprout, one flower in the frames (counted).",
+  "modeling": "Babies plant gently, water carefully, are patient and happy – all positive.",
+  "toddler_fit": "Simple words, bright calm backyard, nothing scary, faces large."
+ },
+ "fun_mechanics": [
+  "interactive pause",
+  "say-it-with-me chorus",
+  "copy-me stretch up tall",
+  "surprise payoff (flower)"
+ ],
+ "story_order": {
+  "seed": "in palm shot 1, planted shot 2, under soil after",
+  "watering_can": "absent 1-2, shot 3 only",
+  "sprout": "absent 1-3, grows during shot 4, present 5",
+  "flower": "absent 1-4, present 5 only"
+ },
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1",
+   "frame_prompt": "HOOK SHOT – must grab attention in the first second: 3D Pixar style. BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces. BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing pink overalls over a yellow t-shirt with a small flower and white sneakers with pink laces. IDENTITY KEYS: JIMMY = curly GINGER hair, BLUE eyes, FRECKLES, light blue T-SHIRT with a small yellow STAR, navy shorts. AVA = curly BROWN hair, ONE small top ponytail with a PINK STAR clip, BROWN eyes, PINK OVERALLS over a YELLOW t-shirt. SUPPORTING OBJECTS: THE FLOWER POT: one small round terracotta flower pot filled with dark brown soil, standing on the grass in front of the babies. THE SEED: one big brown bean seed, the size of a baby's fingertip, easy to see. SETTING: BACKYARD: a sunny backyard with soft green grass, a white fence, a wooden swing hanging on a big apple tree with red apples, a small sandbox with a blue bucket and toys, colorful flower beds, Biscuit's red doghouse with a bone sign and a ball, and the back of the pastel yellow house with the blue roof and a small patio. SCENE: Jimmy and Ava sit side by side on the soft green grass, close to the camera, right behind THE FLOWER POT, which stands in the lower middle of the frame and is EMPTY: only flat dark brown soil, NO plant, NO sprout, NO leaves, NO flower in it. Jimmy holds out his open palm toward the camera with ONE big brown bean seed on it. Both babies look surprised and a little worried: eyes WIDE OPEN, eyebrows up, mouths in a round 'oh no!' shape. Ava's two hands rest on the rim of the pot. Behind them the backyard is softly blurred: the apple tree with red apples, the white fence, flower beds and the back of the pastel yellow house. No watering can anywhere. Medium close-up, vertical 9:16, both faces large and clearly visible facing the camera (each face at least 1/5 of the frame height), eyes open, the two faces separate (no hugging, no cheeks touching), every baby has exactly two arms and two hands. Bright soft colors, 3D Pixar style, friendly and never scary. No text, no letters, no logos.",
+   "motion_prompt": "big surprised gasp, small lean, seed on palm, pot stays EMPTY"
+  },
+  {
+   "role": "problem / first try: plant the seed",
+   "frame": "f2 (edit of f1)",
+   "motion_prompt": "Jimmy pushes the seed into the soil; Ava taps her chin, curious, asks"
+  },
+  {
+   "role": "help/idea: water + sunshine",
+   "frame": "f3 (edit of f1)",
+   "motion_prompt": "Ava waters with the pink can, Jimmy points to the sun, soil stays flat"
+  },
+  {
+   "role": "solution: sprout grows, babies stretch up tall",
+   "frame": "f4 (edit of f1, tiny sprout tip)",
+   "motion_prompt": "sprout grows and opens two leaves, babies stretch up"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5 (edit of f1)",
+   "motion_prompt": "bye-bye waves, flower sways"
+  }
+ ],
+ "song": "song.mp3 (Lyria lyria-3-clip-preview, 30.7 s, singing from 0:00)",
+ "sound_effects": [
+  "sfx/toddlers_gasp.mp3",
+  "sfx/question_boing.mp3",
+  "sfx/water_sprinkle.mp3 (new)",
+  "sfx/sparkle_chime.mp3",
+  "sfx/sprout_grow_pop.mp3 (new)",
+  "sfx/toddlers_cheer_clap.mp3"
+ ],
+ "title": "Oh No! Empty Pot! 🌱 How Does a Seed Grow? | Crayon Babies",
+ "description": "Oh no! Baby Jimmy and Baby Ava have an empty flower pot and just one tiny seed! 🌱 They plant it, give it water and sunshine – and day by day it grows into a little yellow flower!\n\n🎬 What happens in this video:\n😮 \"Oh no! Empty pot! Just a tiny seed!\"\n👆 Jimmy plants the seed – push, push, push!\n🤔 Ava asks: \"What does the seed need?\" – can you answer?\n💧 Water, water! ☀️ Sunshine, sunshine!\n🙌 Grow, grow, little seed! Stretch up tall with Jimmy and Ava!\n🌼 Day by day, a flower! Bye bye, friends!\n\n📚 Kids learn: seeds need water and sunshine to grow • English words: seed, water, sun, grow, flower\n\nA fun little science song for toddlers and preschoolers about how a seed grows into a plant – sing along, answer the question and stretch up tall like a growing flower!\n\nKids cartoon • Kids songs • Science for kids • Plants for kids • How seeds grow • Learn English for kids • Toddler learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [
+  "crayon babies",
+  "baby jimmy",
+  "baby ava",
+  "how seeds grow",
+  "seed song",
+  "plant a seed",
+  "plants for kids",
+  "science for kids",
+  "water and sun",
+  "growing flower",
+  "kids songs",
+  "nursery rhymes",
+  "toddler learning",
+  "preschool learning"
+ ],
+ "playlist": "Crayon Babies Songs"
+}

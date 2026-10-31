@@ -1,0 +1,8 @@
+[0.0:4.0] Oh no! Empty pot! Just a tiny seed!
+[4.0:8.0] Plant the seed! Push, push, push!
+[8.0:11.0] What does the seed need? Hmm?
+[11.0:13.0] Hmm-hmm
+[13.0:17.0] Water, water! Sunshine, sunshine!
+[17.0:21.0] Grow, grow, little seed! Stretch up tall like me!
+[21.0:25.0] Water and sun help seeds grow! La la la!
+[25.0:30.0] Day by day, a flower! Bye bye, friends!

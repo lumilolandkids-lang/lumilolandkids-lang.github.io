@@ -18,6 +18,8 @@ Made with ViewMax `generate_sound_effect` (5 credits each). Reuse these before g
 | happy_kitten_meow.mp3 | one bright happy kitten meow | 0.73 s | 0.5 |
 | water_splash.mp3 | small playful splash into bath water | 0.74 s | 0.6–0.8 |
 | bubbles.mp3 | cute blub-blub bubble pops (quiet file) | 0.58 s | 1.0–1.2 |
+| water_sprinkle.mp3 | gentle water sprinkle from a toy watering can | 1.4 s | 0.7 |
+| sprout_grow_pop.mp3 | sprout grows: rising magical whoosh + little pop (quiet file) | 0.95 s | 1.2 |
 
 When you generate a new effect that could be reused (giggle, gasp, sparkle chime, splash, boing, whoosh,
 puppy bark, ...), save it here with a clear name and add a row.

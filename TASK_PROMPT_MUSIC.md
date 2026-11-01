@@ -62,6 +62,12 @@ Download each frame (`curl -sSL -o`), crop every face at full resolution (ffmpeg
 with the Read tool. Tick every identity key (hair color/shape, EYE COLOR, freckles, star clip, outfit details, place
 details). Also check the LEARNING facts in the frame: object counts match the number in the song, colors/shapes/
 letters are right. Any miss → regenerate that frame (free; at most 3 tries per frame, then keep the best one).
+**SIDE-BY-SIDE WITH THE SHEET (her note, 1 Nov 2026 – "Jimmy and Ava don't look like usual"):** for every frame AND
+for the C1 face frames, make an image of the face crop next to the same character's face from the reference sheet
+(`references/characters/*.png` in the main checkout or the Pages link) and compare hair color/brightness (Jimmy =
+bright orange-ginger springy curls, Ava = warm medium brown), curl shape, face shape and eye size. Darker, flatter,
+older or more doll-like = regenerate. Attach the character sheets to every frame edit too (not only the hook frame),
+prefer the HOME outfits shown on the sheets, and ask for soft even daylight with true colors (no golden-hour tint).
 
 ## 5. Animate — Seedance 1.0 Pro (Step 3)
 **1 Nov 2026: `seedence-1-0-pro` is RETIRED on ViewMax** ("This video model has been retired", nothing charged). Use

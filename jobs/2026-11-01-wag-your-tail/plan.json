@@ -1,0 +1,88 @@
+{
+ "idea": "Sunday review song (LIVING ROOM): the week's best learning word TAIL (from 'What's Missing?' #1, the kitty with no tail) in a NEW story – Biscuit the puppy is sad, his tail hangs down and his red ball is gone; Jimmy and Ava search ('Where, oh where?'), Ava finds the ball in the wicker toy basket, Biscuit sits up and wags his tail; Ava asks the viewer 'What is he wagging?' (pause), 'His tail! Wag, wag, wag!', and the babies wiggle like a wagging tail. Loop: same pose as the hook, now happy, ball between his paws.",
+ "lesson": "A happy puppy wags his tail – the word TAIL (tail down = sad, wagging tail = happy).",
+ "place": "LIVING ROOM (references/places/living-room.jpg)",
+ "calendar": "Sunday slot 1 – Review song: the week's best learning word in a new story (week of 25–31 Oct: apple, roar, tail, smile, seed/grow → TAIL)",
+ "characters": [
+  "Jimmy (HOME): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot.",
+  "Ava (HOME): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.",
+  "Biscuit: BISCUIT THE PUPPY (family pet): a fluffy golden puppy with floppy ears, big brown eyes and a red collar with a small gold paw tag; playful, wags his tail and licks faces."
+ ],
+ "setting": "LIVING ROOM: a bright cozy living room with cream walls, a big soft mint-green sofa with yellow and pink cushions and a cream knitted blanket, a round light-wood coffee table, a big round rainbow rug, a large window with white curtains on the RIGHT side looking at the garden, three framed family photos on the wall above the sofa (a big photo of the whole family in the middle, Baby Jimmy alone on the left, Baby Ava alone on the right), green plants, a low white bookshelf with picture books and a wicker toy basket.",
+ "supporting": "THE BALL: one shiny round red rubber ball, the size of a baby's two hands · the room's wicker toy basket (teddy bear + toy blocks, no ball until Ava lifts it out).",
+ "learning": {
+  "goal": "Review the word TAIL: a happy puppy wags his tail (tail down = sad, wagging = happy).",
+  "target_words": [
+   "tail",
+   "wag",
+   "happy",
+   "ball"
+  ],
+  "shown_how": "Biscuit's one fluffy tail hangs flat on the rug while he is sad (shots 1–3); raised and wagging when he is happy (shots 4–5); one red ball found in the toy basket.",
+  "song_repeats": "tail 0:00, 0:17 (x2), 0:21, 0:25 = 5x · wag 0:12 (wagging), 0:17 (x3), 0:21, 0:25 · happy 0:21, 0:25",
+  "interactive_moment": "0:12-0:15 'Look! What is he wagging? Hmm?' + 0:15-0:17 humming pause with curious boing → answer 'His tail!' at 0:17",
+  "copy_me": "0:21-0:25 'Wiggle, wiggle, wag like me!' – babies clap and wiggle side to side",
+  "fact_check": "Dogs wag their tails when happy/excited and a low still tail goes with a sad/unsure dog – a fair toddler-level simplification. ONE tail and ONE ball in every frame (checked).",
+  "modeling": "The babies notice a sad friend, comfort him gently (soft pats), search together and share the found ball – all positive.",
+  "toddler_fit": "Simple words, calm bright living room, sad moment is gentle and solved within 12 s, faces large."
+ },
+ "fun_mechanics": [
+  "interactive pause (What is he wagging?)",
+  "say-it-with-me chorus (His tail! Wag, wag, wag!)",
+  "copy-me wiggle",
+  "surprise payoff (ball found in the basket, puppy barks happily)",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "ball": "absent shots 1–2, absent in the basket frame of shot 3 and lifted out during it, present shots 4–5",
+  "tail": "down shots 1–3, raised + wagging shots 4–5"
+ },
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1 (from scratch, refs jimmy/eva/biscuit/living-room; r1 = closer framing + visible collar)",
+   "motion_prompt": "gasp, gentle pats, sad puppy sigh, tail stays down, no ball"
+  },
+  {
+   "role": "problem / first try: where is the ball?",
+   "frame": "f2 (edit of f1)",
+   "motion_prompt": "palms-up 'where?' shrug, look left/right"
+  },
+  {
+   "role": "help / idea: the toy basket",
+   "frame": "f3 (edit of f1, hand in basket, no ball)",
+   "motion_prompt": "Ava lifts the one red ball out, Jimmy points and claps"
+  },
+  {
+   "role": "solution: happy wagging tail + question + copy-me wiggle",
+   "frame": "f4 (edit of f1)",
+   "motion_prompt": "Biscuit wags his raised tail, babies clap and wiggle"
+  },
+  {
+   "role": "LOOP ENDING – mirror shot 1",
+   "frame": "f5 (edit of f1, same pose, happy, ball under chin)",
+   "motion_prompt": "bye-bye waves, tail wags"
+  }
+ ],
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16 (20 credits each) – Seedance 1.0 Pro was retired on ViewMax on 1 Nov 2026",
+ "song": "song.mp3 (Lyria lyria-3-clip-preview, 30.8 s, singing from 0:00)",
+ "title": "Oh No! Sad Puppy! 🐶 Wag Your Tail! | Learn Words | Crayon Babies",
+ "description": "Oh no! Biscuit the puppy is sad – his tail is down and his red ball is gone! 🐶 Baby Jimmy and Baby Ava look everywhere… and find it in the toy basket! Now Biscuit is happy – and what does a happy puppy wag? His tail!\n\n🎬 What happens in this video:\n😮 \"Oh no! Sad Biscuit! His tail is down!\"\n🤷 \"Where is his ball? Where, oh where?\"\n🧺 Ava looks in the toy basket – here it is! 🔴\n🤔 \"What is he wagging?\" – can you answer?\n🐶 \"His tail! His tail! Wag, wag, wag!\"\n💃 Wiggle, wiggle, wag like me! Bye bye, friends!\n\n📚 Kids learn: the word TAIL (review of the week) • a happy puppy wags his tail • English words: tail, wag, happy, ball\n\nA fun sing-along cartoon for toddlers and preschoolers about a puppy's tail and happy feelings – answer the question, wiggle along and learn new English words with Jimmy, Ava and Biscuit!\n\nKids cartoon • Kids songs • Nursery rhymes • Learn English for kids • Animal body parts • Puppy song • Toddler learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [
+  "crayon babies",
+  "baby jimmy",
+  "baby ava",
+  "puppy song",
+  "wag your tail",
+  "tail for kids",
+  "animal body parts for kids",
+  "happy puppy",
+  "biscuit the puppy",
+  "learn english for kids",
+  "kids songs",
+  "nursery rhymes",
+  "toddler learning",
+  "preschool learning"
+ ],
+ "playlist": "Crayon Babies Songs"
+}

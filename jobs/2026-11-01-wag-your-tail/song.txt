@@ -1,0 +1,8 @@
+[0.0:4.0] Oh no! Sad Biscuit! His tail is down!
+[4.0:8.0] Where is his ball? Where, oh where?
+[8.0:12.0] In the toy basket! Here it is!
+[12.0:15.0] Look! What is he wagging? Hmm?
+[15.0:17.0] (Hmm-hmm...)
+[17.0:21.0] His tail! His tail! Wag, wag, wag!
+[21.0:25.0] Wiggle, wiggle, wag like me! Happy tail!
+[25.0:30.0] Happy puppy, wag your tail! Bye bye, friends!

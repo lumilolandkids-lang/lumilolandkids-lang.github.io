@@ -383,6 +383,7 @@ Learning checks before spending credits (plan.json → `learning`): goal · 2–
 
 Approved format (26 Oct 2026, "Wash Your Hands Song" test): silent music-clip shots, the Gemini song is added in editing.
 - Models in View Max: **Seedance 1.0 Pro** (`seedence-1-0-pro`), image-to-video, 1080p, 10 s, 9:16 → true 1088×1920 at 24 fps, ~2–3 min, **14 credits per shot**, no sound at all. It only offers 5 s or 10 s; always generate **10 s** (a 5 s shot is not cheaper per shot) and make short cuts in editing. **ViewMax C1** is the only cheap model with voices and lip-sync (16 credits / 8 s, 768P) – use it only for talking stories. **Never Veo** (rejects every shot with babies). MiniMax H3 and C1 can sit in the queue for 30+ minutes.
+- **Update 1 Nov 2026: Seedance 1.0 Pro was retired by ViewMax.** Automated shots now use **ViewMax C1** image-to-video, 768P, 9:16, 10 s (20 credits per shot, 768×1344, silent prompt "No talking, no dialogue, no music"); identity held well on the first try. All the Seedance rules below (start frames, motion rules, checks) apply the same way.
 - Start frames: **Nano Banana 2** image-to-image, 9:16, 2K (0 credits inside her plan's daily pool).
 
 ### Step 1 – start frame for every shot

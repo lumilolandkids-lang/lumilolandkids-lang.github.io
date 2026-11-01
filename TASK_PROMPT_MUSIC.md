@@ -64,6 +64,11 @@ details). Also check the LEARNING facts in the frame: object counts match the nu
 letters are right. Any miss → regenerate that frame (free; at most 3 tries per frame, then keep the best one).
 
 ## 5. Animate — Seedance 1.0 Pro (Step 3)
+**1 Nov 2026: `seedence-1-0-pro` is RETIRED on ViewMax** ("This video model has been retired", nothing charged). Use
+`viewmax-c1`, mode `image-to-video`, resolution `768P`, aspect_ratio `9:16`, duration `10s` (20 credits per shot,
+768×1344, 24 fps, ~10 min queue; it held identity well on the 1 Nov puppy short). Add "No talking, no dialogue, no music.
+Silent." to the motion prompt (C1 can make voices; montage.py replaces the audio anyway). Everything below about
+Seedance (motion rules, checks) applies to C1 the same way. Budget: 5 × 20 = 100 + effects.
 `generate_video` model `seedence-1-0-pro`, mode `image-to-video`, image_urls = [frame URL], resolution `1080p`,
 duration `10s`, idempotency_key `cb-<date>-<slug>-s<N>`. Motion prompt: identity keys in CAPS, small gentle movements,
 still camera, NO hugging, turning around, covering faces, long closed-eye laughing or anything passing in front of

@@ -1,0 +1,103 @@
+{
+ "idea": "Seasonal (first day of November, autumn) music clip in the BACKYARD: a big yellow leaf lands on Baby Jimmy's curls ('Oh! A leaf on my head!'); he worries as the apple tree's leaves fall down, down, down; Ava explains 'It's fall! Leaves fall down!', holds up one red and one yellow leaf and asks the viewer 'What color is this leaf?' (pause) – 'Red! And yellow!'; both wiggle their fingers down like falling leaves (copy-me). Loop: the hook framing again, now a red leaf on Ava's head too, bye-bye wave.",
+ "lesson": "In the fall (autumn) leaves change color – red and yellow – and fall down from the trees; it is nothing to worry about.",
+ "calendar": "Sunday slot 2 – Seasonal / holiday / special-day story (1 Nov 2026 = autumn, leaves falling)",
+ "place": "BACKYARD (references/places/backyard.jpg)",
+ "setting": "BACKYARD: a sunny backyard with soft green grass, a white fence, a wooden swing hanging on a big apple tree with red apples, a small sandbox with a blue bucket and toys, colorful flower beds, Biscuit's red doghouse with a bone sign and a ball, and the back of the pastel yellow house with the blue roof and a small patio. + SEASON: a sunny autumn day – the leaves of the big apple tree have turned red, orange and yellow, and some colorful fallen leaves lie scattered on the soft green grass.",
+ "characters": [
+  "Jimmy (OUTDOOR): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces.",
+  "Ava (OUTDOOR): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing pink overalls over a yellow t-shirt with a small flower and white sneakers with pink laces."
+ ],
+ "identity_keys": {
+  "Jimmy": "fluffy curly GINGER hair, big BLUE eyes, light FRECKLES, LIGHT BLUE T-SHIRT with a small YELLOW STAR, navy shorts",
+  "Ava": "short curly BROWN hair, ONE small top PONYTAIL (pink band), sparkly PINK STAR clip, BROWN eyes, PINK OVERALLS over a YELLOW T-SHIRT"
+ },
+ "supporting": "THE LEAVES: bright maple-shaped autumn leaves – one big YELLOW leaf on Jimmy's head (all shots), one RED + one YELLOW leaf in Ava's hands (shot 3), one RED leaf on Ava's head (shot 5 only).",
+ "learning": {
+  "goal": "In the fall, leaves change color (red, yellow) and fall down from the trees.",
+  "target_words": [
+   "leaves",
+   "fall down",
+   "red",
+   "yellow"
+  ],
+  "shown_how": "The apple tree is red/orange/yellow and leaves drift down in every shot; a yellow leaf lands on Jimmy's head; Ava holds exactly one RED and one YELLOW leaf beside her face; the babies wiggle their fingers down like falling leaves.",
+  "song_repeats": "leaves 0:03, 0:07, 0:23 · fall down 0:03, 0:07, 0:23 (+ 'down, down, down' 0:03, 0:19) · red 0:16 (x2), 0:23 · yellow 0:16 (x2), 0:23",
+  "interactive_moment": "0:11-0:14 Ava: 'What color is this leaf? Hmm?' + question boing → 0:14-0:16 humming pause → 0:16 answer 'Red! A red leaf! And yellow, yellow too!' + cheer",
+  "copy_me": "0:19-0:23 'Wiggle your fingers, down, down, down!' – both babies wiggle spread fingers and float their hands down",
+  "fact_check": "Deciduous trees' leaves turn red/orange/yellow and drop in autumn ('fall' in US English) – correct. Shot 3 frame: exactly 2 leaves in Ava's hands, one red, one yellow (checked). One yellow leaf on Jimmy's head (checked).",
+  "modeling": "Jimmy's small worry is calmly answered by Ava (falling leaves are normal in the fall); the babies stay sitting safely on the grass; positive, curious, joyful.",
+  "toddler_fit": "Simple words, warm sunny colors, gentle falling leaves, worry lasts ~4 s and is resolved, faces large (each ≥ 1/5 frame height)."
+ },
+ "fun_mechanics": [
+  "surprise hook (leaf lands on Jimmy's head)",
+  "interactive pause (What color is this leaf?)",
+  "say-it-with-me chorus (Leaves fall down!)",
+  "copy-me finger wiggle down like leaves",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "yellow leaf on Jimmy's head": "present from shot 1 (it just landed) to shot 5",
+  "red + yellow leaves in Ava's hands": "only shot 3 (picked up from the leaf-covered grass)",
+  "red leaf on Ava's head": "absent shots 1–4, present shot 5 (lands during the leaf play)"
+ },
+ "shots": [
+  {
+   "role": "HOOK – leaf lands on Jimmy's head, gasp",
+   "frame": "https://r2.vibevideo.app/viewmax/creations/2026-11-01/image/9f8bb0fb-352a-4293-9722-ad1ce270b980.png",
+   "frame_note": "from scratch (refs jimmy/eva/backyard) → bow on ponytail replaced by pink band (r3) → star clip re-added (r4)",
+   "motion_prompt": "glance up, surprised oh, giggle; Ava gasps and points; leaf stays"
+  },
+  {
+   "role": "problem – 'Oh no! The leaves fall down!'",
+   "frame": "https://r2.vibevideo.app/viewmax/creations/2026-11-01/image/8285818d-8a28-4150-937d-5a5aa57b5443.png",
+   "frame_note": "edit of f1 (r1: first try had a floating third hand)",
+   "motion_prompt": "Jimmy worried, points up; leaves fall; Ava calm reassuring nod"
+  },
+  {
+   "role": "help / idea – 'It's fall!' + 'What color is this leaf?'",
+   "frame": "https://r2.vibevideo.app/viewmax/creations/2026-11-01/image/a6b2b1db-16f7-4a17-a50a-96acaaa55155.png",
+   "frame_note": "edit of f1",
+   "motion_prompt": "Ava wiggles red then yellow leaf, Jimmy claps softly"
+  },
+  {
+   "role": "big happy moment – copy-me finger wiggle, leaves twirl",
+   "frame": "https://r2.vibevideo.app/viewmax/creations/2026-11-01/image/0ef810ed-64cb-4a7c-9dc0-209e8ac5e17b.png",
+   "frame_note": "edit of f1",
+   "motion_prompt": "both wiggle fingers and float hands down like leaves, laughing"
+  },
+  {
+   "role": "LOOP ENDING – mirror shot 1, bye bye",
+   "frame": "https://r2.vibevideo.app/viewmax/creations/2026-11-01/image/00da7d4e-d1cf-4ae4-80ff-912adf99d409.png",
+   "frame_note": "edit of f1 (r1: first try swapped sides and gave Ava two star clips)",
+   "motion_prompt": "bye-bye waves, leaves stay on heads"
+  }
+ ],
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16 (20 credits each)",
+ "song": "song.mp3 (Lyria lyria-3-clip-preview, 30.35 s, singing from 0:00) – see song_prompt.txt",
+ "sound_effects": [
+  "sfx/toddlers_gasp.mp3 (hook)",
+  "sfx/leaf_flutter.mp3 (NEW: leaf flutters down, hook + shot 4)",
+  "sfx/question_boing.mp3 (question)",
+  "sfx/toddlers_cheer_clap.mp3 (answer + end)"
+ ],
+ "playlist": "Crayon Babies Songs",
+ "title": "Oh! A Leaf on My Head! 🍂 Leaves Fall Down | Fall Song for Kids | Crayon Babies",
+ "description": "Oh! A yellow leaf just landed on Baby Jimmy's head! 🍂 The leaves are falling down, down, down – but Baby Ava knows why: it's fall! Can you tell her what color the leaves are?\n\n🎬 What happens in this video:\n🍁 A big yellow leaf lands on Jimmy's curly hair – \"Oh! A leaf on my head!\"\n😮 \"Oh no! The leaves fall down, down, down!\"\n🍂 Ava sings: \"It's fall! Leaves fall down!\"\n🤔 \"What color is this leaf?\" – can you answer?\n❤️💛 \"Red! A red leaf! And yellow, yellow too!\"\n✋ Wiggle your fingers down like falling leaves! Bye bye, friends!\n\n📚 Kids learn: in the fall, leaves change color and fall down from the trees • the colors red and yellow • English words: leaves, fall down, red, yellow\n\nA fun sing-along autumn cartoon for toddlers and preschoolers about falling leaves and fall colors – answer the question, wiggle your fingers along and learn new English words with Jimmy and Ava!\n\nKids cartoon • Kids songs • Fall song for kids • Autumn for toddlers • Learn colors • Learn English for kids • Toddler learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [
+  "crayon babies",
+  "baby jimmy",
+  "baby ava",
+  "fall song for kids",
+  "autumn song for kids",
+  "leaves fall down",
+  "falling leaves song",
+  "fall colors for kids",
+  "learn colors red and yellow",
+  "seasons for kids",
+  "kids songs",
+  "nursery rhymes",
+  "toddler learning",
+  "preschool learning"
+ ]
+}

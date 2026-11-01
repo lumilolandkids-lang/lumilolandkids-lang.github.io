@@ -22,6 +22,7 @@ Made with ViewMax `generate_sound_effect` (5 credits each). Reuse these before g
 | sprout_grow_pop.mp3 | sprout grows: rising magical whoosh + little pop (quiet file) | 0.95 s | 1.2 |
 | puppy_whimper.mp3 | one soft sad little puppy whimper (Biscuit is sad) | 1.2 s | 0.5 |
 | puppy_happy_bark.mp3 | two happy little puppy barks "arf arf!" | 0.77 s | 0.55 |
+| leaf_flutter.mp3 | one autumn leaf flutters down: soft swishy swirl + tiny rustle landing | 1.0 s | 0.7–0.8 |
 
 When you generate a new effect that could be reused (giggle, gasp, sparkle chime, splash, boing, whoosh,
 puppy bark, ...), save it here with a clear name and add a row.

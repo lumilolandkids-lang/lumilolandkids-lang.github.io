@@ -1,0 +1,123 @@
+{
+ "workdir": "runs/2026-11-01-leaves-fall-down",
+ "out": "final.mp4",
+ "song": "song.mp3",
+ "song_start": 0.0,
+ "cuts": [
+  {
+   "shot": 1,
+   "start": 0.2,
+   "dur": 1.2,
+   "speed": 0.6
+  },
+  {
+   "shot": 1,
+   "start": 2.0,
+   "dur": 1.4,
+   "zoom": 1.1
+  },
+  {
+   "shot": 2,
+   "start": 0.5,
+   "dur": 2.0
+  },
+  {
+   "shot": 2,
+   "start": 6.0,
+   "dur": 1.6,
+   "zoom": 1.1
+  },
+  {
+   "shot": 1,
+   "start": 5.0,
+   "dur": 2.2
+  },
+  {
+   "shot": 2,
+   "start": 7.8,
+   "dur": 2.0
+  },
+  {
+   "shot": 3,
+   "start": 0.0,
+   "dur": 1.6,
+   "speed": 0.8
+  },
+  {
+   "shot": 1,
+   "start": 7.4,
+   "dur": 2.0,
+   "zoom": 1.12
+  },
+  {
+   "shot": 3,
+   "start": 8.4,
+   "dur": 1.6,
+   "zoom": 1.06
+  },
+  {
+   "shot": 4,
+   "start": 5.0,
+   "dur": 2.8
+  },
+  {
+   "shot": 4,
+   "start": 7.8,
+   "dur": 2.0,
+   "zoom": 1.1
+  },
+  {
+   "shot": 5,
+   "start": 0.3,
+   "dur": 2.4
+  },
+  {
+   "shot": 5,
+   "start": 4.0,
+   "dur": 2.8,
+   "zoom": 1.1
+  },
+  {
+   "shot": 5,
+   "start": 6.5,
+   "dur": 3.55
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/leaf_flutter.mp3",
+   "cut": 0,
+   "offset": 0.0,
+   "vol": 0.8,
+   "max": 1.0
+  },
+  {
+   "file": "sfx/toddlers_gasp.mp3",
+   "cut": 0,
+   "offset": 1.25,
+   "vol": 0.8,
+   "max": 0.65
+  },
+  {
+   "file": "sfx/question_boing.mp3",
+   "cut": 7,
+   "offset": 0.1,
+   "vol": 0.6,
+   "max": 0.62
+  },
+  {
+   "file": "sfx/toddlers_cheer_clap.mp3",
+   "cut": 8,
+   "offset": 0.5,
+   "vol": 0.7,
+   "max": 2.1
+  },
+  {
+   "file": "sfx/leaf_flutter.mp3",
+   "cut": 9,
+   "offset": 0.5,
+   "vol": 0.7,
+   "max": 1.0
+  }
+ ]
+}

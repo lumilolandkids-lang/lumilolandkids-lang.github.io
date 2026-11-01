@@ -1,0 +1,8 @@
+[0.0:3.0] Oh! A leaf on my head!
+[3.0:7.0] Oh no! The leaves fall down, down, down!
+[7.0:11.0] It's fall! Leaves fall down! Twirl, twirl, to the ground!
+[11.0:14.0] What color is this leaf? Hmm?
+[14.0:16.0] Red! A red leaf! And yellow, yellow too!
+[16.0:19.0] Wiggle your fingers, down, down, down!
+[19.0:23.0] Red and yellow, leaves fall down!
+[23.0:27.0] Bye bye, friends!

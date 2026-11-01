@@ -68,6 +68,11 @@ for the C1 face frames, make an image of the face crop next to the same characte
 bright orange-ginger springy curls, Ava = warm medium brown), curl shape, face shape and eye size. Darker, flatter,
 older or more doll-like = regenerate. Attach the character sheets to every frame edit too (not only the hook frame),
 prefer the HOME outfits shown on the sheets, and ask for soft even daylight with true colors (no golden-hour tint).
+**FACE DESIGN (her 2nd note, 1 Nov: "the face design changed"):** paste the FACE DESIGN LOCK line from SKILL.md
+section 13 into every frame prompt, put the sheets FIRST in image_urls ("image 1 = Jimmy's sheet: copy his face design
+exactly"), and judge the side-by-side on eye size, pupil size, lashes, nose size and skin smoothness. The 1 Nov frames
+had smaller eyes, small light pupils, no lashes on Jimmy, a bigger nose and textured freckled skin
+(`assets/face_drift_2026-11-01.jpg`) – that is a fail even when every color key is right.
 
 ## 5. Animate — Seedance 1.0 Pro (Step 3)
 **1 Nov 2026: `seedence-1-0-pro` is RETIRED on ViewMax** ("This video model has been retired", nothing charged). Use

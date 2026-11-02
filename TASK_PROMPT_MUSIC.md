@@ -29,6 +29,15 @@ notification "ViewMax credits low: N left – video skipped", append `{"time":..
 - The idea must not repeat any idea in `log/videos.jsonl` or the "Done" lists. Seasonal ideas win when the date fits.
 - Jimmy and Ava are the stars; at most ONE more character (a pet, Leo/Mia, Mommy Lily or Daddy Tom).
   ONE place that has an online reference image (section 5). Pick outfits from the lists.
+- **VARIETY (her rule, 2 Nov 2026: "I always feel they are in the same place – vary the places, add the other
+  characters, always vary"):** before choosing, list the place, extra character and outfits of the last 6 entries in
+  `log/videos.jsonl`. The place must NOT be any of the last 3 videos' places (until 2 Nov: playroom, backyard and
+  living room were overused). Rotate through ALL places: kitchen, bathroom, Jimmy's room, Ava's room, house outside,
+  SUNNY PARK, THE SUPERMARKET, DR. HANA'S CLINIC, LITTLE STARS NURSERY (reference images), and also THE BEACH, GRANDMA'S
+  FARM, THE ZOO, THE LIBRARY, THE MALL (text-only blocks from section 4 – fine for frames). Every video has ONE extra
+  character (Mommy Lily, Daddy Tom, Leo, Mia, Biscuit, Snowball, Sunny, Pip, Ziggy, Dr. Hana), not the same as in the
+  previous 2 videos, with their sheet in image_urls. Outfits change with the place (park = OUTDOOR, kitchen = CHEF,
+  bed = PAJAMAS, …). Write `"variety": {"place", "extra_character", "last_places"}` in plan.json and the log entry.
 - 5 shots × 10 s: 1 **HOOK** (problem or surprise in the first second, close-up, big reaction) · 2 the problem /
   first try · 3 help or idea · 4 the big happy solution moment · 5 **LOOP ENDING** (mirror of shot 1, problem solved,
   "Bye bye!"). One simple lesson.

@@ -11,6 +11,12 @@
    "speed": 0.6
   },
   {
+   "shot": 1,
+   "start": 2.6,
+   "dur": 1.6,
+   "zoom": 1.1
+  },
+  {
    "shot": 2,
    "start": 0.2,
    "dur": 2.0
@@ -22,66 +28,61 @@
    "zoom": 1.1
   },
   {
-   "shot": 2,
-   "start": 8.2,
-   "dur": 1.6
-  },
-  {
-   "shot": 9,
-   "start": 0.0,
-   "dur": 2.2
-  },
-  {
    "shot": 3,
    "start": 0.0,
-   "dur": 0.8
+   "dur": 1.8
   },
   {
-   "shot": 6,
+   "shot": 4,
    "start": 0.0,
-   "dur": 2.2
-  },
-  {
-   "shot": 7,
-   "start": 0.0,
-   "dur": 2.7
-  },
-  {
-   "shot": 6,
-   "start": 3.0,
-   "dur": 2.1,
-   "zoom": 1.1
-  },
-  {
-   "shot": 5,
-   "start": 0.0,
-   "dur": 2.3
-  },
-  {
-   "shot": 8,
-   "start": 0.0,
-   "dur": 2.0
-  },
-  {
-   "shot": 6,
-   "start": 6.0,
-   "dur": 2.2
-  },
-  {
-   "shot": 7,
-   "start": 4.0,
-   "dur": 2.0
-  },
-  {
-   "shot": 5,
-   "start": 0.3,
    "dur": 2.0,
+   "speed": 0.85
+  },
+  {
+   "shot": 4,
+   "start": 2.0,
+   "dur": 1.8,
    "zoom": 1.1
   },
   {
-   "shot": 8,
-   "start": 3.0,
-   "dur": 2.1
+   "shot": 4,
+   "start": 3.8,
+   "dur": 2.9
+  },
+  {
+   "shot": 5,
+   "start": 0.0,
+   "dur": 1.6,
+   "zoom": 1.1,
+   "speed": 0.85
+  },
+  {
+   "shot": 4,
+   "start": 7.4,
+   "dur": 2.6
+  },
+  {
+   "shot": 4,
+   "start": 0.5,
+   "dur": 2.2,
+   "zoom": 1.12
+  },
+  {
+   "shot": 4,
+   "start": 4.2,
+   "dur": 2.4
+  },
+  {
+   "shot": 4,
+   "start": 8.0,
+   "dur": 1.8,
+   "zoom": 1.12
+  },
+  {
+   "shot": 5,
+   "start": 0.4,
+   "dur": 2.5,
+   "speed": 0.95
   }
  ],
  "sfx": [
@@ -101,8 +102,8 @@
   },
   {
    "file": "sfx/question_boing.mp3",
-   "cut": 8,
-   "offset": 0.15,
+   "cut": 7,
+   "offset": 1.9,
    "vol": 0.6,
    "max": 0.62
   },
@@ -116,7 +117,7 @@
   {
    "file": "sfx/toddlers_cheer_clap.mp3",
    "cut": 9,
-   "offset": 1.6,
+   "offset": 1.0,
    "vol": 0.7,
    "max": 2.1
   }

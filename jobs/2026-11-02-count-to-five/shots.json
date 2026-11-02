@@ -12,43 +12,5 @@
   "f4": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/4dbc3656-d55a-401d-b0ca-f07c7cb85bec.png",
   "f5": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/65af9a94-8edb-49d6-8aac-cc86f3b6722a.png"
  },
- "stills": {
-  "note": "shot6-9 are slow push-ins made from frames (shot4 C1 clip unusable: 7 wrong-colored blocks). ffmpeg -loop 1 -t 10 -framerate 24 -i FRAME -vf \"scale=1536:2752,zoompan=z='Z0+(Z1-Z0)*on/240':x='iw*CX-iw/zoom/2':y='ih*CY-ih/zoom/2':d=1:s=1080x1920:fps=24,format=yuv420p\" -frames:v 240 shotN.mp4",
-  "shot6": {
-   "frame": "f4",
-   "z": [
-    1.0,
-    1.12
-   ],
-   "cx": 0.5,
-   "cy": 0.45
-  },
-  "shot7": {
-   "frame": "f4",
-   "z": [
-    1.15,
-    1.25
-   ],
-   "cx": 0.6,
-   "cy": 0.55
-  },
-  "shot8": {
-   "frame": "f5",
-   "z": [
-    1.0,
-    1.12
-   ],
-   "cx": 0.5,
-   "cy": 0.4
-  },
-  "shot9": {
-   "frame": "f3",
-   "z": [
-    1.0,
-    1.1
-   ],
-   "cx": 0.45,
-   "cy": 0.5
-  }
- }
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/video/3f429745-ad33-440c-98f6-9462c3a60b22.mp4"
 }

@@ -27,20 +27,23 @@ notification "ViewMax credits low: N left – video skipped", append `{"time":..
   surprise). Fill `plan.json` → `learning` (goal, target_words, shown_how, song_repeats, interactive_moment,
   fact_check, modeling, toddler_fit). Not cute-only: a child must learn, copy or answer something.
 - The idea must not repeat any idea in `log/videos.jsonl` or the "Done" lists. Seasonal ideas win when the date fits.
-- Jimmy and Ava are the stars; at most ONE more character (a pet, Leo/Mia, Mommy Lily or Daddy Tom).
-  ONE place that has an online reference image (section 5). Pick outfits from the lists.
+- **ONE BABY ONLY (her rule, 2 Nov 2026 evening – bible rule 17 + section 15):** the star is Jimmy OR Ava – the other
+  baby than the `star` of the last log entry that has one (none yet → Jimmy). Never a second child. By default no other
+  character; only Tue/Wed/Fri slot 2 (kindness, safety, family) may add ONE grown-up (Mommy Lily / Daddy Tom) or
+  Biscuit, with their sheet in image_urls. Teach the topic with 2–3 clear items/steps; letters, numbers and shapes are
+  real 3D objects in the scene (never overlay text), and no other letters/numbers anywhere in the frame. ONE place that has an online reference image (section 5). Pick outfits from the lists.
 - **VARIETY (her rule, 2 Nov 2026: "I always feel they are in the same place – vary the places, add the other
-  characters, always vary"):** before choosing, list the place, extra character and outfits of the last 6 entries in
+  characters, always vary"):** before choosing, list the place, star and outfits of the last 6 entries in
   `log/videos.jsonl`. The place must NOT be any of the last 3 videos' places (until 2 Nov: playroom, backyard and
   living room were overused). Rotate through ALL places: kitchen, bathroom, Jimmy's room, Ava's room, house outside,
   SUNNY PARK, THE SUPERMARKET, DR. HANA'S CLINIC, LITTLE STARS NURSERY (reference images), and also THE BEACH, GRANDMA'S
-  FARM, THE ZOO, THE LIBRARY, THE MALL (text-only blocks from section 4 – fine for frames). Every video has ONE extra
-  character (Mommy Lily, Daddy Tom, Leo, Mia, Biscuit, Snowball, Sunny, Pip, Ziggy, Dr. Hana), not the same as in the
-  previous 2 videos, with their sheet in image_urls. Outfits change with the place (park = OUTDOOR, kitchen = CHEF,
-  bed = PAJAMAS, …). Write `"variety": {"place", "extra_character", "last_places"}` in plan.json and the log entry.
-- 5 shots × 10 s: 1 **HOOK** (problem or surprise in the first second, close-up, big reaction) · 2 the problem /
-  first try · 3 help or idea · 4 the big happy solution moment · 5 **LOOP ENDING** (mirror of shot 1, problem solved,
-  "Bye bye!"). One simple lesson.
+  FARM, THE ZOO, THE LIBRARY, THE MALL (text-only blocks from section 4 – fine for frames). (The "one extra character in every video" part was replaced the
+  same evening by the ONE BABY rule above.) Outfits change with the place (park = OUTDOOR, kitchen = CHEF,
+  bed = PAJAMAS, …). Write `"star"` and `"variety": {"place", "star", "last_places"}` in plan.json and the log entry.
+- 5 shots × 10 s in the ORGANIZED learning order of bible section 15: 1 **HOOK** (the first item appears by surprise
+  right in front of the baby, close-up, big reaction) · 2 item/step 1 · 3 item/step 2 · 4 item/step 3, or all items in a
+  neat row + the question to the viewer · 5 **LOOP ENDING** (mirror of shot 1, all items in a row, "Bye bye!"). Items
+  come in the same order in shots and song, each appears only from its own shot on. One clear learning goal.
 - Write `W/plan.json`: idea, lesson, place, characters + outfits, shots[{role, frame_prompt, motion_prompt}],
   song (style + timestamped lyrics), sound effects wanted, title, description, tags, playlist.
 
@@ -56,7 +59,7 @@ A video is never published without its song.
 shot + the place image (links in section 5), and for shots 2–4 ALSO the approved hook frame as identity anchor.
 idempotency_key `cb-<date>-<slug>-f<N>` (retries `-r1`, `-r2`). `wait_for_task` for the URL.
 - Every frame prompt: "3D Pixar style", the character descriptions + outfits word for word, the identity keys in
-  CAPS (section 13), the place block word for word, medium close-up, faces large (≥ 1/5 of the frame height),
+  CAPS (section 13), the place block word for word, medium close-up, faces large (≥ 1/5 of the frame height; one baby: ≥ 1/4, the item beside the face),
   eyes open, faces separate (no hugs, no cheeks pressed together), exactly two hands each, no text.
 - Shot 5 = EDIT of the hook frame: image_urls = [hook frame, + the same sheets], prompt "Keep EVERYTHING in image 1
   exactly the same … ONLY CHANGE: …".
@@ -116,7 +119,7 @@ The 2 Nov "Count to 5" run replaced one bad C1 clip with 4 slow zoom-ins on stil
 
 ## 7. Song — Lyria clip, 30 s (section 8 style)
 Write `W/song_prompt.txt`: the section 8 style (a cappella children's voices, humming and "la la", ONLY daf and hand
-claps, ~110 BPM, major key, a sweet little boy and girl singing slowly and clearly in simple English).
+claps, ~110 BPM, major key, ONE child voice – a sweet little boy for Jimmy videos, a sweet little girl for Ava videos – singing solo, slowly and clearly in simple English, with soft children's humming backing).
   **NO musical instruments at all** (her firm rule, for religious reasons): only children's voices singing, humming and "la la", mouth sounds (soft beatbox, "boom-chk", tongue clicks), hand claps, finger snaps and a daf/frame drum. Write in the prompt: "NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats".
    + the lyrics
 with timestamps so each line lands on its beat, e.g.
@@ -135,19 +138,21 @@ Save reusable ones into `sfx/` with a row in `sfx/README.md`.
 
 ## 9. Edit plan — the approved montage (Step 5)
 `python3 montage.py sheets W` → LOOK at every sheet. Then write `W/edit.json` (format in `montage.py` docstring):
-- 10–14 cuts of 1.2–3.5 s, total ≈ 30 s (the song length). Hook = the strongest 1–1.5 s at `speed` 0.6–0.75.
+- 10–14 cuts of 1.2–3.5 s, total ≈ 30 s (the song length). Hook = the strongest 1–1.5 s at `speed` 0.8–0.9 (0.65 looked like a stopped picture – 2 Nov).
   A second cut from the same shot gets `zoom` 1.10–1.12. Skip blinks, look-downs, blur, drift, extra hands.
   End on shot 5 (the loop shot).
 - **NO on-screen words** (her rule, 29 Oct 2026: text like "ROAR?" / "Meow?!" looked out of place). Never set
   `show_words`; the picture, the song and the sound effects tell the story.
 - Effects on the exact visual moments (mouth opens, clap, pop…) read from the sheets; character sounds vol 0.5–1.0.
 `python3 montage.py build W/edit.json` → `W/final.mp4`, `W/final_sheet.jpg`, `W/final_hook.jpg`.
-LOOK at both sheets (first 2 s especially, no text on screen, no bad frames, identity OK). Fix edit.json and rebuild
+LOOK at both sheets (first 2 s especially, no text on screen, no bad frames, identity OK) and run
+`python3 montage.py motion W/final.mp4`: every second must be ≥ 2.0 (her rule: the picture never stops) – replace the
+low pieces with livelier moments, rebuild (free) and measure again. Fix edit.json and rebuild
 if needed (free). Final file name for people: `Crayon Babies - <Title>.mp4`.
 
 ## 10. Title, description, tags (section 10)
 English + emoji title with the hook first; description template with NO hashtags; 11–15 tags starting with
-`crayon babies, baby jimmy, baby ava`; playlist "Crayon Babies Songs". Write `jobs/<date>-<slug>.json`:
+`crayon babies` + the star (`baby jimmy` or `baby ava`); playlist "Crayon Babies Songs". Write `jobs/<date>-<slug>.json`:
 `{"idea", "video": "ready/<date>-<slug>.mp4", "title", "description", "tags", "playlist", "publish_at", "viewmax_credits_used"}`.
 Also save everything needed to REBUILD this short later (the Sunday compilation rebuilds the week's shorts; the
 mp4 itself is not kept in the repo) into `jobs/<date>-<slug>/`: `plan.json`, `edit.json`, `song_prompt.txt`

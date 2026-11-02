@@ -5,6 +5,8 @@ Commands
   python3 montage.py sheets W               contact sheet per shot: W/sheets/shotN.jpg (1 frame per second, timestamps)
   python3 montage.py faces W N T [T ...]    full-resolution frames of W/shotN.mp4 at times T: W/check/shotN_T.jpg
   python3 montage.py build EDIT.json        build the final video, then W/final_sheet.jpg + W/final_hook.jpg
+  python3 montage.py motion VIDEO.mp4 [MIN] motion per second (median frame difference); seconds below MIN
+                                            (default 2.0) look frozen - replace those pieces and rebuild
 
 W is a work folder holding shot1.mp4 ... shotN.mp4 (Seedance 1088x1920, 24 fps, 10 s, silent).
 
@@ -223,6 +225,31 @@ def cmd_build(edit_path):
     print(f"[check] look at {w / 'final_sheet.jpg'} and {w / 'final_hook.jpg'}")
 
 
+def cmd_motion(video, minimum=2.0):
+    """Per-second motion of a clip or final edit: median of the frame-to-frame difference (YAVG of tblend).
+    The median ignores the single spike frame at a hard cut. Her rule (2 Nov 2026): the picture never stops."""
+    import re, statistics
+    p = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(video), "-an", "-vf",
+                        "tblend=all_mode=difference,signalstats,metadata=print:key=lavfi.signalstats.YAVG",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    per_sec, t = {}, 0.0
+    for line in p.stderr.splitlines():
+        m = re.search(r"pts_time:([0-9.]+)", line)
+        if m:
+            t = float(m.group(1))
+        m = re.search(r"YAVG=([0-9.]+)", line)
+        if m:
+            per_sec.setdefault(int(t), []).append(float(m.group(1)))
+    if not per_sec:
+        raise SystemExit("motion: no frames measured")
+    vals = {k: statistics.median(v) for k, v in sorted(per_sec.items())}
+    print(" ".join(f"{k}s:{v:.1f}" for k, v in vals.items()))
+    low = [k for k, v in vals.items() if v < minimum]
+    print(f"[motion] mean {statistics.mean(vals.values()):.1f} | seconds below {minimum}: "
+          + (", ".join(f"{k}s" for k in low) if low else "none - OK"))
+    return low
+
+
 def main():
     if len(sys.argv) < 3:
         print(__doc__)
@@ -234,6 +261,8 @@ def main():
         cmd_faces(sys.argv[2], sys.argv[3], sys.argv[4:])
     elif cmd == "build":
         cmd_build(sys.argv[2])
+    elif cmd == "motion":
+        cmd_motion(sys.argv[2], float(sys.argv[3]) if len(sys.argv) > 3 else 2.0)
     else:
         print(__doc__)
         return 2

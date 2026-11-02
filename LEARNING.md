@@ -4,6 +4,13 @@
 Audience: toddlers and preschoolers (1–5). EVERY video = ONE concrete learning goal + 2–3 fun mechanics.
 A video that is only cute, with nothing a child can learn, copy or answer, is not good enough.
 
+**FORMAT (her rule, 2 Nov 2026 evening):** "videos with one child and educational things – letters, shapes, colors or
+anything educational, fun, organized, without the picture stopping." Every video has ONE baby (Jimmy or Ava, taking
+turns), never a second child; one topic taught with 2–3 clear items/steps in a neat order; something moves in every
+second (`montage.py motion` ≥ 2.0). Letters, numbers and shapes are real 3D objects in the scene, never overlay text.
+Tue/Wed/Fri slot 2 (kindness, safety, family) may add ONE grown-up or Biscuit; kindness is shown with Mommy, Daddy,
+Biscuit or a teddy. Full recipe: SKILL.md section 15.
+
 ## 1. Weekly learning calendar (New York weekday; slot 1 = morning run, slot 2 = afternoon run)
 
 | Day | Slot 1 – school readiness | Slot 2 – life skills & values |

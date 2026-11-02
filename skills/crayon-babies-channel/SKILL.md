@@ -3,7 +3,7 @@ name: "crayon-babies-channel"
 description: "Use for any work on the Crayon Babies YouTube kids channel: View Max prompts, new episodes, songs, titles, descriptions, tags, thumbnails, editing clips."
 ---
 
-# Crayon Babies – complete channel bible (updated 31 Oct 2026)
+# Crayon Babies – complete channel bible (updated 2 Nov 2026)
 
 The user runs the YouTube kids channel **Crayon Babies** (@CrayonBabies-TV). She writes in Iraqi/Gulf Arabic; always reply in simple, warm Arabic, short and step-by-step. She sometimes writes Ava's name as "لافا" (Lava) – it means Ava. She makes videos in **View Max** (viewmax.studio – Veo/Kling/Seedance), images in **ChatGPT**, songs in **Gemini**. Every prompt for those tools is in English inside a code block so she can copy it. This file is the single source of truth: never change a character, outfit, room or place description – copy it word for word. When she sends a new image, compare it honestly with these descriptions (hair, eyes, clothes, all three views consistent) before she saves it.
 
@@ -30,7 +30,8 @@ The channel is NOT only about crayons: "Crayon Babies" = colorful little kids wh
 13. **Every edit uses the approved fast-cut montage style** (section 13, Step 5) unless she asks for something else. **No on-screen words** in the montage (her rule, 29 Oct 2026: "ROAR?", "Meow?!" and similar text looked out of place) – only add text if she asks for it again.
 14. **Top quality level, always** (her request, 29 Oct 2026): for everything written for the channel – video and image prompts, song prompts and lyrics, titles, descriptions, tags, edit plans and publishing – use **Claude Opus 5.5** for every chat and scheduled/automated task (her choice, 29 Oct 2026: Fable 5.1 hit the plan's usage limit and costs more – never switch to a pricier model without asking her) and the extra-high effort level: think it through, draft, check every line against this bible (hook, identity keys in CAPS, places word for word, loop ending, one lesson, no hashtags), improve, and only then use it. Never take shortcuts on prompts, songs or publishing.
 15. **Every video teaches AND is fun** (her request, 31 Oct 2026: "important, educational and fun – a very special channel"): ONE concrete learning goal from the weekly learning calendar + 2–3 fun mechanics (interactive pause, say-it-with-me, copy-me action, surprise). See section 14.
-16. **Always vary** (her rule, 2 Nov 2026): never the same place as any of the last 3 videos – rotate through every room and outside place (park, supermarket, clinic, nursery, beach, farm, zoo, library, mall); every video brings in one other character (Mommy Lily, Daddy Tom, Leo, Mia, Biscuit, Snowball, Sunny, Pip, Ziggy, Dr. Hana), different from the previous two videos; outfits fit the place.
+16. **Always vary** (her rule, 2 Nov 2026): never the same place as any of the last 3 videos – rotate through every room and outside place (park, supermarket, clinic, nursery, beach, farm, zoo, library, mall); outfits fit the place. (The "one other character in every video" part was replaced the same evening by rule 17: one baby per video.)
+17. **ONE BABY, ONE LEARNING TOPIC, THE PICTURE NEVER STOPS** (her rule, 2 Nov 2026 evening: "I want videos with one child and educational things – letters, shapes, colors or anything educational, fun, organized, without the picture stopping"): every new video has only ONE baby – Jimmy OR Ava, taking turns – and never a second child; the baby teaches one concrete topic (letters, shapes, colors, numbers, animals, opposites, habits …) in a neat, clear order; something moves in every second (no still pictures, no frozen moments, measured with `montage.py motion`). Full recipe: section 15.
 
 Fixed blocks to paste in every video prompt:
 ```
@@ -127,7 +128,7 @@ ZIGGY THE LITTLE ALIEN: a tiny cute lime-green alien with darker green spots, bi
 THE MAGIC CRAYON: a big chunky crayon that glows and changes color, with tiny sparkles around it.
 ```
 References `Biscuit`, `Snowball`, `Sunny`, `Pip`, `Ziggy`.
-New animals/objects for an episode: cute, round, big shiny eyes, never scary, toy-like props; give each a one-line fixed description in a `SUPPORTING CHARACTERS & OBJECTS:` block and reuse it in every shot. Give animals one fitting action/sound (crab walks sideways, monkey makes funny faces). Max 1–3 extra characters per video so Jimmy and Ava stay the stars. When a new friend becomes recurring, add a named description here.
+New animals/objects for an episode: cute, round, big shiny eyes, never scary, toy-like props; give each a one-line fixed description in a `SUPPORTING CHARACTERS & OBJECTS:` block and reuse it in every shot. Give animals one fitting action/sound (crab walks sideways, monkey makes funny faces). Default from 2 Nov 2026: ONE baby and no other characters (rule 17, section 15); learning objects still get a fixed one-line description. When a new friend becomes recurring, add a named description here.
 Names are English on purpose (worldwide English audience; short and easy for toddlers). For a future Arabic version: بسبوس، ثلجة، شموس، بوبو، زيزو.
 
 ---
@@ -278,7 +279,7 @@ The user wants songs with NO musical instruments (her firm rule, for religious r
 ```
 Create a happy children's nursery song called "[TITLE]".
 Style: a cappella children's song. ONLY children's voices singing a simple catchy melody, soft humming and "la la la" harmonies, with a hand drum (daf / frame drum) rhythm and hand claps. NO other instruments: no piano, no guitar, no ukulele, no synth, no strings. Bouncy and joyful, about 110 BPM, major key, very easy for toddlers to sing along.
-Vocals: a little boy and a little girl singing, sweet and high-pitched, slowly and clearly in simple English; verses alternate, chorus together.
+Vocals (default, one-baby videos – section 15): ONE sweet little boy (Jimmy videos) or ONE sweet little girl (Ava videos) singing solo, high-pitched, slowly and clearly in simple English, with soft children's humming and "la la" backing. (Old two-baby videos: a little boy and a little girl, verses alternate, chorus together.)
 Length: about [1:30 / 2:30].
 Lyrics:
 [Intro – humming + daf]
@@ -335,7 +336,7 @@ Description template (NO hashtags – she prefers none):
 
 🔔 Subscribe to Crayon Babies for new stories and songs every day!
 ```
-Tags: ~11–15 specific tags, starting with `crayon babies, baby jimmy, baby ava`, then topic tags (e.g. `sharing for kids, sharing is caring, good manners for toddlers`) and 2–3 broad ones (`kids cartoon, nursery rhymes, toddler learning`).
+Tags: ~11–15 specific tags, starting with `crayon babies` + the video's star (`baby jimmy` or `baby ava`; both only in old two-baby videos), then topic tags (e.g. `sharing for kids, sharing is caring, good manners for toddlers`) and 2–3 broad ones (`kids cartoon, nursery rhymes, toddler learning`).
 
 Upload settings: Made for kids · Altered/synthetic (AI) = Yes · Public · thumbnail 1280×720 JPG < 2 MB · playlists: Magic Crayon Stories / Good Habits / Learn with Crayon Babies / Crayon Babies Songs / Doctor Visits.
 
@@ -380,6 +381,39 @@ Fun mechanics (2–3 per video): interactive pause (a character asks the viewer,
 
 Learning checks before spending credits (plan.json → `learning`): goal · 2–4 target words · how the picture shows it · where the words repeat in the lyrics · timestamp of the interactive moment · fact check (numbers, colors, shapes, letters, animal sounds exactly right; objects on screen must match the number sung – ask for the exact number "in a clear row, easy to count" and COUNT them in the frame check) · positive modeling (any wrong choice is gently corrected in the same video) · toddler fit (simple words, bright but calm, nothing scary). Titles and descriptions name the learning goal ("Count to 5 with Jimmy! 🍎 | Learn Numbers | Crayon Babies").
 
+## 15. ONE-BABY LEARNING SHORTS – the default for every new video (her rule, 2 Nov 2026 evening)
+Her words: "I want videos with one child and educational things – letters, shapes, colors or anything educational, fun, organized, without the picture stopping."
+
+**Who:** ONE baby per video – Jimmy OR Ava, taking turns video by video (the other baby than the `star` of the last log entry that has one; none yet → Jimmy). Never a second child (no Jimmy + Ava together, no Leo or Mia). By default nobody else is in the picture: the baby and the learning items are the whole story. Only Tue, Wed and Fri afternoon topics (kindness, safety, family) may add ONE grown-up (Mommy Lily / Daddy Tom) or Biscuit – never another child. The baby's voice sings solo.
+
+**What (educational):** one concrete topic from the calendar (LEARNING.md), taught with 2–3 clear items or steps: three colors (red ball, yellow duck, blue cup), three shapes (circle, square, triangle), one letter + its sound + 2 words (A – "a-a" – apple, ant), numbers in order, an animal + its sound, opposites (big/small), healthy-habit steps.
+- Letters, numbers and shapes are real 3D objects in the scene (a big chunky foam letter A, wooden shape blocks, plain colored balls) – never overlay text (the no-on-screen-words rule stays).
+- Only the target letter/number is visible anywhere in the frame (no posters, books or toys with other letters or numbers – avoid the nursery alphabet poster).
+- Colors are pure basic colors, one color per object; counts match the song.
+- Check every letter, number, shape, color and count at full resolution (image models mirror letters or add strokes) – wrong → regenerate.
+
+**Organized – the 5 shots:**
+1. HOOK – the first item appears by surprise right in front of the baby (pops out of the toy box, rolls in, the Magic Crayon draws it), big gasp, close-up.
+2. Item 1: the baby holds / points at / plays with it; the song names it twice.
+3. Item 2 – same pattern, same framing.
+4. Item 3, or the review: all items in a neat clear row; the baby asks the viewer "Which one is …? Hmm?" (1.5–2 s pause), then the answer is celebrated.
+5. LOOP ENDING – mirror of shot 1 (edit of the hook frame), all items neatly in a row, bye-bye wave.
+Items come in the same order in the shots and in the song; an item never appears before its shot (story order); each name in the lyrics lands on the cut where that item appears (timestamped lyrics, cut on the word). Calm, uncluttered background: the item is big, centered beside the face and well lit; the place stays recognizable but soft. Places and outfits still rotate (rule 16).
+
+**Camera for one baby:** medium close-up, the baby's face at least a quarter of the frame height, the item beside the face at the same height so both are big; eyes open, facing the camera, exactly two hands.
+
+**The picture never stops:**
+- No still images as shots, no zoom on a still, no freeze or hold at the end.
+- Every motion prompt keeps the baby AND the item moving for the whole 10 s: the ball bounces, the letter wiggles or spins slowly, the shape slides into place, the baby claps, bounces, points, nods, sways – one clear continuous action, never "small gentle movements" or "holds still".
+- Hook slow-down only 0.8–0.9× (the 0.65× hook of "Chocolate on My Teeth" measured 1.2 and looked stopped).
+- Final check: `python3 montage.py motion W/final.mp4` – every second must be ≥ 2.0 (median frame difference). Seconds below 2.0 → replace that piece with a livelier moment, raise its speed or cut it shorter, rebuild (free) and measure again. On 2 Nov the slow hook (0 s) and the start of the brushing shot (8–9 s) measured 1.1–1.3 – exactly the moments that look frozen.
+
+**Song:** ONE child voice – a sweet little boy for Jimmy videos, a sweet little girl for Ava videos – singing solo, with soft children's humming / "la la" backing; same a cappella rules (section 8). The song names the items in order, sings the target words ≥ 3 times, has the question + pause, a copy-me line and "Bye bye, friends!".
+
+**Titles and tags:** name the star and the learning goal: `Learn Colors with Baby Ava! 🔴🟡🔵 | Colors for Toddlers | Crayon Babies`, `Letter A with Baby Jimmy! 🍎 | Learn ABC | Crayon Babies`. Tags start with `crayon babies` + the star (`baby ava` or `baby jimmy`).
+
+**"What's Missing?"** with one baby: the same baby asks the viewer and draws the missing part.
+
 ## 13. AUTOMATED MUSIC CLIPS – Seedance 1.0 Pro + start frames (IDENTITY LOCK)
 
 Approved format (26 Oct 2026, "Wash Your Hands Song" test): silent music-clip shots, the Gemini song is added in editing.
@@ -414,7 +448,7 @@ Approved by her on 26 Oct 2026 ("ابغا زي كذا مونتاج دائماً"
 1. **Review first:** make a 1-frame-per-second contact sheet of every 10 s shot. Mark and never use moments with closed eyes, faces looking down or away, blur, identity drift, extra hands, or objects that appear too early.
 2. **Cut fast:** from each 10 s shot take its best 1–2 pieces of **2–3.5 s**. A short = 8–10 cuts, about 20–30 s. Hard cuts on action. No extra credits – cutting is free.
 3. **Same shot twice → punch-in:** when the next cut comes from the same shot, zoom it ×1.10–1.12 (centred slightly high on the faces) so it feels like a new camera angle, not a jump cut.
-4. **Hook:** use only the strongest 1–1.5 s (the gasp/reaction with eyes wide open), slowed to 0.6× so it lasts about 2 s, and cut away before any blink or look-down.
+4. **Hook:** use only the strongest 1–1.5 s (the gasp/reaction with eyes wide open), slowed to 0.8–0.9× (changed 2 Nov 2026: 0.6–0.65× looked like a stopped picture), and cut away before any blink or look-down.
 5. **No on-screen words** (changed 29 Oct 2026 – she found words like "ROAR?" / "Meow?!" out of place). The picture, the song and the sound effects carry the story. (Old style, only if she asks again: one short word per beat, Poppins Bold 130, yellow `0xFFD21F`, purple border `0x5B2A86`, `y=h*0.11`, pop-in 0.25 s.)
 6. **Ending:** finish on the loop shot (mirror of the hook), so the replay flows straight back into the hook.
 7. **Output:** 1080×1920 (crop 4 px each side from 1088), keep 24 fps, H.264 CRF 17 preset slow, AAC audio (the song, or a silent track if no song), `+faststart`. File name `Crayon Babies - <Title>.mp4`. With a song: song under the whole edit, 1.5 s fade-out, about -14 LUFS.

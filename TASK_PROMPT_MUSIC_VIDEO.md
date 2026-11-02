@@ -13,10 +13,10 @@ Work folder `W = runs/<date>-mv-<slug>`. Budget: at most 230 ViewMax credits (�
 
 ## 2. Song first (the video follows the song)
 - Topic: the next song from section 6F that is not done and not in `log/videos.jsonl` (or a fitting seasonal one).
-  ONE clear learning goal (e.g. brushing teeth steps, counting 1–10, animal sounds), Jimmy + Ava singing,
-  at most one extra character/pet, one or two places with reference images.
+  ONE clear learning goal (e.g. brushing teeth steps, counting 1–10, animal sounds), ONE baby singing (bible rule 17 +
+  section 15: the other baby than the last log `star`; never a second child, no other characters), one or two places with reference images.
 - Write `W/song_prompt.txt` in the section 8 style (a cappella children's voices, humming/"la la", ONLY daf and
-  claps, ~110 BPM, major key, boy + girl voices, verses alternate, chorus together).
+  claps, ~110 BPM, major key, ONE child voice matching the star, solo, with soft children's humming backing).
   **NO musical instruments at all** (her firm rule, for religious reasons): only children's voices singing, humming and "la la", mouth sounds (soft beatbox, "boom-chk", tongue clicks), hand claps, finger snaps and a daf/frame drum. Write in the prompt: "NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats".
    with **timestamped sections**
   for a 2:45 song: `[0:00 - 0:06] Hook …`, intro, chorus, verse 1, chorus, verse 2, clap break, final chorus,
@@ -40,8 +40,9 @@ hook frame, "Bye bye!"). Write `W/plan.json`.
 `python3 montage.py sheets W`, LOOK at every sheet, then write `W/edit.json` with `"size": [1920, 1080]`:
 - Cuts of 2–4 s following the song timeline (cut on the beat/line changes), total = song length minus
   `song_start`. Chorus = the same chorus shots each time but different pieces/zooms so it never looks frozen.
-- Hook first (strongest 1–1.5 s, speed 0.6–0.75), end on the loop shot with "Bye bye, friends!".
+- Hook first (strongest 1–1.5 s, speed 0.8–0.9), end on the loop shot with "Bye bye, friends!".
 - **NO on-screen words** (her rule, 29 Oct 2026) — never set `show_words`.
+- **The picture never stops** (her rule, 2 Nov 2026): `python3 montage.py motion W/final.mp4` – every second ≥ 2.0.
 - Effects: optional, at most 4 small ones on clear visual moments. `python3 montage.py build W/edit.json` → LOOK at `final_sheet.jpg` and `final_hook.jpg`; fix and
   rebuild if anything is off.
 

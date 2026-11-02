@@ -92,6 +92,19 @@ Also check STORY ORDER on the 4 fps sheets: the drawn/fixed/brought thing is abs
 to add a missing part on its own — and in the 30 Oct kitty short the tail was already finished in the drawing shot),
 appears during it, present after. A shot that breaks the order is the redo, before any identity nit.
 
+## 6b. NO STILL PICTURES AS SHOTS (her note, 2 Nov 2026: "why are most shots static? I didn't like it")
+The 2 Nov "Count to 5" run replaced one bad C1 clip with 4 slow zoom-ins on still frames (shot6–9) and used them in
+8 of 15 cuts (~17 of 30 s) – she saw a mostly frozen video. Rules:
+- NEVER build a shot from a still image (no zoompan / Ken Burns on a frame). Every cut must be real C1 motion.
+- If a C1 shot is unusable (wrong count, drift, story order), REDO it (that is the one allowed redo, 20 credits;
+  budget up to ~125 credits for this case). If a second shot also fails, rebuild the edit from the good real clips
+  (more cuts per clip, punch-ins, different moments) rather than stills.
+- Motion prompts ask for clear, lively, bouncy action in every shot (clapping, bouncing, pointing, reaching, nodding,
+  wiggling, objects moving), still with faces visible and no hugs/turns – "small gentle movements" alone gives
+  near-frozen clips.
+- Clip check: measure motion per shot (ffmpeg tblend difference, mean YAVG over the clip); below ~1.0 = too static,
+  use only its liveliest seconds or redo it.
+
 ## 7. Song — Lyria clip, 30 s (section 8 style)
 Write `W/song_prompt.txt`: the section 8 style (a cappella children's voices, humming and "la la", ONLY daf and hand
 claps, ~110 BPM, major key, a sweet little boy and girl singing slowly and clearly in simple English).

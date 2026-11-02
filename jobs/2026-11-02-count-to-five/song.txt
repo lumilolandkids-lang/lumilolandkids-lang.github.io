@@ -1,0 +1,7 @@
+[0.0:4.0] Oh no! Oh no! My tower fell down!
+[4.0:8.0] Don't be sad! Let's build it again!
+[8.0:13.0] One... two... three... four... five!
+[13.0:16.0] How many blocks? Hmm?
+[18.0:22.0] Five! Five blocks! Hooray!
+[22.0:26.0] Clap and count! One, two, three, four, five!
+[26.0:30.0] Five blocks tall! Bye bye, friends!

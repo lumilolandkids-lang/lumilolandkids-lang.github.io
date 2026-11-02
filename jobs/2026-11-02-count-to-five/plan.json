@@ -1,0 +1,83 @@
+{
+ "idea": "Numbers & counting #1 (PLAYROOM): Baby Jimmy's tower of five colorful blocks topples over ('Oh no! My tower fell down!'); Ava kindly says 'Don't be sad! Let's build it again!', hands him the red block, and they rebuild it block by block counting 'One, two, three, four, five!'; Ava points at the finished tower and asks the viewer 'How many blocks?' (pause) – 'Five! Five blocks! Hooray!'; copy-me: clap and count to five. Loop: the hook framing again, now the tower stands tall, bye-bye wave.",
+ "lesson": "Count 1 to 5 – and when something falls down, build it again together.",
+ "place": "PLAYROOM (references/places/playroom.jpg)",
+ "calendar": "Monday slot 1 – Numbers & counting; series start (no earlier counting episode in log) → episode 1 = count 1–5; next episode continues 6–10.",
+ "characters": [
+  "Jimmy (HOME): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot.",
+  "Ava (HOME): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "setting": "PLAYROOM (magic crayon room): a cozy playroom with a colorful puzzle foam floor mat, light blue walls with rainbow pictures, wooden shelves with colorful toy bins, books and toy blocks, a blue bean bag with a yellow star cushion, and a small round wooden table with four little chairs (blue, pink, yellow and green), a big white paper and a box of rainbow crayons on it. Bright, warm, magical lighting with tiny floating sparkles.",
+ "supporting": "THE BLOCKS: exactly FIVE big chunky smooth wooden toy cubes, each about as big as a baby's two fists together, plain solid bright colors with NO letters, NO numbers, NO pictures on them: one RED, one ORANGE, one YELLOW, one GREEN, one BLUE. Only these five blocks are near the babies; the shelves in the soft background hold only closed toy bins and books (no loose blocks).",
+ "learning": {
+  "goal": "Count 1 to 5 (five blocks in a tower).",
+  "target_words": [
+   "one, two, three, four, five",
+   "five",
+   "blocks",
+   "count"
+  ],
+  "shown_how": "Exactly five big plain blocks, one of each color (red, orange, yellow, green, blue), stacked in one straight tower that is easy to count; shot 4 Ava points at them one by one.",
+  "song_repeats": "one–five counted 2x (0:08, 0:22) · five 0:08, 0:18 (x2), 0:22, 0:26 = 5x · blocks 0:13, 0:18, 0:26 · count 0:04 (build), 0:22",
+  "interactive_moment": "0:13-0:16 'How many blocks? Hmm?' + 0:16-0:18 humming pause with question boing → answer 'Five!' at 0:18",
+  "copy_me": "0:22-0:26 'Clap and count! One, two, three, four, five!' – a clap on each number",
+  "fact_check": "Block counts checked in every frame: f1 5 falling · f2 4 on the mat + 1 red in Ava's hands = 5 · f3 2 stacked + yellow in Jimmy's hands + 2 on the mat = 5 · f4 tower of 5 · f5 tower of 5. Song counts 1-5 in order. Blocks have no numbers/letters (no on-screen words).",
+  "modeling": "Jimmy is sad when the tower falls; Ava comforts him kindly and they try again together (perseverance, kindness, teamwork).",
+  "toddler_fit": "Simple words, one number per beat, calm bright playroom, the 'oh no' is gentle and solved within seconds, faces large."
+ },
+ "fun_mechanics": [
+  "surprise hook: tower topples",
+  "interactive pause: How many blocks?",
+  "say-it-with-me: counting 1-5 twice, 'five' 5x",
+  "copy-me: clap and count to five",
+  "loop ending"
+ ],
+ "story_order": {
+  "tower complete": "shot 1 falling (the old tower) · shot 2 absent (scattered) · shot 3 being built (2 stacked + 3rd placed) · shots 4-5 present (5 tall)"
+ },
+ "shots": [
+  {
+   "role": "HOOK – tower topples, gasp 'Oh no!'",
+   "frame": "f1 r1 (from scratch; r0 had 7 blocks and small faces)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/09fabeb3-d8e8-43aa-ac83-47d77d1a50de.png",
+   "motion_prompt": "blocks tumble onto the mat, gasp, look down and back"
+  },
+  {
+   "role": "problem / first try: Ava offers the red block",
+   "frame": "f2 (edit, sheets + hook frame)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/69f63ebd-d735-4906-97ad-60d97662336b.png",
+   "motion_prompt": "Ava holds out red block, Jimmy's pout turns hopeful"
+  },
+  {
+   "role": "help / building: Jimmy places the 3rd block",
+   "frame": "f3 (edit) – JPEG copy jobs/…/f3.jpg (PNG >5 MB)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/583b52db-8660-4a64-859e-1cf6265ded34.png",
+   "motion_prompt": "Jimmy sets yellow block on orange, Ava claps"
+  },
+  {
+   "role": "solution + question: tower of five, 'How many?'",
+   "frame": "f4 r1 (edit; r0 Ava not looking at camera)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/4dbc3656-d55a-401d-b0ca-f07c7cb85bec.png",
+   "motion_prompt": "Ava points block by block then looks at camera, Jimmy claps 5x"
+  },
+  {
+   "role": "LOOP ENDING – mirror shot 1",
+   "frame": "f5 (edit of hook frame, tower standing)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/65af9a94-8edb-49d6-8aac-cc86f3b6722a.png",
+   "motion_prompt": "cheer, bye-bye waves, tower still"
+  }
+ ],
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0
+ },
+ "sfx": [
+  "sfx/blocks_tumble.mp3 (new)",
+  "sfx/toddlers_gasp.mp3",
+  "sfx/question_boing.mp3",
+  "sfx/toddlers_cheer_clap.mp3",
+  "sfx/sparkle_chime.mp3"
+ ]
+}

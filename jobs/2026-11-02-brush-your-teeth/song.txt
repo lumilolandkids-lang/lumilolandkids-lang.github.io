@@ -1,0 +1,9 @@
+[0.0:4.0] Oh no! Oh no! Chocolate on my teeth!
+[4.0:8.0] Brush, brush, brush your teeth!
+[8.0:12.0] Up and down! Round and round!
+[12.0:15.0] Brush, brush, brush your teeth!
+[15.0:18.0] What do we brush? Hmm?
+[18.0:20.0] Hmm-hmm
+[20.0:24.0] Our teeth! Shiny, clean teeth!
+[24.0:27.0] Morning and night, brush your teeth!
+[27.0:30.0] Bye bye, friends!

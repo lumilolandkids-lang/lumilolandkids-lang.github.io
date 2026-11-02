@@ -29,3 +29,4 @@ puppy bark, ...), save it here with a clear name and add a row.
 Prompt pattern: `<one sound>, cartoon style, cute, kid-friendly, single short sound, clean, no music, no background noise.`
 with `duration_seconds` 0.5-2.5 and `prompt_influence` 0.6.
 | blocks_tumble.mp3 | a small tower of wooden toy blocks tumbles onto a soft mat, light clunks | 0.95 s | 0.8 |
+| toothbrush_scrub.mp3 | quick soft scrub-scrub toothbrush bristles (quiet file, max -14 dB) | 1.45 s | 1.8 |

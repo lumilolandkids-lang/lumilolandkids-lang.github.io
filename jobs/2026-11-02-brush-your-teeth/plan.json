@@ -1,0 +1,40 @@
+{
+ "idea": "Healthy habits (BATHROOM, bedtime): Baby Jimmy grins a funny chocolate grin ('Oh no! Chocolate on my teeth!') and Baby Ava gasps and points; Mommy Lily brings the toothbrushes with a tiny pea of toothpaste; Jimmy and Ava brush 'Up and down! Round and round!' (copy-me); they show shiny clean smiles, Ava points at her teeth and asks the viewer 'What do we brush?' (pause) – 'Our teeth! Shiny, clean teeth!'; lesson 'Morning and night, brush your teeth!'. Loop: the hook framing again, now with clean sparkling teeth and bye-bye waves.",
+ "lesson": "Brush your teeth up and down, morning and night, to make them shiny and clean.",
+ "place": "BATHROOM (references/places/bathroom.jpg)",
+ "calendar": "Monday slot 2 – Healthy habits (brush teeth). Brush-your-teeth song was on the idea bank and never made.",
+ "variety": {"place": "BATHROOM", "extra_character": "Mommy Lily (HOME outfit)", "outfits": "Jimmy + Ava PAJAMAS (bedtime brushing)", "last_places": ["PLAYROOM (count-to-five, 2 Nov)", "BACKYARD (leaves-fall-down, 1 Nov)", "LIVING ROOM (wag-your-tail, 1 Nov)", "BACKYARD (little-seed, 31 Oct)", "PLAYROOM (sad-pumpkin, 31 Oct)", "PLAYROOM (whats-missing-kitty, 30 Oct)"], "last_extra_characters": ["none (count-to-five)", "none (leaves-fall-down)", "Biscuit (wag-your-tail)"]},
+ "characters": [
+  "Jimmy (PAJAMAS): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing soft light blue pajamas with tiny yellow stars and moons, barefoot.",
+  "Ava (PAJAMAS): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing soft pink pajamas with tiny yellow stars, barefoot.",
+  "Mommy Lily (HOME): MOMMY: a kind young mother in 3D Pixar style, blonde hair in a messy high bun with loose curly strands around her face, big bright blue eyes, rosy cheeks, gentle sweet smile. wearing a loose soft coral oversized short-sleeve t-shirt, light blue wide-leg loose jeans, white sneakers and small gold hoop earrings."
+ ],
+ "setting": "BATHROOM: a bright bathroom with light blue walls and tiles, a round white bathtub with bubbles, a yellow rubber duck, fluffy yellow and pink towels with white flowers, a flower-shaped yellow and pink bath mat, a round wooden mirror, a white sink cabinet with a blue cup with a blue toothbrush and a pink cup with a pink toothbrush, and a small wooden step stool.",
+ "learning": {
+  "goal": "Brush your teeth – up and down, round and round – morning and night.",
+  "target_words": ["brush", "teeth", "up and down", "clean"],
+  "shown_how": "Chocolate smudges on Jimmy's teeth (shots 1-2) → both babies brush with blue and pink toothbrushes and a little foam (shot 3) → big shiny clean white smiles with sparkles (shots 4-5).",
+  "song_repeats": "teeth 0:00, 0:04, 0:12, 0:20 (x2), 0:24 = 6x · brush 0:04 (x3), 0:12 (x3), 0:15, 0:24 = 8x · up and down 0:08 · clean 0:20",
+  "interactive_moment": "0:15-0:18 'What do we brush? Hmm?' (Ava points at her teeth, question boing) + 0:18-0:20 humming pause → answer 'Our teeth!' at 0:20",
+  "copy_me": "0:08-0:12 'Up and down! Round and round!' – kids brush with a pretend toothbrush",
+  "fact_check": "Pea-size toothpaste on the brushes (correct amount for small kids); one own toothbrush each (blue = Jimmy, pink = Ava); exactly two toothbrushes in every frame; brushing motion up/down + circles; brush morning and night (correct guidance).",
+  "modeling": "Chocolate on the teeth is a gentle funny mistake corrected right away by brushing with Mommy's help; kids brush themselves, Mommy praises them.",
+  "toddler_fit": "Simple words, bright calm bathroom, nothing scary or gross (small soft chocolate smudges), faces large."
+ },
+ "fun_mechanics": ["funny surprise hook: chocolate grin", "copy-me: brush up and down, round and round", "interactive pause: What do we brush?", "say-it-with-me: 'brush your teeth' chorus x3", "loop ending"],
+ "story_order": {
+  "chocolate on Jimmy's teeth": "shots 1-2 present · shot 3 being brushed (foam, gone) · shots 4-5 absent (clean)",
+  "toothbrushes out of the cups": "shot 1 in cups · shot 2 in hands (Jimmy blue, Mommy pink), cups empty · shot 3 in mouths, cups empty · shots 4-5 back in cups",
+  "Mommy Lily": "shots 2 and 4 only"
+ },
+ "shots": [
+  {"role": "HOOK – chocolate grin, Ava gasps 'Oh!'", "frame": "f1 (from scratch: sheets + bathroom)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/fad953d0-a8e5-4a8c-9e7c-6d11646ae50b.png"},
+  {"role": "problem / help arrives: Mommy brings the toothbrushes", "frame": "f2 r4 (r0/r1 had 3 toothbrushes or brushes still in cups; r2 Mommy's hand on Jimmy's shoulder → C1 content-rejected the image 4x; r3 lost the chocolate; r4 chocolate restored)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/3d4a63e0-b2e2-4d57-8f94-8c4e1c4dc8af.png"},
+  {"role": "doing it: brush up and down, round and round", "frame": "f3 r1 (r0 had brushes still in the cups)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/3fc01fa2-cbd0-4d72-a80c-471081fce2d6.png"},
+  {"role": "solution + question: clean smiles, 'What do we brush?'", "frame": "f4", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/ead9d867-aa7f-478e-b441-874f9f3c24ab.png"},
+  {"role": "LOOP ENDING – mirror shot 1, clean teeth, bye-bye", "frame": "f5 (edit of hook frame)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-02/image/0ab6e41c-df94-4435-9f34-4c61fcb8fc62.png"}
+ ],
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16",
+ "song": {"model": "lyria-3-clip-preview", "prompt_file": "song_prompt.txt", "song_start": 0.0, "duration": 30.2},
+ "sfx": ["sfx/toddlers_gasp.mp3", "sfx/toothbrush_scrub.mp3 (new)", "sfx/question_boing.mp3", "sfx/sparkle_chime.mp3", "sfx/toddlers_cheer_clap.mp3"]
+}

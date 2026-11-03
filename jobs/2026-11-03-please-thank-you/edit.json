@@ -1,0 +1,132 @@
+{
+ "workdir": "runs/2026-11-03-please-thank-you",
+ "out": "final.mp4",
+ "song": "song.mp3",
+ "song_start": 0.0,
+ "cuts": [
+  {
+   "shot": 1,
+   "start": 2.45,
+   "dur": 0.95,
+   "speed": 0.9
+  },
+  {
+   "shot": 1,
+   "start": 3.4,
+   "dur": 1.7,
+   "zoom": 1.1
+  },
+  {
+   "shot": 2,
+   "start": 2.0,
+   "dur": 2.9
+  },
+  {
+   "shot": 2,
+   "start": 0.0,
+   "dur": 1.1,
+   "zoom": 1.1
+  },
+  {
+   "shot": 2,
+   "start": 5.4,
+   "dur": 2.6
+  },
+  {
+   "shot": 2,
+   "start": 6.2,
+   "dur": 1.7,
+   "zoom": 1.12
+  },
+  {
+   "shot": 3,
+   "start": 0.0,
+   "dur": 3.0
+  },
+  {
+   "shot": 3,
+   "start": 5.4,
+   "dur": 2.4
+  },
+  {
+   "shot": 3,
+   "start": 2.4,
+   "dur": 1.4,
+   "zoom": 1.12
+  },
+  {
+   "shot": 3,
+   "start": 7.8,
+   "dur": 0.65,
+   "zoom": 1.1
+  },
+  {
+   "shot": 4,
+   "start": 0.0,
+   "dur": 1.2,
+   "speed": 1.2
+  },
+  {
+   "shot": 4,
+   "start": 3.6,
+   "dur": 1.2
+  },
+  {
+   "shot": 4,
+   "start": 6.0,
+   "dur": 1.5
+  },
+  {
+   "shot": 4,
+   "start": 7.9,
+   "dur": 2.15
+  },
+  {
+   "shot": 5,
+   "start": 2.2,
+   "dur": 2.0,
+   "zoom": 1.15
+  },
+  {
+   "shot": 5,
+   "start": 4.2,
+   "dur": 1.75
+  },
+  {
+   "shot": 5,
+   "start": 6.0,
+   "dur": 1.95,
+   "zoom": 1.2
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/toddlers_gasp.mp3",
+   "cut": 0,
+   "offset": 0.1,
+   "vol": 0.6,
+   "max": 0.65
+  },
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 6,
+   "offset": 0.05,
+   "vol": 0.6,
+   "max": 1.35
+  },
+  {
+   "file": "sfx/question_boing.mp3",
+   "cut": 11,
+   "offset": 1.1,
+   "vol": 0.6,
+   "max": 0.62
+  },
+  {
+   "file": "sfx/toddlers_cheer_clap.mp3",
+   "cut": 13,
+   "offset": 0.7,
+   "vol": 0.6,
+   "max": 2.1
+  }
+ ]
+}

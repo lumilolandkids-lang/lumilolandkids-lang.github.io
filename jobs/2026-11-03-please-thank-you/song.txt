@@ -1,0 +1,10 @@
+[0.0:3.0] Oh no! My bunny is up so high!
+[3.0:7.0] Hands together, say please! Please, please, please!
+[7.0:11.0] Mommy, please! Help me, please!
+[11.0:15.0] My bunny! Thank you, Mommy! Thank you!
+[15.0:18.0] Please and thank you! Please and thank you!
+[18.0:21.0] A yummy apple! What do we say? Hmm?
+[21.0:23.0] (Hmm-hmm)
+[23.0:26.0] Thank you! Thank you, Mommy! Yay!
+[26.0:28.0] Please and thank you, kind little words!
+[28.0:30.0] Bye bye, friends!

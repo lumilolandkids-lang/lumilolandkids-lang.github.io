@@ -1,0 +1,50 @@
+{
+ "idea": "Feelings & kindness (AVA'S ROOM): Baby Ava's soft white bunny plush sits on a high wall shelf and she can't reach it ('Oh no! My bunny is up so high!'); she presses her hands together and asks 'Mommy, please! Help me, please!' (copy-me: hands together, say please); Mommy Lily gets it and Ava hugs her bunny: 'Thank you, Mommy! Thank you!'; chorus 'Please and thank you!'; Mommy offers a red apple and Ava asks the viewer 'What do we say? Hmm?' (pause) – 'Thank you!'; lesson 'Please and thank you, kind little words!'. Loop: the hook framing again, now the shelf is empty, bunny in her arm, bye-bye wave.",
+ "lesson": "Say 'please' when you ask and 'thank you' when you get something – kind little words.",
+ "place": "AVA'S ROOM (references/places/ava-room.jpg)",
+ "calendar": "Tuesday slot 2 – Feelings & kindness (please / thank you). Tue slot 2 may add ONE grown-up: Mommy Lily.",
+ "star": "Ava",
+ "variety": {
+  "place": "AVA'S ROOM",
+  "star": "Ava",
+  "outfit": "Ava HOME (yellow dress, matches the sheet); Mommy Lily HOME",
+  "last_places": ["KITCHEN (shapes, 3 Nov)", "BATHROOM (brush-your-teeth, 2 Nov)", "PLAYROOM (count-to-five, 2 Nov)", "BACKYARD (leaves-fall-down, 1 Nov)", "LIVING ROOM (wag-your-tail, 1 Nov)", "BACKYARD (little-seed, 31 Oct)"],
+  "note": "first video ever in Ava's room; the bunny plush is part of the fixed room block"
+ },
+ "characters": [
+  "Ava (HOME): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.",
+  "Mommy Lily (HOME): MOMMY: a kind young mother in 3D Pixar style, blonde hair in a messy high bun with loose curly strands around her face, big bright blue eyes, rosy cheeks, gentle sweet smile. wearing a loose soft coral oversized short-sleeve t-shirt, light blue wide-leg loose jeans, white sneakers and small gold hoop earrings."
+ ],
+ "supporting_objects": {
+  "bunny": "Ava's soft white bunny plush (long floppy ears, pink inner ears) – from the AVA'S ROOM block",
+  "apple": "one shiny red apple on Mommy's open palm"
+ },
+ "setting": "AVA'S ROOM: a sweet baby girl's bedroom with soft pink walls painted with white clouds and little flowers, yellow curtains with flower tie-backs, a white toddler bed with a yellow flower blanket and a small pink star pillow, a butterfly mobile, a pink toy box with white flowers, a soft white bunny plush, a small dollhouse and a fluffy flower-shaped rug.",
+ "learning": {
+  "goal": "Use the kind words 'please' (when asking) and 'thank you' (when receiving).",
+  "target_words": ["please", "thank you", "kind words"],
+  "shown_how": "Ava presses her palms together and asks Mommy 'please' (bunny still on the high shelf); then hugs the bunny and says 'thank you'; then Mommy offers an apple and the viewer is asked what to say.",
+  "song_repeats": "please 0:03 (x4), 0:07 (x2), 0:15 (x2), 0:26 = 9x · thank you 0:11 (x2), 0:15 (x2), 0:23 (x2), 0:26 = 7x",
+  "interactive_moment": "0:18-0:21 'A yummy apple! What do we say? Hmm?' (finger on chin, question boing) + 0:21-0:23 humming pause → 0:23 'Thank you! Thank you, Mommy! Yay!' (Ava claps)",
+  "copy_me": "0:03-0:07 'Hands together, say please!' – kids press their palms together like Ava",
+  "fact_check": "please used for asking, thank you for receiving (correct usage); exactly one bunny and one apple on screen; bunny on the shelf in shots 1-2, in Ava's arms / on the toy box from shot 3 on; apple only from shot 4.",
+  "modeling": "Ava asks politely instead of grabbing or crying, and thanks Mommy right away; Mommy models warm kindness.",
+  "toddler_fit": "Simple words, everyday situation, calm pink room, one baby + Mommy, big faces, nothing scary."
+ },
+ "fun_mechanics": ["copy-me: hands together, say please", "say-it-with-me chorus 'Please and thank you!'", "interactive pause: What do we say?", "loop ending + Bye bye, friends!"],
+ "story_order": {
+  "bunny": "shots 1-2 on the high shelf (out of reach) · shot 3 in Ava's arms · shot 4 on the toy box · shot 5 in her arm, shelf empty",
+  "apple": "shots 1-3 absent · shot 4 appears on Mommy's palm · shot 5 absent (not needed in the loop)"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16",
+ "c1_note": "C1 content-rejected 5 motion prompts written in the usual long 'BABY AVA ... never turns around, nothing passes in front of her face' style for the close-up frames (no charge); the same frames were accepted with short plain prompts ('The cartoon girl character with curly BROWN hair, a PINK STAR CLIP and BIG BROWN EYES ...').",
+ "song": {"model": "lyria-3-clip-preview", "prompt_file": "song_prompt.txt", "song_start": 0.0, "duration": 30.7, "vocals": "one little girl solo"},
+ "shots": [
+  {"role": "HOOK – Ava reaches up for her bunny on the high shelf, 'Oh no! My bunny is up so high!'", "frame": "f1 r1 (r0 full body, face too small)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/ec28d427-0bd3-4aaa-8e12-4b545bc47895.png"},
+  {"role": "step 1 PLEASE – palms together, 'Mommy, please!', Mommy nods and points to the bunny", "frame": "f2 r1 (r0 faces too small)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/bff06c8a-e904-4c0a-93d6-0a699c01093d.png"},
+  {"role": "step 2 THANK YOU – Ava hugs the bunny, 'Thank you, Mommy!'", "frame": "f3", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/ae3af3da-1d66-46f8-9bb0-7b79198bf21a.png"},
+  {"role": "question – Mommy offers a red apple, 'What do we say? Hmm?' → 'Thank you!' + clap", "frame": "f4 r2 (r0/r1 too wide and Ava barefoot; r2 = edit of the f2r1 layout)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/e6d0b2cf-230a-4401-8a94-2027a48e34d2.png"},
+  {"role": "LOOP ENDING – edit of the hook frame, shelf empty, bunny in her arm, bye-bye wave", "frame": "f5 (edit of f1r1)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/c0f4a4ae-a166-4eaa-86c6-2f4518d7ea74.png"}
+ ],
+ "title": "Oh No! My Bunny Is Up So High! 🐰 Please and Thank You | Kind Words for Toddlers | Crayon Babies"
+}

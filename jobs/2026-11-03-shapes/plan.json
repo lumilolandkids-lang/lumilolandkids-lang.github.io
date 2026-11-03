@@ -1,0 +1,100 @@
+{
+ "idea": "Colors & shapes (KITCHEN, snack time): a big round cookie rolls across Baby Jimmy's high-chair tray by surprise ('Wow! Look! A circle!'); he traces it 'round and round' (copy-me: draw a circle in the air); then a yellow cheese SQUARE ('one, two, three, four sides!') and a sandwich TRIANGLE ('one, two, three sides!'); all three stand in a row and Jimmy asks the viewer 'Where is the triangle? Hmm?' (pause) – 'There it is!'; lesson 'Shapes are everywhere!'. Loop: the hook framing again, now with all three shapes in a row and a bye-bye wave.",
+ "lesson": "Circle, square and triangle – shapes are everywhere, even in our snacks.",
+ "place": "KITCHEN (references/places/kitchen.jpg)",
+ "calendar": "Tuesday slot 1 – Colors & shapes (first shapes episode; basic shapes circle/square/triangle).",
+ "star": "Jimmy",
+ "variety": {
+  "place": "KITCHEN",
+  "star": "Jimmy",
+  "outfit": "Jimmy HOME (light blue onesie, matches the sheet; snack time, not cooking – CHEF hat would hide his curls)",
+  "last_places": [
+   "BATHROOM (brush-your-teeth, 2 Nov)",
+   "PLAYROOM (count-to-five, 2 Nov)",
+   "BACKYARD (leaves-fall-down, 1 Nov)",
+   "LIVING ROOM (wag-your-tail, 1 Nov)",
+   "BACKYARD (little-seed, 31 Oct)",
+   "PLAYROOM (sad-pumpkin, 31 Oct)"
+  ],
+  "why_not_jimmys_room": "Jimmy's room is covered with star shapes – confusing for a shapes lesson; the kitchen is calm and shows shapes in everyday things."
+ },
+ "characters": [
+  "Jimmy (HOME): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."
+ ],
+ "supporting_objects": {
+  "circle": "a big plain round golden cookie (no chips, no icing)",
+  "square": "one thick firm square slice of yellow cheese",
+  "triangle": "a white bread sandwich cut corner to corner (thin cheese layer)"
+ },
+ "setting": "KITCHEN: a bright family kitchen with white cabinets and light-wood counters, a pastel yellow fridge covered with children's crayon drawings and fruit magnets, a round white table on a round pastel rainbow rug with two adult chairs, a blue baby high chair and a pink baby high chair, a fruit bowl, a yellow hanging lamp, and a window with small green plants.",
+ "learning": {
+  "goal": "Name three basic shapes – circle, square, triangle – and find them in everyday things.",
+  "target_words": [
+   "circle",
+   "square",
+   "triangle",
+   "shapes"
+  ],
+  "shown_how": "Real snacks, big beside Jimmy's face: a round cookie (circle, rolls in), a yellow cheese square, a white bread triangle sandwich; then all three in a neat row on the tray (left to right circle, square, triangle).",
+  "song_repeats": "circle 0:00, 0:03 (x2), 0:15 = 4x (+ 'round and round' x2) · square 0:07 (x2), 0:15 = 3x · triangle 0:11 (x2), 0:15, 0:18, 0:22 = 5x · shapes 0:25 (x3)",
+  "interactive_moment": "0:18-0:20 'Where is the triangle? Hmm?' (finger on chin, question boing) + 0:20-0:22 humming pause → 0:22 'There it is! The triangle! Yay!' (Jimmy points at it and claps)",
+  "copy_me": "0:03-0:07 'Draw it with me, round and round!' – kids draw a circle in the air with a finger (Jimmy traces the cookie's edge)",
+  "fact_check": "Square = four sides, triangle = three sides (correct); exactly one of each shape on screen; circle is a flat round disc, square has equal sides, triangle has three straight sides; items appear in song order.",
+  "modeling": "Jimmy looks carefully, names each shape and counts its sides; no wrong choice to correct.",
+  "toddler_fit": "Simple words, everyday snacks toddlers know, bright calm kitchen, one baby, big face and big shapes."
+ },
+ "fun_mechanics": [
+  "surprise hook: a cookie rolls in by itself",
+  "copy-me: draw a circle in the air",
+  "say-it-with-me: circle/square/triangle chorus",
+  "interactive pause: Where is the triangle?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "cookie (circle)": "shot 1 appears (rolls in) · shots 2-5 present",
+  "cheese square": "shot 1 absent · shot 2 appears in his hand · shots 3-5 present",
+  "triangle sandwich": "shots 1-2 absent · shot 3 appears in his hands · shots 4-5 present"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.1,
+  "vocals": "one little boy solo"
+ },
+ "shots": [
+  {
+   "role": "HOOK – a round cookie rolls in, Jimmy gasps 'Wow! Look! A circle!', then traces it round and round",
+   "frame": "f1 (sheet + kitchen)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/505823b6-20dd-4d56-8c39-c8e323ee1ac8.png"
+  },
+  {
+   "role": "item 2: yellow cheese SQUARE beside his face, taps four corners",
+   "frame": "f2 r2 (r0 stuck pending in the queue; r1 had TWO cheese squares)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/ebbbcc8c-41f3-4aaf-8938-7f45780f04de.png"
+  },
+  {
+   "role": "item 3: white bread TRIANGLE sandwich, taps three corners",
+   "frame": "f3 r1 (r0 triangle tilted edge-on)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/ddde9bb5-6289-4a62-b690-36b616eb9de3.png"
+  },
+  {
+   "role": "review + question: all three in a row, 'Where is the triangle? Hmm?', points and claps",
+   "frame": "f4",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/f6f573f9-510e-4d67-b6e3-de57b7fb8382.png"
+  },
+  {
+   "role": "LOOP ENDING – edit of the hook frame, three shapes in a row, bye-bye wave",
+   "frame": "f5 (edit of f1)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-03/image/31b3b613-ede8-45e9-8f55-0b194a76698a.png"
+  }
+ ],
+ "sfx": [
+  "sfx/toddlers_gasp.mp3",
+  "sfx/sparkle_chime.mp3 (x2)",
+  "sfx/question_boing.mp3",
+  "sfx/toddlers_cheer_clap.mp3"
+ ],
+ "title": "Wow! A Circle Cookie! 🍪 Learn Shapes with Baby Jimmy | Shapes for Toddlers | Crayon Babies"
+}

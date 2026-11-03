@@ -1,0 +1,10 @@
+[0.0:3.0] Wow! Look! A circle!
+[3.0:7.0] Circle, circle, round and round! Draw it with me, round and round!
+[7.0:11.0] Square, square! One, two, three, four sides!
+[11.0:15.0] Triangle, triangle! One, two, three sides!
+[15.0:18.0] Circle! Square! Triangle!
+[18.0:20.0] Where is the triangle? Hmm?
+[20.0:22.0] 
+[22.0:25.0] There it is! The triangle! Yay!
+[25.0:28.0] Shapes, shapes, shapes are everywhere!
+[28.0:30.0] Bye bye, friends!

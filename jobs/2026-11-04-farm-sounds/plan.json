@@ -1,0 +1,48 @@
+{
+ "idea": "Animals & their sounds #1 (GRANDMA'S FARM): a big friendly cow pops her head over the white fence right beside Baby Jimmy ('Wow! A big cow! Moo, moo!'); he moos back (say it with me: moo!); a fluffy white sheep trots up ('The sheep says baa!'); a little brown hen hops onto the fence post ('Cluck, cluck, cluck!') and Jimmy flaps his arms like wings (copy-me); then all three stand with him and Jimmy asks the viewer 'Who says moo? Hmm?' (pause) – 'The cow! Moo, moo!'; lesson 'Every animal has its own sound!'. Loop: the hook framing again, now cow, hen and sheep together and a bye-bye wave.",
+ "lesson": "Farm animals and their sounds: the cow says moo, the sheep says baa, the hen says cluck.",
+ "place": "GRANDMA'S FARM (text-only block, section 4 – no reference image; hook frame used as place anchor for every later frame)",
+ "calendar": "Wednesday slot 1 – Animals & their sounds / nature (first farm-sounds episode).",
+ "star": "Jimmy",
+ "variety": {
+  "place": "GRANDMA'S FARM",
+  "star": "Jimmy",
+  "outfit": "Jimmy HOME (light blue onesie, barefoot) – the OUTDOOR outfit was tried first but the model copied the sheet's onesie; HOME matches the sheet best (1 Nov lesson)",
+  "last_places": ["AVA'S ROOM (please-thank-you, 3 Nov)", "KITCHEN (shapes, 3 Nov)", "BATHROOM (brush-your-teeth, 2 Nov)", "PLAYROOM (count-to-five, 2 Nov)", "BACKYARD (leaves-fall-down, 1 Nov)", "LIVING ROOM (wag-your-tail, 1 Nov)"]
+ },
+ "characters": ["Jimmy (HOME): BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."],
+ "supporting_objects": {
+  "cow": "THE COW: a cute round friendly black-and-white spotted cartoon cow with a soft pink nose, big shiny dark eyes, small rounded cream horns and floppy ears, toy-like and never scary.",
+  "sheep": "THE SHEEP: a cute round fluffy white cartoon sheep with soft cloud-like curly wool, a cream face, big shiny dark eyes, small floppy ears and little black hooves, toy-like and never scary.",
+  "hen": "THE HEN: a cute round little brown cartoon hen with a small red comb, a tiny yellow beak, big shiny dark eyes and fluffy wings, toy-like and never scary."
+ },
+ "setting": "GRANDMA'S FARM: a small friendly farm with a red barn, a white fence, green fields, a cow, a sheep, hens and a tractor. (Per frame: only the animals already introduced are in the picture.)",
+ "learning": {
+  "goal": "Name three farm animals and the sound each one makes: cow – moo, sheep – baa, hen – cluck.",
+  "target_words": ["cow", "sheep", "hen", "moo / baa / cluck"],
+  "shown_how": "One animal at a time, big beside Jimmy's face, each making its sound (mouth/beak open) with the real animal sound effect on the cut: cow over the fence (shots 1-2), sheep beside him (shot 3), hen on the fence post (shot 4); then all three together (shot 5).",
+  "song_repeats": "moo 0:00 (x2), 0:03 (x3), 0:15, 0:18, 0:22 (x2) = 9x · cow 0:00, 0:03, 0:22 = 3x · baa 0:07 (x3), 0:15 = 4x · sheep 0:07 (x2) · cluck 0:11 (x3), 0:15 (x2) = 5x · hen 0:11",
+  "interactive_moment": "0:18-0:20 'Who says moo? Hmm?' over the loop shot with all three animals (question boing) + 0:20-0:22 humming pause → 0:22 'The cow! Moo, moo! Yay!' on a cow-mooing cut + real moo",
+  "copy_me": "0:03-0:07 'Say it with me: moo, moo!' (hands cupped by the mouth) and 0:11-0:15 'Flap your wings with me!' (Jimmy flaps his arms like a hen)",
+  "fact_check": "Cow = moo, sheep = baa, hen = cluck (correct English animal sounds); exactly ONE cow, ONE sheep, ONE hen on screen (counted in every frame); animals appear in song order; no text/letters/numbers/signs anywhere.",
+  "modeling": "Jimmy is gentle with the animals (soft pat on the sheep), curious and joyful; no wrong choice to correct.",
+  "toddler_fit": "Simple words, friendly round toy-like animals, bright calm farm, one baby, big face, nothing scary."
+ },
+ "fun_mechanics": ["surprise hook: a cow pops up by the fence – MOO!", "say-it-with-me: moo, baa, cluck", "copy-me: flap your wings like a hen", "interactive pause: Who says moo?", "loop ending + Bye bye, friends!"],
+ "story_order": {
+  "cow": "shot 1 appears (hook) · shots 2 and 5 present (out of frame in 3-4)",
+  "sheep": "shots 1-2 absent · shot 3 appears · shot 5 present (out of frame in 4)",
+  "hen": "shots 1-3 absent · shot 4 appears · shot 5 present"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 10s 9:16",
+ "song": {"model": "lyria-3-clip-preview", "prompt_file": "song_prompt.txt", "song_start": 0.0, "duration": 30.1, "vocals": "one little boy solo"},
+ "shots": [
+  {"role": "HOOK – the cow pops up over the fence beside Jimmy, he gasps, claps and bounces", "frame": "f1 r1 (r0 cut his head off at the right edge)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-04/image/858fa2ca-c1dd-4df5-b87c-e796edf0057c.png"},
+  {"role": "item 1 cow: Jimmy cups his hands and says moo, the cow moos back", "frame": "f2", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-04/image/8192a08e-144b-4cae-b3f5-3b3a2fc81754.png"},
+  {"role": "item 2 sheep: a fluffy sheep beside him, he pats and points, the sheep says baa", "frame": "f3 r1 (r0 had white blobs in the field that could read as extra sheep)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-04/image/e732feb8-1471-42d7-8543-50198d87e2b7.png"},
+  {"role": "item 3 hen: hen on the fence post, Jimmy flaps his arms like wings (copy-me)", "frame": "f4", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-04/image/a16d1bd2-0441-4b4a-8f61-e51083db07c3.png"},
+  {"role": "LOOP ENDING – edit of the hook frame: cow, Jimmy, hen and sheep together, question + bye-bye wave", "frame": "f5 (edit of f1)", "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-04/image/7cb0b0ea-fbf5-4103-b8c0-6f8a72095911.png"}
+ ],
+ "sfx": ["sfx/toddlers_gasp.mp3", "cow_moo.mp3 (new)", "sheep_baa.mp3 (new)", "hen_cluck.mp3 (new)", "sfx/question_boing.mp3", "sfx/toddlers_cheer_clap.mp3"],
+ "title": "Wow! A Big Cow Says Moo! 🐮 Farm Animal Sounds with Baby Jimmy | Crayon Babies"
+}

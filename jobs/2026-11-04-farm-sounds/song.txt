@@ -1,0 +1,10 @@
+[0.0:3.0] Wow! A big cow! Moo, moo!
+[3.0:7.0] The cow says moo! Say it with me: moo, moo!
+[7.0:11.0] A fluffy sheep! The sheep says baa! Baa, baa!
+[11.0:15.0] A little hen! Cluck, cluck, cluck! Flap your wings with me!
+[15.0:18.0] Moo! Baa! Cluck, cluck!
+[18.0:20.0] Who says moo? Hmm?
+[20.0:22.0] 
+[22.0:25.0] The cow! Moo, moo! Yay!
+[25.0:28.0] Every animal has its own sound!
+[28.0:30.0] Bye bye, friends!

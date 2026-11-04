@@ -30,3 +30,6 @@ Prompt pattern: `<one sound>, cartoon style, cute, kid-friendly, single short so
 with `duration_seconds` 0.5-2.5 and `prompt_influence` 0.6.
 | blocks_tumble.mp3 | a small tower of wooden toy blocks tumbles onto a soft mat, light clunks | 0.95 s | 0.8 |
 | toothbrush_scrub.mp3 | quick soft scrub-scrub toothbrush bristles (quiet file, max -14 dB) | 1.45 s | 1.8 |
+| cow_moo.mp3 | one friendly cartoon cow "moooo" (loud file) | 1.6 s | 0.55–0.6 |
+| sheep_baa.mp3 | one little lamb "baaa" bleat (loud file) | 1.05 s | 0.6 |
+| hen_cluck.mp3 | little hen "cluck cluck cluck" | 1.07 s | 0.6 |

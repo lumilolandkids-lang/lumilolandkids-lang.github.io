@@ -1,0 +1,10 @@
+[0.0:3.0] Oh! Look, steam! It's hot, hot, hot!
+[3.0:7.0] Hot, hot! Don't touch! Hands on your tummy!
+[7.0:11.0] Mommy, is it hot? Wait, wait, wait!
+[11.0:15.0] Blow with me! Whoo, whoo, whoo!
+[15.0:18.0] Hot, hot! Don't touch! Wait and blow!
+[18.0:20.0] Is it hot? Do we touch? Hmm?
+[20.0:22.0] (Hmm-hmm...)
+[22.0:25.0] No, no! We wait and blow! Yay!
+[25.0:28.0] Hot? Don't touch! Ask a grown-up!
+[28.0:30.0] Bye bye, friends!

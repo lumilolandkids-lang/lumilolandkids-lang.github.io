@@ -19,7 +19,8 @@ EDIT.json
   "cuts": [                                       # in order; output length of a cut = dur / speed
     {"shot": 1, "start": 0.0, "dur": 1.2, "speed": 0.6},   # hook: slowed
     {"shot": 1, "start": 3.0, "dur": 2.0, "zoom": 1.10},   # same shot again -> punch-in
-    {"shot": 2, "start": 0.4, "dur": 2.6}
+    {"shot": 2, "start": 0.4, "dur": 2.6},
+    {"shot": 3, "start": 1.0, "dur": 2.0, "zoom": 1.2, "x": 1.0}  # "x": crop anchor 0-1 (1 = cut the left edge off)
   ],
   "sfx": [                                        # "cut" = index in cuts, "offset" = seconds after that cut starts
     {"file": "sfx/baby_lion_squeak.mp3", "cut": 0, "offset": 0.05, "vol": 0.55, "max": 1.0}
@@ -115,13 +116,14 @@ def build_cut(w, i, c, seg_dir, size=(1080, 1920), show_words=False):
     W, H = size
     speed = float(c.get("speed", 1.0))
     zoom = float(c.get("zoom", 1.0))
+    xa = float(c.get("x", 0.5))  # horizontal crop anchor for zoomed cuts: 0 = keep left edge, 1 = keep right edge
     frames = max(1, round(float(c["dur"]) / speed * FPS))
     vf = []
     if speed != 1.0:
         vf.append(f"setpts=PTS/{speed}")
     vf.append(f"scale=w=trunc({W}*{zoom}/2)*2:h=trunc({H}*{zoom}/2)*2:force_original_aspect_ratio=increase:"
               f"force_divisible_by=2:flags=lanczos")
-    vf.append(f"crop={W}:{H}:(iw-{W})/2:(ih-{H})/2*0.85")
+    vf.append(f"crop={W}:{H}:(iw-{W})*{xa}:(ih-{H})/2*0.85")
     vf.append(f"setsar=1,fps={FPS},format=yuv420p")
     word = (c.get("word") or "").strip() if show_words else ""
     if word:

@@ -3,7 +3,7 @@ name: "crayon-babies-channel"
 description: "Use for any work on the Crayon Babies YouTube kids channel: View Max prompts, new episodes, songs, titles, descriptions, tags, thumbnails, editing clips."
 ---
 
-# Crayon Babies – complete channel bible (updated 2 Nov 2026)
+# Crayon Babies – complete channel bible (updated 5 Nov 2026)
 
 The user runs the YouTube kids channel **Crayon Babies** (@CrayonBabies-TV). She writes in Iraqi/Gulf Arabic; always reply in simple, warm Arabic, short and step-by-step. She sometimes writes Ava's name as "لافا" (Lava) – it means Ava. She makes videos in **View Max** (viewmax.studio – Veo/Kling/Seedance), images in **ChatGPT**, songs in **Gemini**. Every prompt for those tools is in English inside a code block so she can copy it. This file is the single source of truth: never change a character, outfit, room or place description – copy it word for word. When she sends a new image, compare it honestly with these descriptions (hair, eyes, clothes, all three views consistent) before she saves it.
 
@@ -476,8 +476,29 @@ Getting the clips: the chat workspace cannot reach r2.vibevideo.app; download th
 
 ### Automation tools (repo lumilolandkids-lang/lumilolandkids-lang.github.io, branch `autopilot`)
 `TASK_PROMPT_MUSIC.md` (one Short, MODE TEST or LIVE) · `LEARNING.md` (learning calendar + checks) · `TASK_PROMPT_MUSIC_VIDEO.md` (Friday music video) · `TASK_PROMPT_COMPILATION.md` (Sunday compilation) · `compile.py` (compilation, `fit` for Gemini thumbnails) · `THUMBNAIL.md` (Gemini thumbnail recipe) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, song, effects, ducking, words off by default; 9:16 or 16:9) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`, optional custom thumbnail) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot. Each Short saves its rebuild files (edit.json, song.mp3, shots.json) in `jobs/<date>-<slug>/`; the mp4 is removed from the repo after upload.
-Scheduled tasks (all Opus 5.5, Default environment): Daily Music Short ×2 (runs 4:41 + 8:41 AM New York), Weekly Music Video (Fri 5:41 AM NY), Weekly Shorts Compilation (Sun 3:17 AM NY).
+Scheduled tasks (all Opus 5.5, Default environment): Daily Short ×2 (runs 4:41 + 8:41 AM New York – since 5 Nov 2026 they cut clips from the long videos), Friday long video (Fri 5:41 AM NY), Sunday long video + monthly compilation (Sun 3:17 AM NY). Texts to paste: below.
 
+### Scheduled task texts (5 Nov 2026 plan – paste into the app if a task still has the old text)
+Daily Short ×2 (4:41 AM + 8:41 AM New York):
+```
+MODE: LIVE — publish ONE Crayon Babies Short, fully automatically. Nobody is watching: never ask questions, decide and continue. Extra-high effort.
+1. Clone: git clone --depth 1 -b autopilot https://github.com/lumilolandkids-lang/lumilolandkids-lang.github.io /home/user/autopilot-repo ; git user "Claude" / noreply@anthropic.com ; push only to `autopilot`.
+2. Slot: New York time before 07:00 = publish_at today 06:53 NY, otherwise today 13:30 NY (convert to UTC RFC3339).
+3. Follow the TOP section of TASK_PROMPT_MUSIC.md exactly: NO new Short is generated. Cut one 30–45 s vertical clip from a 2:30 long video (compile.py vclip), 0 ViewMax credits, no Lyria, no Veo. Max 4 clips per long video; if none is available, skip.
+4. Channel bible: skills/crayon-babies-channel/SKILL.md (newest). Made for kids, AI disclosure yes, no hashtags, no on-screen words.
+5. Env vars GEMINI_API_KEY, YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN are set – never print them.
+6. Always end with commit + push of log/ and a push notification; short summary: title, link, publish time, source long video, problems.
+```
+Friday long video (5:41 AM New York):
+```
+MODE: LIVE — make and publish this week's FRIDAY long video, fully automatically. Nobody is watching: never ask questions. Extra-high effort.
+Clone the repo branch `autopilot` as in the Short task and follow TASK_PROMPT_MUSIC_VIDEO.md exactly: a NEW 2:30 school-readiness learning song (16:9), Lyria song first (billing error → stop and notify), 12–16 ViewMax C1 shots, budget about 250 ViewMax credits, never Veo, custom thumbnail, publish Friday 3:15 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification with title, link, time, credits used/left.
+```
+Sunday long video (3:17 AM New York):
+```
+MODE: LIVE — make and publish this week's SUNDAY long video, fully automatically. Nobody is watching: never ask questions. Extra-high effort.
+Clone the repo branch `autopilot` and follow TASK_PROMPT_COMPILATION.md exactly: a NEW 2:30 life-skills / values / seasonal learning song (16:9) made with TASK_PROMPT_MUSIC_VIDEO.md, budget about 250 ViewMax credits (credits ARE needed), publish Sunday 8:15 AM New York. On the LAST Sunday of the month also build the monthly compilation of all the month's long videos (step 7, 0 credits), published 7:00 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification.
+```
 ### Lesson learned (2 Nov 2026)
 "Oh No! My Tower Fell Down! Count to 5": one C1 clip was unusable (7 wrong-colored blocks) and the run filled the gap with slow zoom-ins on still frames – more than half the video looked frozen and she did not like it. Rule: never use still frames as shots; redo the failed shot once instead (budget allows ~125 credits for this), or recut from the real clips. Motion prompts ask for clear lively action (bounce, clap, point, wiggle), not only "small gentle movements".
 

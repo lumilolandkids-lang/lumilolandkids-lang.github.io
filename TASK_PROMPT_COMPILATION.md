@@ -1,3 +1,17 @@
+# SUNDAY = LONG VIDEO #2 (her rule, 5 Nov 2026) – this replaces the weekly Shorts compilation
+
+Her rules: "focus on the long videos – two a week, each five minutes" and "don't publish new Shorts, publish short
+clips from the long video". So there are no new Shorts to compile any more. Every Sunday: make a NEW 5-minute 16:9
+LIFE-SKILLS learning song video by following `TASK_PROMPT_MUSIC_VIDEO.md` step by step (song first, 18–24 ViewMax C1
+shots, ≈ 350–450 ViewMax credits – credits ARE needed now; skip only if credits < 500), with these differences:
+- Topic: Friday = school readiness (numbers, letters, colors & shapes, animals, body parts & opposites); Sunday = life
+  skills & values (healthy habits, routines, feelings & kindness, safety, family, little science, or a seasonal/holiday
+  song when the date fits). Not a topic or place used in the last 4 long videos. Star = the other baby than Friday's.
+- Work folder / job: `<date>-mv-<slug>`, log `"kind": "long"`. Publish Sunday **8:15 AM New York time** (zoneinfo → UTC).
+- The weekly steps 1–6 below are OLD (Shorts compilation) and are not used any more; step 7 (monthly) still runs.
+
+---
+
 # Crayon Babies — weekly Shorts compilation (16:9 long video, every Sunday)
 
 Nobody is watching: never ask questions — decide and continue. Work at extra-high effort on the title, description,
@@ -49,10 +63,11 @@ Short summary: shorts included, length, title, link, publish time, any short lef
 Never print GEMINI_API_KEY / YT_* values. Push only to the `autopilot` branch.
 
 ## 7. MONTHLY "ALL VIDEOS" COMPILATION (her request, 5 Nov 2026: "and at the end of the month, all the videos together")
-Run this ONLY on the LAST Sunday of the month (New York date: next Sunday falls in the next month), AFTER the weekly
-compilation above is published (it does not replace it). 0 ViewMax credits.
-- Collect every uploaded video of this calendar month from `log/videos.jsonl`, oldest first: all Shorts and the Friday
-  music videos (`jobs/<date>-mv-<slug>/`). Leave out the weekly compilations themselves (no repeats inside the video).
+Run this ONLY on the LAST Sunday of the month (New York date: next Sunday falls in the next month), AFTER that
+Sunday's new long video is uploaded. 0 ViewMax credits.
+- Collect every LONG video of this calendar month from `log/videos.jsonl` (the Friday and Sunday 5-minute videos,
+  `jobs/<date>-mv-<slug>/`), oldest first – about 8–10 videos, ≈ 40–50 minutes. (Shorts are clips of these, so they
+  are not added again; older Shorts made before 5 Nov may be added at the end of the October/November video only.)
   Rebuild each one from its job folder exactly as in step 2 (music videos: their edit.json has `"size": [1920, 1080]`).
   A clip that no longer downloads → leave that video out and say so.
 - Order: hook (the month's strongest 4–5 s) → intro card "This Month's Songs!" → the videos grouped by topic

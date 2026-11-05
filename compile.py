@@ -3,6 +3,10 @@
 
   python3 compile.py build LIST.json OUT.mp4
   python3 compile.py fit IMAGE OUT.jpg          (Gemini/Nano Banana thumbnail -> 1280x720 JPG < 2 MB, see THUMBNAIL.md)
+  python3 compile.py vclip LONG.mp4 START DUR OUT.mp4 [ZOOM 1.35] [X 0.5]
+                                                (9:16 Short cut from a 16:9 long video: 1080x1920, the picture
+                                                 zoomed so the baby is big, blurred copy above/below, its own audio
+                                                 with 0.3 s fade-in and 1.2 s fade-out, no text)
   python3 compile.py thumb VIDEO.mp4 SECONDS "2-4 WORDS" OUT.jpg [YCENTER 0-1, default 0.55]   (fallback only)
 
 LIST.json
@@ -184,9 +188,25 @@ def cmd_fit(src, out):
     print(f"[thumbnail] {out} {Path(out).stat().st_size // 1024} KB")
 
 
+def cmd_vclip(src, start, length, out, zoom=1.35, x=0.5):
+    start, length, zoom, x = float(start), float(length), float(zoom), float(x)
+    fw = int(1080 * zoom) // 2 * 2
+    fh = int(fw * 9 / 16) // 2 * 2
+    vf = (f"split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=40,"
+          f"eq=brightness=-0.06:saturation=1.1[bg];[b]scale={fw}:{fh},crop=1080:{fh}:({fw}-1080)*{x}:0[fg];"
+          f"[bg][fg]overlay=0:(H-h)/2,setsar=1,fps={FPS},format=yuv420p")
+    af = f"afade=t=in:d=0.3,afade=t=out:st={max(length - 1.2, 0):.2f}:d=1.2,loudnorm=I=-14:TP=-1.5"
+    run(["ffmpeg", "-y", "-v", "error", "-ss", str(start), "-t", str(length), "-i", str(src), "-vf", vf, "-af", af,
+         "-c:v", "libx264", "-preset", "slow", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS),
+         "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", str(out)])
+    print(f"[vclip] {out}  {dur(out):.2f} s  1080x1920")
+
+
 def main():
     if len(sys.argv) >= 4 and sys.argv[1] == "build":
         cmd_build(sys.argv[2], sys.argv[3])
+    elif len(sys.argv) >= 6 and sys.argv[1] == "vclip":
+        cmd_vclip(*sys.argv[2:9])
     elif len(sys.argv) >= 4 and sys.argv[1] == "fit":
         cmd_fit(sys.argv[2], sys.argv[3])
     elif len(sys.argv) >= 6 and sys.argv[1] == "thumb":

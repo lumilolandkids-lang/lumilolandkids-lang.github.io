@@ -3,6 +3,11 @@
 **LONG VIDEOS FIRST (her rule, 5 Nov 2026):** "focus on the long videos – two per week, each video five minutes".
 This Friday video and the Sunday compilation are the most important uploads of the week: target length **5:00**
 (accept 4:40–5:30), never skip them to save credits for Shorts, and give them the most care (song, shots, thumbnail).
+Friday topic = school readiness (numbers, letters, colors & shapes, animals, body parts & opposites); the Sunday long
+video (TASK_PROMPT_COMPILATION.md) = life skills & values. **Shorts are now cut from these long videos** (top of
+`TASK_PROMPT_MUSIC.md`): plan the song and shots so every 30–45 s part (verse + chorus) works on its own – each verse
+starts with a surprising, close-up visual moment (a new item pops in), faces big and centred so a 9:16 crop of the 16:9
+frame keeps the baby whole.
 
 Nobody is watching: never ask questions — decide and continue. Work at extra-high effort on the song, every frame
 prompt, the edit, title, description and thumbnail (draft → check against the channel bible → improve → use).

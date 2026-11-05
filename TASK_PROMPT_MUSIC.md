@@ -1,4 +1,51 @@
-# Crayon Babies — one automated MUSIC-CLIP Short (approved format, Oct 2026)
+# Crayon Babies — the daily Short = a CLIP CUT FROM A LONG VIDEO (her rule, 5 Nov 2026)
+
+**Her words: "Don't publish (new) Shorts – publish a short clip from the long video."** From 5 Nov 2026 NO new Short is
+generated: no new song, no frames, no ViewMax shots. Every Short is a 30–45 s vertical piece of one of the channel's
+5-minute long videos (Friday and Sunday, see `TASK_PROMPT_MUSIC_VIDEO.md`). 0 ViewMax credits, 0 Gemini.
+This section REPLACES the old steps 1–11 below for the daily Short runs (if a scheduled prompt still mentions credits
+checks, the Lyria song, frames or shots, those parts do not apply any more). The old steps stay only as the reference
+for how shots, frames and songs are made inside the long videos.
+
+## A. Pick the source
+- Long videos = log entries with `"kind": "long"` (or a `-mv-` job) and `"status": "uploaded"`, from the last 21 days.
+  Prefer the newest long video that has fewer than 6 clips used (count log entries with its `source_long`).
+- Wait until the long video's own publish time has passed (a clip never comes out before its long video).
+- None available → skip: append `{"time":..,"status":"skipped: no unused long-video clip"}` to `log/videos.jsonl`,
+  commit, push, push notification "Short skipped – no long video to cut from yet", stop.
+
+## B. Rebuild the long video (free)
+`W = runs/<date>-clip-<slug>`. Download the long video's clips from `jobs/<long>/shots.json` into
+`runs/<long>/shotN.mp4` (its edit.json workdir), copy its song.mp3 + effects, `python3 montage.py build
+jobs/<long>/edit.json` → the 16:9 final.mp4. Read its song timeline (`jobs/<long>/song_prompt.txt` / song.txt).
+
+## C. Choose the segment (extra-high effort)
+- 30–45 s, self-contained: it STARTS on a strong visual moment at the start of a sung line (the first clip of every
+  long video = its opening hook + first chorus), teaches ONE item/step of the song + the chorus, and ENDS at the end of
+  a phrase (best: on "Bye bye, friends!" or a happy cheer). Never more than 5 s overlap with an earlier clip of the same
+  long video (read `segment` of earlier log entries).
+- `python3 compile.py vclip <final.mp4> START DUR W/final.mp4 [ZOOM 1.35] [X 0.5]` → 1080×1920 (picture zoomed so the
+  baby is big, blurred copy above/below, its own audio with fades, NO text). Make a 1 fps contact sheet and LOOK at it:
+  the baby's face big and centred (adjust X 0–1 / ZOOM 1.2–1.6), first second strong, no bad frame, no text.
+  `python3 montage.py motion W/final.mp4` – every second ≥ 2.0, else move the segment.
+
+## D. Title, description, tags, upload
+- Title (bible section 10): the clip's own hook + learning goal, e.g. `Wow! Number 3! 🍎 Count with Baby Jimmy |
+  Learn Numbers | Crayon Babies` – different from every earlier title.
+- Description: section 10 template, NO hashtags, plus the line `🎵 From our 5-minute song "<long video title>" –
+  find the full song on the Crayon Babies channel (playlist Crayon Babies Songs).`
+- Tags: `crayon babies` + the star + topic tags (11–15). Playlist "Crayon Babies Songs". Made for kids, AI = yes.
+- `jobs/<date>-<slug>.json` with `"video": "ready/<date>-<slug>.mp4"`, `"short": true`, `"viewmax_credits_used": 0`,
+  `"source_long": "<long job>"`, `"segment": [START, START+DUR]`, `publish_at` from the scheduled prompt.
+  Copy W/final.mp4 to ready/, `python3 upload_ready.py jobs/<date>-<slug>.json` once. Add `source_long`, `segment`,
+  `star` to its log entry. Commit + push `log/` and `jobs/`, remove the mp4 from `ready/`, push notification
+  (title + link + time). Summary as in step 12.
+
+---
+
+# (REFERENCE ONLY since 5 Nov 2026) the old way to make a Short from scratch – still used for the long videos' shots
+
+## Old Short recipe (Oct 2026)
 
 The scheduled prompt says **MODE: TEST** or **MODE: LIVE** (and, for LIVE, the publish time).
 - TEST = do everything except the YouTube upload; deliver the video in the repo.

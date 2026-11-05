@@ -1,0 +1,10 @@
+[0.0:3.0] Oh no! Oh no! What a mess!
+[3.0:7.0] Tidy up, tidy up! Toys go in the box!
+[7.0:10.0] Red ball, red ball, in the box! Plop!
+[10.0:13.0] Yellow duck, yellow duck, in the box! Plop!
+[13.0:16.0] Blue car, blue car, in the box! Plop!
+[16.0:19.0] Pick it up! Put it in! Do it with me!
+[19.0:21.0] Where do toys go? Hmm?
+[21.0:23.0] In the box! Yay! All tidy!
+[23.0:26.0] I can tidy up all by myself!
+[26.0:30.0] Bye bye, friends!

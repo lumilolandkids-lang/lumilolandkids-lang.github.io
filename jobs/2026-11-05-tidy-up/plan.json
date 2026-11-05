@@ -1,0 +1,104 @@
+{
+ "idea": "Routines & independence #1 – tidy up (AVA'S ROOM): the lid of Baby Ava's pink toy box pops open and her red ball, yellow duck and blue toy car tumble out onto the rug ('Oh no! Oh no! What a mess!'); chorus 'Tidy up, tidy up! Toys go in the box!'; she puts them back one by one – 'Red ball, in the box! Plop!', 'Yellow duck, in the box! Plop!', 'Blue car, in the box! Plop!'; copy-me 'Pick it up! Put it in! Do it with me!' with claps; she asks the viewer 'Where do toys go? Hmm?' – 'In the box! Yay! All tidy!'; lesson 'I can tidy up all by myself!'. Loop: the hook framing again, now the box is closed and the rug tidy, bye-bye wave.",
+ "lesson": "Tidy up by yourself: pick each toy up and put it back in the toy box.",
+ "place": "AVA'S ROOM (reference ava-room.jpg)",
+ "calendar": "Thursday slot 2 – Routines & independence (first tidy-up episode).",
+ "star": "Ava",
+ "variety": {
+  "place": "AVA'S ROOM",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress, matches the sheet)",
+  "last_places": [
+   "SUNNY PARK",
+   "LIVING ROOM",
+   "GRANDMA'S FARM"
+  ]
+ },
+ "characters": [
+  "Ava (HOME): BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "supporting_objects": {
+  "toys": "a shiny plain RED rubber ball; a round plain YELLOW rubber duck toy with an orange beak; a chunky toddler toy car in plain BLUE with four black wheels"
+ },
+ "setting": "AVA'S ROOM: a sweet baby girl's bedroom with soft pink walls painted with white clouds and little flowers, yellow curtains with flower tie-backs, a white toddler bed with a yellow flower blanket and a small pink star pillow, a butterfly mobile, a pink toy box with white flowers, a soft white bunny plush, a small dollhouse and a fluffy flower-shaped rug.",
+ "learning": {
+  "goal": "Tidy up by yourself: pick up each toy and put it back in the toy box.",
+  "target_words": [
+   "tidy up",
+   "in the box",
+   "pick it up",
+   "put it in"
+  ],
+  "shown_how": "Three toys tumble out (hook); she puts the red ball, the yellow duck and the blue car into the pink toy box one by one (3 → 2 → 1 → 0 toys on the rug); loop with the box closed and the rug empty.",
+  "song_repeats": "tidy up 0:03 (x2), 0:22 (all tidy), 0:24 = 4x · in the box 0:03, 0:07, 0:10, 0:13, 0:21 = 5x · plop x3",
+  "interactive_moment": "~0:19.2-0:21 'Where do toys go? Hmm?' (question boing ~0:20) → ~0:21 'In the box! Yay! All tidy!' + cheer",
+  "copy_me": "0:16-0:19 'Pick it up! Put it in! Do it with me!' (claps)",
+  "fact_check": "Exactly 3 toys, one plain basic color each (red ball, yellow duck, blue car), counted in every frame; toys leave the rug in the sung order; no text/letters/numbers.",
+  "modeling": "Ava tidies up by herself, calmly, one toy at a time; the mess is a surprise (toys tumbled out), not naughtiness.",
+  "toddler_fit": "Simple words, cozy calm bedroom, one baby, nothing scary, big face."
+ },
+ "fun_mechanics": [
+  "surprise hook: toy box pops open",
+  "say-it-with-me chorus: Tidy up! In the box!",
+  "copy-me: pick it up, put it in, clap",
+  "interactive pause: Where do toys go?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "red ball": "shots 1-2 out · in the box from shot 2 ~3.8 s",
+  "yellow duck": "out in shots 1-3 · in from shot 3 ~4 s",
+  "blue car": "out in shots 1-4 · in from shot 4 ~3.5 s",
+  "box lid": "open shots 1-4/6, closed in shot 5",
+  "note": "copy-me cuts (16.9-18.8 s) replay the car pick-up/put-in as a 'do it with me' demo"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16, 5-6 s clips (2 credits/s)",
+ "image_model": "nano-banana-2.1 (nano-banana-2 internal_error again)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.46,
+  "vocals": "one little girl solo"
+ },
+ "shots": [
+  {
+   "role": "HOOK – toy box pops open, 3 toys tumble out, big gasp",
+   "frame_prompt": "Image 1 = Baby Ava's character sheet: copy her face design, hair, eyes and dress EXACTLY (match the character sheet exactly). Image 2 = Ava's room reference: copy the room.\n3D Pixar style, vertical 9:16 MEDIUM CLOSE-UP. HOOK SHOT – must grab attention in the first second.\nBABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.\nAVA IDENTITY KEYS: warm medium BROWN curly hair, ONE small curly TOP PONYTAIL, sparkly PINK STAR hair CLIP, BIG BROWN EYES, YELLOW DRESS with puffy RUFFLE SLEEVES and a SMALL PINK FLOWER (no collar, no polka dots), PINK baby shoes with bows.\nSAME FACE DESIGN AS THE CHARACTER SHEET: VERY BIG ROUND EYES set wide apart (each eye about a quarter of the face width) with LARGE DARK PUPILS, a bright catch-light and THICK DARK UPPER LASHES; a TINY round BUTTON NOSE; a small wide smile with TWO LITTLE TOP TEETH; smooth, soft, simple skin with no skin texture and soft light blush; round wide head; Jimmy only a few faint freckles. Simple stylized cartoon-baby face, not a realistic toddler face.\nAVA'S ROOM: a sweet baby girl's bedroom with soft pink walls painted with white clouds and little flowers, yellow curtains with flower tie-backs, a white toddler bed with a yellow flower blanket and a small pink star pillow, a butterfly mobile, a pink toy box with white flowers, a soft white bunny plush, a small dollhouse and a fluffy flower-shaped rug.\nTHE THREE TOYS (exactly these three, one plain color each): a shiny plain RED rubber ball (one solid red, no stripes); a round plain YELLOW rubber duck toy with an orange beak; a chunky toddler toy car in plain BLUE with four black wheels.\nSHOT: Baby Ava sits on the fluffy flower-shaped rug right beside her pink toy box with white flowers, which stands at her RIGHT side at the height of her face. The lid of the toy box has just POPPED OPEN by surprise and the three toys are TUMBLING OUT of it in the air right beside her face: the red ball, the yellow rubber duck and the blue toy car, big and clearly visible, flying out toward the rug. Ava has a big surprised gasp: mouth open in a round \"oh\", eyebrows up, BIG BROWN EYES wide open, both little hands up beside her cheeks with palms open (not touching her face), both hands clearly visible and belonging to her two arms. Her face is LARGE – at least a quarter of the frame height – and the open toy box with the tumbling toys is big beside it. The soft white bunny plush sits on the white toddler bed in the soft background, with the pink cloud-and-flower walls and the yellow curtains. Nobody else in the picture. Exactly two arms and two hands.\nCAMERA: medium close-up shots, faces clearly visible and facing the camera, never their backs, no far wide shots. Objects only appear AFTER they are drawn or brought in. One main action per shot. Every character always has exactly two arms and two hands. Bright soft colors, 3D Pixar style, friendly and never scary.\nSoft even daylight, true colors, no golden-hour tint. No text, no letters, no numbers, no writing anywhere in the picture (book spines plain).\n",
+   "motion_prompt": "toys tumble out of the open box and bounce onto the rug; gasp, then giggles and bounces"
+  },
+  {
+   "role": "toy 1 – red ball in the box",
+   "frame_prompt": "Image 1 = Baby Ava's character sheet: copy her face design, hair, eyes and dress EXACTLY (match the character sheet exactly). Image 2 = the approved hook frame: the SAME girl, the SAME corner of Ava's room, the SAME pink toy box with white flowers at her right, the SAME fluffy rug, the same camera distance and the same soft daylight. Image 3 = Ava's room reference.\n3D Pixar style, vertical 9:16 MEDIUM CLOSE-UP.\nBABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.\nAVA IDENTITY KEYS: warm medium BROWN curly hair, ONE small curly TOP PONYTAIL, sparkly PINK STAR hair CLIP, BIG BROWN EYES, YELLOW DRESS with puffy RUFFLE SLEEVES and a SMALL PINK FLOWER (no collar, no polka dots), PINK baby shoes with bows.\nSAME FACE DESIGN AS THE CHARACTER SHEET: VERY BIG ROUND EYES set wide apart (each eye about a quarter of the face width) with LARGE DARK PUPILS, a bright catch-light and THICK DARK UPPER LASHES; a TINY round BUTTON NOSE; a small wide smile with TWO LITTLE TOP TEETH; smooth, soft, simple skin with no skin texture and soft light blush; round wide head; Jimmy only a few faint freckles. Simple stylized cartoon-baby face, not a realistic toddler face.\nAVA'S ROOM: a sweet baby girl's bedroom with soft pink walls painted with white clouds and little flowers, yellow curtains with flower tie-backs, a white toddler bed with a yellow flower blanket and a small pink star pillow, a butterfly mobile, a pink toy box with white flowers, a soft white bunny plush, a small dollhouse and a fluffy flower-shaped rug.\nTHE THREE TOYS (exactly these three, one plain color each): a shiny plain RED rubber ball (one solid red, no stripes); a round plain YELLOW rubber duck toy with an orange beak; a chunky toddler toy car in plain BLUE with four black wheels.\nSHOT: Same framing as image 2. The lid of the pink toy box at her right is open; the box is deep, so nothing inside it can be seen. Baby Ava holds the RED BALL up with BOTH little hands right beside her face, at the height of her cheek, just above the open toy box, ready to drop it in. She smiles happily with a proud open-mouth smile, BIG BROWN EYES wide open, looking at the camera. On the fluffy rug in front of her knees lie exactly TWO toys, clearly visible: the YELLOW rubber duck and the BLUE toy car. Exactly three toys in the whole picture: the red ball in her hands, the duck and the car on the rug – nothing else on the rug. Her face is LARGE – at least a quarter of the frame height. Nobody else in the picture. Exactly two arms and two hands, both holding the ball.\nCAMERA: medium close-up shots, faces clearly visible and facing the camera, never their backs, no far wide shots. Objects only appear AFTER they are drawn or brought in. One main action per shot. Every character always has exactly two arms and two hands. Bright soft colors, 3D Pixar style, friendly and never scary.\nSoft even daylight, true colors, no golden-hour tint. No text, no letters, no numbers, no writing anywhere in the picture (book spines plain).\n",
+   "motion_prompt": "lifts the red ball, drops it into the box (disappears), claps and bounces; duck and car stay on the rug"
+  },
+  {
+   "role": "toy 2 – yellow duck in the box",
+   "frame_prompt": "Image 1 = Baby Ava's character sheet: copy her face design, hair, eyes and dress EXACTLY (match the character sheet exactly). Image 2 = the approved hook frame: the SAME girl, the SAME corner of Ava's room, the SAME pink toy box with white flowers at her right, the SAME fluffy rug, the same camera distance and the same soft daylight. Image 3 = Ava's room reference.\n3D Pixar style, vertical 9:16 MEDIUM CLOSE-UP.\nBABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.\nAVA IDENTITY KEYS: warm medium BROWN curly hair, ONE small curly TOP PONYTAIL, sparkly PINK STAR hair CLIP, BIG BROWN EYES, YELLOW DRESS with puffy RUFFLE SLEEVES and a SMALL PINK FLOWER (no collar, no polka dots), PINK baby shoes with bows.\nSAME FACE DESIGN AS THE CHARACTER SHEET: VERY BIG ROUND EYES set wide apart (each eye about a quarter of the face width) with LARGE DARK PUPILS, a bright catch-light and THICK DARK UPPER LASHES; a TINY round BUTTON NOSE; a small wide smile with TWO LITTLE TOP TEETH; smooth, soft, simple skin with no skin texture and soft light blush; round wide head; Jimmy only a few faint freckles. Simple stylized cartoon-baby face, not a realistic toddler face.\nAVA'S ROOM: a sweet baby girl's bedroom with soft pink walls painted with white clouds and little flowers, yellow curtains with flower tie-backs, a white toddler bed with a yellow flower blanket and a small pink star pillow, a butterfly mobile, a pink toy box with white flowers, a soft white bunny plush, a small dollhouse and a fluffy flower-shaped rug.\nTHE THREE TOYS (exactly these three, one plain color each): a shiny plain RED rubber ball (one solid red, no stripes); a round plain YELLOW rubber duck toy with an orange beak; a chunky toddler toy car in plain BLUE with four black wheels.\nSHOT: Same framing as image 2. The lid of the pink toy box at her right is open; the box is deep, so nothing inside it can be seen (the red ball is already inside, NOT visible). Baby Ava holds the YELLOW RUBBER DUCK up with BOTH little hands right beside her face, at the height of her cheek, just above the open toy box, ready to drop it in. She giggles happily, mouth open in a big smile, BIG BROWN EYES wide open, looking at the camera. On the fluffy rug in front of her knees lies exactly ONE toy, clearly visible: the BLUE toy car. Exactly two toys in the whole picture: the yellow duck in her hands and the blue car on the rug – NO red ball anywhere, nothing else on the rug. Her face is LARGE – at least a quarter of the frame height. Nobody else in the picture. Exactly two arms and two hands, both holding the duck.\nCAMERA: medium close-up shots, faces clearly visible and facing the camera, never their backs, no far wide shots. Objects only appear AFTER they are drawn or brought in. One main action per shot. Every character always has exactly two arms and two hands. Bright soft colors, 3D Pixar style, friendly and never scary.\nSoft even daylight, true colors, no golden-hour tint. No text, no letters, no numbers, no writing anywhere in the picture (book spines plain).\n",
+   "motion_prompt": "wiggles the duck, drops it into the box, claps; car stays on the rug; no red ball"
+  },
+  {
+   "role": "toy 3 – blue car in the box + curious chin tap (question)",
+   "frame_prompt": "Image 1 = Baby Ava's character sheet: copy her face design, hair, eyes and dress EXACTLY (match the character sheet exactly). Image 2 = the approved hook frame: the SAME girl, the SAME corner of Ava's room, the SAME pink toy box with white flowers at her right, the SAME fluffy rug, the same camera distance and the same soft daylight. Image 3 = Ava's room reference.\n3D Pixar style, vertical 9:16 MEDIUM CLOSE-UP.\nBABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.\nAVA IDENTITY KEYS: warm medium BROWN curly hair, ONE small curly TOP PONYTAIL, sparkly PINK STAR hair CLIP, BIG BROWN EYES, YELLOW DRESS with puffy RUFFLE SLEEVES and a SMALL PINK FLOWER (no collar, no polka dots), PINK baby shoes with bows.\nSAME FACE DESIGN AS THE CHARACTER SHEET: VERY BIG ROUND EYES set wide apart (each eye about a quarter of the face width) with LARGE DARK PUPILS, a bright catch-light and THICK DARK UPPER LASHES; a TINY round BUTTON NOSE; a small wide smile with TWO LITTLE TOP TEETH; smooth, soft, simple skin with no skin texture and soft light blush; round wide head; Jimmy only a few faint freckles. Simple stylized cartoon-baby face, not a realistic toddler face.\nAVA'S ROOM: a sweet baby girl's bedroom with soft pink walls painted with white clouds and little flowers, yellow curtains with flower tie-backs, a white toddler bed with a yellow flower blanket and a small pink star pillow, a butterfly mobile, a pink toy box with white flowers, a soft white bunny plush, a small dollhouse and a fluffy flower-shaped rug.\nTHE THREE TOYS (exactly these three, one plain color each): a shiny plain RED rubber ball (one solid red, no stripes); a round plain YELLOW rubber duck toy with an orange beak; a chunky toddler toy car in plain BLUE with four black wheels.\nSHOT: Same framing as image 2. The lid of the pink toy box at her right is open; the box is deep, so nothing inside it can be seen (the ball and the duck are already inside, NOT visible). Baby Ava holds the BLUE TOY CAR up with BOTH little hands right beside her face, at the height of her cheek, just above the open toy box, ready to drop it in. She smiles with a curious, playful look, eyebrows raised, BIG BROWN EYES wide open, looking at the camera as if asking a question. The fluffy rug in front of her is now completely EMPTY and tidy – nothing lies on it. Exactly ONE toy in the whole picture: the blue car in her hands – NO red ball, NO duck anywhere. Her face is LARGE – at least a quarter of the frame height. Nobody else in the picture. Exactly two arms and two hands, both holding the car.\nCAMERA: medium close-up shots, faces clearly visible and facing the camera, never their backs, no far wide shots. Objects only appear AFTER they are drawn or brought in. One main action per shot. Every character always has exactly two arms and two hands. Bright soft colors, 3D Pixar style, friendly and never scary.\nSoft even daylight, true colors, no golden-hour tint. No text, no letters, no numbers, no writing anywhere in the picture (book spines plain).\n",
+   "motion_prompt": "car 'vroom' through the air, drops it into the box; curious chin tap, nods"
+  },
+  {
+   "role": "LOOP ENDING – edit of the hook frame: box closed, rug tidy, bye-bye wave",
+   "frame_prompt": "Image 1 = the approved hook frame. Image 2 = Baby Ava's character sheet: match her face design, hair, eyes and dress exactly. Image 3 = Ava's room reference.\nKeep EVERYTHING in image 1 exactly the same – the same girl, same face design, same hair, same pink star clip, same yellow dress, same pose of her body, same camera distance and framing, same room, same rug, same bed with the bunny plush, same light, same 3D Pixar style.\nONLY CHANGE: 1) the three toys are gone from the picture – NO red ball, NO yellow duck, NO blue car anywhere (they are put away inside the box); 2) the lid of the pink toy box with white flowers is now CLOSED, the box is neat and tidy; 3) the fluffy rug is completely empty and tidy; 4) Ava now smiles a big proud happy smile with TWO LITTLE TOP TEETH, BIG BROWN EYES wide open, looking at the camera, and waves bye-bye with her RIGHT hand raised beside her face (palm open, not touching her face), her LEFT hand resting on her lap.\nAVA IDENTITY KEYS: warm medium BROWN curly hair, ONE small curly TOP PONYTAIL, sparkly PINK STAR hair CLIP, BIG BROWN EYES, YELLOW DRESS with puffy RUFFLE SLEEVES and a SMALL PINK FLOWER (no collar, no polka dots), PINK baby shoes with bows.\nSAME FACE DESIGN AS THE CHARACTER SHEET: VERY BIG ROUND EYES set wide apart (each eye about a quarter of the face width) with LARGE DARK PUPILS, a bright catch-light and THICK DARK UPPER LASHES; a TINY round BUTTON NOSE; a small wide smile with TWO LITTLE TOP TEETH; smooth, soft, simple skin with no skin texture and soft light blush; round wide head; Jimmy only a few faint freckles. Simple stylized cartoon-baby face, not a realistic toddler face.\nLOOP ENDING – mirror shot 1. Exactly two arms and two hands.\nCAMERA: medium close-up shots, faces clearly visible and facing the camera, never their backs, no far wide shots. Objects only appear AFTER they are drawn or brought in. One main action per shot. Every character always has exactly two arms and two hands. Bright soft colors, 3D Pixar style, friendly and never scary.\nSoft even daylight, true colors, no golden-hour tint. No text, no letters, no numbers, no writing anywhere in the picture (book spines plain).\n",
+   "motion_prompt": "(from f5c crop) waves bye-bye, sways, nods; box stays closed"
+  },
+  {
+   "role": "extra – cheer + point at the box (answer 'In the box!' / 'All tidy!')",
+   "frame_prompt": "frame grabbed from shot4 at 5.6 s",
+   "motion_prompt": "(from a shot-4 frame) claps and cheers, points at the open box, nods; rug empty"
+  }
+ ],
+ "sfx": [
+  "sfx/blocks_tumble.mp3",
+  "sfx/toddlers_gasp.mp3",
+  "sfx/pop.mp3 x3 (plop)",
+  "sfx/toddlers_cheer_clap.mp3 x2",
+  "sfx/question_boing.mp3",
+  "sfx/sparkle_chime.mp3"
+ ],
+ "title": "Oh No! What a Mess! 🧸 Tidy Up Song with Baby Ava | Clean Up for Toddlers | Crayon Babies"
+}

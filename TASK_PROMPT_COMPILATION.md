@@ -8,7 +8,10 @@ Channel bible: `skills/crayon-babies-channel/SKILL.md` in THIS repo (newest), se
 From `log/videos.jsonl` take every entry with `"status": "uploaded"`, kind short (or no kind + a /shorts/ url),
 uploaded in the last 7 days (by `time`), oldest first. Each has a job folder `jobs/<date>-<slug>/` (from `job`, or
 match the date/slug) with `edit.json`, `song.mp3`, `shots.json`.
-- Fewer than 6 shorts with complete job folders → skip: push notification "Compilation skipped: only N shorts this
+- **Target length 5:00 (her rule, 5 Nov 2026: two long videos a week, each five minutes; accept 4:40–5:40).** With
+  more shorts than needed, pick the strongest and most varied ones (different topics, both babies) to reach ~5:00.
+  If the week's shorts are not enough for 4:40, add the best older shorts that were not in last week's compilation.
+- Fewer than 6 shorts with complete job folders (this week + older ones) → skip: push notification "Compilation skipped: only N shorts this
   week", stop (no commit needed).
 
 ## 2. Rebuild each short (free)

@@ -2,14 +2,14 @@
 
 **Her words: "Don't publish (new) Shorts – publish a short clip from the long video."** From 5 Nov 2026 NO new Short is
 generated: no new song, no frames, no ViewMax shots. Every Short is a 30–45 s vertical piece of one of the channel's
-5-minute long videos (Friday and Sunday, see `TASK_PROMPT_MUSIC_VIDEO.md`). 0 ViewMax credits, 0 Gemini.
+2:30-minute long videos (Friday and Sunday, see `TASK_PROMPT_MUSIC_VIDEO.md`). 0 ViewMax credits, 0 Gemini.
 This section REPLACES the old steps 1–11 below for the daily Short runs (if a scheduled prompt still mentions credits
 checks, the Lyria song, frames or shots, those parts do not apply any more). The old steps stay only as the reference
 for how shots, frames and songs are made inside the long videos.
 
 ## A. Pick the source
 - Long videos = log entries with `"kind": "long"` (or a `-mv-` job) and `"status": "uploaded"`, from the last 21 days.
-  Prefer the newest long video that has fewer than 6 clips used (count log entries with its `source_long`).
+  Prefer the newest long video that has fewer than 4 clips used (a 2:30 song gives 3–4 clips) (count log entries with its `source_long`).
 - Wait until the long video's own publish time has passed (a clip never comes out before its long video).
 - None available → skip: append `{"time":..,"status":"skipped: no unused long-video clip"}` to `log/videos.jsonl`,
   commit, push, push notification "Short skipped – no long video to cut from yet", stop.
@@ -32,7 +32,7 @@ jobs/<long>/edit.json` → the 16:9 final.mp4. Read its song timeline (`jobs/<lo
 ## D. Title, description, tags, upload
 - Title (bible section 10): the clip's own hook + learning goal, e.g. `Wow! Number 3! 🍎 Count with Baby Jimmy |
   Learn Numbers | Crayon Babies` – different from every earlier title.
-- Description: section 10 template, NO hashtags, plus the line `🎵 From our 5-minute song "<long video title>" –
+- Description: section 10 template, NO hashtags, plus the line `🎵 From our full song "<long video title>" –
   find the full song on the Crayon Babies channel (playlist Crayon Babies Songs).`
 - Tags: `crayon babies` + the star + topic tags (11–15). Playlist "Crayon Babies Songs". Made for kids, AI = yes.
 - `jobs/<date>-<slug>.json` with `"video": "ready/<date>-<slug>.mp4"`, `"short": true`, `"viewmax_credits_used": 0`,

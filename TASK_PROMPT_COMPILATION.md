@@ -47,3 +47,26 @@ follow-up commit. Push notification: title + link + publish time.
 ## 6. Finish
 Short summary: shorts included, length, title, link, publish time, any short left out and why.
 Never print GEMINI_API_KEY / YT_* values. Push only to the `autopilot` branch.
+
+## 7. MONTHLY "ALL VIDEOS" COMPILATION (her request, 5 Nov 2026: "and at the end of the month, all the videos together")
+Run this ONLY on the LAST Sunday of the month (New York date: next Sunday falls in the next month), AFTER the weekly
+compilation above is published (it does not replace it). 0 ViewMax credits.
+- Collect every uploaded video of this calendar month from `log/videos.jsonl`, oldest first: all Shorts and the Friday
+  music videos (`jobs/<date>-mv-<slug>/`). Leave out the weekly compilations themselves (no repeats inside the video).
+  Rebuild each one from its job folder exactly as in step 2 (music videos: their edit.json has `"size": [1920, 1080]`).
+  A clip that no longer downloads → leave that video out and say so.
+- Order: hook (the month's strongest 4–5 s) → intro card "This Month's Songs!" → the videos grouped by topic
+  (songs/music videos first as anchors, then letters, numbers, colors & shapes, animals, habits & safety, feelings &
+  family, science, seasonal), each with its "Episode N" card → SUBSCRIBE outro. Also show the SUBSCRIBE reminder
+  briefly near the start (section 11). Write `runs/compile/month-list.json` and run
+  `python3 compile.py build runs/compile/month-list.json runs/compile/month.mp4` (long run: rebuild clips one by one).
+  Check samples (hook, cards, a short, a music video, outro), duration and loudness.
+- Thumbnail (THUMBNAIL.md): BOTH babies' best happy faces from the month (each from their own approved start frame,
+  side by side, never touching), the month's best objects, 2–4 huge words, e.g. "1 MONTH OF SONGS!".
+- Publish the SAME Sunday at **7:00 PM New York time** (the evening kids' peak): `jobs/<date>-month.json` with
+  title e.g. `Crayon Babies – All <Month> Songs! 🎵 <N> Learning Songs for Toddlers | <M> Minutes`
+  (≤ 100 characters), description per section 10 (NO hashtags) with the chapters pasted as-is and a "📚 This month kids
+  learned:" line listing the learning goals, tags (crayon babies, baby jimmy, baby ava, kids songs compilation,
+  nursery rhymes for toddlers, learning songs for toddlers …), playlist "Crayon Babies Songs", thumbnail, `short`: false.
+  Upload once, log it with `"kind": "monthly"`, commit + push `log/` and `jobs/`, remove the mp4/jpg from `ready/`,
+  push notification: title + link + publish time + length.

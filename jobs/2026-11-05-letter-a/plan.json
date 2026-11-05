@@ -1,0 +1,102 @@
+{
+ "idea": "Letters & first words #1 – Letter A (SUNNY PARK picnic): a big chunky red foam letter A pops out of Baby Jimmy's picnic basket ('Wow! Look! A big letter A!'); A says a-a-a (say it with me) and 'Draw an A with me: up, down, across!' (copy-me); A is for apple – Jimmy lifts a shiny red apple; A is for ant – a cute little cartoon ant dances on his palm; review 'A! Apple! Ant!' with claps; he asks the viewer 'What does A say? Hmm?' (pause) – 'A says a, a, a! Yay!'; lesson 'A is for apple and ant!'. Loop: the hook framing again, A, apple and ant in a neat row, bye-bye wave.",
+ "lesson": "Letter A: its name, its short 'a' sound, and two A words – apple and ant.",
+ "place": "SUNNY PARK (reference image park.jpg) – picnic on a plain yellow blanket",
+ "calendar": "Thursday slot 1 – Letters & first words (A–Z series #1: A)",
+ "star": "Jimmy",
+ "variety": {
+  "place": "SUNNY PARK",
+  "star": "Jimmy",
+  "outfit": "OUTDOOR",
+  "last_places": [
+   "LIVING ROOM (hot-dont-touch, 4 Nov)",
+   "GRANDMA'S FARM (farm-sounds, 4 Nov)",
+   "AVA'S ROOM (please-thank-you, 3 Nov)",
+   "KITCHEN (shapes, 3 Nov)",
+   "BATHROOM (brush-your-teeth, 2 Nov)",
+   "PLAYROOM (count-to-five, 2 Nov)"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces."
+ ],
+ "supporting_objects": {
+  "letter_a": "THE LETTER A: a big chunky red foam capital letter A (two slanted sides, one crossbar), as tall as Jimmy's head.",
+  "apple": "THE APPLE: one big shiny round red apple with a small brown stem and one green leaf.",
+  "ant": "THE ANT: a cute round little cartoon ant, shiny reddish-brown, big friendly smiling face, big shiny dark eyes, two curly antennae and six tiny legs, toy-like and never scary."
+ },
+ "setting": "SUNNY PARK: a sunny park with a playground with a red slide and yellow swings, a small duck pond with white ducks and a little wooden bridge, a big green tree, a winding stone path, flower beds and a white bench.",
+ "learning": {
+  "goal": "Know the letter A, its short 'a' sound and two A words: apple and ant.",
+  "target_words": [
+   "A",
+   "a (sound)",
+   "apple",
+   "ant"
+  ],
+  "shown_how": "A real 3D red foam letter A pops out of the basket (0:00), then a red apple beside his face (0:09), then a cute ant on his palm (0:13); all three in a neat row at the end.",
+  "song_repeats": "A/a: 0:00, 0:03 (x7), 0:07, 0:10, 0:13, 0:16 (x4), 0:19, 0:23 (x4), 0:26 · apple 0:10 (x2), 0:16, 0:26 = 4x · ant 0:13 (x2), 0:16, 0:26 = 4x",
+  "interactive_moment": "0:19-0:21 'What does A say? Hmm?' over the loop shot (question boing) + 0:21-0:23 humming pause → 0:23 'A says a, a, a! Yay!' with a cheer",
+  "copy_me": "0:03-0:07 'Say it with me: a, a, a!' and 0:07-0:10 'Draw an A with me: up, down, across!'",
+  "fact_check": "Capital A correct in every frame (two slanted sides + one crossbar, upright); A says short /a/ as in apple and ant (song prompt explicitly asks for the short sound, never 'ay'); exactly one apple and one ant; no other letters/numbers/text anywhere.",
+  "modeling": "Jimmy is gentle with the little ant (holds it softly on his open palm); no wrong choice to correct.",
+  "toddler_fit": "Simple words, one baby, big face, friendly toy-like ant, bright calm park, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: letter A pops out of the picnic basket",
+  "say-it-with-me: a, a, a",
+  "copy-me: draw an A in the air",
+  "interactive pause: What does A say?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "letter A": "appears shot 1 (pops out), present after",
+  "apple": "shots 1-2 absent (in basket), appears shot 3, present 4-5",
+  "ant": "shots 1-3 absent, appears shot 4, present 5"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 7s 9:16 (2 credits/s)",
+ "image_model": "nano-banana-2.1 (nano-banana-2 failed with internal errors on every call today, incl. a plain text prompt)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.7,
+  "vocals": "one little boy solo"
+ },
+ "shots": [
+  {
+   "role": "HOOK – letter A pops out of the basket, Jimmy gasps, claps, points",
+   "frame": "f1",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-05/image/976e22cb-3ac7-43a6-a166-6c30767ca10d.jpg"
+  },
+  {
+   "role": "letter A – Jimmy reaches for the A, smiles (only 0.6-2.8 s usable: after 3 s C1 added a second bent A)",
+   "frame": "f1 (same start frame, different motion)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-05/image/976e22cb-3ac7-43a6-a166-6c30767ca10d.jpg"
+  },
+  {
+   "role": "apple – Jimmy lifts one red apple beside his face",
+   "frame": "f3",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-05/image/d912a2af-2f88-472e-80e7-d635621b27f1.jpg"
+  },
+  {
+   "role": "ant – a cute ant dances on his palm, he points and giggles",
+   "frame": "f4",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-05/image/eaf430a3-5484-48fd-8c2f-f9640ef393f0.jpg"
+  },
+  {
+   "role": "LOOP ENDING – edit of the hook frame: A, apple, ant in a row, bye-bye wave",
+   "frame": "f5 (edit of f1)",
+   "frame_url": "https://r2.vibevideo.app/viewmax/creations/2026-11-05/image/e58cde05-b7b6-4a44-b9e9-a994efc65409.jpg"
+  }
+ ],
+ "sfx": [
+  "sfx/magic_poof.mp3",
+  "sfx/toddlers_gasp.mp3",
+  "sfx/sparkle_chime.mp3",
+  "sfx/pop.mp3",
+  "sfx/question_boing.mp3",
+  "sfx/toddlers_cheer_clap.mp3"
+ ],
+ "title": "Wow! A Big Letter A! 🍎 A Is for Apple & Ant | Learn ABC with Baby Jimmy | Crayon Babies"
+}

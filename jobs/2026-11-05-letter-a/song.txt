@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A big letter A!
+[3.0:7.0] A says a, a, a! Say it with me: a, a, a!
+[7.0:10.0] Draw an A with me: up, down, across!
+[10.0:13.0] A is for apple! A-a-apple!
+[13.0:16.0] A is for ant! A-a-ant!
+[16.0:19.0] A! Apple! Ant! A, a, a!
+[19.0:21.0] What does A say? Hmm?
+[21.0:23.0] (Humming and daf only)
+[23.0:26.0] A says a, a, a! Yay!
+[26.0:28.0] A is for apple and ant!
+[28.0:30.0] Bye bye, friends!

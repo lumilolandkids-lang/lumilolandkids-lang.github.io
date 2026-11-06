@@ -312,7 +312,7 @@ Old goal (before 5 Nov 2026, kept for reference only):
 
 ---
 
-## 10. TITLES, DESCRIPTIONS, TAGS
+## 10. TITLES, DESCRIPTIONS (NO TAGS since 6 Nov 2026)
 
 Strong title formulas (English + emoji, main hook first):
 - Hook + character: `Oh No! Baby Ava Lost Her Puppy! 🐶 | Crayon Babies`
@@ -342,7 +342,7 @@ Description template (NO hashtags – she prefers none):
 
 🔔 Subscribe to Crayon Babies for new stories and songs every day!
 ```
-Tags: ~11–15 specific tags, starting with `crayon babies` + the video's star (`baby jimmy` or `baby ava`; both only in old two-baby videos), then topic tags (e.g. `sharing for kids, sharing is caring, good manners for toddlers`) and 2–3 broad ones (`kids cartoon, nursery rhymes, toddler learning`).
+**NO TAGS (her rule, 6 Nov 2026: "remove the tags when you upload the videos"):** upload every video without tags – `upload_ready.py` never sends any (old rule, not used: ~11–15 tags starting with `crayon babies` + the star). Title and description carry the keywords.
 
 Upload settings: Made for kids · Altered/synthetic (AI) = Yes · Public · thumbnail 1280×720 JPG < 2 MB · playlists: Magic Crayon Stories / Good Habits / Learn with Crayon Babies / Crayon Babies Songs / Doctor Visits.
 Playlists that exist on the channel (4 Nov 2026): "Magic Crayon Stories 🖍️ | Crayon Babies" (PLUFaC4snVLDQ) and "Crayon Babies Songs 🎵 | Sing & Learn for Toddlers" (PLdkGC4jjLl2Q, created 4 Nov with all 13 song Shorts, newest first). `upload_ready.py` matches the job's `playlist` as a case-insensitive part of the title, so `"Crayon Babies Songs"` adds every new Short automatically. The others (Good Habits, Learn with Crayon Babies, Doctor Visits) do not exist yet.
@@ -417,7 +417,7 @@ Items come in the same order in the shots and in the song; an item never appears
 
 **Song:** ONE child voice – a sweet little boy for Jimmy videos, a sweet little girl for Ava videos – singing solo, with soft children's humming / "la la" backing; same a cappella rules (section 8). The song names the items in order, sings the target words ≥ 3 times, has the question + pause, a copy-me line and "Bye bye, friends!".
 
-**Titles and tags:** name the star and the learning goal: `Learn Colors with Baby Ava! 🔴🟡🔵 | Colors for Toddlers | Crayon Babies`, `Letter A with Baby Jimmy! 🍎 | Learn ABC | Crayon Babies`. Tags start with `crayon babies` + the star (`baby ava` or `baby jimmy`).
+**Titles:** name the star and the learning goal: `Learn Colors with Baby Ava! 🔴🟡🔵 | Colors for Toddlers | Crayon Babies`, `Letter A with Baby Jimmy! 🍎 | Learn ABC | Crayon Babies`. No tags (her rule, 6 Nov 2026).
 
 **"What's Missing?"** with one baby: the same baby asks the viewer and draws the missing part.
 
@@ -485,19 +485,19 @@ MODE: LIVE — publish ONE Crayon Babies Short, fully automatically. Nobody is w
 1. Clone: git clone --depth 1 -b autopilot https://github.com/lumilolandkids-lang/lumilolandkids-lang.github.io /home/user/autopilot-repo ; git user "Claude" / noreply@anthropic.com ; push only to `autopilot`.
 2. Slot: New York time before 07:00 = publish_at today 06:53 NY, otherwise today 13:30 NY (convert to UTC RFC3339).
 3. Follow the TOP section of TASK_PROMPT_MUSIC.md exactly: NO new Short is generated. Cut one 30–45 s vertical clip from a 2:30 long video (compile.py vclip), 0 ViewMax credits, no Lyria, no Veo. Max 4 clips per long video; if none is available, skip.
-4. Channel bible: skills/crayon-babies-channel/SKILL.md (newest). Made for kids, AI disclosure yes, no hashtags, no on-screen words.
+4. Channel bible: skills/crayon-babies-channel/SKILL.md (newest). Made for kids, AI disclosure yes, no hashtags, no tags, no on-screen words.
 5. Env vars GEMINI_API_KEY, YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN are set – never print them.
 6. Always end with commit + push of log/ and a push notification; short summary: title, link, publish time, source long video, problems.
 ```
 Friday long video (5:41 AM New York):
 ```
 MODE: LIVE — make and publish this week's FRIDAY long video, fully automatically. Nobody is watching: never ask questions. Extra-high effort.
-Clone the repo branch `autopilot` as in the Short task and follow TASK_PROMPT_MUSIC_VIDEO.md exactly: a NEW 2:30 school-readiness learning song (16:9), Lyria song first (billing error → stop and notify), 12–16 ViewMax C1 shots, budget about 250 ViewMax credits, never Veo, custom thumbnail, publish Friday 3:15 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification with title, link, time, credits used/left.
+Clone the repo branch `autopilot` as in the Short task and follow TASK_PROMPT_MUSIC_VIDEO.md exactly: a NEW 2:30 school-readiness learning song (16:9), Lyria song first (billing error → stop and notify), 12–16 ViewMax C1 shots, budget about 250 ViewMax credits, never Veo, custom thumbnail, publish Friday 3:15 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags, no tags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification with title, link, time, credits used/left.
 ```
 Sunday long video (3:17 AM New York):
 ```
 MODE: LIVE — make and publish this week's SUNDAY long video, fully automatically. Nobody is watching: never ask questions. Extra-high effort.
-Clone the repo branch `autopilot` and follow TASK_PROMPT_COMPILATION.md exactly: a NEW 2:30 life-skills / values / seasonal learning song (16:9) made with TASK_PROMPT_MUSIC_VIDEO.md, budget about 250 ViewMax credits (credits ARE needed), publish Sunday 8:15 AM New York. On the LAST Sunday of the month also build the monthly compilation of all the month's long videos (step 7, 0 credits), published 7:00 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification.
+Clone the repo branch `autopilot` and follow TASK_PROMPT_COMPILATION.md exactly: a NEW 2:30 life-skills / values / seasonal learning song (16:9) made with TASK_PROMPT_MUSIC_VIDEO.md, budget about 250 ViewMax credits (credits ARE needed), publish Sunday 8:15 AM New York. On the LAST Sunday of the month also build the monthly compilation of all the month's long videos (step 7, 0 credits), published 7:00 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags, no tags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification.
 ```
 ### Lesson learned (2 Nov 2026)
 "Oh No! My Tower Fell Down! Count to 5": one C1 clip was unusable (7 wrong-colored blocks) and the run filled the gap with slow zoom-ins on still frames – more than half the video looked frozen and she did not like it. Rule: never use still frames as shots; redo the failed shot once instead (budget allows ~125 credits for this), or recut from the real clips. Motion prompts ask for clear lively action (bounce, clap, point, wiggle), not only "small gentle movements".

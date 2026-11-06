@@ -68,7 +68,7 @@ Follow `THUMBNAIL.md` → `ready/<date>-mv-<slug>.jpg`.
 ## 6. Publish (Friday 3:15 PM New York time)
 Copy to `ready/<date>-mv-<slug>.mp4`. Write `jobs/<date>-mv-<slug>.json`: title in the song formula
 (`<Song Name> <emoji> | Nursery Rhymes & Kids Songs | Crayon Babies`), description per section 10 (NO hashtags; add a
-short "Lyrics:" block with the chorus), tags, `playlist` "Crayon Babies Songs", `thumbnail`, `short`: false,
+short "Lyrics:" block with the chorus), NO tags (her rule, 6 Nov 2026), `playlist` "Crayon Babies Songs", `thumbnail`, `short`: false,
 `publish_at` = Friday 15:15 New York in UTC (zoneinfo). Save rebuild files into `jobs/<date>-mv-<slug>/`
 (plan, edit, song prompt, song.mp3, shots.json). `python3 upload_ready.py jobs/<date>-mv-<slug>.json` once.
 Commit and push `log/` and `jobs/`, then remove the mp4/jpg from `ready/`. Push notification: title + link + time.

@@ -183,10 +183,10 @@ def yt_token():
 def upload(video, job):
     token = yt_token()
     tags = [t.lstrip("#") for t in job.get("tags", [])]
-    hashtags = " ".join("#" + t.replace(" ", "") for t in tags[:5])
+    hashtags = ""  # no hashtags, no tags (her rules)
     meta = {
-        "snippet": {"title": job["title"][:100], "description": f"{job['description']}\n\n{hashtags}"[:5000],
-                    "tags": tags, "categoryId": "1", "defaultLanguage": "en", "defaultAudioLanguage": "en"},
+        "snippet": {"title": job["title"][:100], "description": job["description"][:5000],
+                    "categoryId": "1", "defaultLanguage": "en", "defaultAudioLanguage": "en"},
         "status": {"privacyStatus": job.get("privacy", "public"), "selfDeclaredMadeForKids": True,
                    "containsSyntheticMedia": True, "embeddable": True},
     }

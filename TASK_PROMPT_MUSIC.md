@@ -29,12 +29,12 @@ jobs/<long>/edit.json` → the 16:9 final.mp4. Read its song timeline (`jobs/<lo
   the baby's face big and centred (adjust X 0–1 / ZOOM 1.2–1.6), first second strong, no bad frame, no text.
   `python3 montage.py motion W/final.mp4` – every second ≥ 2.0, else move the segment.
 
-## D. Title, description, tags, upload
+## D. Title, description, upload (NO tags – her rule, 6 Nov 2026)
 - Title (bible section 10): the clip's own hook + learning goal, e.g. `Wow! Number 3! 🍎 Count with Baby Jimmy |
   Learn Numbers | Crayon Babies` – different from every earlier title.
 - Description: section 10 template, NO hashtags, plus the line `🎵 From our full song "<long video title>" –
   find the full song on the Crayon Babies channel (playlist Crayon Babies Songs).`
-- Tags: `crayon babies` + the star + topic tags (11–15). Playlist "Crayon Babies Songs". Made for kids, AI = yes.
+- NO tags (her rule, 6 Nov 2026). Playlist "Crayon Babies Songs". Made for kids, AI = yes.
 - `jobs/<date>-<slug>.json` with `"video": "ready/<date>-<slug>.mp4"`, `"short": true`, `"viewmax_credits_used": 0`,
   `"source_long": "<long job>"`, `"segment": [START, START+DUR]`, `publish_at` from the scheduled prompt.
   Copy W/final.mp4 to ready/, `python3 upload_ready.py jobs/<date>-<slug>.json` once. Add `source_long`, `segment`,

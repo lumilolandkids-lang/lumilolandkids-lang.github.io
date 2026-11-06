@@ -51,7 +51,7 @@ Copy the video to `ready/<date>-compilation.mp4`. Write `jobs/<date>-compilation
   ≤ 100 characters, hook words first if there is a stand-out song).
 - `description`: section 10 template, NO hashtags, with the chapters from compilation.chapters.txt pasted as-is
   (first line must be `0:00 ...`).
-- `tags` (start with crayon babies, baby jimmy, baby ava; add kids songs compilation, nursery rhymes for toddlers…),
+- NO tags (her rule, 6 Nov 2026),
   `playlist`: "Crayon Babies Songs", `thumbnail`: "ready/<date>-compilation.jpg", `short`: false,
   `publish_at`: Sunday 08:15 New York time in UTC (compute with zoneinfo; if already past, it publishes now).
 Run `python3 upload_ready.py jobs/<date>-compilation.json` once (retry once only if it failed before a video id was
@@ -81,7 +81,7 @@ Sunday's new long video is uploaded. 0 ViewMax credits.
 - Publish the SAME Sunday at **7:00 PM New York time** (the evening kids' peak): `jobs/<date>-month.json` with
   title e.g. `Crayon Babies – All <Month> Songs! 🎵 <N> Learning Songs for Toddlers | <M> Minutes`
   (≤ 100 characters), description per section 10 (NO hashtags) with the chapters pasted as-is and a "📚 This month kids
-  learned:" line listing the learning goals, tags (crayon babies, baby jimmy, baby ava, kids songs compilation,
+  learned:" line listing the learning goals, NO tags (her rule, 6 Nov 2026) (old list, not used: crayon babies, baby jimmy, baby ava, kids songs compilation,
   nursery rhymes for toddlers, learning songs for toddlers …), playlist "Crayon Babies Songs", thumbnail, `short`: false.
   Upload once, log it with `"kind": "monthly"`, commit + push `log/` and `jobs/`, remove the mp4/jpg from `ready/`,
   push notification: title + link + publish time + length.

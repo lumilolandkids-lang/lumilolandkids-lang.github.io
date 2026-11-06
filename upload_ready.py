@@ -12,7 +12,7 @@ Job keys:
                (long videos; made with `compile.py thumb`)
   short        optional, default true; false for long videos (only changes the logged link format)
 
-Channel rules: Made for kids, altered/synthetic (AI) = yes, NO hashtags added to the description.
+Channel rules: Made for kids, altered/synthetic (AI) = yes, NO hashtags added to the description, NO tags (6 Nov 2026).
 Exit codes: 0 ok, 2 bad input, 4 API error.
 """
 import datetime, json, sys
@@ -30,8 +30,8 @@ def build_meta(job):
         at = datetime.datetime.fromisoformat(when.replace("Z", "+00:00"))
         if at > now + datetime.timedelta(minutes=15):
             status.update(privacyStatus="private", publishAt=at.strftime("%Y-%m-%dT%H:%M:%SZ"))
-    tags = [t.lstrip("#") for t in job.get("tags", [])]
-    snippet = {"title": job["title"][:100], "description": job["description"][:5000], "tags": tags,
+    # NO TAGS (her rule, 6 Nov 2026: "remove the tags when you upload the videos") - any "tags" in the job are ignored.
+    snippet = {"title": job["title"][:100], "description": job["description"][:5000],
                "categoryId": "1", "defaultLanguage": "en", "defaultAudioLanguage": "en"}
     return {"snippet": snippet, "status": status}
 

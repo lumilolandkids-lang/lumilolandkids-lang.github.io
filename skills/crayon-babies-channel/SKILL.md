@@ -342,7 +342,7 @@ Description template (NO hashtags – she prefers none):
 
 🔔 Subscribe to Crayon Babies for new stories and songs every day!
 ```
-**NO TAGS (her rule, 6 Nov 2026: "remove the tags when you upload the videos"):** upload every video without tags – `upload_ready.py` never sends any (old rule, not used: ~11–15 tags starting with `crayon babies` + the star). Title and description carry the keywords.
+**NO TAGS (her rule, 6 Nov 2026: "remove the tags when you upload the videos"):** upload every video without tags – `upload_ready.py` never sends any (old rule, not used: ~11–15 tags starting with `crayon babies` + the star). Title and description carry the keywords. To remove tags from an uploaded video: videos.update part=snippet with title, description, categoryId and languages but WITHOUT the "tags" field (sending "tags": [] is ignored) – done for _QAYUIUPbIA and tVK9zIZtm9o on 6 Nov.
 
 Upload settings: Made for kids · Altered/synthetic (AI) = Yes · Public · thumbnail 1280×720 JPG < 2 MB · playlists: Magic Crayon Stories / Good Habits / Learn with Crayon Babies / Crayon Babies Songs / Doctor Visits.
 Playlists that exist on the channel (4 Nov 2026): "Magic Crayon Stories 🖍️ | Crayon Babies" (PLUFaC4snVLDQ) and "Crayon Babies Songs 🎵 | Sing & Learn for Toddlers" (PLdkGC4jjLl2Q, created 4 Nov with all 13 song Shorts, newest first). `upload_ready.py` matches the job's `playlist` as a case-insensitive part of the title, so `"Crayon Babies Songs"` adds every new Short automatically. The others (Good Habits, Learn with Crayon Babies, Doctor Visits) do not exist yet.

@@ -5,7 +5,8 @@ Usage: python3 upload_ready.py jobs/<file>.json [--dry-run]
 
 Job keys:
   video        path of the mp4 inside this repo (e.g. "ready/2026-10-28-sunny-cant-roar.mp4")
-  title, description, tags, playlist
+  title, description, tags, playlist (one name or a list: songs + topic playlist, e.g.
+               ["Crayon Babies Songs", "Learn with Crayon Babies"] or [..., "Good Habits for Kids"])
   publish_at   optional RFC3339 UTC time ("2026-10-28T18:53:00Z"). The video is uploaded as private and
                YouTube makes it public at that time. If the time has already passed, it is uploaded public now.
   thumbnail    optional path of a 1280x720 JPG (< 2 MB) inside this repo - set as the custom thumbnail
@@ -67,10 +68,11 @@ def upload(video, meta, playlist, thumbnail=None):
             set_thumbnail(token, vid, thumbnail)
         except Exception as e:
             print(f"[thumbnail] skipped: {e}")
-    try:
-        P.add_to_playlist(token, vid, playlist)
-    except Exception as e:
-        print(f"[playlist] skipped: {e}")
+    for name in ([playlist] if isinstance(playlist, str) else playlist):  # one name or a list of names
+        try:
+            P.add_to_playlist(token, vid, name)
+        except Exception as e:
+            print(f"[playlist] skipped: {e}")
     code, body, _ = P.http(f"https://www.googleapis.com/youtube/v3/videos?part=status,snippet&id={vid}", headers=auth)
     st = json.loads(body)["items"][0]["status"] if code == 200 else {}
     print(f"[check] privacy={st.get('privacyStatus')} publishAt={st.get('publishAt')} "

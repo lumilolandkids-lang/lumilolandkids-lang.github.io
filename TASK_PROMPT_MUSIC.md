@@ -29,7 +29,8 @@ jobs/<long>/edit.json` → the 16:9 final.mp4. Read its song timeline (`jobs/<lo
   the baby's face big and centred (adjust X 0–1 / ZOOM 1.2–1.6), first second strong, no bad frame, no text.
   `python3 montage.py motion W/final.mp4` – every second ≥ 2.0, else move the segment.
 
-## D. Title, description, upload (NO tags – her rule, 6 Nov 2026)
+## D. Title, description, upload
+(Growth checklist, 6 Nov 2026: `playlist` = ["Crayon Babies Songs", the long video's topic playlist "Learn with Crayon Babies" or "Good Habits for Kids"]; add the "🎶 Voices only …" description line from TASK_PROMPT_MUSIC_VIDEO.md; after the upload run `python3 stats.py`.) (NO tags – her rule, 6 Nov 2026)
 - Title (bible section 10): the clip's own hook + learning goal, e.g. `Wow! Number 3! 🍎 Count with Baby Jimmy |
   Learn Numbers | Crayon Babies` – different from every earlier title.
 - Description: section 10 template, NO hashtags, plus the line `🎵 From our full song "<long video title>" –

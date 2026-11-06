@@ -335,6 +335,8 @@ Description template (NO hashtags – she prefers none):
 
 📚 Kids learn: [lesson / English words list]
 
+🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.
+
 [Natural keyword sentence: "A fun cartoon for toddlers and preschoolers about …"]
 
 [Keyword line with • : Kids cartoon • Nursery rhymes • Good habits for kids • Learn English for kids • …]
@@ -346,7 +348,9 @@ Description template (NO hashtags – she prefers none):
 **NO TAGS (her rule, 6 Nov 2026: "remove the tags when you upload the videos"):** upload every video without tags – `upload_ready.py` never sends any (old rule, not used: ~11–15 tags starting with `crayon babies` + the star). Title and description carry the keywords. To remove tags from an uploaded video: videos.update part=snippet with title, description, categoryId and languages but WITHOUT the "tags" field (sending "tags": [] is ignored) – done for _QAYUIUPbIA and tVK9zIZtm9o on 6 Nov.
 
 Upload settings: Made for kids · Altered/synthetic (AI) = Yes · Public · thumbnail 1280×720 JPG < 2 MB · playlists: Magic Crayon Stories / Good Habits / Learn with Crayon Babies / Crayon Babies Songs / Doctor Visits.
-Playlists that exist on the channel (4 Nov 2026): "Magic Crayon Stories 🖍️ | Crayon Babies" (PLUFaC4snVLDQ) and "Crayon Babies Songs 🎵 | Sing & Learn for Toddlers" (PLdkGC4jjLl2Q, created 4 Nov with all 13 song Shorts, newest first). `upload_ready.py` matches the job's `playlist` as a case-insensitive part of the title, so `"Crayon Babies Songs"` adds every new Short automatically. The others (Good Habits, Learn with Crayon Babies, Doctor Visits) do not exist yet.
+Playlists that exist on the channel (4 Nov 2026): "Magic Crayon Stories 🖍️ | Crayon Babies" (PLUFaC4snVLDQ) and "Crayon Babies Songs 🎵 | Sing & Learn for Toddlers" (PLdkGC4jjLl2Q, created 4 Nov with all 13 song Shorts, newest first). `upload_ready.py` matches the job's `playlist` as a case-insensitive part of the title, so `"Crayon Babies Songs"` adds every new Short automatically. Created 6 Nov 2026: "Learn with Crayon Babies 📚 | ABC, Numbers, Shapes & Body Parts for Toddlers" (PLb8lduvPHln0, 12 videos) and "Good Habits for Kids 🦷 | Tidy Up, Brush Teeth, Please & Thank You | Crayon Babies" (PLQn9-7aYAI4M, 8 videos). The job's `playlist` may be a list – every new video goes into "Crayon Babies Songs" + its topic playlist. Doctor Visits does not exist yet.
+Channel description rewritten 6 Nov 2026 (learning songs ages 1–5, Jimmy & Ava, "voices only – no piano, guitar or other instruments", new songs Friday and Sunday). Old videos cleaned the same day: hashtags removed (cOyTV_lef6Q, NOZ7_bY9w48), hook-first titles for 3 old videos, audio language "en" everywhere; their old tags were left as they were (the no-tags rule is for uploads).
+Growth tracking: `python3 stats.py` → log/stats.jsonl (each Friday/Sunday run); month review on 6 Dec 2026 (section 9).
 
 Thumbnails: designed with **Gemini – Nano Banana 2** (her choice, 29 Oct 2026; 0 credits in the daily pool), never just a cut video frame: big close-up faces with strong emotion, the problem/song object, 2–4 words of huge rounded text (bright yellow, thick purple outline) that match the hook, bright simple background, characters in the exact outfit used. Inputs: 1–2 best approved start frames + the character sheets; identity keys in CAPS; check faces and spelling at full size; fit to 1280×720 JPG < 2 MB. Full recipe: `THUMBNAIL.md` in the repo. First example (29 Oct): "BABY LION ROARS!" – Sunny roaring in the middle, Jimmy and Ava cheering, backyard blurred – approved quality.
 

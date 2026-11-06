@@ -73,6 +73,12 @@ short "Lyrics:" block with the chorus), NO tags (her rule, 6 Nov 2026), `playlis
 (plan, edit, song prompt, song.mp3, shots.json). `python3 upload_ready.py jobs/<date>-mv-<slug>.json` once.
 Commit and push `log/` and `jobs/`, then remove the mp4/jpg from `ready/`. Push notification: title + link + time.
 
+**GROWTH CHECKLIST (her request, 6 Nov 2026: "do everything you can so the channel succeeds, don't miss any chance"; one-month test until 6 Dec 2026):**
+- `playlist` = a LIST: `["Crayon Babies Songs", "<topic playlist>"]` – topic playlist "Learn with Crayon Babies" (school readiness: letters, numbers, shapes, colors, body parts, animals, nature) or "Good Habits for Kids" (habits, kindness, safety, routines). Clips of a long video go in the same playlists.
+- Description: add the line `🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.` right after the "Kids learn" line (honest, and it helps parents who look for music-free songs).
+- After the upload: `python3 stats.py` (appends a snapshot to log/stats.jsonl) and put "Channel: N views (191 on 6 Nov), S subscribers; this week's best: …" in the push notification.
+- **Month review (the Sunday run on 6 Dec 2026, or the first run after it):** compare log/stats.jsonl with the 6 Nov baseline (191 views, 1 subscriber, 24 videos) and send her an honest push notification: grew or not, best and worst videos, what to try next (the Arabic-channel option is in SKILL.md section 9).
+
 ## 7. Finish
 Summary: song, title, link, publish time, shots made, credits used/remaining, problems and fixes.
 Never print GEMINI_API_KEY / YT_* values. Push only to the `autopilot` branch.

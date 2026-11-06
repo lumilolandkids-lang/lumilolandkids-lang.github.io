@@ -1,3 +1,22 @@
+# ⚠️ ONE-TIME OVERRIDE – SUNDAY 8 NOV 2026 ONLY (her request, 6 Nov 2026: "on Sunday I want the compilation of all the songs in the Shorts – only the clips, this time")
+If the New York date of this run is **2026-11-08**: do NOT make a new long video and spend NO ViewMax credits. Instead make ONE
+compilation of ALL the song Shorts that can be rebuilt, using the OLD weekly steps 2–6 below, with these changes:
+- Shorts (oldest first; all 12, no 5:00 target – about 6 minutes): jobs/2026-10-29-sad-pumpkin, 2026-10-31-little-seed,
+  2026-11-01-wag-your-tail, 2026-11-01-leaves-fall-down, 2026-11-02-count-to-five, 2026-11-02-brush-your-teeth,
+  2026-11-03-shapes, 2026-11-03-please-thank-you, 2026-11-04-farm-sounds, 2026-11-04-hot-dont-touch, 2026-11-05-letter-a,
+  2026-11-05-tidy-up. (Not possible: the 25 and 27 Oct Shorts have no saved files, the kitty Short has no saved song –
+  leave them out. Do NOT add the clips cut from the long videos – they are not separate songs.) Order: group by topic
+  (learning: count to 5, shapes, letter A, farm sounds, wag your tail, seed, leaves; habits & kindness: brush teeth, tidy up,
+  please & thank you, hot don't touch, sad pumpkin) so it flows; hook = the strongest 4–5 s of all.
+- Job/work names `<date>-compilation`, log `"kind": "compilation"` (NOT "long": the daily Short runs must not cut clips from it).
+- Title e.g. `12 Crayon Babies Songs! 🎵 Learn & Sing with Baby Jimmy & Baby Ava | Nursery Rhymes for Toddlers` (≤ 100 chars).
+  Description: section 10, NO hashtags, NO tags, chapters as-is, a "📚 Kids learn:" line, the "🎶 Voices only …" line.
+  `playlist`: ["Crayon Babies Songs", "Learn with Crayon Babies", "Good Habits for Kids"]. Thumbnail (THUMBNAIL.md): BOTH
+  babies' happy faces from their own approved start frames (side by side, not touching) + 2–4 huge words e.g. "12 HAPPY SONGS!".
+  If Nano Banana 2 fails twice, use nano-banana-2.1 at 1K (10 credits – the only credits allowed in this run).
+- Publish Sunday **8:15 AM New York** as usual. Then `python3 stats.py`, commit + push, push notification (title, link, time, length).
+- From Sunday 15 Nov 2026 the normal Sunday plan below returns (a NEW 2:30 life-skills song). Delete this override block then.
+
 # SUNDAY = LONG VIDEO #2 (her rule, 5 Nov 2026) – this replaces the weekly Shorts compilation
 
 Her rules: "focus on the long videos – two a week" (song 2:30) and "don't publish new Shorts, publish short

@@ -1,0 +1,47 @@
+[[A0]]
+[0.0:] Pop! Oh, wow! A bubble on my nose!
+[[B1]]
+[6.0:] Nose and ears, tummy and toes!
+[10.0:] Touch them, touch them, here we go!
+[14.0:] Nose and ears, tummy and toes!
+[18.0:] Boop, boop, boop! My little nose!
+[[C2]]
+[22.0:] Pop! A bubble on my nose!
+[26.0:] This is my nose! This is my nose!
+[30.0:] Touch your nose with me! Boop, boop, boop!
+[34.0:] Nose, nose, nose! Sniff, sniff, sniff!
+[[C3]]
+[37.0:] Pop! A bubble by my ears!
+[41.0:] These are my ears! These are my ears!
+[45.0:] Touch your ears with me! Listen, listen!
+[49.0:] Ears, ears, ears! I can hear!
+[[B4]]
+[52.0:] Nose and ears, tummy and toes!
+[56.0:] Touch them, touch them, here we go!
+[60.0:] Nose and ears, tummy and toes!
+[64.0:] Boop, boop, boop! My little nose!
+[[C5]]
+[68.0:] Pop! A bubble on my tummy!
+[72.0:] This is my tummy! My round tummy!
+[76.0:] Pat your tummy with me! Pat, pat, pat!
+[80.0:] Tummy, tummy, tummy! Pat, pat, pat!
+[[C6]]
+[83.0:] Pop! A bubble on my toes!
+[87.0:] These are my toes! Ten little toes!
+[91.0:] Wiggle your toes with me! Wiggle, wiggle!
+[95.0:] Toes, toes, toes! Wiggle, wiggle, wiggle!
+[[D7]]
+[98.0:] Clap, clap, clap your hands! Clap with me!
+[104.0:] La la la, la la la! Clap, clap, clap!
+[[D8]]
+[110.0:] Nose! Boop! Ears! Listen!
+[114.0:] Tummy! Pat, pat! Toes! Wiggle, wiggle!
+[118.0:] Where is your nose? Hmm?
+[123.0:] There it is! Boop! Yay! You did it!
+[[B9]]
+[128.0:] Nose and ears, tummy and toes!
+[132.0:] Touch them, touch them, here we go!
+[136.0:] Nose and ears, tummy and toes!
+[140.0:] Boop, boop, boop! My little nose!
+[[E10]]
+[144.0:] Bye bye, friends! Boop!

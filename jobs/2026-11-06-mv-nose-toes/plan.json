@@ -1,0 +1,99 @@
+{
+ "idea": "Body parts (Friday school readiness, long 2:30 learning song) in JIMMY'S ROOM: a shiny rainbow soap bubble lands right on Baby Jimmy's nose ('Pop! Oh, wow! A bubble on my nose!'); chorus 'Nose and ears, tummy and toes! Touch them, touch them, here we go!'; each verse starts with a surprise bubble landing on the next body part – nose (boop, sniff sniff), ears (listen), tummy (pat pat pat), toes (wiggle wiggle); clap break (copy-me claps); review 'Nose! Ears! Tummy! Toes!' and the question 'Where is your nose? Hmm?' (2 s pause) – 'There it is! Boop! Yay!'; lesson: I know my body – nose, ears, tummy, toes. Loop: the hook framing again, bubble on his nose, bye-bye wave.",
+ "star": "Jimmy",
+ "place": "JIMMY'S ROOM",
+ "outfit": "HOME",
+ "variety": {
+  "place": "JIMMY'S ROOM",
+  "star": "Jimmy",
+  "outfit": "HOME",
+  "last_places": [
+   "AVA'S ROOM",
+   "SUNNY PARK",
+   "LIVING ROOM"
+  ]
+ },
+ "learning": {
+  "goal": "Name and touch four body parts: nose, ears, tummy, toes",
+  "target_words": [
+   "nose",
+   "ears",
+   "tummy",
+   "toes"
+  ],
+  "shown_how": "a soap bubble lands on each body part in order; Jimmy shows it (sniff, cupped ears, pats tummy, wiggles toes)",
+  "song_repeats": "chorus x4 names all four; each verse names its part 4+ times; review at 1:50",
+  "interactive_moment": "1:58 'Where is your nose? Hmm?' + 2 s pause, answer 2:03",
+  "copy_me": "touch your nose/ears, pat your tummy, wiggle your toes, clap your hands (1:38 clap break)",
+  "fact_check": "four body parts named while that part is shown; no counting on screen (toes line 'ten little toes' is true)",
+  "modeling": "positive only",
+  "toddler_fit": "one baby, calm cozy room, big face, bubbles gentle"
+ },
+ "story_order": "bubble lands on nose (hook), ears, tummy, toes each only from its own verse",
+ "shots": [
+  {
+   "n": 1,
+   "role": "HOOK – bubble on nose, gasp, pop, giggle",
+   "frame": "f1",
+   "dur": 7
+  },
+  {
+   "n": 2,
+   "role": "CHORUS A – clapping, bouncing, bubbles",
+   "frame": "f2",
+   "dur": 8
+  },
+  {
+   "n": 3,
+   "role": "NOSE – bubble wobbling on nose, sniff sniff (from hook frame; f3 boop frames rejected: finger looked like nose-poking)",
+   "frame": "f1",
+   "dur": 7
+  },
+  {
+   "n": 4,
+   "role": "EARS – hands cupped behind ears, bubble pops by ear",
+   "frame": "f4",
+   "dur": 7
+  },
+  {
+   "n": 5,
+   "role": "TUMMY – bubble on tummy pops, pat pat pat",
+   "frame": "f5",
+   "dur": 7
+  },
+  {
+   "n": 6,
+   "role": "TOES – feet up, bubble on toes pops, wiggle",
+   "frame": "f6",
+   "dur": 7
+  },
+  {
+   "n": 7,
+   "role": "CLAP BREAK – standing, clapping above head",
+   "frame": "f7",
+   "dur": 7
+  },
+  {
+   "n": 8,
+   "role": "LOOP ENDING – edit of hook frame, bye-bye wave, bubble on nose",
+   "frame": "f8",
+   "dur": 7
+  }
+ ],
+ "frames": {
+  "f1": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/0229c1f1-9b29-4fec-9f97-7b789424b36c.jpg",
+  "f2": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/4fa508f8-82fb-4b10-a136-7ac3d5b8390c.jpg",
+  "f3": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/b780192b-d0a3-4835-8e24-c18980e26d24.jpg",
+  "f4": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/367f7a32-19a8-4aa3-ba13-b1beaae9a977.jpg",
+  "f5": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/98be3a93-119d-4c17-808f-5e5020fdde85.jpg",
+  "f6": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/74292bdf-cefa-4b06-9397-e5db321905dd.jpg",
+  "f7": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/7e5b87ae-0774-4cca-a26f-eb2c71cdee62.jpg",
+  "f8": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/0a680f84-0274-4c43-8a6f-c364fff2a67d.jpg",
+  "f3_unused": "https://r2.vibevideo.app/viewmax/creations/2026-11-06/image/3b123cae-cc45-498f-9bb3-fd421ede8dd4.jpg"
+ },
+ "song": "lyria-3.5, 150.5 s, timeline in song.txt / song_prompt.txt",
+ "models": {
+  "frames": "nano-banana-2.1 (nano-banana-2 internal_error x2)",
+  "video": "viewmax-c1 image-to-video 768P 16:9"
+ }
+}

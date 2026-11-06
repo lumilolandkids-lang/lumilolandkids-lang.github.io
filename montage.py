@@ -26,7 +26,9 @@ EDIT.json
   "sfx": [                                        # "cut" = index in cuts, "offset" = seconds after that cut starts
     {"file": "sfx/baby_lion_squeak.mp3", "cut": 0, "offset": 0.05, "vol": 0.55, "max": 1.0}
   ],
-  "size": [1080, 1920]                            # optional: [1920, 1080] for 16:9 long videos (music video)
+  "size": [1080, 1920],                           # optional: [1920, 1080] for 16:9 long videos (music video)
+  "bounce": {"amp": 0.03, "ranges": [[6, 22]]},   # optional: picture pops on the song's beats (vfx.py)
+  "vfx": [{"type": "sparkle", "cut": 2, "offset": 0.1, "x": 0.6, "y": 0.45}]  # optional: sparkle/confetti/hearts (vfx.py)
 }
 sfx paths are looked up in W first, then in this repo. "max" (optional) trims the effect to that many seconds.
 
@@ -177,6 +179,12 @@ def cmd_build(edit_path):
     run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(seg_dir / "list.txt"),
          "-c", "copy", str(video)])
     print(f"[video] {len(cuts)} cuts, {total:.2f} s")
+    if edit.get("vfx") or edit.get("bounce"):  # kid-friendly effects pass (vfx.py): beat bounce, sparkles, confetti, hearts
+        import vfx
+        song_p = find_file(w, edit["song"]) if edit.get("song") else None
+        fxd = seg_dir / "video_fx.mp4"
+        vfx.apply(video, fxd, edit, starts, song_p, float(edit.get("song_start", 0)), total, FPS)
+        video = fxd
     for i, (c, s) in enumerate(zip(cuts, starts)):
         print(f"  cut {i:2d} @ {s:6.2f}s  shot{c['shot']} {c['start']}+{c['dur']}s  {(c.get('word') or '') if show_words else ''}")
 

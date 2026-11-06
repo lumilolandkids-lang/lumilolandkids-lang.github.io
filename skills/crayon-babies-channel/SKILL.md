@@ -470,6 +470,23 @@ Approved by her on 26 Oct 2026 ("ابغا زي كذا مونتاج دائماً"
 How: `montage.py build edit.json` in the repo does all of this (cuts, speed, punch-in zoom, no text, song, effects, ducking, output settings); `montage.py sheets` and `faces` make the review images.
 Getting the clips: the chat workspace cannot reach r2.vibevideo.app; download them in the built-in browser on her laptop into Downloads (fetch → blob → link with `download` name), then copy them over with the device file tools. The Default cloud environment used by the automation can download them directly.
 
+### Step 5b – KID-ATTRACTING VISUAL EFFECTS (her request, 6 Nov 2026)
+Every long video and clip (tool: `vfx.py`, called by `montage.py build`):
+- `edit.json` → `"bounce": {"amp": 0.03, "ranges": [<every chorus>, <clap break>, <final chorus>]}` – the picture pops a little on each beat
+  (vfx.py finds the beats in the song). Not in the verses (calm, the child watches the item).
+- `edit.json` → `"vfx"` (6–12 per 2:30 video, never text): a `sparkle` on EVERY moment an item appears / a bubble pops / a
+  thing is revealed (x/y = where the item is, read from a frame of final.mp4; `"arc"` so the stars fly AWAY from the face,
+  e.g. [20,160] below a nose, [100,260] left of a head), a `sparkle` in the first 0.5 s of the hook, `confetti` on the
+  clap break and on the answer "Yay!/There it is!", `hearts` on kindness moments and on "Bye bye, friends!".
+- Pair them with library sounds (sfx/sparkle_chime.mp3 vol 0.5 on the hook sparkle, toddlers_cheer_clap.mp3 on the
+  answer). Motion prompts ask for big dance moves in chorus shots (bounce, sway, arms up, clap) – faces always visible.
+- Setup (fresh cloud container): `python3 -m pip install -q --break-system-packages librosa` and, if `from PIL import Image`
+  fails, `python3 -m pip install -q --break-system-packages --ignore-installed --target /usr/local/lib/python3.11/dist-packages pillow`.
+  The effects pass takes ~12 min for a 2:30 video (run the build in the background). Confetti has a face keep-out zone
+  (`"keep_out": [x, y, rx, ry]`) – set it to where the face is in that cut. Example: jobs/2026-11-06-mv-nose-toes/edit_fx.json.
+- LOOK at a 4 fps sheet of each effect moment (no star on the eyes, confetti not hiding the face for long), then
+  `montage.py motion` as usual.
+
 ### Step 6 – SOUND EFFECTS (approved 28 Oct 2026)
 - ViewMax `generate_sound_effect`: **5 credits each**, returns at once (0.5–22 s). Prompt: `<one sound>, cartoon style, cute, kid-friendly, single short sound, clean, no music, no background noise.`, prompt_influence 0.6.
 - Per short: 2–4 character moments (no word pops – there are no on-screen words now) (e.g. squeak when Sunny tries to roar, meow, big friendly roar, toddlers cheering). Place each on the exact frame (mouth opens, clap) using a 6 fps contact sheet.

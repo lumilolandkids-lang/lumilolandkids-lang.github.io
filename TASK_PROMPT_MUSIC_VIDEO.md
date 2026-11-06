@@ -62,6 +62,22 @@ hook frame, "Bye bye!"). Write `W/plan.json`.
 - Effects: optional, at most 4 small ones on clear visual moments. `python3 montage.py build W/edit.json` → LOOK at `final_sheet.jpg` and `final_hook.jpg`; fix and
   rebuild if anything is off.
 
+**KID-ATTRACTING EFFECTS (her request, 6 Nov 2026: "add moves in the video that attract children") – every long video and clip:**
+- `edit.json` → `"bounce": {"amp": 0.03, "ranges": [<every chorus>, <clap break>, <final chorus>]}` – the picture pops a little on each beat
+  (vfx.py finds the beats in the song). Not in the verses (calm, the child watches the item).
+- `edit.json` → `"vfx"` (6–12 per 2:30 video, never text): a `sparkle` on EVERY moment an item appears / a bubble pops / a
+  thing is revealed (x/y = where the item is, read from a frame of final.mp4; `"arc"` so the stars fly AWAY from the face,
+  e.g. [20,160] below a nose, [100,260] left of a head), a `sparkle` in the first 0.5 s of the hook, `confetti` on the
+  clap break and on the answer "Yay!/There it is!", `hearts` on kindness moments and on "Bye bye, friends!".
+- Pair them with library sounds (sfx/sparkle_chime.mp3 vol 0.5 on the hook sparkle, toddlers_cheer_clap.mp3 on the
+  answer). Motion prompts ask for big dance moves in chorus shots (bounce, sway, arms up, clap) – faces always visible.
+- Setup (fresh cloud container): `python3 -m pip install -q --break-system-packages librosa` and, if `from PIL import Image`
+  fails, `python3 -m pip install -q --break-system-packages --ignore-installed --target /usr/local/lib/python3.11/dist-packages pillow`.
+  The effects pass takes ~12 min for a 2:30 video (run the build in the background). Confetti has a face keep-out zone
+  (`"keep_out": [x, y, rx, ry]`) – set it to where the face is in that cut. Example: jobs/2026-11-06-mv-nose-toes/edit_fx.json.
+- LOOK at a 4 fps sheet of each effect moment (no star on the eyes, confetti not hiding the face for long), then
+  `montage.py motion` as usual.
+
 ## 5. Thumbnail — designed with Gemini (Nano Banana 2), see THUMBNAIL.md
 Follow `THUMBNAIL.md` → `ready/<date>-mv-<slug>.jpg`.
 

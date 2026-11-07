@@ -1,0 +1,19 @@
+{
+ "idea": "Short clip #3 of the Friday long song 'Bubble on My Nose!' (JIMMY'S ROOM): the tummy verse – a soap bubble lands and pops on Baby Jimmy's tummy ('Pop! A bubble on my tummy! This is my tummy! My round tummy! Pat your tummy with me! Pat, pat, pat!') – then the toes verse ('Pop! A bubble on my toes! These are my toes! Ten little toes! Wiggle your toes with me!') and the clap break ('Clap, clap, clap your hands! Clap with me! La la la!'). Learning: body parts TUMMY and TOES; copy-me actions pat your tummy, wiggle your toes, clap your hands.",
+ "video": "ready/2026-11-07-clip-bubble-tummy.mp4",
+ "title": "Pop! A Bubble on My Tummy! 🤗 Tummy & Toes with Baby Jimmy | Learn Body Parts | Crayon Babies",
+ "description": "Pop! A shiny soap bubble lands right on Baby Jimmy's tummy! 🤗 Pat your tummy and wiggle your toes with Baby Jimmy in his cozy bedroom, then clap, clap, clap your hands together!\n\n🎬 What happens in this video:\n😮 \"Pop! A bubble on my tummy!\"\n🤗 \"This is my tummy! My round tummy!\" – pat your tummy with Jimmy! Pat, pat, pat!\n🦶 \"Pop! A bubble on my toes!\" – ten little toes!\n🦶 Wiggle your toes with Jimmy! Wiggle, wiggle, wiggle!\n👏 Clap, clap, clap your hands! La la la!\n\n📚 Kids learn: body parts • tummy • toes • English words: pat, wiggle, clap, ten little toes\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA fun sing-along body parts clip for toddlers and preschoolers – pat your tummy, wiggle your toes and clap your hands with Baby Jimmy to learn body parts in English.\n\nKids songs • Nursery rhymes • Body parts song • Learn English for kids • Toddler learning • Preschool learning • Kids cartoon\n\n🎵 From our full song \"Bubble on My Nose! 👃 Body Parts Song with Baby Jimmy | Nursery Rhymes & Kids Songs | Crayon Babies\" – find the full song on the Crayon Babies channel (playlist Crayon Babies Songs).\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ],
+ "short": true,
+ "publish_at": "2026-11-07T18:30:00Z",
+ "viewmax_credits_used": 0,
+ "source_long": "jobs/2026-11-06-mv-nose-toes.json",
+ "segment": [
+  68.04,
+  110.04
+ ],
+ "edit_note": "compile.py vclip final_fx.mp4 68.04 42.0 ZOOM 1.55 X 0.5, then gentle push-ins 0-1.79 s (1.0->1.09) and 15.0-17.2 s (1.0->1.12) so every second has motion >= 2.0"
+}

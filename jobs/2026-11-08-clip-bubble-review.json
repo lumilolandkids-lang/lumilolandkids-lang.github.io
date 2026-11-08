@@ -1,0 +1,13 @@
+{
+ "idea": "Short clip #4 (last) of the Friday long song 'Bubble on My Nose!' (JIMMY'S ROOM): the review verse ('Nose! Boop! Ears! Listen! Tummy! Pat, pat! Toes! Wiggle, wiggle!'), the question to the viewer 'Where is your nose? Hmm?' (pause) – 'There it is! Boop! Yay! You did it!' with confetti – the final chorus with Jimmy standing and dancing, and the loop ending 'Bye bye, friends! Boop!' with the bubble on his nose and a bye-bye wave. Learning: review of all four body parts NOSE, EARS, TUMMY, TOES + find-your-nose question; copy-me touch, pat, wiggle.",
+ "video": "ready/2026-11-08-clip-bubble-review.mp4",
+ "title": "Where Is Your Nose? 🤔 Nose, Ears, Tummy & Toes with Baby Jimmy | Learn Body Parts | Crayon Babies",
+ "description": "Where is your nose? 🤔 Baby Jimmy sings all four body parts in his cozy bedroom – nose, ears, tummy and toes – then asks you to find your nose! Can you touch it?\n\n🎬 What happens in this video:\n👃 \"Nose! Boop! Ears! Listen!\"\n🤗 \"Tummy! Pat, pat! Toes! Wiggle, wiggle!\"\n🤔 \"Where is your nose? Hmm?\" – touch your nose!\n🎉 \"There it is! Boop! Yay! You did it!\"\n💃 Nose and ears, tummy and toes – dance with Jimmy!\n👋 \"Bye bye, friends! Boop!\"\n\n📚 Kids learn: body parts • nose • ears • tummy • toes • English words: touch, listen, pat, wiggle\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA fun sing-along body parts review for toddlers and preschoolers – touch your nose, listen with your ears, pat your tummy and wiggle your toes with Baby Jimmy to learn body parts in English.\n\nKids songs • Nursery rhymes • Body parts song • Learn English for kids • Toddler learning • Preschool learning • Kids cartoon\n\n🎵 From our full song \"Bubble on My Nose! 👃 Body Parts Song with Baby Jimmy | Nursery Rhymes & Kids Songs | Crayon Babies\" – find the full song on the Crayon Babies channel (playlist Crayon Babies Songs).\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "playlist": ["Crayon Babies Songs", "Learn with Crayon Babies"],
+ "short": true,
+ "publish_at": "2026-11-08T11:53:00Z",
+ "viewmax_credits_used": 0,
+ "source_long": "jobs/2026-11-06-mv-nose-toes.json",
+ "segment": [110.0, 149.04],
+ "edit_note": "compile.py vclip final_fx.mp4 110.0 39.04 ZOOM 1.55 X 0.5, then gentle push-ins 7.4-9.7 s (1.0->1.10), 10.5-12.3 s (1.0->1.10) and 31.5-end (1.0->1.16) so every second has motion >= 2.0 (mean 3.7)"
+}

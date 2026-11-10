@@ -1,18 +1,23 @@
-# Crayon Babies — the daily Short = a CLIP CUT FROM A LONG VIDEO (her rule, 5 Nov 2026)
+# Crayon Babies — the daily Short (her rule 10 Nov 2026, option B: 2 clips per long video + new Shorts in the empty slots)
 
-**Her words: "Don't publish (new) Shorts – publish a short clip from the long video."** From 5 Nov 2026 NO new Short is
-generated: no new song, no frames, no ViewMax shots. Every Short is a 30–45 s vertical piece of one of the channel's
-2:30-minute long videos (Friday and Sunday, see `TASK_PROMPT_MUSIC_VIDEO.md`). 0 ViewMax credits, 0 Gemini.
-This section REPLACES the old steps 1–11 below for the daily Short runs (if a scheduled prompt still mentions credits
-checks, the Lyria song, frames or shots, those parts do not apply any more). The old steps stay only as the reference
-for how shots, frames and songs are made inside the long videos.
+**Her decision, 10 Nov 2026 (she felt too many Shorts came from the bubble video):** only **2 clips** per long video
+(clip 1 = the opening hook + first chorus, clip 2 = the review/question + "Bye bye, friends!" ending). Every other Short
+slot makes a **NEW Short from scratch** with the old recipe below (steps 1–12: credits check ≥ 130, Lyria song FIRST,
+Nano Banana frames, ViewMax C1 shots, ~100 credits). Never more than one clip of the same long video per day.
+Decision order for every Short run:
+1. A long video (rules in A) with fewer than 2 clips, whose publish time has passed, and no clip of it published today
+   → cut the next clip (sections A–D, 0 credits).
+2. Otherwise → make a NEW Short with the old recipe (steps 1–12 below). Its idea, place and song must differ from every
+   earlier video AND from the current long videos (no new Short about the same topic as a long video of the last 7 days).
+
+(History: 5–9 Nov 2026 the rule was "no new Shorts, up to 4 clips per long video"; the bubble video got 4 clips. That rule is replaced.)
 
 ## A. Pick the source
 - Long videos = log entries with `"kind": "long"` (or a `-mv-` job) and `"status": "uploaded"`, from the last 21 days.
-  Prefer the newest long video that has fewer than 4 clips used (a 2:30 song gives 3–4 clips) (count log entries with its `source_long`).
+  Prefer the newest long video that has fewer than 2 clips used (count log entries with its `source_long`).
 - Wait until the long video's own publish time has passed (a clip never comes out before its long video).
-- None available → skip: append `{"time":..,"status":"skipped: no unused long-video clip"}` to `log/videos.jsonl`,
-  commit, push, push notification "Short skipped – no long video to cut from yet", stop.
+- None available → go to the NEW Short recipe (step 1 below). Only if that is impossible (credits < 130, Gemini song
+  quota) skip and log the reason.
 
 ## B. Rebuild the long video (free)
 `W = runs/<date>-clip-<slug>`. Download the long video's clips from `jobs/<long>/shots.json` into
@@ -46,7 +51,7 @@ jobs/<long>/edit.json` → the 16:9 final.mp4. Read its song timeline (`jobs/<lo
 
 ---
 
-# (REFERENCE ONLY since 5 Nov 2026) the old way to make a Short from scratch – still used for the long videos' shots
+# NEW Short recipe (used again from 10 Nov 2026 for every Short slot without an unused long-video clip; also the reference for the long videos' shots)
 
 ## Old Short recipe (Oct 2026)
 

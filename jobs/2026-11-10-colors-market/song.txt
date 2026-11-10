@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A red apple!
+[3.0:7.0] Colors, colors! Red, yellow, green!
+[7.0:10.0] Red, red, red! A red apple! Yum!
+[10.0:13.0] Yellow, yellow! A yellow banana!
+[13.0:16.0] Green, green, green! A green pear!
+[16.0:19.0] Point with me! Red! Yellow! Green!
+[19.0:21.0] Which one is yellow? Hmm?
+[21.0:23.0] Hmm-hmm
+[23.0:26.0] The banana! Yellow! Yay!
+[26.0:28.0] Colors everywhere I go!
+[28.0:30.0] Bye bye, friends!

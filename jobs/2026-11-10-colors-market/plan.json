@@ -1,0 +1,85 @@
+{
+ "idea": "Colors & shapes – colors #1 (THE SUPERMARKET, fruit aisle): a shiny red apple rolls off the fruit crate and bounces right up to Baby Ava's face ('Wow! Look! A red apple!'); chorus 'Colors, colors! Red, yellow, green!'; she shows one fruit per color – 'Red, red, red! A red apple! Yum!', 'Yellow, yellow! A yellow banana!', 'Green, green, green! A green pear!'; copy-me 'Point with me! Red! Yellow! Green!'; she asks the viewer 'Which one is yellow? Hmm?' (pause) – 'The banana! Yellow! Yay!'; lesson 'Colors everywhere I go!'. Loop: the hook framing again, now apple, banana and pear in a neat row on the crate, bye-bye wave.",
+ "lesson": "Name three colors: red (apple), yellow (banana), green (pear) – colors are everywhere.",
+ "place": "THE SUPERMARKET (reference supermarket.jpg) – first video in this place",
+ "calendar": "Tuesday slot 1 – Colors & shapes (3 Nov was shapes; today colors red, yellow, green).",
+ "star": "Ava",
+ "variety": {
+  "place": "THE SUPERMARKET",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress, matches the sheet)",
+  "last_places": [
+   "JIMMY'S ROOM",
+   "JIMMY'S ROOM",
+   "AVA'S ROOM"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "setting": "THE SUPERMARKET: a bright friendly supermarket with wooden crates of colorful fruits and vegetables, neat shelves, green hanging lamps, plants and a small red, yellow and blue kids' shopping cart, no brand names.",
+ "supporting_objects": {
+  "fruits": "THE THREE FRUITS (one plain basic color each, big, smooth and toy-like): ONE shiny bright RED apple with a little brown stem and one green leaf; ONE bright YELLOW banana; ONE bright GREEN pear with a little brown stem."
+ },
+ "learning": {
+  "goal": "Name three colors: red, yellow and green.",
+  "target_words": [
+   "red",
+   "yellow",
+   "green",
+   "colors"
+  ],
+  "shown_how": "One big fruit per color held beside Ava's face (red apple, yellow banana, green pear), then all three in a neat row on the crate, left to right in the sung order.",
+  "song_repeats": "red 0:00, 0:03, 0:07 (x4), 0:16 = 7x · yellow 0:03, 0:10 (x3), 0:16, 0:19, 0:23 = 7x · green 0:03, 0:13 (x4), 0:16 = 6x · colors 0:03 (x2), 0:26",
+  "interactive_moment": "0:19-0:21 'Which one is yellow? Hmm?' + 0:21-0:23 humming pause (question boing at 21.0) → 0:23 'The banana! Yellow! Yay!' + cheer + confetti",
+  "copy_me": "0:16-0:19 'Point with me! Red! Yellow! Green!' (shot 5 pans along the row as she points)",
+  "fact_check": "Exactly one apple (red), one banana (yellow), one pear (green) near her in every frame; one plain basic color each; no text/price tags (a C1 background sign in shot 2 is cropped out with zoom ≥1.15). Background produce is soft-blurred.",
+  "modeling": "Ava names the colors happily and points; no wrong choices.",
+  "toddler_fit": "Simple words, one baby, bright calm supermarket, big face, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: the red apple bounces up to her face",
+  "say-it-with-me chorus: red, yellow, green",
+  "copy-me: point with me",
+  "interactive pause: Which one is yellow?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "red apple": "from shot 1 (0:00)",
+  "yellow banana": "shot 3 on (first at 10.0 s)",
+  "green pear": "shot 4 on (first at 13.0 s)",
+  "row of three": "shot 5 (16 s on)"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (20 credits each, 5 shots = 100)",
+ "image_model": "nano-banana-2 2K (0 credits); f4 = retry -r1 (first task hung)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.2,
+  "vocals": "one little girl solo"
+ },
+ "sfx": "library only: sparkle_chime, toddlers_gasp, pop x2, question_boing, toddlers_cheer_clap (0 credits)",
+ "shots": [
+  {
+   "role": "HOOK – red apple bounces up to her face, gasp",
+   "frame": "f1"
+  },
+  {
+   "role": "red apple – shows it, pretend bite, giggles",
+   "frame": "f2"
+  },
+  {
+   "role": "yellow banana",
+   "frame": "f3"
+  },
+  {
+   "role": "green pear",
+   "frame": "f4"
+  },
+  {
+   "role": "LOOP ENDING – row of three, points along, bye-bye wave",
+   "frame": "f5 (edit of f1)"
+  }
+ ]
+}

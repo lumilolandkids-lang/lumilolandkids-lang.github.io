@@ -1,0 +1,85 @@
+{
+ "idea": "Feelings & kindness – SHARING (THE BEACH, picnic blanket): the lid of Baby Jimmy's little yellow picnic box pops open and TWO big red strawberries bounce up right beside his face ('Wow! Look! Two strawberries!'); chorus 'Share, share! Sharing is caring!'; Daddy Tom kneels down and shows his empty hands ('Oh! Daddy has none! Hmm...'); Jimmy gives him one – 'One for you! One for me!'; copy-me 'Hold out your hand! Here you go!'; 'Daddy says thank you! Yum, yum, yum!'; Jimmy asks the viewer 'What do we do? Hmm?' (pause) – 'We share! Sharing is caring! Yay!'; lesson 'One for you, one for me!'. Loop: the hook framing again, the box open and empty, Jimmy and Daddy waving bye-bye.",
+ "lesson": "Sharing is caring: when someone has none, we share – one for you, one for me.",
+ "place": "THE BEACH (text-only block, first video in this place)",
+ "calendar": "Tuesday slot 2 – Feelings & kindness (please/thank you done 3 Nov; today: sharing).",
+ "star": "Jimmy",
+ "variety": {
+  "place": "THE BEACH",
+  "star": "Jimmy",
+  "outfit": "Jimmy OUTDOOR; Daddy Tom OUTDOOR",
+  "last_places": [
+   "THE SUPERMARKET",
+   "JIMMY'S ROOM",
+   "AVA'S ROOM"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces.",
+  "DADDY: a friendly young father in 3D Pixar style, short dark brown curly hair, a short neat dark brown beard, warm brown eyes, thick eyebrows, big happy smile. wearing a loose light green t-shirt, beige loose chino trousers and white sneakers."
+ ],
+ "setting": "THE BEACH: a sunny beach with soft golden sand, gentle blue waves, a striped umbrella and seashells.",
+ "supporting_objects": {
+  "picnic": "a small round plain yellow picnic box with a lid; exactly TWO big shiny bright RED strawberries with green leafy tops, toy-like and cute; a plain light blue picnic blanket."
+ },
+ "learning": {
+  "goal": "Share with someone who has none: one for you, one for me.",
+  "target_words": [
+   "share",
+   "sharing is caring",
+   "one for you, one for me",
+   "thank you"
+  ],
+  "shown_how": "Jimmy has two strawberries, Daddy has empty hands; Jimmy gives one, then each holds one and both eat happily.",
+  "song_repeats": "share 0:03 (x3), 0:23 (x2) = 5x · 'one for you, one for me' 0:10, 0:26 · thank you 0:16",
+  "interactive_moment": "0:19-0:21 'What do we do? Hmm?' + 0:21-0:23 humming pause → 0:23 'We share! Sharing is caring! Yay!' + cheer + confetti",
+  "copy_me": "0:13-0:16 'Hold out your hand! Here you go!' (Jimmy holds out the strawberry)",
+  "fact_check": "Exactly two strawberries in shots 1-4 (two in the box / two in Jimmy's hands / one each), none in shot 5; box empty from shot 2 on.",
+  "modeling": "Jimmy notices Daddy has none and shares kindly by himself; Daddy says thank you; nobody grabs.",
+  "toddler_fit": "Simple words, one baby + Daddy (allowed Tue slot 2), bright calm beach, big faces, nothing scary, adults never touch the baby."
+ },
+ "fun_mechanics": [
+  "surprise hook: the box pops open, strawberries bounce up",
+  "say-it-with-me chorus: share, share! sharing is caring",
+  "copy-me: hold out your hand, here you go",
+  "interactive pause: What do we do?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "Daddy Tom": "absent shot 1, from shot 2 on (7 s)",
+  "strawberry given": "Jimmy holds both in shot 2, gives one in shot 3, one each in shot 4",
+  "strawberries": "gone (eaten) in shot 5"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (20 credits each, 5 shots = 100)",
+ "image_model": "nano-banana-2 2K (0 credits); f2 r1 (Daddy was in jeans/sweater), f5 r1 (Daddy's head pressed to Jimmy's) – f5 sent as JPEG via raw.githubusercontent (PNG > 5 MB screening limit)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.33,
+  "vocals": "one little boy solo"
+ },
+ "shots": [
+  {
+   "role": "HOOK – picnic box pops open, two strawberries bounce up, gasp",
+   "frame": "f1"
+  },
+  {
+   "role": "problem – Daddy shows empty hands, Jimmy has two strawberries",
+   "frame": "f2 r1"
+  },
+  {
+   "role": "sharing – Jimmy gives one strawberry to Daddy",
+   "frame": "f3"
+  },
+  {
+   "role": "thank you / yum – one each, eating; question to viewer",
+   "frame": "f4"
+  },
+  {
+   "role": "LOOP ENDING – edit of hook frame, box empty, both wave bye-bye",
+   "frame": "f5 r1 (edit of f1)"
+  }
+ ],
+ "shots_used": "C1 added extra strawberries in shots 3(first try),4,5 – cut around them and cropped with top-anchored punch-ins (new montage.py cut key \"y\")"
+}

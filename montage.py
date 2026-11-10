@@ -20,7 +20,7 @@ EDIT.json
     {"shot": 1, "start": 0.0, "dur": 1.2, "speed": 0.6},   # hook: slowed
     {"shot": 1, "start": 3.0, "dur": 2.0, "zoom": 1.10},   # same shot again -> punch-in
     {"shot": 2, "start": 0.4, "dur": 2.6},
-    {"shot": 3, "start": 1.0, "dur": 2.0, "zoom": 1.2, "x": 1.0}, # "x": crop anchor 0-1 (1 = cut the left edge off)
+    {"shot": 3, "start": 1.0, "dur": 2.0, "zoom": 1.2, "x": 1.0}, # "x": crop anchor 0-1 (1 = cut the left edge off); "y" the same vertically (default 0.425, 0 = cut the bottom off)
     {"shot": 4, "start": 0.0, "dur": 1.8, "push": [1.0, 1.15]}  # slow push-in on a real clip (adds motion to calm moments)
   ],
   "sfx": [                                        # "cut" = index in cuts, "offset" = seconds after that cut starts
@@ -120,6 +120,7 @@ def build_cut(w, i, c, seg_dir, size=(1080, 1920), show_words=False):
     speed = float(c.get("speed", 1.0))
     zoom = float(c.get("zoom", 1.0))
     xa = float(c.get("x", 0.5))  # horizontal crop anchor for zoomed cuts: 0 = keep left edge, 1 = keep right edge
+    ya = float(c.get("y", 0.425))  # vertical crop anchor: 0 = keep top edge (cut the bottom off), 1 = keep bottom edge
     frames = max(1, round(float(c["dur"]) / speed * FPS))
     vf = []
     if speed != 1.0:
@@ -129,12 +130,12 @@ def build_cut(w, i, c, seg_dir, size=(1080, 1920), show_words=False):
         z0, z1 = float(push[0]), float(push[1])
         vf.append(f"fps={FPS}")
         vf.append(f"scale=w={W * 2}:h={H * 2}:force_original_aspect_ratio=increase:flags=lanczos,crop={W * 2}:{H * 2}")
-        vf.append(f"zoompan=z='{z0}+({z1}-{z0})*on/{frames}':x='(iw-iw/zoom)*{xa}':y='(ih-ih/zoom)/2*0.85':"
+        vf.append(f"zoompan=z='{z0}+({z1}-{z0})*on/{frames}':x='(iw-iw/zoom)*{xa}':y='(ih-ih/zoom)*{ya}':"
                   f"d=1:s={W}x{H}:fps={FPS}")
     else:
         vf.append(f"scale=w=trunc({W}*{zoom}/2)*2:h=trunc({H}*{zoom}/2)*2:force_original_aspect_ratio=increase:"
                   f"force_divisible_by=2:flags=lanczos")
-        vf.append(f"crop={W}:{H}:(iw-{W})*{xa}:(ih-{H})/2*0.85")
+        vf.append(f"crop={W}:{H}:(iw-{W})*{xa}:(ih-{H})*{ya}")
     vf.append(f"setsar=1,fps={FPS},format=yuv420p")
     word = (c.get("word") or "").strip() if show_words else ""
     if word:

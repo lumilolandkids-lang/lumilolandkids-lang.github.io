@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! Two strawberries!
+[3.0:7.0] Share, share! Sharing is caring!
+[7.0:10.0] Oh! Daddy has none! Hmm...
+[10.0:13.0] One for you! One for me!
+[13.0:16.0] Hold out your hand! Here you go!
+[16.0:19.0] Daddy says thank you! Yum, yum, yum!
+[19.0:21.0] What do we do? Hmm?
+[21.0:23.0] (Hmm-hmm...)
+[23.0:26.0] We share! Sharing is caring! Yay!
+[26.0:28.0] One for you, one for me!
+[28.0:30.0] Bye bye, friends!

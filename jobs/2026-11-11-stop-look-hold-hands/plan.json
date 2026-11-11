@@ -1,0 +1,38 @@
+{
+ "idea": "Safety #2 – crossing the street (SUNNY PARK, at the curb by a quiet crosswalk): Baby Jimmy's red ball bounces out of his hands and rolls across the empty crosswalk toward the camera ('Oh no! My ball! Stop, stop, stop!') – he reaches but stays behind the curb; chorus 'Stop! Look! Hold hands!'; step 1 STOP – 'Stop at the edge! Hands up, stop!' (copy-me: palms up); step 2 LOOK – 'Look this way! Look that way!' (copy-me: hand over the eyes, look both ways); step 3 HOLD HANDS – Daddy Tom kneels beside him and Jimmy puts his hand in Daddy's ('Hold Daddy's hand! Hold hands!'); he asks the viewer 'What do we do? Hmm?' (pause) – 'Stop! Look! Hold hands! Yay!'; lesson 'Hold hands to cross the street!'. Loop: the hook framing again, the street empty, the red ball safe in his arm, bye-bye wave.",
+ "lesson": "Crossing the street: STOP at the edge, LOOK both ways, HOLD a grown-up's hand.",
+ "place": "SUNNY PARK (reference image park.jpg) – the sidewalk at the park's edge beside a quiet empty street with a zebra crosswalk",
+ "calendar": "Wednesday slot 2 – Safety (#1 was hot things on 4 Nov; today: hold hands crossing the street).",
+ "star": "Jimmy",
+ "variety": {"place": "SUNNY PARK", "star": "Jimmy", "outfit": "OUTDOOR", "last_places": ["THE ZOO", "THE BEACH", "THE SUPERMARKET"]},
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces.",
+  "DADDY: a friendly young father in 3D Pixar style, short dark brown curly hair, a short neat dark brown beard, warm brown eyes, thick eyebrows, big happy smile. wearing a loose light green t-shirt, beige loose chino trousers and white sneakers."
+ ],
+ "setting": "SUNNY PARK: a sunny park with a playground with a red slide and yellow swings, a small duck pond with white ducks and a little wooden bridge, a big green tree, a winding stone path, flower beds and a white bench. (+ light gray sidewalk, low curb, quiet empty street with white zebra stripes, no cars, no signs)",
+ "supporting_objects": {"ball": "a shiny plain red ball (no pattern, no text)"},
+ "learning": {
+  "goal": "Know the three steps for crossing the street: stop at the edge, look both ways, hold a grown-up's hand.",
+  "target_words": ["stop", "look", "hold hands", "cross the street"],
+  "shown_how": "Shot 2 Jimmy stops at the curb with both palms up; shot 3 he looks one way and the other with a hand over his eyes; shot 4 he puts his hand in Daddy's hand. The ball rolls away across the empty street but Jimmy never steps off the curb.",
+  "song_repeats": "stop 0:00 (x3), 0:03, 0:06 (x2), 0:15, 0:23 = 9x · look 0:03, 0:09 (x2), 0:15, 0:23 = 5x · hold hands 0:03, 0:12 (x2), 0:15, 0:23, 0:26 = 6x",
+  "interactive_moment": "0:18-0:21 'What do we do? Hmm?' + 0:21-0:23 humming pause (question boing) -> 0:23 'Stop! Look! Hold hands! Yay!' + cheer + confetti",
+  "copy_me": "0:06 hands up STOP · 0:09 hand over the eyes, look this way and that way · clap on each word of the chorus",
+  "fact_check": "Standard toddler road-safety steps (stop at the curb, look both ways, hold a grown-up's hand). Empty street, no cars, no signs/text. Jimmy never steps onto the street alone; he only crosses holding Daddy's hand (implied), the ball is back in the loop.",
+  "modeling": "Jimmy does NOT run after the ball into the street – he stops at the curb, looks, and waits for Daddy's hand. Correct behaviour throughout.",
+  "toddler_fit": "Simple words, bright sunny park, nothing scary (no cars at all), big face, one baby + Daddy (Wed slot 2 allows one grown-up)."
+ },
+ "fun_mechanics": ["surprise hook: the ball bounces away toward the camera", "say-it-with-me chorus: Stop! Look! Hold hands!", "copy-me: palms up stop, look both ways", "interactive pause: What do we do?", "loop ending + Bye bye, friends!"],
+ "story_order": {"ball on the street": "shot 1 only", "Daddy": "shot 4 only (from 12 s)", "ball back in Jimmy's arm": "shot 5 only (loop, 26 s on)", "holding hands": "shot 4 (12 s on)"},
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (20 credits each, 5 shots = 100)",
+ "image_model": "nano-banana-2 2K (0 credits); f2-f5 needed the hook frame as JPEG via raw.githubusercontent (PNG > 5 MB screening limit); f4 took 4 tries (Jimmy too small / Daddy in sweater / both on the street / sides swapped), f5 r2 without Daddy (r1 had heads pressed together)",
+ "song": {"model": "lyria-3-clip-preview", "prompt_file": "song_prompt.txt", "song_start": 0.0, "duration": 30.56, "vocals": "one little boy solo"},
+ "shots": [
+  {"role": "HOOK – red ball bounces away across the crosswalk toward the camera, Jimmy gasps but stays behind the curb", "frame": "f1"},
+  {"role": "STOP – both palms up at the curb", "frame": "f2 r1"},
+  {"role": "LOOK – hand over the eyes, looks this way and that way", "frame": "f3 r1"},
+  {"role": "HOLD HANDS – Daddy kneels, Jimmy puts his hand in Daddy's; question to the viewer", "frame": "f4 r4"},
+  {"role": "LOOP ENDING – edit of f1: street empty, ball in his arm, bye-bye wave", "frame": "f5 r2 (edit of f1)"}
+ ],
+ "playlist": ["Crayon Babies Songs", "Good Habits for Kids"]
+}

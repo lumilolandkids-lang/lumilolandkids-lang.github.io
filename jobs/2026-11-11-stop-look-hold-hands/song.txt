@@ -1,0 +1,11 @@
+[0.0:3.0] Oh no! My ball! Stop, stop, stop!
+[3.0:6.0] Stop! Look! Hold hands!
+[6.0:9.0] Stop at the edge! Hands up, stop!
+[9.0:12.0] Look this way! Look that way!
+[12.0:15.0] Hold Daddy's hand! Hold hands!
+[15.0:18.0] Stop! Look! Hold hands! Now we cross!
+[18.0:21.0] What do we do? Hmm?
+[21.0:23.0] (Hmm-hmm)
+[23.0:26.0] Stop! Look! Hold hands! Yay!
+[26.0:28.0] Hold hands to cross the street!
+[28.0:30.0] Bye bye, friends!

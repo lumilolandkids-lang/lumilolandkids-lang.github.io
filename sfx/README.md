@@ -35,3 +35,4 @@ with `duration_seconds` 0.5-2.5 and `prompt_influence` 0.6.
 | hen_cluck.mp3 | little hen "cluck cluck cluck" | 1.07 s | 0.6 |
 | elephant_toot.mp3 | one cute baby elephant "toot" through its trunk (loud file; usable ~1.2 s) | 1.2 s | 0.4–0.45 |
 | monkey_ooh_ah.mp3 | little cartoon monkey chattering "ooh ooh ah ah" (loud file) | 1.5 s | 0.4 |
+| ball_bounce_roll.mp3 | red rubber ball bounces twice and rolls away (loud file) | 0.84 s | 0.5 |

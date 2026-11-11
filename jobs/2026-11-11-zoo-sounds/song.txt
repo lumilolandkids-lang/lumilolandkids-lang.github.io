@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A baby elephant!
+[3.0:6.0] Animal sounds! Sing with me!
+[6.0:9.0] The elephant says toot, toot, toot!
+[9.0:12.0] A little monkey! Ooh ooh, ah ah!
+[12.0:15.0] A little lion! Roar, roar, roar!
+[15.0:18.0] Scratch your head! Ooh ooh, ah ah!
+[18.0:21.0] Who says toot, toot? Hmm?
+[21.0:23.0] hmm-hmm
+[23.0:26.0] The elephant! Toot, toot! Yay!
+[26.0:28.0] Animal sounds at the zoo!
+[28.0:30.0] Bye bye, friends!

@@ -1,0 +1,93 @@
+{
+ "idea": "Animals & their sounds #2 (THE ZOO, low wooden fence): a cute baby elephant pops its head up over the zoo fence right beside Baby Ava's face, curly trunk up ('Wow! Look! A baby elephant!'); chorus 'Animal sounds! Sing with me!'; 'The elephant says toot, toot, toot!'; a little monkey on the fence rail – 'Ooh ooh, ah ah!'; a lion cub does a tiny cute roar – 'Roar, roar, roar!'; copy-me 'Scratch your head! Ooh ooh, ah ah!'; she asks the viewer 'Who says toot, toot? Hmm?' (pause) – 'The elephant! Toot, toot! Yay!'; lesson 'Animal sounds at the zoo!'. Loop: the hook framing again, now elephant, monkey and lion cub together, bye-bye wave.",
+ "lesson": "Three zoo animals and their sounds: elephant – toot, monkey – ooh ooh ah ah, lion – roar.",
+ "place": "THE ZOO (text-only block, section 4) – first video in this place",
+ "calendar": "Wednesday slot 1 – Animals & their sounds / nature (#1 was farm sounds on 4 Nov: cow, sheep, hen; today zoo animals).",
+ "star": "Ava",
+ "variety": {
+  "place": "THE ZOO",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress, matches the sheet)",
+  "last_places": [
+   "THE BEACH",
+   "THE SUPERMARKET",
+   "JIMMY'S ROOM"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "setting": "THE ZOO: a friendly sunny zoo with green trees and cute round cartoon animals. (low light-wood zoo fence, soft green grass)",
+ "supporting_objects": {
+  "elephant": "THE BABY ELEPHANT: a cute round baby elephant with soft light gray skin, big floppy ears with pink insides, big shiny friendly dark eyes, a short curly trunk and a happy smile; toy-like, never scary.",
+  "monkey": "THE LITTLE MONKEY: a cute little round brown monkey with a cream face and cream tummy, big shiny friendly brown eyes, round ears, a happy smile and a long curly tail; toy-like, never scary.",
+  "lion": "THE LION CUB: a cute round fluffy golden lion cub with a small soft fluffy mane tuft on his head, big shiny friendly brown eyes, a cream muzzle and round paws; toy-like, cute and never scary."
+ },
+ "learning": {
+  "goal": "Name three zoo animals and their sounds: elephant – toot, monkey – ooh ooh ah ah, lion – roar.",
+  "target_words": [
+   "elephant",
+   "monkey",
+   "lion",
+   "animal sounds"
+  ],
+  "shown_how": "One animal at a time beside Ava's face behind the zoo fence (elephant, monkey, lion cub) while she copies its sound/action, then all three in a neat row in the sung order.",
+  "song_repeats": "elephant 0:00, 0:06, 0:23 = 3x · toot 0:06 (x3), 0:18 (x2), 0:23 (x2) = 7x · monkey 0:09 · ooh ooh ah ah 0:09, 0:15 = 2x · lion 0:12 · roar 0:12 (x3) · 'animal sounds' 0:03, 0:26",
+  "interactive_moment": "0:18-0:21 'Who says toot, toot? Hmm?' + 0:21-0:23 humming pause (question boing) → 0:23 'The elephant! Toot, toot! Yay!' + cheer + confetti",
+  "copy_me": "0:15-0:18 'Scratch your head! Ooh ooh, ah ah!' (shot 2: Ava and the monkey scratch their heads) + 0:12 lion paws",
+  "fact_check": "Elephant – toot (trumpet), monkey – ooh ooh ah ah, lion – roar: the standard toddler animal sounds. Exactly one animal in shots 1–3, exactly three in shots 4–5. No text/signs.",
+  "modeling": "Animals stay behind the zoo fence, Ava never touches them; she copies sounds and actions happily.",
+  "toddler_fit": "Simple words, one baby, bright sunny zoo, baby animals cute and round, the lion roar tiny and friendly, big face."
+ },
+ "fun_mechanics": [
+  "surprise hook: the baby elephant pops up beside her face",
+  "say-it-with-me: animal sounds",
+  "copy-me: scratch your head like a monkey, lion paws",
+  "interactive pause: Who says toot, toot?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "elephant": "from shot 1 (0:00)",
+  "monkey": "shot 2 on (first at 9 s)",
+  "lion cub": "shot 3 on (first at 12 s)",
+  "row of three": "shots 4–5 (18 s on)",
+  "note": "copy-me cuts at 15–18 s reuse shot 2 (monkey only) – allowed, nothing appears early. f2 retry (f2-r1) rejected: a lion cub in the background before its moment."
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (20 credits each, 5 shots = 100)",
+ "image_model": "nano-banana-2 2K (0 credits); f1 = retry -r1 (first task hung)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.2,
+  "vocals": "one little girl solo"
+ },
+ "sfx": "new: sfx/elephant_toot.mp3, sfx/monkey_ooh_ah.mp3 (5 credits each); library: lion_cub_roar, sparkle_chime, toddlers_gasp, question_boing, toddlers_cheer_clap",
+ "shots": [
+  {
+   "role": "HOOK – baby elephant pops up beside her face, trunk up, gasp",
+   "frame": "f1"
+  },
+  {
+   "role": "monkey on the fence – scratch your head (copy-me)",
+   "frame": "f2"
+  },
+  {
+   "role": "lion cub – tiny roar, lion paws",
+   "frame": "f3"
+  },
+  {
+   "role": "row of three – 'Who says toot, toot? Hmm?' chin tap, points at the elephant",
+   "frame": "f4"
+  },
+  {
+   "role": "LOOP ENDING – edit of f1 with all three animals, bye-bye wave",
+   "frame": "f5 (edit of f1)"
+  }
+ ],
+ "title": "Wow! A Baby Elephant! 🐘 Zoo Animal Sounds with Baby Ava | Learn Animals | Crayon Babies",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}

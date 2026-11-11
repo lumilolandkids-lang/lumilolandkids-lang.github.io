@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/video/b7127dda-0911-4f97-bc26-0c6a08997c7a.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/video/38308055-e19c-4967-96c4-93e490f2785c.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/video/fb5677b6-e645-4c10-9d10-15c2fc7cf3f7.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/video/7466d82f-c099-4034-9f21-d7c0c62e7e0b.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/video/ce4d054b-370d-4e74-8b6b-a25bbfef9444.mp4",
+ "note": "shot2: only 0-6.2 s usable (C1 morphs the monkey into Ava from ~6.5 s). shot3 has a C1 internal cut at 2.9 s (lion close-up -> Ava). shot4: monkey hops away after ~3 s.",
+ "frames": {
+  "f1": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/image/197cb510-21ad-4788-8959-0bddc571f2bf.png",
+  "f2": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/image/95675f09-d90a-45cb-bd90-b04894a8aaae.png",
+  "f3": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/image/16782883-3f55-4730-b6d5-7e1e5db4a4b7.png",
+  "f4": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/image/a63fbe4a-5ebd-4665-b633-e9ced472811f.png",
+  "f5": "https://r2.vibevideo.app/viewmax/creations/2026-11-11/image/52c0ca5a-7df7-448e-996c-7046dc68d83e.png"
+ }
+}

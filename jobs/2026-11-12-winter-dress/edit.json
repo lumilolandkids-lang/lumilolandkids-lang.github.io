@@ -1,0 +1,248 @@
+{
+ "workdir": "runs/2026-11-12-winter-dress",
+ "out": "final.mp4",
+ "song": "jobs/2026-11-12-winter-dress/song.mp3",
+ "song_start": 0.0,
+ "cuts": [
+  {
+   "shot": 1,
+   "start": 0.4,
+   "dur": 1.2,
+   "speed": 0.85
+  },
+  {
+   "shot": 1,
+   "start": 3.0,
+   "dur": 1.6,
+   "zoom": 1.1
+  },
+  {
+   "shot": 1,
+   "start": 5.5,
+   "dur": 1.5,
+   "zoom": 1.12
+  },
+  {
+   "shot": 1,
+   "start": 7.4,
+   "dur": 1.5
+  },
+  {
+   "shot": 2,
+   "start": 0.3,
+   "dur": 2.0
+  },
+  {
+   "shot": 2,
+   "start": 3.2,
+   "dur": 1.0,
+   "zoom": 1.1
+  },
+  {
+   "shot": 3,
+   "start": 0.1,
+   "dur": 1.6
+  },
+  {
+   "shot": 3,
+   "start": 1.8,
+   "dur": 1.4,
+   "zoom": 1.1
+  },
+  {
+   "shot": 4,
+   "start": 0.0,
+   "dur": 1.0
+  },
+  {
+   "shot": 4,
+   "start": 5.0,
+   "dur": 2.0,
+   "zoom": 1.1
+  },
+  {
+   "shot": 4,
+   "start": 1.0,
+   "dur": 1.5,
+   "zoom": 1.12
+  },
+  {
+   "shot": 4,
+   "start": 6.8,
+   "dur": 1.5
+  },
+  {
+   "shot": 4,
+   "start": 8.0,
+   "dur": 1.8,
+   "push": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "shot": 3,
+   "start": 2.6,
+   "dur": 1.2,
+   "zoom": 1.12
+  },
+  {
+   "shot": 4,
+   "start": 2.6,
+   "dur": 2.0,
+   "push": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "shot": 3,
+   "start": 0.8,
+   "dur": 1.2,
+   "zoom": 1.1
+  },
+  {
+   "shot": 4,
+   "start": 5.4,
+   "dur": 1.8
+  },
+  {
+   "shot": 5,
+   "start": 4.0,
+   "dur": 2.0,
+   "zoom": 1.15
+  },
+  {
+   "shot": 5,
+   "start": 0.2,
+   "dur": 2.3
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 0,
+   "offset": 0.0,
+   "vol": 0.45,
+   "max": 1.2
+  },
+  {
+   "file": "sfx/toddlers_gasp.mp3",
+   "cut": 0,
+   "offset": 0.15,
+   "vol": 0.6,
+   "max": 0.65
+  },
+  {
+   "file": "sfx/question_boing.mp3",
+   "cut": 14,
+   "offset": 0.1,
+   "vol": 0.6,
+   "max": 0.62
+  },
+  {
+   "file": "sfx/toddlers_cheer_clap.mp3",
+   "cut": 16,
+   "offset": 0.2,
+   "vol": 0.6,
+   "max": 2.1
+  }
+ ],
+ "bounce": {
+  "amp": 0.03,
+  "ranges": [
+   [
+    3.0,
+    6.0
+   ],
+   [
+    15.0,
+    18.0
+   ],
+   [
+    23.0,
+    26.0
+   ]
+  ]
+ },
+ "vfx": [
+  {
+   "type": "sparkle",
+   "cut": 0,
+   "offset": 0.05,
+   "x": 0.5,
+   "y": 0.52,
+   "size": 0.5,
+   "arc": [
+    20,
+    160
+   ],
+   "flash": false
+  },
+  {
+   "type": "sparkle",
+   "cut": 4,
+   "offset": 1.4,
+   "x": 0.5,
+   "y": 0.68,
+   "size": 0.5,
+   "arc": [
+    20,
+    160
+   ],
+   "flash": false
+  },
+  {
+   "type": "sparkle",
+   "cut": 6,
+   "offset": 0.6,
+   "x": 0.5,
+   "y": 0.18,
+   "size": 0.5,
+   "arc": [
+    200,
+    340
+   ],
+   "flash": false
+  },
+  {
+   "type": "sparkle",
+   "cut": 8,
+   "offset": 0.2,
+   "x": 0.5,
+   "y": 0.68,
+   "size": 0.5,
+   "arc": [
+    20,
+    160
+   ],
+   "flash": false
+  },
+  {
+   "type": "confetti",
+   "cut": 16,
+   "offset": 0.2,
+   "dur": 1.8,
+   "keep_out": [
+    0.5,
+    0.38,
+    0.42,
+    0.2
+   ]
+  },
+  {
+   "type": "hearts",
+   "cut": 18,
+   "offset": 1.0,
+   "x": 0.8,
+   "y": 0.75
+  },
+  {
+   "type": "hearts",
+   "cut": 18,
+   "offset": 1.1,
+   "x": 0.2,
+   "y": 0.8
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+[0.0:3.0] Oh! A snowflake! Brrr! So cold!
+[3.0:6.0] Jacket, hat and mittens! Warm, warm, warm!
+[6.0:9.0] My jacket on! Zip, zip, zip!
+[9.0:12.0] My hat on my head! Pull it down!
+[12.0:15.0] Mittens on my hands! Clap, clap, clap!
+[15.0:18.0] Jacket, hat and mittens! I did it myself!
+[18.0:21.0] What goes on my head? Hmm?
+[21.0:23.0] (Hmm-hmm)
+[23.0:26.0] My hat! Yay! Warm and cozy!
+[26.0:28.0] Dress up warm when it is cold!
+[28.0:30.0] Bye bye, friends!

@@ -1,0 +1,88 @@
+{
+ "idea": "Routines & independence #2 – getting dressed for the cold (HOUSE OUTSIDE, on the porch by the round red front door): the very first snowflakes of the season fall and a big sparkly snowflake lands right on Baby Ava's nose ('Oh! A snowflake! Brrr! So cold!'); chorus 'Jacket, hat and mittens! Warm, warm, warm!'; she dresses herself step by step – 'My jacket on! Zip, zip, zip!', 'My hat on my head! Pull it down!', 'Mittens on my hands! Clap, clap, clap!'; 'I did it myself!'; she asks the viewer 'What goes on my head? Hmm?' (pause) – 'My hat! Yay! Warm and cozy!'; lesson 'Dress up warm when it is cold!'. Loop: the hook framing again, the snowflake on her nose, now fully dressed and giggling, bye-bye wave with her pink mitten.",
+ "lesson": "Getting dressed by yourself for cold weather: jacket, hat, mittens – dress up warm when it is cold.",
+ "place": "HOUSE OUTSIDE (reference image house.jpg) – the small porch in front of the round red front door with the star-shaped window",
+ "calendar": "Thursday slot 2 – Routines & independence (#1 tidy up on 5 Nov; today: getting dressed for the cold, seasonal: first snowflakes in November).",
+ "star": "Ava",
+ "variety": {
+  "place": "HOUSE OUTSIDE",
+  "star": "Ava",
+  "outfit": "HOME (shot 1) -> WINTER, put on piece by piece",
+  "last_places": [
+   "SUNNY PARK",
+   "THE ZOO",
+   "THE BEACH"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows.",
+  "(from shot 2 on, put on step by step) wearing a puffy pink jacket, a yellow knitted hat with a pompom and pink mittens."
+ ],
+ "setting": "HOUSE OUTSIDE: a cozy two-story pastel yellow house with a blue roof, white windows with flower boxes, a round red front door with a star-shaped window, a small porch with two lanterns, a stone path across green grass, a white picket fence and flower beds. (+ the very first tiny snowflakes drifting, grass still green)",
+ "learning": {
+  "goal": "Name three warm clothes and put them on in order by yourself when it is cold: jacket, hat, mittens.",
+  "target_words": [
+   "jacket",
+   "hat",
+   "mittens",
+   "cold / warm"
+  ],
+  "shown_how": "Shot 2 Ava zips up her puffy pink jacket; shot 3 she pulls the yellow pompom hat down onto her head; shot 4 she claps in pink mittens. Each item appears only in its own shot, in the same order as the song.",
+  "song_repeats": "jacket 0:03, 0:06, 0:15 = 3x · hat 0:03, 0:09, 0:15, 0:18 (head), 0:23 = 4x+ · mittens 0:03, 0:12, 0:15 = 3x · warm 0:03 (x3), 0:23, 0:26",
+  "interactive_moment": "0:18-0:21 'What goes on my head? Hmm?' + 0:21-0:23 humming pause (question boing) -> 0:23 'My hat! Yay!' + cheer + confetti",
+  "copy_me": "0:06 zip up your jacket 'Zip, zip, zip!' · 0:09 pull your hat down · 0:12 clap your hands 'Clap, clap, clap!'",
+  "fact_check": "Jacket on the body, hat on the head, mittens on the hands – correct. Snowflake drawn as a six-pointed snow crystal. No text, letters or numbers in any frame.",
+  "modeling": "Ava feels cold in her dress and fixes it herself by dressing warm before playing outside; independence line 'I did it myself!'. Correct behaviour throughout.",
+  "toddler_fit": "Simple words, bright soft daylight, gentle snowflakes, nothing scary, one baby, big face."
+ },
+ "fun_mechanics": [
+  "surprise hook: a snowflake lands on her nose",
+  "say-it-with-me chorus: Jacket, hat and mittens!",
+  "copy-me: zip, pull the hat down, clap",
+  "interactive pause: What goes on my head?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "jacket": "absent shot 1, being zipped shot 2, on from shot 2",
+  "hat": "absent shots 1-2, pulled down shot 3, on shots 3-5",
+  "mittens": "absent shots 1-3, on shots 4-5",
+  "snowflake on nose": "shots 1 and 5"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (20 credits each, 5 shots = 100)",
+ "image_model": "nano-banana-2 2K (0 credits); f2-f5 edits of f1 (JPEG on raw.githubusercontent) + eva.png; f5 also used f4 for the outfit",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "prompt_file": "song_prompt.txt",
+  "song_start": 0.0,
+  "duration": 30.3,
+  "vocals": "one little girl solo"
+ },
+ "shots": [
+  {
+   "role": "HOOK – snowflake lands on her nose, gasp + shiver (yellow dress)",
+   "frame": "f1"
+  },
+  {
+   "role": "JACKET – zips up the puffy pink jacket",
+   "frame": "f2 (edit of f1)"
+  },
+  {
+   "role": "HAT – pulls the yellow pompom hat down, pompom bobs",
+   "frame": "f3 (edit of f1)"
+  },
+  {
+   "role": "MITTENS – claps in pink mittens, taps her hat (question/answer footage)",
+   "frame": "f4 (edit of f1)"
+  },
+  {
+   "role": "LOOP ENDING – edit of f1: snowflake on nose, fully dressed, bye-bye wave",
+   "frame": "f5 (edit of f1 + f4)"
+  }
+ ],
+ "playlist": [
+  "Crayon Babies Songs",
+  "Good Habits for Kids"
+ ],
+ "title": "Brrr! It's Snowing! ❄️ Jacket, Hat & Mittens with Baby Ava | Get Dressed for Winter | Crayon Babies",
+ "description": "Oh! A snowflake lands on Baby Ava's nose! ❄️ Brrr, it's cold! Sing along with Baby Ava as she gets dressed all by herself to stay warm: jacket, hat and mittens.\n\n🎬 What happens in this video:\n😮 \"Oh! A snowflake! Brrr! So cold!\"\n🧥 My jacket on! Zip, zip, zip!\n🧶 My hat on my head! Pull it down!\n🧤 Mittens on my hands! Clap, clap, clap!\n🤔 \"What goes on my head?\" – can you answer?\n👋 Dress up warm when it is cold! Bye bye, friends!\n\n📚 Kids learn: getting dressed by yourself • jacket • hat • mittens • warm and cold • winter clothes\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA cozy sing-along getting-dressed song for toddlers and preschoolers, with Baby Ava on the porch of the Crayon House when the first snowflakes fall – she zips up her jacket, pulls on her hat and claps in her mittens, all by herself.\n\nKids cartoon • Getting dressed song for kids • Winter clothes for toddlers • Good habits for kids • Nursery rhymes • Learn English for kids • Kids songs\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!"
+}

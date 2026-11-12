@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/video/f6de4058-cfd7-4249-b0db-e489f0c52457.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/video/0baf3642-3044-47be-821a-c61c2e245fc3.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/video/858e8e92-81a0-45ee-943f-3b5afcfce6f9.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/video/e93a6320-0865-4cda-943b-c1238f38e6f5.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/video/c75a117f-ca4d-47cd-86f6-2ccefd544730.mp4",
+ "note": "shot1: C1 internal cut to a wider framing at ~2.5 s. shot3: eyes closed laughing from ~4 s. shot4: eyes squinting 1-4.5 s, C1 gave her jeans (legs mostly out of frame). shot5: wider from ~3 s; s5 first prompt content-rejected (no charge), short prompt passed.",
+ "frames": {
+  "f1": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/image/210f7fc8-76c6-4d5c-9405-794dca0075e1.png",
+  "f2": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/image/80b001b8-8231-47d3-98dc-ec656b3b5e04.png",
+  "f3": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/image/1b91dc05-e5e6-4e9a-b191-4411c5529caf.png",
+  "f4": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/image/7446d208-3236-4d74-a8e6-1a5345607aec.png",
+  "f5": "https://r2.vibevideo.app/viewmax/creations/2026-11-12/image/fe8d8310-b883-42d2-b5d5-465da99b52f6.png"
+ }
+}

@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A big letter B!
+[3.0:6.0] B, B, B! Buh, buh, buh!
+[6.0:9.0] B is for ball! Bounce, bounce, bounce!
+[9.0:12.0] B is for bear! Wave to the bear!
+[12.0:15.0] Bounce with me! Buh, buh, buh!
+[15.0:18.0] B, B, B! Ball and bear start with B!
+[18.0:21.0] What starts with B? Hmm?
+[21.0:23.0] [Hmm-hmm]
+[23.0:26.0] Ball! Bear! B! Yay!
+[26.0:28.0] B says buh, buh, buh!
+[28.0:30.0] Bye bye, friends!

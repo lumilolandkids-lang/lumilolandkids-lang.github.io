@@ -1,0 +1,63 @@
+{
+ "idea": "Letters & first words #2 – Letter B (PLAYROOM): a big chunky blue foam letter B pops up beside Baby Jimmy's face ('Wow! Look! A big letter B!'); chorus 'B, B, B! Buh, buh, buh!'; 'B is for ball! Bounce, bounce, bounce!' (red ball); 'B is for bear! Wave to the bear!' (brown teddy bear); copy-me 'Bounce with me!'; the B, the ball and the bear in a row – 'What starts with B? Hmm?' (pause) – 'Ball! Bear! B! Yay!'; lesson 'B says buh, buh, buh!'. Loop: the hook framing with the B, bye-bye wave.",
+ "lesson": "Letter B, its sound 'buh', and two B words: ball, bear.",
+ "place": "PLAYROOM (reference playroom.jpg)",
+ "calendar": "Thursday slot 1 – Letters & first words (A on 5 Nov; today B). Made on her request as a second video on 12 Nov; delivered to her for manual upload.",
+ "star": "Jimmy",
+ "variety": {
+  "place": "PLAYROOM",
+  "star": "Jimmy",
+  "outfit": "HOME",
+  "last_places": [
+   "HOUSE OUTSIDE",
+   "SUNNY PARK",
+   "THE ZOO"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."
+ ],
+ "setting": "PLAYROOM (magic crayon room): a cozy playroom with a colorful puzzle foam floor mat, light blue walls with rainbow pictures, wooden shelves with colorful toy bins, books and toy blocks, a blue bean bag with a yellow star cushion, and a small round wooden table with four little chairs (blue, pink, yellow and green), a big white paper and a box of rainbow crayons on it. Bright, warm, magical lighting with tiny floating sparkles.",
+ "learning": {
+  "goal": "Recognise the letter B, say its sound 'buh', and name two B words: ball and bear.",
+  "target_words": [
+   "B",
+   "buh",
+   "ball",
+   "bear"
+  ],
+  "shown_how": "Shot 1 a big blue foam capital B beside his face; shot 2 one red ball; shot 3 one brown teddy bear; shot 4 B, ball and bear in a row on the mat; shot 5 the B again (loop). The B is the only letter in every frame.",
+  "song_repeats": "B 0:00, 0:03 (x3), 0:06, 0:09, 0:15 (x4), 0:18, 0:23, 0:26 · buh 0:03, 0:12, 0:26 (x3 each) · ball 0:06, 0:15, 0:23 · bear 0:09 (x2), 0:15, 0:23",
+  "interactive_moment": "0:18-0:21 'What starts with B? Hmm?' + 0:21-0:23 humming pause (question boing) -> 0:23 'Ball! Bear! B! Yay!' + cheer + confetti",
+  "copy_me": "say 'buh, buh, buh', bounce with me, wave to the bear",
+  "fact_check": "Capital B checked the correct way round in every frame; one ball, one bear (shot 2 has a C1 second ball at 3-6.5 s – not used).",
+  "modeling": "Positive throughout.",
+  "toddler_fit": "Simple words, calm bright playroom, one baby, big face."
+ },
+ "fun_mechanics": [
+  "surprise hook: letter B pops up",
+  "say-it-with-me chorus",
+  "copy-me: bounce, wave",
+  "interactive pause",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "B": "shots 1, 4, 5",
+  "ball": "from shot 2",
+  "bear": "from shot 3"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (5 x 20 = 100)",
+ "image_model": "f1 nano-banana-2.1 (12 + 12 edit, 2K); f2 nano-banana-2.1 1K (10); f3-f5 nano-banana-2 (0). The first keys cb-2026-11-12-letter-b-f* had been used by another run today (returned Ava frames) -> unique keys cb-20261112-jimmyB-*",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "duration": 29.81,
+  "vocals": "one little boy solo"
+ },
+ "title": "Wow! A Big Letter B! 🔵 B Is for Ball & Bear | Learn ABC with Baby Jimmy | Crayon Babies",
+ "description": "Wow! A big blue letter B pops up right next to Baby Jimmy! 🔵 Sing along with Baby Jimmy and learn the letter B, its sound \"buh\" and two B words: ball and bear.\n\n🎬 What happens in this video:\n😮 \"Wow! Look! A big letter B!\"\n🔤 B, B, B! Buh, buh, buh!\n🔴 B is for ball! Bounce, bounce, bounce!\n🧸 B is for bear! Wave to the bear!\n🤔 \"What starts with B?\" – can you answer?\n👋 B says buh, buh, buh! Bye bye, friends!\n\n📚 Kids learn: the letter B • the B sound \"buh\" • ball • bear • first words for toddlers\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA fun sing-along ABC song for toddlers and preschoolers, with Baby Jimmy in the Crayon Babies playroom learning the letter B with a bouncy red ball and a soft teddy bear.\n\nKids cartoon • ABC song for kids • Letter B for toddlers • Phonics for kids • Nursery rhymes • Learn English for kids • Kids songs\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}

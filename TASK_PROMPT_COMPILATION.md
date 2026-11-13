@@ -1,4 +1,17 @@
 # ⚠️ ONE-TIME OVERRIDE – SUNDAY 8 NOV 2026 ONLY (her request, 6 Nov 2026: "on Sunday I want the compilation of all the songs in the Shorts – only the clips, this time")
+
+**NO PUBLISHING – SEND THE VIDEO TO HER (her rule, 13 Nov 2026: "لا تنزلوا الفيديو، أرسلوه هنا، أنا أنشره – ضعوا بالسكل").**
+This rule wins over every "MODE: LIVE", "publish", "upload" or `publish_at` line in this file and in the scheduled prompt.
+The automation NEVER uploads, schedules or publishes anything on YouTube (no `upload_ready.py`, no API calls that change videos).
+Make the video exactly as before (song, frames, shots, edit, all checks), then DELIVER it:
+1. Copy `W/final.mp4` to `W/Crayon Babies - <Title>.mp4` and send it with the **SendUserFile** tool (status `proactive`, display `attach`).
+2. Send her, in the same caption or a SendUserMessage, the ready-to-copy **title**, **description** (section 10 template, no hashtags),
+   playlist names, "Made for kids = Yes, Altered/synthetic (AI) = Yes", and the suggested publish time (6:53 AM / 1:30 PM New York).
+3. Save the rebuild files in `jobs/<date>-<slug>/` and the job json as usual (`"publish_at": null`), append the log entry with
+   `"status": "delivered: sent to her in chat – she publishes it herself"` (no youtube_id), commit + push `log/` and `jobs/`.
+4. Push notification: "Video ready in the chat: <title> – please publish it yourself" + credits used/left.
+`upload_ready.py` now refuses to upload unless it gets `--her-ok`; use that flag ONLY if she asks in a new message to upload a specific video.
+
 If the New York date of this run is **2026-11-08**: do NOT make a new long video and spend NO ViewMax credits. Instead make ONE
 compilation of ALL the song Shorts that can be rebuilt, using the OLD weekly steps 2–6 below, with these changes:
 - Shorts (oldest first; all 12, no 5:00 target – about 6 minutes): jobs/2026-10-29-sad-pumpkin, 2026-10-31-little-seed,

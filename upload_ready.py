@@ -94,6 +94,10 @@ def main():
     print(json.dumps(meta, ensure_ascii=False, indent=2))
     if "--dry-run" in sys.argv:
         return 0
+    if "--her-ok" not in sys.argv:
+        print("REFUSED: her rule 13 Nov 2026 (SKILL.md rule 18) - never upload/publish; send the mp4 to her in the chat. "
+              "Use --her-ok only if she asks in a new message to upload this video.")
+        return 5
     entry = {"time": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
              "idea": job.get("idea"), "title": job.get("title"), "file": job["video"],
              "viewmax_credits_used": job.get("viewmax_credits_used"), "status": "started"}

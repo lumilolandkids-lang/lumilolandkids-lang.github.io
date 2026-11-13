@@ -1,5 +1,18 @@
 # Crayon Babies — the daily Short (her rule 10 Nov 2026, option B: 2 clips per long video + new Shorts in the empty slots)
 
+**NO PUBLISHING – SEND THE VIDEO TO HER (her rule, 13 Nov 2026: "لا تنزلوا الفيديو، أرسلوه هنا، أنا أنشره – ضعوا بالسكل").**
+This rule wins over every "MODE: LIVE", "publish", "upload" or `publish_at` line in this file and in the scheduled prompt.
+The automation NEVER uploads, schedules or publishes anything on YouTube (no `upload_ready.py`, no API calls that change videos).
+Make the video exactly as before (song, frames, shots, edit, all checks), then DELIVER it:
+1. Copy `W/final.mp4` to `W/Crayon Babies - <Title>.mp4` and send it with the **SendUserFile** tool (status `proactive`, display `attach`).
+2. Send her, in the same caption or a SendUserMessage, the ready-to-copy **title**, **description** (section 10 template, no hashtags),
+   playlist names, "Made for kids = Yes, Altered/synthetic (AI) = Yes", and the suggested publish time (6:53 AM / 1:30 PM New York).
+3. Save the rebuild files in `jobs/<date>-<slug>/` and the job json as usual (`"publish_at": null`), append the log entry with
+   `"status": "delivered: sent to her in chat – she publishes it herself"` (no youtube_id), commit + push `log/` and `jobs/`.
+4. Push notification: "Video ready in the chat: <title> – please publish it yourself" + credits used/left.
+`upload_ready.py` now refuses to upload unless it gets `--her-ok`; use that flag ONLY if she asks in a new message to upload a specific video.
+
+
 **Her decision, 10 Nov 2026 (she felt too many Shorts came from the bubble video):** only **2 clips** per long video
 (clip 1 = the opening hook + first chorus, clip 2 = the review/question + "Bye bye, friends!" ending). Every other Short
 slot makes a **NEW Short from scratch** with the old recipe below (steps 1–12: credits check ≥ 130, Lyria song FIRST,

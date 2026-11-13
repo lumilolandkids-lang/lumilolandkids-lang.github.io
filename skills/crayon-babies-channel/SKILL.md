@@ -32,6 +32,7 @@ The channel is NOT only about crayons: "Crayon Babies" = colorful little kids wh
 15. **Every video teaches AND is fun** (her request, 31 Oct 2026: "important, educational and fun – a very special channel"): ONE concrete learning goal from the weekly learning calendar + 2–3 fun mechanics (interactive pause, say-it-with-me, copy-me action, surprise). See section 14.
 16. **Always vary** (her rule, 2 Nov 2026): never the same place as any of the last 3 videos – rotate through every room and outside place (park, supermarket, clinic, nursery, beach, farm, zoo, library, mall); outfits fit the place. (The "one other character in every video" part was replaced the same evening by rule 17: one baby per video.)
 17. **ONE BABY, ONE LEARNING TOPIC, THE PICTURE NEVER STOPS** (her rule, 2 Nov 2026 evening: "I want videos with one child and educational things – letters, shapes, colors or anything educational, fun, organized, without the picture stopping"): every new video has only ONE baby – Jimmy OR Ava, taking turns – and never a second child; the baby teaches one concrete topic (letters, shapes, colors, numbers, animals, opposites, habits …) in a neat, clear order; something moves in every second (no still pictures, no frozen moments, measured with `montage.py motion`). Full recipe: section 15.
+18. **NEVER PUBLISH – SEND THE VIDEO TO HER (her rule, 13 Nov 2026: "لا تنزلوا الفيديو، أرسلوه هنا، أنا أنشره").** No automated task or chat uploads, schedules or publishes anything on YouTube. Every finished video (Shorts, clips, long videos, compilations) is sent to her in the chat as an mp4 (SendUserFile) together with the ready-to-copy title, description, playlist and settings (Made for kids, AI = Yes) and the suggested publish time; she uploads and publishes it herself. Log status "delivered: sent to her in chat". `upload_ready.py` refuses to run without `--her-ok` – only for a video she explicitly asks to be uploaded. Wins over any "MODE: LIVE", publish time or upload line in task prompts or scheduled task texts. (13 Nov: the scheduled "Wow! A BIG Teddy!" Short dLpMhVVEFoY was set back to private with no publish time at her request and sent to her.)
 
 Fixed blocks to paste in every video prompt:
 ```
@@ -295,7 +296,8 @@ Lyrics rules: short lines, lots of repetition, one learning item per line, sound
 
 ---
 
-## 9. PUBLISHING PLAN (current plan since 5 Nov 2026: 2 long 2:30 learning songs a week + Shorts cut from them + a monthly compilation)
+## 9. PUBLISHING PLAN
+**Since 13 Nov 2026 she publishes every video herself (rule 18): the times below are the times SHE should publish at; the automation only makes the video and sends it to her.** (current plan since 5 Nov 2026: 2 long 2:30 learning songs a week + Shorts cut from them + a monthly compilation)
 **Current weekly plan (5 Nov 2026):** Friday 3:15 PM NY = new 2:30 school-readiness learning song · Sunday 8:15 AM NY = new 2:30 life-skills/seasonal learning song · the two daily Short slots (6:53 AM and 1:30 PM NY) = 30–45 s clips cut from those two songs (max 2 per song: hook + review/ending, 0 credits) and, in every other slot, a NEW Short made from scratch (~100 credits) – her decision 10 Nov 2026 · last Sunday of the month 7:00 PM NY = compilation of all the month's long songs. Details in the lines below.
 Old goal (before 5 Nov 2026, kept for reference only):
 - Long 1: a new story episode (Magic Crayon, habits, doctor or outing).

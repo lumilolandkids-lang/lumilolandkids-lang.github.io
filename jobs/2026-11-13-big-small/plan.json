@@ -1,0 +1,61 @@
+{
+ "idea": "Body parts & opposites – BIG and small (THE MALL toy store): a GIANT soft teddy bear pops up right beside Baby Ava and she gasps ('Wow! Look! A BIG teddy!'); chorus 'Big and small! Big and small!'; she stretches her arms out WIDE to show how BIG the teddy is ('Big, big, big! Arms out wide! My teddy is so big!'); then a tiny little teddy sits on her open palm ('Small, small, small! A tiny teddy! Hands close together! Small, small!'); copy-me: arms out wide for big, hands close together for small; she holds both and asks the viewer 'Which one is small? Hmm?' (pause) – 'This one! Small! Yay!'; lesson: opposites big and small. Loop: the hook framing again, the giant teddy and the tiny teddy together, bye-bye wave.",
+ "lesson": "Opposites BIG and small: the giant teddy is big (arms out wide), the tiny teddy is small (hands close together).",
+ "calendar": "Friday slot 1 – Body parts & opposites (body parts were the 6 Nov long song; today opposites #1: big/small).",
+ "place": "THE MALL (text block, toy store)",
+ "star": "Ava",
+ "variety": {
+  "place": "THE MALL",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress)",
+  "last_places": [
+   "PLAYROOM",
+   "HOUSE OUTSIDE",
+   "SUNNY PARK"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "supporting": "THE BIG TEDDY: a GIANT fluffy light-brown teddy bear with round ears, a cream muzzle, big shiny black button eyes, a friendly smile and a big RED ribbon bow. THE TINY TEDDY: the same teddy, thumb-sized.",
+ "setting": "THE MALL: a bright, clean shopping mall with a toy store with big windows, an ice cream shop with pastel colors, a small carousel and big green plants.",
+ "learning": {
+  "goal": "Tell BIG from small: the giant teddy is big, the tiny teddy is small.",
+  "target_words": [
+   "big",
+   "small",
+   "tiny"
+  ],
+  "shown_how": "Shot 1-2 the giant teddy (head twice Ava's head) and Ava's arms out wide; shot 3 a thumb-sized teddy on her palm; shot 4 both together and she points at the small one.",
+  "song_repeats": "big 0:00,0:03(x2),0:06(x3),0:09,0:18(x2),0:27 · small 0:03(x2),0:12(x3),0:15(x2),0:18(x2),0:21,0:25,0:27",
+  "interactive_moment": "0:21 'Which one is small? Hmm?' + 0:23-0:24 humming pause (question boing) -> 0:25 'This one! Small! Yay!' + cheer + confetti",
+  "copy_me": "arms out wide for BIG (0:06), hands close together for small (0:15)",
+  "fact_check": "Same teddy design in two sizes so only size differs. No text/letters/numbers in frames. Note: C1 added small plush toys in shelf bins behind her in shot 3 (background only).",
+  "modeling": "Gentle discovery, no wrong behaviour.",
+  "toddler_fit": "Simple words, one baby, soft daylight, big friendly teddy, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: a giant teddy pops up",
+  "say-it-with-me chorus: Big and small!",
+  "copy-me: arms wide / hands close",
+  "interactive pause: Which one is small?",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "giant teddy": "shots 1-5 (hook item)",
+  "tiny teddy": "absent shots 1-2, on her palm from shot 3"
+ },
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10s, 5 x 20 = 100 credits",
+ "image_model": "nano-banana-2 2K (0 credits); f1 regenerated once (edit) to remove small plush from shelves; f2-f5 edits of f1/f3",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "duration": 30.6,
+  "vocals": "one little girl solo"
+ },
+ "title": "Wow! A BIG Teddy! 🧸 Big and Small with Baby Ava | Learn Opposites | Crayon Babies",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}

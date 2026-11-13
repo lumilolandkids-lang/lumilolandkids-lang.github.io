@@ -1,0 +1,45 @@
+[[A0]]
+[0.0:] Boing! Wow! Look! A big red circle!
+[[B1]]
+[6.0:] Circle, square, triangle, star!
+[10.0:] Shapes, shapes – here they are!
+[14.0:] Circle, square, triangle, star!
+[18.0:] Clap with me – you're a star!
+[[C2]]
+[22.0:] Pop! A big red circle!
+[26.0:] Round and round – a circle!
+[30.0:] Draw a circle with me! Round, round, round!
+[34.0:] Circle, circle, circle! Roll, roll, roll!
+[[C3]]
+[38.0:] Pop! A big blue square!
+[42.0:] One, two, three, four sides – a square!
+[46.0:] Clap four times with me! Clap, clap, clap, clap!
+[50.0:] Square, square, square! Four sides – a square!
+[[B4]]
+[54.0:] Circle, square, triangle, star!
+[58.0:] Shapes, shapes – here they are!
+[62.0:] Circle, square, triangle, star!
+[66.0:] Clap with me – you're a star!
+[[C5]]
+[70.0:] Pop! A big green triangle!
+[74.0:] One, two, three sides – a triangle!
+[78.0:] Make a pointy roof with me! Up, up, up!
+[82.0:] Triangle, triangle! One, two, three!
+[[C6]]
+[86.0:] Pop! A big yellow star!
+[90.0:] A star like mine! Shine, shine, shine!
+[94.0:] Wiggle your fingers with me! Sparkle, sparkle!
+[98.0:] Star, star, star! Shine, shine, shine!
+[[D7]]
+[[C8]]
+[114.0:] Circle! Round, round! Square! Four sides!
+[118.0:] Triangle! Three sides! Star! Shine, shine!
+[122.0:] Which one is the star? Hmm?
+[126.0:] The yellow star! Yay! You did it!
+[[B9]]
+[134.0:] Circle, square, triangle, star!
+[138.0:] Shapes, shapes – here they are!
+[142.0:] Circle, square, triangle, star!
+[146.0:] Clap with me – you're a star!
+[[E10]]
+[152.0:] Bye bye, friends! You're a star!

@@ -1,0 +1,113 @@
+{
+ "idea": "Shapes (Friday school readiness, long 2:40 learning song) in the BACKYARD: a big red foam circle bounces up right beside Baby Jimmy's face ('Boing! Wow! Look! A big red circle!'); chorus 'Circle, square, triangle, star! Shapes, shapes – here they are! … Clap with me – you're a star!'; each verse starts with a new shape popping up beside him – red circle (draw a circle in the air), blue square (one, two, three, four sides; clap four times), green triangle (one, two, three sides; pointy roof with the arms), yellow star (a star like the one on his onesie; wiggle your fingers); clap break; review row of all four shapes and the question 'Which one is the star? Hmm?' (2 s pause) – 'The yellow star! Yay!'; loop: the hook framing with the red circle, bye-bye wave.",
+ "star": "Jimmy",
+ "place": "BACKYARD",
+ "outfit": "HOME",
+ "variety": {
+  "place": "BACKYARD",
+  "star": "Jimmy",
+  "outfit": "HOME",
+  "last_places": [
+   "THE MALL",
+   "PLAYROOM",
+   "HOUSE OUTSIDE"
+  ]
+ },
+ "learning": {
+  "goal": "Name four shapes: circle, square, triangle, star (square = 4 sides, triangle = 3 sides)",
+  "target_words": [
+   "circle",
+   "square",
+   "triangle",
+   "star"
+  ],
+  "shown_how": "one big chunky foam shape in one pure color pops up beside Jimmy per verse (red circle, blue square, green triangle, yellow star); review row of all four",
+  "song_repeats": "chorus x4 names all four; each verse names its shape 4+ times; review at 1:54",
+  "interactive_moment": "2:02 'Which one is the star? Hmm?' + 2 s pause, answer 2:06",
+  "copy_me": "draw a circle in the air, clap four times, pointy roof with the arms, wiggle fingers, clap break 1:42",
+  "fact_check": "square 4 sides, triangle 3 sides, star 5 points; only the verse's shape visible in each verse shot; review row = exactly 4 shapes (counted)",
+  "modeling": "positive only",
+  "toddler_fit": "one baby, sunny calm backyard, big face, soft foam shapes"
+ },
+ "story_order": "circle from hook; square from 0:38; triangle from 1:10; star from 1:26; choruses 1-2 show no shapes; all four only from the review (1:54) / final chorus",
+ "shots": [
+  {
+   "n": 1,
+   "role": "HOOK – red circle bounces up beside his face, gasp",
+   "frame": "f1",
+   "dur": 7
+  },
+  {
+   "n": 2,
+   "role": "CHORUS A – sitting clap",
+   "frame": "f2",
+   "dur": 7
+  },
+  {
+   "n": 3,
+   "role": "CHORUS B – standing dance arms up",
+   "frame": "f3",
+   "dur": 7
+  },
+  {
+   "n": 4,
+   "role": "CIRCLE – hand round and round, circle turns (redo -r1; first take drew red lines over his face)",
+   "frame": "f4",
+   "dur": 7
+  },
+  {
+   "n": 5,
+   "role": "SQUARE – blue square pops, claps",
+   "frame": "f5",
+   "dur": 7
+  },
+  {
+   "n": 6,
+   "role": "TRIANGLE – arms as a pointy roof, green triangle",
+   "frame": "f6",
+   "dur": 7
+  },
+  {
+   "n": 7,
+   "role": "STAR – taps the star on his onesie, yellow star spins",
+   "frame": "f7",
+   "dur": 7
+  },
+  {
+   "n": 8,
+   "role": "CLAP BREAK – claps above head (frame redone: first frame too small)",
+   "frame": "f8",
+   "dur": 7
+  },
+  {
+   "n": 9,
+   "role": "REVIEW – four shapes in a row, pointing, curious",
+   "frame": "f9",
+   "dur": 7
+  },
+  {
+   "n": 10,
+   "role": "ANSWER – waves the yellow star, cheering",
+   "frame": "f10",
+   "dur": 7
+  },
+  {
+   "n": 11,
+   "role": "FINAL CHORUS – dancing among the four shapes",
+   "frame": "f11",
+   "dur": 7
+  },
+  {
+   "n": 12,
+   "role": "LOOP ENDING – edit of hook frame, bye-bye wave",
+   "frame": "f12",
+   "dur": 7
+  }
+ ],
+ "song": "lyria-3.5, 160.8 s (vocals end 158.0), timeline in song.txt / song_prompt.txt; video 159.4 s",
+ "models": {
+  "frames": "nano-banana-2 (0 credits; one moderation-unavailable retry)",
+  "video": "viewmax-c1 image-to-video 768P 16:9 7 s (14 credits each)"
+ },
+ "title": "Wow! A Big Red Circle! 🔴 Shapes Song with Baby Jimmy | Nursery Rhymes & Kids Songs | Crayon Babies"
+}

@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A BIG teddy!
+[3.0:6.0] Big and small! Big and small!
+[6.0:9.0] Big, big, big! Arms out wide!
+[9.0:12.0] My teddy is so big!
+[12.0:15.0] Small, small, small! A tiny teddy!
+[15.0:18.0] Hands close together! Small, small!
+[18.0:21.0] Big and small! Big and small!
+[21.0:23.0] Which one is small? Hmm?
+[23.0:25.0] 
+[25.0:27.0] This one! Small! Yay!
+[27.0:30.0] Big and small! Bye bye, friends!

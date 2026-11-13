@@ -503,26 +503,26 @@ Every long video and clip (tool: `vfx.py`, called by `montage.py build`):
 `TASK_PROMPT_MUSIC.md` (one Short, MODE TEST or LIVE) · `LEARNING.md` (learning calendar + checks) · `TASK_PROMPT_MUSIC_VIDEO.md` (Friday music video) · `TASK_PROMPT_COMPILATION.md` (Sunday compilation) · `compile.py` (compilation, `fit` for Gemini thumbnails) · `THUMBNAIL.md` (Gemini thumbnail recipe) · `montage.py` (contact sheets, face frames, and `build` from an edit.json in exactly this style: cuts, zoom, slow hook, song, effects, ducking, words off by default; 9:16 or 16:9) · `song.py` (Lyria) · `sfx/` library · `upload_ready.py` (uploads a finished mp4: Made for kids, AI = yes, no hashtags, scheduled `publish_at`, optional custom thumbnail) · `assets/Poppins-Bold.ttf`. The Default cloud environment holds the Google keys and can reach Google and r2.vibevideo.app; the chat workspace cannot. Each Short saves its rebuild files (edit.json, song.mp3, shots.json) in `jobs/<date>-<slug>/`; the mp4 is removed from the repo after upload.
 Scheduled tasks (all Opus 5.5, Default environment): Daily Short ×2 (runs 4:41 + 8:41 AM New York – since 5 Nov 2026 they cut clips from the long videos), Friday long video (Fri 5:41 AM NY), Sunday long video + monthly compilation (Sun 3:17 AM NY). Texts to paste: below.
 
-### Scheduled task texts (5 Nov 2026 plan – paste into the app if a task still has the old text)
+### Scheduled task texts (13 Nov 2026 – rule 18: make and SEND to her, never publish)
 Daily Short ×2 (4:41 AM + 8:41 AM New York):
 ```
-MODE: LIVE — publish ONE Crayon Babies Short, fully automatically. Nobody is watching: never ask questions, decide and continue. Extra-high effort.
+MODE: DELIVER — make ONE Crayon Babies Short and SEND it to me in the chat. Never upload, schedule or publish anything on YouTube (SKILL.md rule 18). Nobody is watching: never ask questions, decide and continue. Extra-high effort.
 1. Clone: git clone --depth 1 -b autopilot https://github.com/lumilolandkids-lang/lumilolandkids-lang.github.io /home/user/autopilot-repo ; git user "Claude" / noreply@anthropic.com ; push only to `autopilot`.
-2. Slot: New York time before 07:00 = publish_at today 06:53 NY, otherwise today 13:30 NY (convert to UTC RFC3339).
-3. Follow the TOP section of TASK_PROMPT_MUSIC.md exactly (10 Nov 2026): if a long video has fewer than 2 clips, cut the next 30–45 s vertical clip (compile.py vclip, 0 credits); otherwise make a NEW Short from scratch (Lyria song first, ~100 ViewMax credits, never Veo).
-4. Channel bible: skills/crayon-babies-channel/SKILL.md (newest). Made for kids, AI disclosure yes, no hashtags, no tags, no on-screen words.
+2. Slot: New York time before 07:00 = slot 1 (suggested publish time 6:53 AM NY), otherwise slot 2 (1:30 PM NY).
+3. Follow TASK_PROMPT_MUSIC.md and LEARNING.md exactly (Lyria song first – billing error → stop and notify; ~100 ViewMax credits, never Veo; credits < 130 → skip and notify).
+4. Channel bible: skills/crayon-babies-channel/SKILL.md (newest). No on-screen words, no hashtags, no tags.
 5. Env vars GEMINI_API_KEY, YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN are set – never print them.
-6. Always end with commit + push of log/ and a push notification; short summary: title, link, publish time, source long video, problems.
+6. Deliver: send the mp4 with SendUserFile + the ready-to-copy title, description, playlist, settings (Made for kids, AI = Yes) and suggested publish time. Commit + push log/ and jobs/, push notification "Video ready in the chat: <title>".
 ```
 Friday long video (5:41 AM New York):
 ```
-MODE: LIVE — make and publish this week's FRIDAY long video, fully automatically. Nobody is watching: never ask questions. Extra-high effort.
-Clone the repo branch `autopilot` as in the Short task and follow TASK_PROMPT_MUSIC_VIDEO.md exactly: a NEW 2:30 school-readiness learning song (16:9), Lyria song first (billing error → stop and notify), 12–16 ViewMax C1 shots, budget about 250 ViewMax credits, never Veo, custom thumbnail, publish Friday 3:15 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags, no tags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification with title, link, time, credits used/left.
+MODE: DELIVER — make this week's FRIDAY long video and SEND it to me in the chat. Never upload, schedule or publish anything on YouTube (SKILL.md rule 18). Nobody is watching: never ask questions. Extra-high effort.
+Clone the repo branch `autopilot` as in the Short task and follow TASK_PROMPT_MUSIC_VIDEO.md: a NEW 2:30 school-readiness learning song (16:9), Lyria song first (billing error → stop and notify), 12–16 ViewMax C1 shots, about 250 ViewMax credits, never Veo, custom thumbnail. Channel bible skills/crayon-babies-channel/SKILL.md. Never print the env keys. Send me the mp4 + thumbnail (SendUserFile) with title, description, chapters, playlist, settings and suggested time (Friday 3:15 PM New York). Commit + push log/ and jobs/ and send a push notification with title and credits used/left.
 ```
 Sunday long video (3:17 AM New York):
 ```
-MODE: LIVE — make and publish this week's SUNDAY long video, fully automatically. Nobody is watching: never ask questions. Extra-high effort.
-Clone the repo branch `autopilot` and follow TASK_PROMPT_COMPILATION.md exactly: a NEW 2:30 life-skills / values / seasonal learning song (16:9) made with TASK_PROMPT_MUSIC_VIDEO.md, budget about 250 ViewMax credits (credits ARE needed), publish Sunday 8:15 AM New York. On the LAST Sunday of the month also build the monthly compilation of all the month's long videos (step 7, 0 credits), published 7:00 PM New York. Channel bible skills/crayon-babies-channel/SKILL.md. Made for kids, AI yes, no hashtags, no tags. Never print the env keys. Always commit + push log/ and jobs/ and send a push notification.
+MODE: DELIVER — make this week's SUNDAY long video and SEND it to me in the chat. Never upload, schedule or publish anything on YouTube (SKILL.md rule 18). Nobody is watching: never ask questions. Extra-high effort.
+Clone the repo branch `autopilot` and follow TASK_PROMPT_COMPILATION.md: a NEW 2:30 life-skills / values / seasonal learning song (16:9) made with TASK_PROMPT_MUSIC_VIDEO.md, about 250 ViewMax credits, suggested time Sunday 8:15 AM New York. On the LAST Sunday of the month also build the monthly compilation (step 7, 0 credits, suggested 7:00 PM New York). Channel bible skills/crayon-babies-channel/SKILL.md. Never print the env keys. Send me every mp4 + thumbnail (SendUserFile) with title, description, chapters, playlist and settings. Commit + push log/ and jobs/ and send a push notification.
 ```
 ### Lesson learned (2 Nov 2026)
 "Oh No! My Tower Fell Down! Count to 5": one C1 clip was unusable (7 wrong-colored blocks) and the run filled the gap with slow zoom-ins on still frames – more than half the video looked frozen and she did not like it. Rule: never use still frames as shots; redo the failed shot once instead (budget allows ~125 credits for this), or recut from the real clips. Motion prompts ask for clear lively action (bounce, clap, point, wiggle), not only "small gentle movements".

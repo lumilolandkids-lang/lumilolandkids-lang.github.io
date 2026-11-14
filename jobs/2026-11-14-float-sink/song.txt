@@ -1,0 +1,9 @@
+[0.0:3.0] Splash! Wow! My duck can float!
+[3.0:6.0] It floats on top! Float, float, float!
+[6.0:10.0] Plop! My rock goes down, down, down! Sink, sink, sink!
+[10.0:13.0] Float – arms up high! Sink – bend down low!
+[13.0:16.0] My red apple… float or sink? Hmm?
+[18.0:21.0] It floats! It floats! Yay!
+[21.0:24.0] Float or sink? Let's look and see!
+[24.0:27.0] Duck and apple float! The rock sinks!
+[27.0:30.0] Float and sink! Bye bye, friends!

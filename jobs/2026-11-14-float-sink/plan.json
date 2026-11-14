@@ -1,0 +1,29 @@
+{
+ "idea": "Little science wonder – FLOAT or SINK? (PLAYROOM, at the small round wooden table with a big clear glass bowl of water): a yellow rubber duck drops into the bowl with a SPLASH right in front of Baby Jimmy and floats ('Splash! Wow! My duck can float!'); he drops a gray rock – PLOP – and it sinks down, down, down to the bottom ('Sink, sink, sink!'); copy-me 'Float – arms up high! Sink – bend down low!'; he holds up a red apple and asks the viewer 'Float or sink? Hmm?' (2 s pause) – the apple FLOATS ('It floats! It floats! Yay!'); lesson 'Duck and apple float! The rock sinks!'. Loop: the hook framing again with the duck and the apple floating and the rock on the bottom, bye-bye wave.",
+ "lesson": "Some things float on top of the water (rubber duck, apple) and some things sink to the bottom (rock) – look and find out!",
+ "calendar": "Saturday slot 2 – Little science wonder (earlier: seeds grow 31 Oct). Float/sink is new.",
+ "place": "PLAYROOM (reference playroom.jpg)",
+ "star": "Jimmy",
+ "variety": {"place": "PLAYROOM", "star": "Jimmy", "outfit": "HOME", "last_places": ["KITCHEN", "BACKYARD", "THE MALL"]},
+ "characters": ["BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."],
+ "supporting": "THE WATER BOWL: a big round clear glass bowl of clean clear water on the small round wooden table. YELLOW RUBBER DUCK with an orange beak (floats). ONE smooth round GRAY ROCK, fist-size (sinks). ONE shiny RED APPLE with a brown stem and a green leaf (floats).",
+ "setting": "PLAYROOM (magic crayon room): a cozy playroom with a colorful puzzle foam floor mat, light blue walls with rainbow pictures, wooden shelves with colorful toy bins, books and toy blocks, a blue bean bag with a yellow star cushion, and a small round wooden table with four little chairs (blue, pink, yellow and green), a big white paper and a box of rainbow crayons on it. Bright, warm, magical lighting with tiny floating sparkles.",
+ "learning": {
+  "goal": "Find out what floats and what sinks: the rubber duck and the apple float on top of the water, the rock sinks to the bottom.",
+  "target_words": ["float", "sink", "down", "water (shown)"],
+  "shown_how": "A big CLEAR glass bowl so the child sees both the top of the water (duck, apple floating) and the bottom (rock lying there) through the glass; one item at a time in order duck -> rock -> apple.",
+  "song_repeats": "float 0:00, 0:03 (x4), 0:10, 0:13, 0:18 (x2), 0:21, 0:24, 0:27 · sink 0:06 (x3), 0:10, 0:13, 0:21, 0:24, 0:27 · down 0:06 (x3), 0:10",
+  "interactive_moment": "0:13 'My red apple… float or sink? Hmm?' + 0:16-0:18 humming-only pause (question boing) -> 0:18 'It floats! It floats! Yay!' + cheer",
+  "copy_me": "0:10 'Float – arms up high! Sink – bend down low!'",
+  "fact_check": "Rubber duck floats (true), rock sinks (true), apple floats (true – apples are about 25% air). Frames: one duck, one rock, one apple; rock absent in shots 1-2, in hand in shot 3 start, on the bottom in shots 4-5; apple absent in shots 1-3, held above water in shot 4 start, floating in shot 5. No letters/numbers anywhere.",
+  "modeling": "Jimmy experiments calmly at a table with a small bowl of water; tidy, no mess, no climbing.",
+  "toddler_fit": "Simple words, one baby, soft daylight, big clear bowl beside his face, nothing scary."
+ },
+ "fun_mechanics": ["surprise hook: SPLASH! the duck lands in the water", "interactive pause: Float or sink? Hmm?", "say-it-with-me: float / sink / down, down, down", "copy-me: arms up high = float, bend down low = sink", "loop ending + Bye bye, friends!"],
+ "story_order": {"rock": "absent shots 1-2, held above water at the start of shot 3 then dropped and sinks, on the bottom in shots 4-5", "apple": "absent shots 1-3, held above the water at the start of shot 4 then floats, floating in shot 5"},
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10s, 5 x 20 = 100 credits",
+ "image_model": "nano-banana-2 2K (0 credits): f1 hook; f2-f5 edits of f1 with jimmy.png first",
+ "song": {"model": "lyria-3-clip-preview", "take": 1, "duration": 30.28, "song_start": 0.0, "vocals": "one little boy solo", "instrument_check": "Gemini audio check: pitched_instruments [], drum_kit false, voices_claps_handdrum_only true; pause 0:16-0:18 confirmed"},
+ "title": "Splash! Float or Sink? 🦆 Little Science with Baby Jimmy | Learn for Toddlers | Crayon Babies",
+ "playlist": ["Crayon Babies Songs", "Learn with Crayon Babies"]
+}

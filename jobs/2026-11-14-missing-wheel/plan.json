@@ -1,0 +1,29 @@
+{
+ "idea": "\"What's Missing?\" #2 (KITCHEN, at the pastel yellow fridge): Baby Ava's toddler crayon drawing of a red car on the fridge comes alive and bumps along – bump, bump, bump – but it has only ONE wheel ('Oh no! My car can't go!'); Ava points at the empty spot and asks the viewer 'What's missing? Hmm?' (2 s pause) – 'A wheel! A wheel! A round wheel!'; 'Magic crayon, draw with me!' – she draws a round wheel round and round; chorus 'Wheels go round and round!'; counting 'One wheel, two wheels! Yay!'; copy-me: roll your hands round and round. Loop: the hook framing again, the car complete with two wheels, bye-bye wave.",
+ "lesson": "Look carefully and spot what is missing: a car needs wheels; wheels are round and go round and round (one wheel, two wheels).",
+ "calendar": "Saturday slot 1 – \"What's Missing?\" signature episode #2 (ep. 1 = kitty with no tail, 30 Oct). Next ideas: sun with no rays, bunny with one ear, house with no door.",
+ "place": "KITCHEN (reference kitchen.jpg) – the pastel yellow fridge with crayon drawings",
+ "star": "Ava",
+ "variety": {"place": "KITCHEN", "star": "Ava", "outfit": "HOME (yellow dress)", "last_places": ["BACKYARD", "THE MALL", "PLAYROOM"]},
+ "characters": ["BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."],
+ "supporting": "THE CRAYON CAR: a real toddler's crayon drawing of a simple RED CAR seen from the side on white paper (wobbly thick black outlines, scribbly red fill, light blue window, round black wheels, green crayon grass line), held on the fridge by a strawberry and an orange magnet. THE MAGIC CRAYON: a big chunky crayon that glows and changes color, with tiny sparkles around it (black here, for the wheel).",
+ "setting": "KITCHEN: a bright family kitchen with white cabinets and light-wood counters, a pastel yellow fridge covered with children's crayon drawings and fruit magnets, a round white table on a round pastel rainbow rug with two adult chairs, a blue baby high chair and a pink baby high chair, a fruit bowl, a yellow hanging lamp, and a window with small green plants.",
+ "learning": {
+  "goal": "Spot the missing part: the car has one wheel and needs two; wheels are round and go round and round.",
+  "target_words": ["wheel", "round", "car", "one, two"],
+  "shown_how": "Hook/shot 2: the crayon car has ONE black wheel at the front and an empty white spot under the back; shot 3 the Magic Crayon draws the round wheel there; shots 4-5 two round wheels turning.",
+  "song_repeats": "wheel 0:10 (x3), 0:16, 0:19 (x2), 0:27 · round 0:10, 0:13 (x2), 0:16 (x4), 0:25 (x2), 0:27 · car 0:00, 0:03, 0:22",
+  "interactive_moment": "0:06 'What's missing? Hmm?' + 0:08-0:10 humming-only pause (question boing) -> 0:10 'A wheel! A wheel! A round wheel!' + cheer",
+  "copy_me": "roll your hands round and round (0:16-0:27)",
+  "fact_check": "Hook/question/drawing frames: exactly one wheel (front), back spot empty – checked at full size. Shots 4-5 frames: exactly two wheels. No letters/numbers anywhere (fridge drawings: house+sun, rainbow only).",
+  "modeling": "Ava notices a problem calmly and fixes it herself; no wrong behaviour.",
+  "toddler_fit": "Simple words, one baby, soft daylight, big clear drawing beside her face, nothing scary."
+ },
+ "fun_mechanics": ["surprise hook: the crayon car bumps and can't go", "interactive pause: What's missing?", "say-it-with-me: wheel / round and round", "copy-me: roll your hands", "Magic crayon, draw with me! + loop ending + Bye bye, friends!"],
+ "story_order": {"back wheel": "absent shots 1-2, drawn line by line in shot 3 (start frame: crayon tip on the empty spot), present shots 4-5"},
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10s, 5 x 20 = 100 credits",
+ "image_model": "nano-banana-2 2K (0 credits): f0 wide (unused, too small) -> f0b close base with complete car; f1 hook = edit of f0b (wheel erased + gasp); f2, f3, f5 edits of f1; f4 edit of f0b",
+ "song": {"model": "lyria-3-clip-preview", "song_start": 0.0, "vocals": "one little girl solo", "note": "takes 1-2 had synth/bass/drum kit (Gemini audio check); take 3 clean (voices, claps, daf) after removing the 'beep beep vroom' mouth-sound line"},
+ "title": "Oh No! My Car Can't Go! 🚗 What's Missing? | Learn with Baby Ava | Crayon Babies",
+ "playlist": ["Crayon Babies Songs", "Learn with Crayon Babies"]
+}

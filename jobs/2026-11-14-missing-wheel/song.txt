@@ -1,0 +1,10 @@
+[0.0:3.0] Oh no! My car can't go!
+[3.0:6.0] Bump, bump, bump! Look at my car!
+[6.0:8.0] What's missing? Hmm?
+[10.0:13.0] A wheel! A wheel! A round wheel!
+[13.0:16.0] Magic crayon, draw with me! Round and round!
+[16.0:19.0] Wheels go round and round! Round and round!
+[19.0:22.0] One wheel, two wheels! Yay!
+[22.0:25.0] Here we go! My car can go!
+[25.0:27.0] Roll your hands, round and round!
+[27.0:30.0] Wheels go round! Bye bye, friends!

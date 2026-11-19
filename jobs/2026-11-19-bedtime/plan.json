@@ -1,0 +1,92 @@
+{
+ "idea": "Routines & independence #3 – BEDTIME ROUTINE (JIMMY'S ROOM, on his white toddler bed, PAJAMAS): the rocket night lamp beside Baby Jimmy suddenly switches on and glows, tiny light-stars floating out ('Wow! My rocket lamp! It's bedtime!'); chorus 'Bedtime, bedtime! Night, night, night!'; the routine in order – 'First, a book! Page, page, page!' (blue picture book with a yellow moon), 'Then my dino! Night night, dino!' (his soft green dinosaur plush), 'Last, my blanket! Snug, snug, snug!' (blue star blanket pulled up); copy-me 'Stretch with me! Yaaawn!'; he asks the viewer 'What do we read at bedtime? Hmm?' (pause) – 'A book! A bedtime book! Yay!'; lesson 'Book, dino, blanket – bedtime!'. Loop: the hook framing with the glowing lamp, now tucked in with book and dino, bye-bye wave 'Night night! Bye bye, friends!'.",
+ "lesson": "A simple bedtime routine in order: first a book, then my dino (teddy), last my blanket – then night night.",
+ "place": "JIMMY'S ROOM (reference jimmy-room.jpg)",
+ "calendar": "Thursday slot 2 – Routines & independence (#1 tidy up 5 Nov, #2 getting dressed for the cold 12 Nov, today #3 bedtime). New Short: no long video with status 'uploaded' and an unused clip (13 Nov shapes long video was delivered to her, not uploaded by the automation).",
+ "star": "Jimmy",
+ "variety": {
+  "place": "JIMMY'S ROOM",
+  "star": "Jimmy",
+  "outfit": "PAJAMAS",
+  "last_places": [
+   "LIVING ROOM",
+   "PLAYROOM",
+   "KITCHEN"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing soft light blue pajamas with tiny yellow stars and moons, barefoot."
+ ],
+ "supporting": [
+  "DINO: a soft green dinosaur plush with a cream tummy, small round spikes and a big friendly smile (the dinosaur plush from Jimmy's room).",
+  "BOOK: one small square picture book with a soft blue cover with a yellow crescent moon on it, no writing.",
+  "ROCKET LAMP: the rocket-shaped night lamp from Jimmy's room, glowing warm yellow."
+ ],
+ "setting": "JIMMY'S ROOM: a cozy baby boy's bedroom with light blue walls painted with little yellow stars, yellow curtains, a white toddler bed with a blue star blanket and a yellow star pillow, a rocket-shaped night lamp, a rocket picture on the wall, a blue toy box with yellow stars, a small blue armchair, a round blue rug with a big yellow star, a shelf with toy cars and a soft green dinosaur plush.",
+ "learning": {
+  "goal": "Know and do a 3-step bedtime routine in order: first a book, then my dino, last my blanket – night night.",
+  "target_words": [
+   "bedtime",
+   "book",
+   "blanket",
+   "night night"
+  ],
+  "shown_how": "Shot 1 the rocket lamp switches on (bedtime!); shot 2 Jimmy reads the blue moon book; shot 3 he holds his green dino; shot 4 the blanket pulled up, book and dino beside him in a row; shot 5 loop: same framing as the hook, tucked in with book and dino, bye-bye wave.",
+  "song_repeats": "bedtime 0:01, 0:03 (x2), 0:15 (x2), 0:19, 0:23, 0:26 · book 0:06, 0:23 (x2), 0:26 · blanket 0:12, 0:26 · night night 0:03, 0:09, 0:28",
+  "interactive_moment": "0:18.7-0:20.7 'What do we read at bedtime? Hmm?' (question boing, chin tap) + 0:20.7-0:22.9 humming pause -> 0:22.9 'A book! A bedtime book! Yay!' + cheer + confetti",
+  "copy_me": "stretch and yawn with me; wave bye-bye / night night",
+  "fact_check": "Order first-then-last matches shots (book shot 2, dino shot 3, blanket shot 4). One book, one plush in every frame; no letters or writing anywhere (book cover only a moon).",
+  "modeling": "Positive: Jimmy gets ready for bed by himself, calm and happy.",
+  "toddler_fit": "Simple words, bright calm bedroom (no dark night), one baby, big face, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: the rocket lamp switches on by itself with floating light-stars",
+  "say-it-with-me chorus 'Bedtime, bedtime!'",
+  "copy-me: stretch and yawn",
+  "interactive pause 'What do we read at bedtime?'",
+  "loop ending + Night night! Bye bye, friends!"
+ ],
+ "story_order": {
+  "book": "from shot 2 (absent in shot 1)",
+  "dino": "from shot 3 (absent in shots 1-2)",
+  "blanket over him": "from shot 4 (flat on the bed in shots 1-3)"
+ },
+ "shots": [
+  {
+   "role": "HOOK lamp on",
+   "frame_prompt": "prompts/f1.txt"
+  },
+  {
+   "role": "step 1 book",
+   "frame_prompt": "prompts/f2.txt"
+  },
+  {
+   "role": "step 2 dino",
+   "frame_prompt": "prompts/f3.txt"
+  },
+  {
+   "role": "step 3 blanket + review row + question",
+   "frame_prompt": "prompts/f4.txt"
+  },
+  {
+   "role": "LOOP ENDING (edit of hook frame)",
+   "frame_prompt": "prompts/f5.txt"
+  }
+ ],
+ "image_model": "ViewMax nano-banana-2, 9:16 2K (charged 8 credits each today, 40 total)",
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (5 x 20 = 100)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "duration": 30.72,
+  "vocals": "one little boy solo",
+  "instrument_check": "take 3; takes 1-2 rejected by the Gemini audio check (synth, bass, xylophone/keyboard, drum kit) – 'cozy/bedtime' wording seemed to pull it to a produced lullaby; take 3 with the standard bouncy 110 BPM wording passed twice (voices, claps, hand drum only)"
+ },
+ "title": "Wow! My Rocket Lamp! 🌙 Bedtime Routine with Baby Jimmy | Book, Dino, Blanket | Crayon Babies",
+ "description": "Wow! Baby Jimmy's rocket night lamp switches on – it's bedtime! 🌙 Sing along with Baby Jimmy in his cozy star bedroom and learn a simple bedtime routine in three easy steps: first a book, then his dino, last his blanket.\n\n🎬 What happens in this video:\n😮 \"Wow! My rocket lamp! It's bedtime!\"\n📖 First, a book! Page, page, page!\n🦖 Then my dino! Night night, dino!\n🛏️ Last, my blanket! Snug, snug, snug!\n🙆 Stretch with me! Yaaawn!\n🤔 \"What do we read at bedtime?\" – can you answer?\n👋 Book, dino, blanket – bedtime! Night night, friends!\n\n📚 Kids learn: a bedtime routine in order (first, then, last) • bedtime • book • blanket • night night • getting ready for bed by myself\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA fun sing-along bedtime song for toddlers and preschoolers, with Baby Jimmy in his pajamas getting ready for bed all by himself – a gentle way to make the evening routine easy and happy.\n\nKids cartoon • Bedtime song for kids • Bedtime routine for toddlers • Good night song • Good habits for kids • Nursery rhymes • Learn English for kids • Kids songs\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [],
+ "playlist": [
+  "Crayon Babies Songs",
+  "Good Habits for Kids"
+ ]
+}

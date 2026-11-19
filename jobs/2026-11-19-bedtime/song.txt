@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! My rocket lamp! It's bedtime!
+[3.0:6.0] Bedtime, bedtime! Night, night, night!
+[6.0:9.0] First, a book! Page, page, page!
+[9.0:12.0] Then my dino! Night night, dino!
+[12.0:15.0] Last, my blanket! Snug, snug, snug!
+[15.0:18.0] Bedtime, bedtime! Stretch with me! Yaaawn!
+[18.0:21.0] What do we read at bedtime? Hmm?
+[21.0:23.0] (Humming)
+[23.0:26.0] A book! A bedtime book! Yay!
+[26.0:28.0] Book, dino, blanket – bedtime!
+[28.0:30.0] Night night! Bye bye, friends!

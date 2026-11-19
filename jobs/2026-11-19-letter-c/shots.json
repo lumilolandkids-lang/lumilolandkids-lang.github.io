@@ -1,0 +1,16 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-19/video/3246af05-06fd-4e47-8c09-4d749b666234.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-19/video/db4660c7-0f05-477d-b397-4447ec5251d3.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-19/video/4c983d54-e7f8-4514-913e-c6ac5d836eed.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-19/video/b8b32cc1-3a80-473e-bdad-d0be2acc67b9.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-19/video/f701f6fa-f302-4158-af58-7617efe3fbf6.mp4",
+ "shot6": "https://r2.vibevideo.app/viewmax/creations/2026-11-19/video/7f36792d-a492-4ed8-bff5-c5c55fa8236e.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/353086e7772894e25886e6cebb63d9e6d1d414e6/jobs/2026-11-19-letter-c/frames/f1.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/353086e7772894e25886e6cebb63d9e6d1d414e6/jobs/2026-11-19-letter-c/frames/f2.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/353086e7772894e25886e6cebb63d9e6d1d414e6/jobs/2026-11-19-letter-c/frames/f3.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/353086e7772894e25886e6cebb63d9e6d1d414e6/jobs/2026-11-19-letter-c/frames/f4.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/353086e7772894e25886e6cebb63d9e6d1d414e6/jobs/2026-11-19-letter-c/frames/f5.jpg"
+ },
+ "note": "C1 768P 10s. shot2 = frames-to-video redo (f2->f2) because the first try re-framed onto the kitten; shot6 = that first try (kitten close-up, used for the answer pause). Blinks: shot1 ~7.5 s, shot2 0.5-0.75 s; shot4 0-2.5 s close-up crops her face, 7.7 s+ closed-eye laugh."
+}

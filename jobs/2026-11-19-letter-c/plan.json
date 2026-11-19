@@ -1,0 +1,92 @@
+{
+ "idea": "Letters & first words #3 – Letter C (LIVING ROOM): a big chunky green foam letter C bounces up out of the wicker toy basket right beside Baby Ava's face ('Wow! Look! A big letter C!'); chorus 'C, C, C! Cuh, cuh, cuh!'; 'C is for cat! Meow, meow, meow!' (Snowball the white kitten on the sofa); 'C is for cake! Yum, yum, yum!' (a little pink strawberry cake with one cherry); copy-me 'Clap with me! Cuh, cuh, cuh!'; C, cat and cake in a row on the coffee table – she asks the viewer 'Who says meow? Hmm?' (pause) – 'The cat! C is for cat! Yay!'; lesson 'C says cuh, cuh, cuh!'. Loop: the hook framing with the C in the basket, kitten and cake beside her, bye-bye wave.",
+ "lesson": "Letter C, its hard sound 'cuh', and two C words: cat, cake.",
+ "place": "LIVING ROOM (reference living-room.jpg)",
+ "calendar": "Thursday slot 1 – Letters & first words (A 5 Nov, B 12 Nov, today C). New Short: no long video with an unused clip ('uploaded' status) exists – the 13 Nov shapes long video was delivered to her, not uploaded by the automation.",
+ "star": "Ava",
+ "variety": {
+  "place": "LIVING ROOM",
+  "star": "Ava",
+  "outfit": "HOME",
+  "last_places": [
+   "PLAYROOM",
+   "KITCHEN",
+   "BACKYARD"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "supporting": [
+  "SNOWBALL THE KITTEN: a tiny fluffy white kitten with big blue eyes, pink ears and a pink nose; meows softly.",
+  "LETTER C: one big chunky soft green foam capital letter C, clean rounded arc opening to the right.",
+  "CAKE: one small round pink strawberry cake (pink frosting, white cream swirls, one red cherry, no candles) on a small white plate."
+ ],
+ "setting": "LIVING ROOM: a bright cozy living room with cream walls, a big soft mint-green sofa with yellow and pink cushions and a cream knitted blanket, a round light-wood coffee table, a big round rainbow rug, a large window with white curtains on the RIGHT side looking at the garden, three framed family photos on the wall above the sofa (a big photo of the whole family in the middle, Baby Jimmy alone on the left, Baby Ava alone on the right), green plants, a low white bookshelf with picture books and a wicker toy basket.",
+ "learning": {
+  "goal": "Recognise the letter C, say its hard sound 'cuh', and name two C words: cat and cake.",
+  "target_words": [
+   "C",
+   "cuh",
+   "cat",
+   "cake"
+  ],
+  "shown_how": "Shot 1 a big green foam C beside her face; shot 2 Snowball the white kitten on the sofa; shot 3 one pink cake on a plate; shot 4 C, kitten and cake in a row on the coffee table; shot 5 the C again with kitten and cake (loop). The C is the only letter in every frame.",
+  "song_repeats": "C 0:00, 0:03 (x3), 0:06, 0:09, 0:15 (x4), 0:23, 0:26 · cuh 0:03, 0:12, 0:26 (x3 each) · cat 0:06, 0:15, 0:23 (x2) · cake 0:09, 0:15",
+  "interactive_moment": "0:18-0:20 'Who says meow? Hmm?' + 0:20.2-0:23 humming pause (question boing) -> 0:23 'The cat! C is for cat! Yay!' + cheer + confetti",
+  "copy_me": "say 'cuh, cuh, cuh', clap with me, meow like the cat",
+  "fact_check": "Hard C words only (cat, cake – both say 'k', no soft-C words). Capital C checked clean and the right way round in all 5 frames (hook frame edited: the first draft had a G-like spur). One kitten, one cake.",
+  "modeling": "Positive throughout.",
+  "toddler_fit": "Simple words, calm bright living room, one baby, big face, a gentle kitten."
+ },
+ "fun_mechanics": [
+  "surprise hook: letter C bounces out of the basket",
+  "say-it-with-me chorus",
+  "copy-me: clap, meow",
+  "interactive pause 'Who says meow?'",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "C": "shots 1-5",
+  "kitten": "from shot 2 (absent in shot 1; not in shot 3's frame)",
+  "cake": "from shot 3"
+ },
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame_prompt": "prompts/f1.txt + edit prompts/f1e.txt"
+  },
+  {
+   "role": "item 1 cat",
+   "frame_prompt": "prompts/f2.txt"
+  },
+  {
+   "role": "item 2 cake",
+   "frame_prompt": "prompts/f3.txt"
+  },
+  {
+   "role": "review row + question",
+   "frame_prompt": "prompts/f4.txt"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame_prompt": "prompts/f5.txt"
+  }
+ ],
+ "image_model": "Nano Banana 2 (gemini-3.1-flash-image) via the Gemini API directly, 9:16 2K – ViewMax image moderation was down ('Moderation is unavailable') for every model all morning. Frames pushed to autopilot and passed to C1 as raw.githubusercontent.com URLs.",
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (5 x 20 = 100)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "duration": 30.01,
+  "vocals": "one little girl solo",
+  "instrument_check": "Gemini check x2: no pitched instruments, no drum kit, voices/claps/hand drum only"
+ },
+ "title": "Wow! A Big Letter C! 🐱 C Is for Cat & Cake | Learn ABC with Baby Ava | Crayon Babies",
+ "description": "Wow! A big green letter C pops out of the toy basket right next to Baby Ava! 🐱 Sing along with Baby Ava and learn the letter C, its sound \"cuh\" and two C words: cat and cake.\n\n🎬 What happens in this video:\n😮 \"Wow! Look! A big letter C!\"\n🔤 C, C, C! Cuh, cuh, cuh!\n🐱 C is for cat! Meow, meow, meow!\n🍰 C is for cake! Yum, yum, yum!\n👏 Clap with me! Cuh, cuh, cuh!\n🤔 \"Who says meow?\" – can you answer?\n👋 C says cuh, cuh, cuh! Bye bye, friends!\n\n📚 Kids learn: the letter C • the C sound \"cuh\" • cat • cake • first words for toddlers\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA fun sing-along ABC song for toddlers and preschoolers, with Baby Ava in the Crayon Babies living room learning the letter C with Snowball the fluffy white kitten and a little pink cake.\n\nKids cartoon • ABC song for kids • Letter C for toddlers • Phonics for kids • Nursery rhymes • Learn English for kids • Kids songs\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [],
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}

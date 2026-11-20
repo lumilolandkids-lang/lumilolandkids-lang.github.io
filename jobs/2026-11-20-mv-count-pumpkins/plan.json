@@ -1,0 +1,41 @@
+{
+ "idea": "Numbers & counting (Friday school readiness, long 2:30 learning song) at GRANDMA'S FARM (OUTDOOR outfit): a little orange pumpkin pops up onto the hay bale right beside Baby Jimmy ('Pop! Wow! Look! A little pumpkin!'); chorus 'One, two, three, four, five! Little pumpkins in a line! … Count with me – you're doing fine!'; each verse a new pumpkin pops onto the hay bale and he counts up – one (nod), two (clap two times), three (tap knees three times), four (stomp four times), five (show five fingers); clap break; review 'Let's count them all! One, two, three, four, five! How many pumpkins? Hmm?' (2 s pause) – 'Five! Five little pumpkins! Yay!'; loop: the hook framing with the pumpkin, bye-bye wave, more pumpkins tumble in.",
+ "star": "Jimmy",
+ "place": "GRANDMA'S FARM",
+ "outfit": "OUTDOOR",
+ "variety": {
+  "place": "GRANDMA'S FARM",
+  "star": "Jimmy",
+  "outfit": "OUTDOOR",
+  "last_places": [
+   "SUNNY PARK",
+   "JIMMY'S ROOM",
+   "LIVING ROOM"
+  ]
+ },
+ "learning": {
+  "goal": "Count real objects from 1 to 5 (one new pumpkin per verse) and answer 'How many?'",
+  "target_words": [
+   "one",
+   "two",
+   "three",
+   "four",
+   "five",
+   "pumpkin"
+  ],
+  "shown_how": "identical small orange pumpkins appear one by one on a golden hay bale beside Jimmy (1,2,3,4,5 - counted in every frame and clip check)",
+  "song_repeats": "chorus x4 counts 1-5; each verse counts up to its number; review counts all five at 1:48",
+  "interactive_moment": "1:51 'How many pumpkins? Hmm?' + pause 1:54-1:56.5, answer 'Five!' 1:57",
+  "copy_me": "nod one time, clap two times, tap knees three times, stomp four times, show five fingers, clap break 1:38",
+  "fact_check": "frames: f1/f4/f12 one, f5 two, f6 three, f7 four, f8/f10/f11 five (counted); verse cuts show the sung count (s5=2, s6=3, s7=4, s10/s11=5); s4 extra pumpkins cropped out",
+  "modeling": "positive only",
+  "toddler_fit": "one baby, sunny farm, big face, soft round pumpkins, nothing scary"
+ },
+ "story_order": "1 pumpkin from the hook; 2 from 0:34; 3 from 1:02; 4 from 1:14; 5 from 1:26; chorus shots are close-ups/crops without a countable row",
+ "song": "lyria-3.5, 149.9 s; Gemini flash audio check clean 4 of 5 runs (gemini-pro also flags the approved Shapes song, so it is not used as a judge)",
+ "models": {
+  "frames": "Nano Banana 2 (gemini-3.1-flash-image via Gemini API, 0 ViewMax credits); f8 needed a new layout (row of five to his right) after 3 edits kept 4 pumpkins",
+  "video": "viewmax-c1 image-to-video 768P 16:9 7 s (14 credits each); clothing words in motion prompts made C1 fail every submission - removed"
+ },
+ "title": "Wow! A Little Pumpkin! 🎃 Count to 5 with Baby Jimmy | Nursery Rhymes & Kids Songs | Crayon Babies"
+}

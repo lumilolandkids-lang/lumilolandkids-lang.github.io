@@ -1,0 +1,28 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/b93e66a9-7632-4555-9eab-291ca18b2ac5.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/2781946c-5b4b-493f-adc3-ba16fa7da3ec.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/cd5e1bd4-2033-4894-a306-bd3d40c2a403.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/b7ec65d9-cf7e-4124-8dc4-c906a744553a.mp4",
+ "shot6": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/b132887c-c281-417f-a3d0-1ab4deeb735c.mp4",
+ "shot7": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/1e215755-2367-4e7d-91b1-66ec31b62446.mp4",
+ "shot8": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/cc3cb50e-67cf-466f-9be7-1e17e9607c1a.mp4",
+ "shot9": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/72070318-5abb-4d39-a053-8811a86d1d3f.mp4",
+ "shot10": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/61b0d9cf-b038-48e9-9deb-cfd115f2159e.mp4",
+ "shot11": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/8ab5d715-2cf3-45b8-9a3b-354254562a86.mp4",
+ "shot12": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/c21b1449-198a-4727-b7a7-3e36be7f92b4.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f1.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f2.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f3.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f4.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f5.jpg",
+  "f6": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f6.jpg",
+  "f7": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f7.jpg",
+  "f8": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f8.jpg",
+  "f9": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f9.jpg",
+  "f10": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f10.jpg",
+  "f11": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f11.jpg",
+  "f12": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-mv-count-pumpkins/frames/f12.jpg"
+ },
+ "note": "C1 768P 16:9 7 s image-to-video. shot2 (f2) unused: first take turned into a pumpkin patch, 5 later tries failed on ViewMax's side. shot3 grew stray pumpkins at the sides (used zoom 1.8 centred). shot4 grew 2 extra pumpkins on the left (used right-anchored crops). shot8 dropped to 3-4 pumpkins (not used in the final edit; redo failed on ViewMax). shot9 moved to a pumpkin patch (only clapping close-up at zoom 1.3). shot10 morphs after 4.6 s (0-4.4 used). shot11 internal cut at ~3.9 s (standing with 5 pumpkins / close-up dance). shot12: more pumpkins tumble in after ~2 s (used for 'Bye bye, pumpkins!')."
+}

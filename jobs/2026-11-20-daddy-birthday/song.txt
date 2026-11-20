@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A birthday cupcake!
+[3.0:6.0] Happy birthday, Daddy! I love you!
+[6.0:9.0] I made a card! A big red heart!
+[9.0:12.0] Here you go, Daddy! Happy birthday!
+[12.0:15.0] Blow with me! Whoo, whoo, whoo!
+[15.0:18.0] Happy birthday, Daddy! I love you!
+[18.0:21.0] Who is the cupcake for? Hmm?
+[21.0:23.0] (Hmm-hmm)
+[23.0:26.0] For Daddy! For my Daddy! Yay!
+[26.0:28.0] I love my family!
+[28.0:30.0] Bye bye, friends!

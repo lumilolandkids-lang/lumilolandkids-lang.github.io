@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/916f9dd8-a30e-4f51-a5f0-97223024f3b2.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/122a9e8d-cf50-42a7-a4d0-40da8ddcb115.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/5a120c88-9b52-4f80-b206-785bf04d1a44.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/c89e1aef-d53c-4774-8e15-1e35535924af.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/68fca709-2c45-44a8-a5f0-59a611e93b9c.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-up-down/frames/f1.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-up-down/frames/f2.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-up-down/frames/f3.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-up-down/frames/f4.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-up-down/frames/f5.jpg"
+ },
+ "note": "C1 768P 10s image-to-video, no redo. C1 re-framed shot 1 (standing, flowering tree, no slide) and shot 2 drifts after 6.5 s (camera tilt, face flips 8-9 s: unused). Shot 3: ONE ball until 3.1 s, a second ball appears from 3.25 s - only 0-3.05 used. Shot 4 arms up 0-1/3/5/7/9 s, down 2/4/6/8 s."
+}

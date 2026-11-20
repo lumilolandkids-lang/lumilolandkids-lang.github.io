@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A big red balloon!
+[3.0:6.0] Up and down! Up and down!
+[6.0:9.0] Up, up, up! My balloon goes up!
+[9.0:12.0] Down, down, down! My ball rolls down!
+[12.0:15.0] Arms up high! Arms down low!
+[15.0:18.0] Up and down! Up and down!
+[18.0:21.0] Where does my balloon go? Hmm?
+[21.0:23.0] Hmm-hmm
+[23.0:26.0] Up! Up, up, up! Yay!
+[26.0:28.0] Up is high, down is low!
+[28.0:30.0] Bye bye, friends!

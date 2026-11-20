@@ -1,0 +1,138 @@
+{
+ "idea": "Body parts & opposites – UP and DOWN (SUNNY PARK, OUTDOOR outfit): a big shiny red balloon floats up into the picture right beside Baby Ava's face ('Wow! Look! A big red balloon!'); chorus 'Up and down! Up and down!'; 'Up, up, up! My balloon goes up!' (she lifts the string high, the balloon rises); 'Down, down, down! My ball rolls down!' (a yellow ball rolls down the red slide to her); copy-me 'Arms up high! Arms down low!' (she stretches up and bends down); she asks the viewer 'Where does my balloon go? Hmm?' (pause) – 'Up! Up, up, up! Yay!'; lesson 'Up is high, down is low!'. Loop: the hook framing with the balloon beside her face, now with the yellow ball by her knee, bye-bye wave.",
+ "lesson": "Opposites UP and DOWN (up = high, down = low).",
+ "place": "SUNNY PARK (reference park.jpg)",
+ "calendar": "Friday slot 1 – Body parts & opposites (big/small done 13 Nov; today up/down). New Short: no long video with status 'uploaded' and an unused clip in the last 21 days (13 Nov shapes long video was delivered, not uploaded).",
+ "star": "Ava",
+ "variety": {
+  "place": "SUNNY PARK",
+  "star": "Ava",
+  "outfit": "OUTDOOR",
+  "last_places": [
+   "JIMMY'S ROOM",
+   "LIVING ROOM",
+   "PLAYROOM"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing pink overalls over a yellow t-shirt with a small flower and white sneakers with pink laces."
+ ],
+ "supporting": [
+  "SUPPORTING OBJECTS: RED BALLOON = one big shiny round plain red balloon on a thin white string (no print, no writing). YELLOW BALL = one plain bright yellow soft rubber ball, the size of a melon, no print."
+ ],
+ "setting": "SUNNY PARK: a sunny park with a playground with a red slide and yellow swings, a small duck pond with white ducks and a little wooden bridge, a big green tree, a winding stone path, flower beds and a white bench.",
+ "learning": {
+  "goal": "Understand and say the opposites UP and DOWN: a balloon goes up, a ball rolls down; arms up high, arms down low.",
+  "target_words": [
+   "up",
+   "down",
+   "high",
+   "low"
+  ],
+  "shown_how": "Shot 1 the red balloon floats up beside her face; shot 2 she lifts the string high and the balloon rises UP into the sky; shot 3 one yellow ball rolls DOWN the red slide to her; shot 4 she stretches both arms UP high and DOWN low with the balloon above and the ball at her feet; shot 5 loop with balloon + ball.",
+  "song_repeats": "up 0:03, 0:06 (x4), 0:12, 0:15, 0:23 (x4), 0:26 · down 0:03, 0:09 (x4), 0:12, 0:15, 0:26 · high 0:12, 0:26 · low 0:12, 0:26",
+  "interactive_moment": "0:18.3-0:20.3 'Where does my balloon go? Hmm?' + 0:20.5-0:22.9 humming pause (question boing) -> 0:23 'Up! Up, up, up! Yay!' + cheer + confetti",
+  "copy_me": "arms up high, arms down low; point up",
+  "fact_check": "Balloon (filled, light) rises UP – correct; ball rolls DOWN the slide – correct; arms up/down movements match the words. One balloon, one ball in every frame (counted). No letters/numbers in frames.",
+  "modeling": "Positive throughout; balloon string held/near her, no safety issue.",
+  "toddler_fit": "Simple words, bright calm park, one baby, big face, gentle play."
+ },
+ "fun_mechanics": [
+  "surprise hook: a balloon floats up beside her face",
+  "say-it-with-me chorus 'Up and down!'",
+  "copy-me: arms up high, arms down low",
+  "interactive pause 'Where does my balloon go?'",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "balloon": "shots 1-5",
+  "yellow ball": "from shot 3 (absent in frames 1-2)"
+ },
+ "shots": [
+  {
+   "role": "HOOK balloon floats up",
+   "frame_prompt": "prompts/f1.txt"
+  },
+  {
+   "role": "UP: balloon rises",
+   "frame_prompt": "prompts/f2.txt"
+  },
+  {
+   "role": "DOWN: ball rolls down the slide",
+   "frame_prompt": "prompts/f3.txt"
+  },
+  {
+   "role": "copy-me arms up/down + question",
+   "frame_prompt": "prompts/f4.txt"
+  },
+  {
+   "role": "LOOP ENDING (edit of hook frame)",
+   "frame_prompt": "prompts/f5.txt"
+  }
+ ],
+ "motion_prompts": "prompts/motion.json",
+ "image_model": "Nano Banana 2 (gemini-3.1-flash-image) via the Gemini API, 9:16 2K, 0 ViewMax credits; frames pushed to autopilot and passed to C1 as raw.githubusercontent.com URLs. f1 and f2 each regenerated once (tighter face / arm higher).",
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (5 x 20 = 100)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": 2,
+  "song_start": 0.0,
+  "duration": 30.2,
+  "vocals": "one little girl solo",
+  "instrument_check": "take 1 had synth/bass/bells/drum kit (Gemini check x2) -> rejected; take 2 clean x2 (voices, claps, hand drum only)",
+  "timeline": {
+   "hook": [
+    0.0,
+    2.5
+   ],
+   "chorus": [
+    2.8,
+    5.8
+   ],
+   "up": [
+    6.3,
+    9.2
+   ],
+   "down": [
+    9.4,
+    12.3
+   ],
+   "copy_me": [
+    12.5,
+    15.1
+   ],
+   "chorus2": [
+    15.3,
+    18.0
+   ],
+   "question": [
+    18.3,
+    20.3
+   ],
+   "pause": [
+    20.5,
+    22.9
+   ],
+   "answer": [
+    23.0,
+    25.4
+   ],
+   "lesson": [
+    25.7,
+    28.3
+   ],
+   "bye": [
+    28.5,
+    30.1
+   ]
+  }
+ },
+ "sfx": "library only (0 credits)",
+ "title": "Wow! A Big Red Balloon! 🎈 Up and Down with Baby Ava | Learn Opposites | Crayon Babies",
+ "description": "Wow! A big red balloon floats up right next to Baby Ava in Sunny Park! 🎈 Sing along with Baby Ava and learn the opposites UP and DOWN: the balloon goes up, the ball rolls down the slide.\n\n🎬 What happens in this video:\n😮 \"Wow! Look! A big red balloon!\"\n🎈 Up, up, up! My balloon goes up!\n⚽ Down, down, down! My ball rolls down!\n🙌 Arms up high! Arms down low! – stretch with Ava!\n🤔 \"Where does my balloon go?\" – can you answer?\n👋 Up is high, down is low! Bye bye, friends!\n\n📚 Kids learn: opposites • up • down • high • low • first words for toddlers\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA fun sing-along opposites song for toddlers and preschoolers, with Baby Ava in Sunny Park playing with a red balloon and a yellow ball on the slide, plus an arms-up, arms-down movement game kids can copy at home.\n\nKids cartoon • Opposites song for kids • Up and down for toddlers • Learn English for kids • Nursery rhymes • Kids songs • Preschool learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [],
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}

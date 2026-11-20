@@ -1,0 +1,90 @@
+{
+ "idea": "Family & friends #1 – DADDY'S BIRTHDAY (KITCHEN, Ava in PARTY outfit in her pink high chair, Daddy Tom in HOME outfit): a big blue-frosted cupcake with ONE lit striped candle pops up right beside Baby Ava's face ('Wow! Look! A birthday cupcake!'); chorus 'Happy birthday, Daddy! I love you!'; she shows her toddler-crayon red heart card ('I made a card! A big red heart!'), Daddy Tom arrives and she gives it to him ('Here you go, Daddy! Happy birthday!'); copy-me 'Blow with me! Whoo, whoo, whoo!' – they blow out the candle together; she asks the viewer 'Who is the cupcake for? Hmm?' (pause) – 'For Daddy! For my Daddy! Yay!'; lesson 'I love my family!'. Loop: the hook framing with the cupcake, bye-bye wave.",
+ "lesson": "I love my family – family words Daddy, happy birthday, I love you.",
+ "place": "KITCHEN (reference kitchen.jpg)",
+ "calendar": "Friday slot 2 – Family & friends (first episode of this slot; 6 and 13 Nov slot 2 were skipped). New Short: no long video with status 'uploaded' and an unused clip (13 Nov shapes and 20 Nov pumpkins long videos are 'delivered'; no Short on the same topic).",
+ "star": "Ava",
+ "variety": {
+  "place": "KITCHEN",
+  "star": "Ava",
+  "outfit": "PARTY",
+  "extra": "Daddy Tom (HOME)",
+  "last_places": [
+   "GRANDMA'S FARM",
+   "SUNNY PARK",
+   "JIMMY'S ROOM"
+  ]
+ },
+ "learning": {
+  "goal": "Family words and showing love: say 'Happy birthday, Daddy!' and 'I love you', make a card and share a family moment.",
+  "target_words": [
+   "Daddy",
+   "happy birthday",
+   "I love you",
+   "family"
+  ],
+  "shown_how": "Cupcake with one candle (hook), Ava's red heart card, she gives it to Daddy, they blow out the candle together, Daddy holds the card.",
+  "song_repeats": "Daddy 0:00-0:26 (x6); happy birthday 0:03, 0:09, 0:15; I love you 0:03, 0:15; family 0:26",
+  "interactive_moment": "0:18 'Who is the cupcake for? Hmm?' + 0:20.3-0:22.8 humming pause (question boing) -> 0:23 'For Daddy! For my Daddy! Yay!' + cheer + confetti",
+  "copy_me": "blow with me (whoo, whoo, whoo), clap",
+  "fact_check": "One cupcake, one candle, one card in every frame (counted). No letters/numbers anywhere; card has only a red heart. Original melody (Gemini check: not the traditional Happy Birthday tune).",
+  "modeling": "Kind family behaviour: making a card, giving, saying I love you; Daddy gently holds Ava on his lap in shot 3.",
+  "toddler_fit": "Simple words, bright calm kitchen, faces big, nothing scary; candle blown out by Daddy with Ava."
+ },
+ "fun_mechanics": [
+  "surprise hook: cupcake with a candle pops up",
+  "say-it-with-me chorus 'Happy birthday, Daddy! I love you!'",
+  "copy-me: blow with me, whoo",
+  "interactive pause 'Who is the cupcake for?'",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "card": "from shot 2 in Ava's hands; after she gives it (shot 3) only Daddy holds it",
+  "Daddy": "from shot 3",
+  "candle flame": "lit shots 1-4 until blown out; C1 relit it in shot 5 and the s1 pieces at 0:18-0:23 show it lit (accepted, see notes)"
+ },
+ "shots": [
+  {
+   "role": "HOOK cupcake pops up",
+   "frame_prompt": "prompts/f1.txt"
+  },
+  {
+   "role": "card",
+   "frame_prompt": "prompts/f2.txt"
+  },
+  {
+   "role": "give the card to Daddy",
+   "frame_prompt": "prompts/f3.txt"
+  },
+  {
+   "role": "blow the candle together",
+   "frame_prompt": "prompts/f4.txt"
+  },
+  {
+   "role": "LOOP ENDING (edit of hook frame)",
+   "frame_prompt": "prompts/f5.txt"
+  },
+  {
+   "role": "(unused) candle out, Daddy holds card – C1 failed 3x, refunded",
+   "frame_prompt": "prompts/f6.txt"
+  }
+ ],
+ "image_model": "f1 ViewMax nano-banana-2 2K (8 credits); f2-f6 Nano Banana 2 (gemini-3.1-flash-image-preview) via the Gemini API, 9:16 2K, 0 ViewMax credits. All first takes, side-by-side checked against eva.png/tom.png.",
+ "video_model": "viewmax-c1 image-to-video 768P 9:16 10 s (5 x 20 = 100)",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": 1,
+  "song_start": 0.0,
+  "duration": 29.7,
+  "vocals": "one little girl solo",
+  "instrument_check": "gemini-flash-latest x2: voices/claps/hand drum only, not the traditional Happy Birthday melody"
+ },
+ "sfx": "library only (0 credits)",
+ "title": "Wow! A Birthday Cupcake! 🧁 Happy Birthday, Daddy! | Family Song with Baby Ava | Crayon Babies",
+ "description": "Wow! A birthday cupcake pops up right next to Baby Ava in the kitchen! 🧁 It's Daddy Tom's birthday – sing along as Ava gives Daddy her red heart card, blows out the candle with him and says \"I love you, Daddy!\"\n\n🎬 What happens in this video:\n😮 \"Wow! Look! A birthday cupcake!\"\n❤️ \"I made a card! A big red heart!\"\n🎁 \"Here you go, Daddy! Happy birthday!\"\n🎂 \"Blow with me! Whoo, whoo, whoo!\" – blow out the candle with Ava and Daddy!\n🤔 \"Who is the cupcake for?\" – can you answer?\n👋 \"I love my family!\" Bye bye, friends!\n\n📚 Kids learn: family words • Daddy • happy birthday • I love you • showing love to your family\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA sweet sing-along family song for toddlers and preschoolers, with Baby Ava and Daddy Tom celebrating his birthday in the kitchen: making a card, blowing out a candle together and saying I love you.\n\nKids cartoon • Family song for kids • Birthday song for toddlers • I love my Daddy • Learn English for kids • Nursery rhymes • Kids songs • Good habits for kids\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "tags": [],
+ "playlist": [
+  "Crayon Babies Songs",
+  "Good Habits for Kids"
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/ba8119e7-e36e-4ea6-ac7c-7ea65f014377.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/17f35de6-28c3-4dac-a6d2-6d5be098529b.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/d376b921-a88e-453f-99c8-c696c3854c76.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/b861522c-be59-47e5-a309-d8bb1ee5eb4e.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-20/video/61c68b35-cb4d-4dcd-9ed1-84b86bee8d69.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-daddy-birthday/frames/f1.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-daddy-birthday/frames/f2.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-daddy-birthday/frames/f3.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-daddy-birthday/frames/f4.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-daddy-birthday/frames/f5.jpg",
+  "f6": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-20-daddy-birthday/frames/f6.jpg"
+ },
+ "note": "C1 768P 10s, no charged redo. s3 ignored the start frame for 0-4.5 s (Ava standing, Daddy's face cut off, a stray pink toy) \u2013 only 4.9-9.9 used (Daddy holds the card, Ava on his lap clapping). s4 re-framed into big close-ups 0-6.5 s (blow 0.4-3.0, flame out 6.0) then a wide cut 6.7-9.9 (laughing, eyes mostly closed). s5 relit the candle. Extra shot s6 (frame f6) failed 3x with internal_error (refunded)."
+}

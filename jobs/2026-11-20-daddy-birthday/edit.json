@@ -1,0 +1,200 @@
+{
+ "workdir": "runs/2026-11-20-daddy-birthday",
+ "out": "final.mp4",
+ "song": "song.mp3",
+ "song_start": 0.0,
+ "cuts": [
+  {
+   "shot": 1,
+   "start": 0.2,
+   "dur": 2.2,
+   "speed": 0.9,
+   "push": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "shot": 1,
+   "start": 4.5,
+   "dur": 3.2,
+   "push": [
+    1.1,
+    1.25
+   ]
+  },
+  {
+   "shot": 2,
+   "start": 0.5,
+   "dur": 3.0,
+   "push": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "shot": 3,
+   "start": 4.9,
+   "dur": 3.0,
+   "push": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 0.4,
+   "dur": 2.6,
+   "push": [
+    1.0,
+    1.22
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 5.85,
+   "dur": 0.7
+  },
+  {
+   "shot": 4,
+   "start": 6.7,
+   "dur": 1.4,
+   "push": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 8.1,
+   "dur": 1.4,
+   "zoom": 1.15
+  },
+  {
+   "shot": 1,
+   "start": 7.0,
+   "dur": 2.6,
+   "push": [
+    1.12,
+    1.25
+   ]
+  },
+  {
+   "shot": 1,
+   "start": 2.3,
+   "dur": 2.4,
+   "push": [
+    1.18,
+    1.3
+   ]
+  },
+  {
+   "shot": 3,
+   "start": 6.9,
+   "dur": 3.0,
+   "push": [
+    1.12,
+    1.22
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 7.7,
+   "dur": 2.2,
+   "zoom": 1.3,
+   "x": 0.0
+  },
+  {
+   "shot": 5,
+   "start": 0.5,
+   "dur": 1.6,
+   "push": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 0,
+   "offset": 0.1,
+   "vol": 0.5,
+   "max": 1.35
+  },
+  {
+   "file": "sfx/question_boing.mp3",
+   "cut": 8,
+   "offset": 2.2,
+   "vol": 0.6,
+   "max": 0.62
+  },
+  {
+   "file": "sfx/toddlers_cheer_clap.mp3",
+   "cut": 10,
+   "offset": 0.3,
+   "vol": 0.75,
+   "max": 2.1
+  }
+ ],
+ "bounce": {
+  "amp": 0.03,
+  "ranges": [
+   [
+    2.6,
+    5.8
+   ],
+   [
+    14.8,
+    17.9
+   ],
+   [
+    22.9,
+    25.9
+   ]
+  ]
+ },
+ "vfx": [
+  {
+   "type": "sparkle",
+   "cut": 0,
+   "offset": 0.15,
+   "x": 0.88,
+   "y": 0.28,
+   "size": 0.5
+  },
+  {
+   "type": "sparkle",
+   "cut": 2,
+   "offset": 0.2,
+   "x": 0.14,
+   "y": 0.62,
+   "size": 0.45
+  },
+  {
+   "type": "hearts",
+   "cut": 3,
+   "offset": 1.0,
+   "x": 0.2,
+   "y": 0.72
+  },
+  {
+   "type": "confetti",
+   "cut": 10,
+   "offset": 0.3,
+   "keep_out": [
+    0.62,
+    0.38,
+    0.32,
+    0.2
+   ]
+  },
+  {
+   "type": "hearts",
+   "cut": 12,
+   "offset": 0.3,
+   "x": 0.88,
+   "y": 0.18
+  }
+ ]
+}

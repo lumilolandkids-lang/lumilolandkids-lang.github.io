@@ -1,0 +1,46 @@
+[[A0]]
+[0.0:] Pop! Wow! Look! A little pumpkin!
+[[B1]]
+[6.0:] One, two, three, four, five!
+[10.0:] Little pumpkins in a line!
+[14.0:] One, two, three, four, five!
+[18.0:] Count with me – you're doing fine!
+[[C2]]
+[22.0:] Pop! One little pumpkin! One!
+[26.0:] Round and orange – pumpkin one!
+[30.0:] Nod one time with me! Nod!
+[[C3]]
+[34.0:] Pop! Here comes another! Two!
+[38.0:] One, two – two little pumpkins!
+[42.0:] Clap two times with me! Clap, clap!
+[[B4]]
+[46.0:] One, two, three, four, five!
+[50.0:] Little pumpkins in a line!
+[54.0:] One, two, three, four, five!
+[58.0:] Count with me – you're doing fine!
+[[C5]]
+[62.0:] Pop! Here comes another! Three!
+[66.0:] One, two, three – three little pumpkins!
+[70.0:] Tap your knees three times! Tap, tap, tap!
+[[C6]]
+[74.0:] Pop! Here comes another! Four!
+[78.0:] One, two, three, four – four little pumpkins!
+[82.0:] Stomp four times with me! Stomp, stomp, stomp, stomp!
+[[C7]]
+[86.0:] Pop! Here comes another! Five!
+[90.0:] One, two, three, four, five – five little pumpkins!
+[94.0:] Show me five fingers! Wiggle, wiggle, wiggle!
+[[D8]]
+[98.0:] Clap, clap, clap your hands! Clap with me!
+[103.0:] La la la, la la la! Clap, clap, clap!
+[[C9]]
+[108.0:] Let's count them all! One, two, three, four, five!
+[112.0:] How many pumpkins? Hmm?
+[116.0:] (Five! Five little pumpkins! Yay! You did it!)
+[[B10]]
+[126.0:] One, two, three, four, five!
+[130.0:] Little pumpkins in a line!
+[134.0:] One, two, three, four, five!
+[138.0:] Count with me – you're doing fine!
+[[E11]]
+[142.0:] Bye bye, friends! Bye bye, pumpkins!

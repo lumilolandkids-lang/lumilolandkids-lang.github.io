@@ -1,0 +1,84 @@
+{
+ "idea": "\"What's Missing?\" #3 (THE LIBRARY, story corner, at a small wooden easel): Baby Jimmy's toddler crayon drawing of a SNOWMAN comes alive and wiggles on the paper – but it has NO NOSE ('Oh no! My snowman has no nose!'); 'Two round eyes and a big smile...'; Jimmy points at the empty spot and asks the viewer 'What's missing? Hmm?' (2 s pause) – 'A nose! A nose! An orange nose!'; 'Magic crayon, draw with me! A carrot nose!' – he draws an orange carrot nose; chorus 'Snowman, snowman! Here's your nose!'; review 'Eyes, a smile and a carrot nose! Yay!'; copy-me 'Wiggle, wiggle, like a snowman! Brrr, brrr! So cold!'. Loop: the hook framing again, the snowman now with its carrot nose, bye-bye wave 'Happy snowman! Bye bye, friends!'.",
+ "lesson": "Look carefully and spot what is missing: a face has eyes, a mouth (smile) and a nose; a snowman's nose is an orange carrot.",
+ "calendar": "Saturday slot 1 – \"What's Missing?\" signature episode #3 (ep.1 kitty tail 30 Oct, ep.2 car wheel 14 Nov). Seasonal: first winter weeks (late November).",
+ "place": "THE LIBRARY (text-only block, section 4) – story corner with a small wooden easel",
+ "star": "Jimmy",
+ "variety": {
+  "place": "THE LIBRARY",
+  "star": "Jimmy",
+  "outfit": "HOME (light blue onesie)",
+  "last_places": [
+   "KITCHEN",
+   "GRANDMA'S FARM",
+   "SUNNY PARK"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."
+ ],
+ "supporting": "THE CRAYON SNOWMAN: a real toddler's crayon drawing of a simple SNOWMAN on white paper – wobbly thick black crayon outlines, two stacked round circles with light blue scribbly crayon shading, two black dot eyes, a curved black smile, black dot buttons, two brown stick arms, a red scribbly scarf, and (only from shot 3 on) an ORANGE carrot-shaped triangle nose; on a small light-wood easel. THE MAGIC CRAYON: a big chunky crayon that glows and changes color, with tiny sparkles around it (orange here).",
+ "setting": "THE LIBRARY: a quiet colorful children's library with low bookshelves, bean bags and a story corner.",
+ "learning": {
+  "goal": "Spot the missing part: the snowman has eyes and a smile but no nose; Jimmy draws an orange carrot nose.",
+  "target_words": [
+   "nose",
+   "snowman",
+   "carrot",
+   "eyes, smile"
+  ],
+  "shown_how": "Hook/question: the crayon snowman with two dot eyes, a smile and an EMPTY spot in the middle of its face, big beside Jimmy's face; shot 3 the orange Magic Crayon draws the carrot nose there; shots 4-5 the complete snowman with its orange nose.",
+  "song_repeats": "nose 0:00, 0:10 (x3), 0:13, 0:16, 0:19 = 7x · snowman 0:00, 0:16 (x2), 0:22, 0:27 = 5x · carrot 0:13, 0:19",
+  "interactive_moment": "0:06 'What's missing? Hmm?' + 0:07.9-0:09.6 humming-only pause (question boing) -> 0:10 'A nose! A nose! An orange nose!' + cheer",
+  "copy_me": "wiggle like a snowman (0:22-0:25), shiver 'Brrr, brrr!' (0:25-0:27), wave bye-bye",
+  "fact_check": "Hook/question/drawing frames: snowman face has two eyes + smile, the nose spot is empty (checked at full size). Shots 4-5 frames: one orange carrot nose. No letters/numbers anywhere (library books have plain covers).",
+  "modeling": "Jimmy notices a problem calmly and fixes it himself by drawing; no wrong behaviour.",
+  "toddler_fit": "Simple words, one baby, soft daylight, big clear drawing beside his face, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: the crayon snowman comes alive with no nose",
+  "interactive pause: What's missing?",
+  "say-it-with-me: nose / snowman",
+  "copy-me: wiggle like a snowman, brrr",
+  "Magic crayon, draw with me! + loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "carrot nose": "absent shots 1-2 (frames-to-video, same frame first and last), drawn line by line in shot 3 (start frame: crayon tip on the empty spot), present shots 4-5"
+ },
+ "video_model": "viewmax-c1 768P 9:16 8s (2 credits/s = 16 per shot), 5 shots = 80 credits; s1, s2 frames-to-video (first = last frame) to keep the nose absent",
+ "image_model": "nano-banana-2 2K (8 credits each this run): f0 base with complete snowman; f1 hook = edit of f0 (nose erased + gasp); f2, f3 edits of f1 (first tries rejected: f2 lost buttons, f3 footed pajamas -> r1); f5 loop = edit of f0",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "vocals": "one little boy solo",
+  "note": "take 1 clean (Gemini flash audio check: no pitched instruments, no drum kit); humming pause 7.9-9.6 s"
+ },
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1",
+   "motion": "snowman wiggles alive, Jimmy gasps and bounces"
+  },
+  {
+   "role": "item/question",
+   "frame": "f2r1",
+   "motion": "Jimmy points, tilts his head, questioning"
+  },
+  {
+   "role": "drawing",
+   "frame": "f3r1",
+   "motion": "orange carrot nose drawn line by line following the crayon tip"
+  },
+  {
+   "role": "celebration + copy-me",
+   "frame": "f0",
+   "motion": "Jimmy and the snowman wiggle side to side, clap"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5",
+   "motion": "bye-bye wave"
+  }
+ ],
+ "title": "Oh No! My Snowman Has No Nose! ⛄ What's Missing? | Learn with Baby Jimmy | Crayon Babies"
+}

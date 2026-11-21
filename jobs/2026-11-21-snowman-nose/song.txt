@@ -1,0 +1,10 @@
+[0.0:3.0] Oh no! My snowman has no nose!
+[3.0:6.0] Two round eyes and a big smile...
+[6.0:8.0] What's missing? Hmm?
+[10.0:13.0] A nose! A nose! An orange nose!
+[13.0:16.0] Magic crayon, draw with me! A carrot nose!
+[16.0:19.0] Snowman, snowman! Here's your nose!
+[19.0:22.0] Eyes, a smile and a carrot nose! Yay!
+[22.0:25.0] Wiggle, wiggle, like a snowman!
+[25.0:27.0] Brrr, brrr! So cold!
+[27.0:30.0] Happy snowman! Bye bye, friends!

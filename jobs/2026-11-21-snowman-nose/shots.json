@@ -1,0 +1,17 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/5fbfa8e4-44ec-4564-adda-6389a49f16d6.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/c013bb32-6821-4f13-b9ed-392cf0214c48.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/c2cbb61f-161b-4fac-9a68-22f6b267a16e.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/f11f586f-fda2-4fc6-a514-d33c45747ae4.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/8f2f3f7c-d593-4d36-9eeb-70a68aee92f9.mp4",
+ "frames": {
+  "f0": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/554394be-a0d0-4a38-9293-82c54028259b.png",
+  "f1": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/22675f1b-efce-4268-aaeb-9fbb605f317c.png",
+  "f2": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/20b0f8f5-c8d2-429a-aaf8-6420ec1d9414.png",
+  "f2r1": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/428e2f1b-29e0-44e6-9bb1-97c8ddc0fc29.png",
+  "f3": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/43de7f5d-4307-460f-9aa6-f35528dc9075.png",
+  "f3r1": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/aa7b6af8-d24f-488f-a5b5-2f89dd037180.png",
+  "f5": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/image/1e45c279-745c-414c-b286-bf29fa37595a.png"
+ },
+ "note": "C1 768P 8s (16 cr each). s1 = frames-to-video f1->f1: C1 put the nose in 0-3.4 s (used only cropped to Jimmy, zoom 1.7 x 1.0); internal cuts at 3.5 (close-up gasp on yellow bean bag, no drawing) and 6.625 (hook framing, no nose - the hook). s2 = frames-to-video f2r1->f2r1: nose present 0-5.2 (used cropped zoom 1.8 x 1.0), 5.5-8 correct. s3 image-to-video f3r1: clean - close-up, nose drawn line by line 0.5-1.75, pull-back, smile. s4 image-to-video f0: clean sway + clap. s5 image-to-video f5: C1 zoomed on Jimmy, snowman mostly off the left edge; clean wave."
+}

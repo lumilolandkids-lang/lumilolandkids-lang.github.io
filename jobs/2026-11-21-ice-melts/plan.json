@@ -1,0 +1,59 @@
+{
+ "idea": "Little science wonder – ICE MELTS in the warm sun (BACKYARD, Ava in HOME outfit): a little yellow rubber duck is frozen inside a big clear ice block on a white plate right beside Baby Ava's face ('Oh no! My duck is in the ice!'); she touches it with one fingertip ('Ice is cold! Cold, cold, cold!'); 'Warm sun, shine, shine, shine!'; chorus 'Drip, drip, drip! The ice melts!' – the ice drips and gets smaller; copy-me 'Melt with me! Down, down, down!' (she wiggles lower and lower); payoff 'Hooray! My duck is free!' (duck floats in the water on the plate); she asks the viewer 'What melts the ice? Hmm?' (pause) – 'The sun! The warm sun! Yay!'; lesson 'Ice melts into water!'. Loop: the hook framing again, now with the duck free in the water, bye-bye wave.",
+ "lesson": "Ice is cold; the warm sun melts ice into water.",
+ "place": "BACKYARD (reference backyard.jpg)",
+ "calendar": "Saturday slot 2 – Little science wonder (float/sink done 14 Nov, seed 31 Oct; today melting ice). New Short: no uploaded long video with an unused clip (all recent long videos were delivered, not uploaded).",
+ "star": "Ava",
+ "variety": {
+  "place": "BACKYARD",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress)",
+  "last_places": [
+   "THE LIBRARY",
+   "KITCHEN",
+   "GRANDMA'S FARM"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "supporting": [
+  ""
+ ],
+ "setting": "SUPPORTING OBJECTS: GARDEN STOOL = one small low round light-wood garden stool with a plain round white plate on top. ICE BLOCK = one clear, shiny, pale-blue ice block, about as big as Ava's head, with smooth rounded edges. YELLOW DUCK = one small plain yellow rubber duck with an orange beak and little black eyes (no print).",
+ "learning": {
+  "goal": "Ice is cold, and the warm sun melts ice into water.",
+  "target_words": [
+   "ice",
+   "cold",
+   "melt",
+   "sun"
+  ],
+  "shown_how": "Shot 1 a clear ice block with a yellow rubber duck frozen inside beside Ava's face; shot 2 she touches it with one fingertip and shivers (cold); shot 3 in the sunshine the ice drips and shrinks, the duck pokes out; shot 4 no ice left, the duck floats free in the water on the plate, bright sun rays in the sky; shot 5 loop with the duck in the water.",
+  "song_repeats": "ice 0:01, 0:03, 0:10, 0:18, 0:25 · cold 0:03-0:06 (x4) · melt 0:10, 0:12, 0:18, 0:25 · sun 0:06, 0:22, 0:23",
+  "interactive_moment": "0:18-0:20 'What melts the ice? Hmm?' + 0:20-0:22 humming pause (question boing) -> 0:22 'The sun! The warm sun! Yay!' + cheer + confetti",
+  "copy_me": "Melt with me! Down, down, down! (wiggle lower and lower); touch-and-shiver 'cold'",
+  "fact_check": "Ice is cold – correct; warmth from the sun melts ice – correct; melted ice becomes water – correct; the rubber duck floats on the water – correct. Exactly one ice block and one duck in every frame.",
+  "modeling": "She touches the ice gently with one fingertip, waits for the sun, no unsafe action.",
+  "toddler_fit": "Simple words, bright calm backyard, one baby, nothing scary; problem (duck stuck) solved by the sun.",
+  "story_order": {
+   "ice full": "shots 1-2",
+   "ice melting": "shot 3",
+   "ice gone, duck free": "shots 4-5"
+  }
+ },
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": "take 2 (take 1 flagged synth/bass in 2 of 6 Gemini flash checks; take 2 clean 6/6)",
+  "lyrics_file": "song_prompt.txt"
+ },
+ "sfx": [
+  "sfx/sparkle_chime.mp3 (hook)",
+  "sfx/toddlers_gasp.mp3 (hook)",
+  "sfx/water_drip.mp3 (new, 5 cr)",
+  "sfx/water_splash.mp3 (duck free)",
+  "sfx/question_boing.mp3",
+  "sfx/toddlers_cheer_clap.mp3"
+ ],
+ "frames_note": "Nano Banana 2 (gemini-3.1-flash-image) via the Gemini API, 9:16 2K, 0 ViewMax credits; f1 regenerated once (ice block clipped at the edge). ViewMax C1 refused f1/f3/f4/f5 at full frame size → tighter 1080x1920 crops (fNc.jpg) accepted. ViewMax C1 also allows only ONE running task at a time on this account – parallel submissions fail with internal_error (refunded)."
+}

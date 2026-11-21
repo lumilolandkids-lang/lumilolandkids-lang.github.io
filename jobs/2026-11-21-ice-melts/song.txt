@@ -1,0 +1,20 @@
+{
+  "pitched_instruments": [],
+  "drum_kit": false,
+  "voices_claps_handdrum_only": true,
+  "transcript": [
+    {"t": "0:00", "text": "Oh no, my duck is in the ice."},
+    {"t": "0:03", "text": "Ice is cold."},
+    {"t": "0:04", "text": "Cold, cold, cold!"},
+    {"t": "0:06", "text": "Warm sun, shine, shine, shine."},
+    {"t": "0:09", "text": "Drip, drip, drip, the ice melts."},
+    {"t": "0:12", "text": "Melt with me, down, down, down."},
+    {"t": "0:15", "text": "Hooray! My duck is free!"},
+    {"t": "0:18", "text": "What melts the ice?"},
+    {"t": "0:20", "text": "Hmm, hmm, hmm, hmm."},
+    {"t": "0:22", "text": "The sun, the warm sun! Yay!"},
+    {"t": "0:25", "text": "Ice melts into water."},
+    {"t": "0:27", "text": "Bye-bye, friends!"}
+  ],
+  "silence_or_humming_gap_after_question": "0:20-0:22"
+}

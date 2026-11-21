@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/128ac88e-27fd-4c79-8300-64bfe7ac0429.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/ce262d20-8af5-4cfd-8d3b-bf224b243b39.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/de1cd0ff-bd76-473f-a4b9-63e6803fed88.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/a900fb31-7dc6-473a-834d-5cb6c325c1a2.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-21/video/4b78308c-d621-450d-b878-1e4b0e05a6f1.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-21-ice-melts/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-21-ice-melts/frames/f2.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-21-ice-melts/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-21-ice-melts/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-21-ice-melts/frames/f5c.jpg"
+ },
+ "note": "C1 768P 10s image-to-video from the fNc.jpg crops (f2 full frame), no redo. ViewMax C1 on this account runs ONE task at a time and refuses new tasks (internal_error, refunded) while one runs and for a few minutes after it ends. s1 internal cut ~2.7 s (sitting -> standing close). s2 is a re-framed close-up. s3 ice drips and shrinks as the camera pulls back. s4 0-2.6 camera pans over the plate, 5.5-6.5 points up at the sun. s5 0-2.5 = hook framing with wave (loop), 5-9.5 close wave."
+}

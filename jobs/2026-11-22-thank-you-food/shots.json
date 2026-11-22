@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/4076baea-8d87-4b40-86af-3222ea765809.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/9757c565-a024-4a20-b52b-3fc993aa6c78.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/721e6256-1b47-472d-b97a-29a811022798.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/fe7e83a2-206b-4ef3-965a-8bdcea402790.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/c28c64a5-0912-4c53-a7e1-35d3f89ff04d.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-thank-you-food/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-thank-you-food/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-thank-you-food/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-thank-you-food/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-thank-you-food/frames/f5c.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video, submitted strictly one at a time, all 5 accepted first try, no redo (~25-30 min queue each). s2 0-0.9 s odd start (use from 1.0). s3 1-2.5 s eyes closed laughing (skipped). s4 low motion after 7 s."
+}

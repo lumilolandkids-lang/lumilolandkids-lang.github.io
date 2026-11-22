@@ -1,0 +1,83 @@
+{
+ "idea": "Sunday slot 2 seasonal story – THANKSGIVING (26 Nov) 'Thank you for my food' (KITCHEN, Ava in HOME outfit, pink high chair): a wicker harvest basket on her tray pops out a YELLOW CORN right beside her face ('Wow! Pop! A yellow corn!'); 'Corn, corn, yellow corn! Crunch, crunch!'; then a RED APPLE pops out ('Pop! A red apple! Apple, yum!') and an ORANGE CARROT ('Pop! An orange carrot! Munch, munch!'); chorus 'Corn, apple, carrot! Yummy food for me!'; copy-me 'Hands on heart! Thank you, thank you!'; she asks the viewer 'Yummy food! What do we say? Hmm?' (2 s pause) – 'Thank you! Thank you! Yay!'; lesson 'Thank you for my food!'. Loop: the hook framing again, the corn bobbing beside her face, apple and carrot on the tray, bye-bye wave.",
+ "lesson": "We say thank you for our food.",
+ "place": "KITCHEN (reference kitchen.jpg; fruit bowl kept out of frame)",
+ "calendar": "Sunday slot 2 – Seasonal / holiday story: Thanksgiving week (Thu 26 Nov). New Short: no uploaded long video with an unused clip (recent long videos were delivered, not uploaded).",
+ "star": "Ava",
+ "variety": {
+  "place": "KITCHEN",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress)",
+  "last_places": [
+   "LIVING ROOM",
+   "BACKYARD",
+   "THE LIBRARY"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "setting": "SUPPORTING OBJECTS: HARVEST BASKET = one round light-brown wicker basket with a curved handle. CORN = one big ear of sweet corn with bright YELLOW kernels and fresh green husk leaves peeled back at the bottom. APPLE = one big shiny bright RED apple with a small brown stem and one green leaf. CARROT = one big bright ORANGE carrot with a fluffy green leafy top. Each food is as big as Ava's hand or bigger, toy-like, clean and cute.",
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1 – corn pops up out of the basket beside her face, gasp"
+  },
+  {
+   "role": "ITEM 2",
+   "frame": "f2 – holds corn, apple pops up"
+  },
+  {
+   "role": "ITEM 3",
+   "frame": "f3 – corn+apple on tray, carrot pops up"
+  },
+  {
+   "role": "ROW + QUESTION",
+   "frame": "f4 – corn, apple, carrot in a row, hands on heart"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5 – edit of f1, apple+carrot on tray, corn in the air, bye-bye wave"
+  }
+ ],
+ "learning": {
+  "goal": "Say 'thank you' for our food (Thanksgiving) and name three harvest foods: corn, apple, carrot.",
+  "target_words": [
+   "thank you",
+   "corn",
+   "apple",
+   "carrot"
+  ],
+  "shown_how": "One food pops out of the harvest basket per shot in song order (corn 0:00, apple 0:06, carrot 0:09), then all three in a neat row on the high-chair tray while Ava puts her hands on her heart.",
+  "song_repeats": "thank you 0:15-0:18 (x2), 0:22-0:25 (x2), 0:25 · corn 0:00, 0:03 (x3), 0:12 · apple 0:06 (x2), 0:12 · carrot 0:09, 0:12",
+  "interactive_moment": "0:18-0:20 'Yummy food! What do we say? Hmm?' + 0:20-0:22 humming pause (question boing) -> 0:22 'Thank you! Thank you! Yay!' + cheer + confetti",
+  "copy_me": "Hands on heart! Thank you, thank you!",
+  "fact_check": "Corn yellow, apple red, carrot orange with green top – correct; exactly one of each in every frame; foods appear in song order (story order checked on the sheets).",
+  "modeling": "Ava is grateful and says thank you for her food – positive manners; she sits safely in her high chair.",
+  "toddler_fit": "Simple words, bright calm kitchen, one baby, big face, nothing scary; mini surprise (food pops out) and a warm payoff.",
+  "story_order": {
+   "corn": "from shot 1",
+   "apple": "from shot 2 (0:06)",
+   "carrot": "from shot 3 (0:09)"
+  }
+ },
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": "take 1, 29.4 s; Gemini flash instrument check clean 3/3, pause 0:20-0:22 confirmed",
+  "lyrics_file": "song_prompt.txt"
+ },
+ "sfx": [
+  "sfx/pop.mp3 x3 (each food pops)",
+  "sfx/sparkle_chime.mp3 (hook)",
+  "sfx/toddlers_gasp.mp3 (hook)",
+  "sfx/question_boing.mp3",
+  "sfx/toddlers_cheer_clap.mp3"
+ ],
+ "frames_note": "Nano Banana 2 (gemini-3.1-flash-image) via the Gemini API, 9:16 2K, 0 ViewMax credits, all 5 first try; face check vs sheet OK; C1 input = 1080x1920 crops fNc.jpg.",
+ "title": "Pop! A Yellow Corn! 🌽 Thank You for My Food with Baby Ava | Thanksgiving Song | Crayon Babies",
+ "description": "Pop! A yellow corn jumps out of Baby Ava's harvest basket – then a red apple and an orange carrot! Sing along with Ava and learn to say \"thank you\" for yummy food in this cozy Thanksgiving song.\n\n🎬 What happens in this video:\n🌽 \"Wow! Pop! A yellow corn!\" – crunch, crunch!\n🍎 Pop! A red apple! Apple, yum!\n🥕 Pop! An orange carrot! Munch, munch!\n💛 Hands on heart – thank you, thank you!\n🤔 \"Yummy food! What do we say?\" – shout the answer: THANK YOU!\n👋 Thank you for my food! Bye bye, friends!\n\n📚 Kids learn: saying thank you for our food • corn • apple • carrot • yellow, red, orange • thank you\n\n🎶 Voices only: children singing, humming and clapping with a soft hand drum – no other musical instruments.\n\nA sweet Thanksgiving sing-along for toddlers and preschoolers: Baby Ava sits in her pink high chair in the family kitchen, a harvest basket pops out a yellow corn, a red apple and an orange carrot, and she shows little viewers how to put their hands on their heart and say thank you for their food.\n\nKids cartoon • Thanksgiving song for kids • Thank you song • Good manners for kids • Learn English for kids • Fruits and vegetables for toddlers • Nursery rhymes • Kids songs • Preschool learning\n\n🔔 Subscribe to Crayon Babies for new stories and songs every day!",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Good Habits for Kids"
+ ]
+}

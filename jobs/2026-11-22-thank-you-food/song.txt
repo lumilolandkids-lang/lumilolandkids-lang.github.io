@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Pop! A yellow corn!
+[3.0:6.0] Corn, corn, yellow corn! Crunch, crunch!
+[6.0:9.0] Pop! A red apple! Apple, yum!
+[9.0:12.0] Pop! An orange carrot! Munch, munch!
+[12.0:15.0] Corn, apple, carrot! Yummy food for me!
+[15.0:18.0] Hands on heart! Thank you, thank you!
+[18.0:20.0] Yummy food! What do we say? Hmm?
+[20.0:22.0] (Hmmmm, hmmm-hmmm)
+[22.0:25.0] Thank you! Thank you! Yay!
+[25.0:27.0] Thank you for my food!
+[27.0:30.0] Bye bye, friends!

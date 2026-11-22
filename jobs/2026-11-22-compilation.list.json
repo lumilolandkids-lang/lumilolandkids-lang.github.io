@@ -1,0 +1,16 @@
+{
+ "hook": {"file": "runs/compile/2026-11-21-snowman-nose/final.mp4", "start": 0.0, "dur": 4.0},
+ "title": "This Week's Songs!",
+ "episodes": [
+  {"file": "runs/compile/2026-11-21-snowman-nose/final.mp4", "title": "The Snowman Has No Nose!"},
+  {"file": "runs/compile/2026-11-12-winter-dress/final.mp4", "title": "Jacket, Hat and Mittens"},
+  {"file": "runs/compile/2026-11-21-ice-melts/final.mp4", "title": "The Ice Melts!"},
+  {"file": "runs/compile/2026-11-19-letter-c/final.mp4", "title": "C Is for Cat and Cake"},
+  {"file": "runs/compile/2026-11-10-colors-market/final.mp4", "title": "Red, Yellow, Green!"},
+  {"file": "runs/compile/2026-11-20-up-down/final.mp4", "title": "Up and Down!"},
+  {"file": "runs/compile/2026-11-11-zoo-sounds/final.mp4", "title": "Zoo Animal Sounds"},
+  {"file": "runs/compile/2026-11-11-stop-look-hold-hands/final.mp4", "title": "Stop, Look, Hold Hands!"},
+  {"file": "runs/compile/2026-11-20-daddy-birthday/final.mp4", "title": "Happy Birthday, Daddy!"},
+  {"file": "runs/compile/2026-11-19-bedtime/final.mp4", "title": "Bedtime Routine Song"}
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/fac20981-042d-441a-ae62-0dffe1847bc0.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/8b57c389-5beb-4ab5-8a53-9c0b2305e73e.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/36d39e52-63bd-4515-9bc1-81b6ae40fd2c.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/61acb283-f544-4635-be3f-63f5208a1ce3.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-22/video/cc954f2e-dda6-4af7-800a-40f9b2d06dc5.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-ball-up-down/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-ball-up-down/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-ball-up-down/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-ball-up-down/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-22-ball-up-down/frames/f5c.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video from the fNc.jpg 1080x1920 crops, submitted strictly one at a time, all 5 accepted first try, no redo. s2 starts with the ball near his head (0-0.5 s) before the arms-up pose. s3 0-2 s nearly still (motion 0.5-0.7) - start at 2.0. s4 1-5 s the ball floats just above his hands, 6-9.5 held up high."
+}

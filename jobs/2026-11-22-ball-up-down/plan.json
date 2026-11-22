@@ -1,0 +1,32 @@
+{
+ "idea": "Sunday review song – UP and DOWN (the week's best word, from Friday's 'Up and Down' balloon Short) in a NEW story (LIVING ROOM, Jimmy in HOME outfit): a shiny red ball bounces UP right beside Baby Jimmy's face ('Wow! Boing! My ball goes up!'); 'Up, up, up! Up so high!' – he stretches both arms up toward the ball high in the air; copy-me 'Hands up high! Up with me!'; the ball comes down ('Down it comes! Down, down, down!') and he pats the rug beside it, copy-me 'Hands down low! Pat, pat, pat!'; chorus 'Up and down! Up and down! Boing, boing!'; he holds the ball high above his head and asks the viewer 'Is my ball up or down? Hmm?' (2 s pause) – 'Up! It's up high! Yay!'; lesson 'Up and down!'. Loop: the hook framing, the ball bouncing beside his face, bye-bye wave.",
+ "lesson": "Up and down are opposites: up = high above my head, down = low on the floor. What goes up comes down.",
+ "place": "LIVING ROOM (reference living-room.jpg; camera low so the wall with the family photos stays out of frame)",
+ "calendar": "Sunday slot 1 – Review song: the week's best learning word in a NEW story. Word of the week: UP / DOWN (Fri 20 Nov opposites). Counting (long video 20 Nov) avoided. New Short: no uploaded long video with an unused clip (recent long videos were delivered, not uploaded).",
+ "star": "Jimmy",
+ "variety": {"place": "LIVING ROOM", "star": "Jimmy", "outfit": "HOME (light blue onesie)", "last_places": ["BACKYARD", "THE LIBRARY", "KITCHEN"]},
+ "characters": ["BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."],
+ "setting": "SUPPORTING OBJECTS: RED BALL = one plain shiny bright RED rubber ball, about as big as Jimmy's head, perfectly round, no print, no pattern, no stripes.",
+ "shots": [
+  {"role": "HOOK", "frame": "f1 – ball bouncing UP in the air beside his face, gasp, hands on cheeks"},
+  {"role": "UP", "frame": "f2 – ball high above, both arms stretched up"},
+  {"role": "DOWN", "frame": "f3 – ball down on the rug, hands patting low"},
+  {"role": "QUESTION", "frame": "f4 – holds the ball high above his head, curious face"},
+  {"role": "LOOP ENDING", "frame": "f5 – edit of f1, ball beside the face, bye-bye wave"}
+ ],
+ "learning": {
+  "goal": "Know UP (high) and DOWN (low) – review of the week's opposites.",
+  "target_words": ["up", "down", "high", "low"],
+  "shown_how": "One red ball: in the air beside his face (hook), high above his head with arms stretched up (up), resting on the rug with his hands patting low (down), held high above his head for the question (up).",
+  "song_repeats": "up 0:01, 0:03-0:06 (x4), 0:06-0:09 (x2), 0:15-0:17 (x2), 0:18, 0:22 (x2), 0:25 (x2) · down 0:09-0:12 (x4), 0:12, 0:15-0:17 (x2), 0:18, 0:25 (x2) · high 0:05, 0:06, 0:23 · low 0:12",
+  "interactive_moment": "0:18-0:20 'Is my ball up or down? Hmm?' + 0:20-0:22 humming pause (question boing) -> 0:22 'Up! It's up high! Yay!' + cheer + confetti",
+  "copy_me": "Hands up high! (stretch arms up) · Hands down low! Pat, pat, pat! (pat the floor)",
+  "fact_check": "Up = above the head / in the air; down = on the floor – correct; the picture at the answer shows the ball held up high – the answer 'Up' matches. Exactly one ball in every frame.",
+  "modeling": "He plays gently with a soft ball sitting on the rug; nothing unsafe.",
+  "toddler_fit": "Simple words, bright calm living room, one baby, big face, nothing scary; mini problem (ball flies up high) solved: it comes back down and he catches it.",
+  "story_order": {"ball": "present in all shots (it is the hook object); position follows the song: air (1), high (2), floor (3), held up (4), air (5)"}
+ },
+ "song": {"model": "lyria-3-clip-preview", "take": "take 1, Gemini flash instrument check clean 4/4, pause 0:20-0:22 confirmed", "lyrics_file": "song_prompt.txt"},
+ "sfx": ["sfx/sparkle_chime.mp3 (hook)", "sfx/toddlers_gasp.mp3 (hook)", "sfx/ball_bounce_roll.mp3 (ball down)", "sfx/question_boing.mp3", "sfx/toddlers_cheer_clap.mp3"],
+ "frames_note": "Nano Banana 2 (gemini-3.1-flash-image) via the Gemini API, 9:16 2K, 0 ViewMax credits, all 5 on the first try; C1 input = 1080x1920 crops fNc.jpg."
+}

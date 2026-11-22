@@ -1,0 +1,52 @@
+{
+  "pitched_instruments": [],
+  "drum_kit": false,
+  "voices_claps_handdrum_only": true,
+  "transcript": [
+    {
+      "t": "0:00",
+      "text": "Wow, boing! My ball goes up"
+    },
+    {
+      "t": "0:03",
+      "text": "Up, up, up, up so high"
+    },
+    {
+      "t": "0:06",
+      "text": "Hands up high, up with me"
+    },
+    {
+      "t": "0:09",
+      "text": "Down it comes, down, down, down"
+    },
+    {
+      "t": "0:12",
+      "text": "Hands down low, pat pat pat"
+    },
+    {
+      "t": "0:15",
+      "text": "Up and down, up and down, boing boing"
+    },
+    {
+      "t": "0:18",
+      "text": "Is my ball up or down?"
+    },
+    {
+      "t": "0:20",
+      "text": "Hmm? Hmm."
+    },
+    {
+      "t": "0:22",
+      "text": "Up, it's up high! Yay!"
+    },
+    {
+      "t": "0:25",
+      "text": "Up and down, up and down"
+    },
+    {
+      "t": "0:28",
+      "text": "Bye-bye, friends!"
+    }
+  ],
+  "silence_or_humming_gap_after_question": "0:20-0:22"
+}

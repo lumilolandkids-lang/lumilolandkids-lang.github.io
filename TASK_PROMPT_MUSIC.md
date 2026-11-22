@@ -1,5 +1,18 @@
 # Crayon Babies — the daily Short (her rule 10 Nov 2026, option B: 2 clips per long video + new Shorts in the empty slots)
 
+**ONE-TIME UPLOAD – Monday 23 Nov 2026 (her explicit request in chat, Sun 22 Nov 2026: "نزلوا بكره ولا تعملوا سكاجول نزلوا بنفس الوقت" = "upload it tomorrow, no schedule, publish it at the same moment"; offered "the morning run uploads it ~8:45 AM New York, public at once", she answered "تمام").**
+This is her rule-18 `--her-ok` request for ONE specific video – the Friday long video `jobs/2026-11-20-mv-count-pumpkins.json`
+("Wow! A Little Pumpkin! 🎃 Count to 5 with Baby Jimmy | Nursery Rhymes & Kids Songs | Crayon Babies"). Nothing else changes.
+- WHICH RUN: only the Daily Short run that starts on **Mon 23 Nov 2026 at or after 08:00 New York** (slot 2). Do it FIRST, before the Short.
+  The 4:41 AM slot-1 run does NOT do it. If it was not done on 23 Nov, never upload it later – push-notify her and ask instead.
+- NEVER TWICE: skip if `log/videos.jsonl` already has `"job": "jobs/2026-11-20-mv-count-pumpkins.json"` with `"status": "uploaded"`.
+- STEPS: `bash jobs/2026-11-20-mv-count-pumpkins/rebuild.sh` (~15 min, 0 credits → `ready/2026-11-20-mv-count-pumpkins.mp4`, 2:29; tested 22 Nov),
+  LOOK at `runs/2026-11-20-mv-count-pumpkins/final_sheet.jpg`, then ONCE: `python3 upload_ready.py jobs/2026-11-20-mv-count-pumpkins.json --her-ok`
+  (`publish_at` is null → PUBLIC IMMEDIATELY, no YouTube schedule; Made for kids, AI = yes, custom thumbnail, playlists
+  "Crayon Babies Songs" + "Learn with Crayon Babies"). Retry only if it failed before a video id was printed.
+- AFTER: `python3 stats.py`, commit + push `log/`, delete the mp4 from `ready/`, push notification to her:
+  "Uploaded and public now: <title> – <link>". Then make the normal Short of the slot (delivered to her in chat, NOT uploaded).
+
 **NO PUBLISHING – SEND THE VIDEO TO HER (her rule, 13 Nov 2026: "لا تنزلوا الفيديو، أرسلوه هنا، أنا أنشره – ضعوا بالسكل").**
 This rule wins over every "MODE: LIVE", "publish", "upload" or `publish_at` line in this file and in the scheduled prompt.
 The automation NEVER uploads, schedules or publishes anything on YouTube (no `upload_ready.py`, no API calls that change videos).

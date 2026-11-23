@@ -1,0 +1,32 @@
+{
+ "idea": "Count to 10 at THE SUPERMARKET with Baby Jimmy (HOME/OUTDOOR t-shirt). A single orange rolls up to him on a wooden produce shelf ('Wow! One little orange!'), then more oranges appear so he counts a clear row of FIVE ('One, two, three, four, five!'), then a tidy tray of TEN (two rows of five) that he claps for ('Six, seven, eight, nine, ten!'). He asks the viewer 'How many oranges? Hmm?' (2 s pause), answers 'Ten!', recounts for fun, then waves 'Bye bye, friends!'. Loop: back to the one orange beside his face.",
+ "lesson": "Count from 1 to 10 in order; ten is five and five together.",
+ "place": "THE SUPERMARKET (reference supermarket.jpg)",
+ "calendar": "Monday slot 1 (NY 06:07, before 07:00) = Numbers & counting (1-10 in order). Series continues from count-to-5 (20 Nov pumpkins / 2 Nov tower) to count-to-10 - next step in the number series. Distinct from the 20 Nov count-to-5 long video: higher number, different fruit (oranges), different place (supermarket), 2x5 structure.",
+ "star": "Jimmy",
+ "variety": {"place": "THE SUPERMARKET", "star": "Jimmy", "outfit": "OUTDOOR (light blue star t-shirt, navy shorts, white/yellow sneakers)", "last_places": ["KITCHEN", "LIVING ROOM", "BACKYARD"]},
+ "characters": ["BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces."],
+ "setting": "SUPPORTING OBJECTS: ORANGES = plain round bright orange oranges, smooth skin, no leaves/stickers/labels, all the same size and pure orange color, arranged in clear rows easy to count.",
+ "shots": [
+  {"role": "HOOK", "frame": "f1 - one orange rolling up beside his face, big gasp, hands on cheeks"},
+  {"role": "COUNT 1-5", "frame": "f2 - five oranges in one neat row, Jimmy pointing and counting"},
+  {"role": "COUNT 6-10", "frame": "f3 - TEN oranges in a tidy 2x5 grid, Jimmy clapping"},
+  {"role": "QUESTION", "frame": "f4 - curious face, finger on chin, 'How many? Hmm?'"},
+  {"role": "LOOP ENDING", "frame": "f5 - edit of f1, one orange beside the face, bye-bye wave"}
+ ],
+ "learning": {
+  "goal": "Count 1 to 10 in order (oranges).",
+  "target_words": ["one", "ten", "count", "orange"],
+  "shown_how": "One orange (hook), a clear row of five (1-5), a tidy tray of ten as two rows of five (6-10 and the answer); counts on screen match the number sung.",
+  "song_repeats": "numbers one-ten sung in order at 0:03-0:13, 'ten little oranges' 0:13 & 0:20, full 1-10 recount 0:23-0:27 (ten named 4+ times)",
+  "interactive_moment": "0:16-0:18 'How many oranges? Hmm?' + 0:18-0:20 humming pause (question boing) -> 0:20 'Ten! Ten little oranges! Yay!' + cheer + confetti",
+  "copy_me": "Clap with me! (clap on 'ten little oranges, clap with me')",
+  "fact_check": "Verified at full resolution: hook = exactly 1 orange; count row = exactly 5; review tray = exactly 10 (two rows of five, counted in a cropped close-up); loop = exactly 1. f3 regenerated 3x until exactly ten rendered as a clean 2x5 grid (loose single rows gave nine).",
+  "modeling": "Gentle, happy play with fruit in a supermarket; nothing unsafe.",
+  "toddler_fit": "Simple number words, bright calm supermarket, one baby, big face, nothing scary; story order 1->5->10 and loop back.",
+  "story_order": {"oranges": "1 (hook) -> 5 (count) -> 10 (review/answer) -> 1 (loop); each count appears only from its own shot on"}
+ },
+ "song": {"model": "lyria-3-clip-preview", "take": "take 1, Gemini flash instrument check clean (no instruments, voices+claps+handdrum only), pause 0:18-0:20 confirmed in transcript", "lyrics_file": "song_prompt.txt"},
+ "sfx": ["sfx/sparkle_chime.mp3 (hook)", "sfx/toddlers_gasp.mp3 (hook)", "sfx/question_boing.mp3 (question)", "sfx/toddlers_cheer_clap.mp3 (answer)"],
+ "frames_note": "Nano Banana 2 via ViewMax, 9:16 2K, 8 credits each; C1 input = 1080x1920 crops fNc.jpg (raw GitHub URLs)."
+}

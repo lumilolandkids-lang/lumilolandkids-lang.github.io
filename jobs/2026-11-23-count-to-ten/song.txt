@@ -1,0 +1,9 @@
+[0.0:3.0] Oh! Roll, roll, roll! One little orange!
+[3.0:8.0] One, two, three, four, five!
+[8.0:13.0] Six, seven, eight, nine, ten!
+[13.0:16.0] Ten little oranges! Clap with me!
+[16.0:18.0] How many oranges? Hmm?
+[18.0:20.0] (Hmm-hmm...)
+[20.0:23.0] Ten! Ten little oranges! Yay!
+[23.0:27.0] One, two, three, four, five, six, seven, eight, nine, ten!
+[27.0:30.0] Bye bye, friends!

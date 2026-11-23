@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/e1f0e9d2-70b6-438f-9220-54d0c0f0afe6.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/d09e9756-1e05-46b9-8a42-83826b9e02df.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/e0f8b9cb-e50e-4c41-91f6-d53463687eec.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/3aa76098-8738-40d3-a373-d888756628eb.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/13cb557a-cfed-40a4-b5cf-f29e1efd126f.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-count-to-ten/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-count-to-ten/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-count-to-ten/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-count-to-ten/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-count-to-ten/frames/f5c.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video from the fNc.jpg 1080x1920 crops, submitted strictly one at a time (account runs one C1 task at a time; s1 and s4 each took one refunded internal_error retry during the post-task cooldown). Nano Banana 2 frames 8 cr each; f3 took 3 extra tries to get exactly TEN oranges as a clean 2x5 grid (single-row attempts gave 9). Motion: s2 (point) and s5 (wave) static ~1.0-1.2, rescued with push-ins."
+}

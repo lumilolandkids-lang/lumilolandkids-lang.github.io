@@ -1,0 +1,77 @@
+{
+ "idea": "Monday slot 2 Healthy habits – WASH YOUR HANDS (BATHROOM, Ava in HOME outfit, on the wooden step stool at the white sink): hook 'Oh no! Messy hands!' – Ava holds up both palms covered with red, blue and green crayon scribbles beside her face, big gasp; SOAP: 'Soap, soap! Bubbles, bubbles!' – she rubs foamy hands, bubbles float up; copy-me 'Rub, rub, rub your hands!'; WATER: 'Water, water! Splash, splash, splash!' – she rinses under the tap, hands clean; TOWEL: 'Towel, towel! Pat, pat, dry!' – she pats dry with the fluffy yellow towel; chorus 'Wash, wash, wash your hands!'; question to the viewer 'Before we eat, what do we do? Hmm?' (2 s pause) – 'Wash our hands! Yay!'; lesson 'Clean hands for me!'. Loop: the hook framing again, now CLEAN palms beside her face, bubbles floating, bye-bye wave.",
+ "lesson": "Wash your hands with soap and water, then dry them with a towel – and wash before we eat.",
+ "calendar": "Monday 23 Nov 2026, New York 08:42 = slot 2 = Healthy habits (wash hands, brush teeth, veggies, water, sleep). Brush teeth done 2 Nov; hand washing never published (only the 26 Oct internal test). Flu season + Thanksgiving week (wash before the meal).",
+ "place": "BATHROOM (reference bathroom.jpg) – last used 2 Nov; last 3 places SUPERMARKET, KITCHEN, LIVING ROOM",
+ "star": "Ava",
+ "variety": {
+  "place": "BATHROOM",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress)",
+  "last_places": [
+   "THE SUPERMARKET",
+   "KITCHEN",
+   "LIVING ROOM"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1 – crayon-scribbled palms up beside her face, gasp 'oh no!', tap off, no soap visible"
+  },
+  {
+   "role": "STEP 1 SOAP",
+   "frame": "f2 – foamy hands rubbing, bubbles float, pink soap bar on the sink edge"
+  },
+  {
+   "role": "STEP 2 WATER",
+   "frame": "f3 – tap on, water falls onto her hands, hands clean"
+  },
+  {
+   "role": "STEP 3 TOWEL + question",
+   "frame": "f4 – patting clean hands dry with the yellow towel, curious smile"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5 – edit of f1: clean palms beside her face, happy 'ta-da' wave, bubbles"
+  }
+ ],
+ "story_order": {
+  "crayon marks": "shot 1 (and under the foam in shot 2), gone from shot 3 on",
+  "soap bar": "absent shot 1, present 2-5",
+  "water running": "only shot 3",
+  "towel in hands": "only shot 4",
+  "clean hands": "shot 3 on"
+ },
+ "learning": {
+  "goal": "Wash your hands in 3 steps: soap, water, towel – and before we eat.",
+  "target_words": [
+   "wash",
+   "hands",
+   "soap",
+   "water",
+   "towel"
+  ],
+  "shown_how": "Messy crayon palms (problem) -> foamy soap bubbles -> rinse under the tap -> pat dry with the yellow towel -> clean palms in the hook framing.",
+  "song_repeats": "'hands' 0:00, 0:06, 0:15, 0:22, 0:25; 'wash' 0:15 (x3), 0:22; soap 0:03 x2, water 0:09 x2, towel 0:12 x2",
+  "interactive_moment": "0:18-0:20 'Before we eat, what do we do? Hmm?' + 0:20-0:22 humming pause (question boing) -> 0:22 'Wash our hands! Yay!' + cheer + confetti",
+  "copy_me": "'Rub, rub, rub your hands!' (0:06) and 'Pat, pat, dry!' (0:12)",
+  "fact_check": "Steps in the right order (soap, rub, rinse, dry); one pink soap bar, one yellow towel; water falls down from the tap (f3 regenerated once – first try looked like a fountain).",
+  "modeling": "Ava washes her own hands safely on the step stool; positive habit, nothing wrong to correct; crayon marks are clean color, not dirt.",
+  "toddler_fit": "Simple words, one baby, big face, calm bright bathroom, nothing scary."
+ },
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": "take 1, 29.9 s; Gemini flash instrument check clean (no pitched instruments, no drum kit); transcript lines on their timestamps, pause 0:20-0:22",
+  "lyrics_file": "song_prompt.txt"
+ },
+ "title": "Oh No! Messy Hands! 🧼 Wash Your Hands with Baby Ava | Healthy Habits | Crayon Babies",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Good Habits for Kids"
+ ],
+ "frames_note": "Nano Banana 2 via Gemini API (gemini-3.1-flash-image, 9:16 2K, 0 ViewMax credits); C1 input = 1080x1920 crops fNc.jpg (raw GitHub URLs)."
+}

@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/63fe9745-59a7-430f-84f9-600018d4bcf6.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/6112b2ef-15cf-4077-a5db-e2a58b39ab90.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/9428aced-e33e-4ae5-9ab2-bd2641db85b5.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/1da69666-9a9c-4459-b696-21c87bb88535.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-23/video/f6d963d3-592c-4f8b-803d-1f75cd456d47.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-wash-hands/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-wash-hands/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-wash-hands/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-wash-hands/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-23-wash-hands/frames/f5c.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video, one at a time with ~3 min cool-down; first 4 submissions failed internal_error (refunded) incl. a probe on an old good frame = account cool-down, then all 5 accepted first try, no redo. s1 blink 0.4 s + C1 internal cut ~0.5 s; s3 C1 re-framed to an extreme close-up with water falling in front of her face 0.5-6.5 s -> only a 2x hands-only crop (y=1.0) of 3.5-5.3 s used; s4 looks down 0.5-4 s, blink 5-5.5 s; s5 blink 7.7-8.1 s."
+}

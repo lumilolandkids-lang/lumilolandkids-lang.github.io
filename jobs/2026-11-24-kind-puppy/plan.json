@@ -1,0 +1,73 @@
+{
+ "idea": "Feelings & kindness – BE KIND TO ANIMALS / gentle hands (BACKYARD, Ava in HOME outfit, sitting on the grass with Biscuit the puppy): hook 'Wow! Biscuit! Hello, puppy!' – Biscuit bounces up right beside Baby Ava and she gasps with delight; kind step 1 GENTLE HANDS: 'Gentle hands! Soft, soft pat!' – she softly strokes his fluffy head; step 2 WATER: 'Fresh water for you! Slurp, slurp, slurp!' – she holds a blue bowl and Biscuit laps the water; step 3 PLAY: 'Here is your ball! Roll, roll, roll!' – she tosses a red ball and Biscuit jumps for it; chorus 'Be kind, be kind! Gentle and kind!'; copy-me 'Soft hands with me! Pat, pat, pat!'; question to the viewer 'How do we pet a puppy? Hmm?' (2 s pause) – 'Gently! Soft hands! Yay!'; lesson 'Be kind to animals!'. Loop: the hook framing again, the blue bowl and red ball on the grass, bye-bye wave.",
+ "lesson": "Be kind to animals: gentle hands, fresh water, play nicely.",
+ "place": "BACKYARD",
+ "star": "Ava",
+ "characters": {
+  "Ava": "HOME outfit",
+  "Biscuit": "family puppy"
+ },
+ "variety": {
+  "place": "BACKYARD",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress)",
+  "extra": "Biscuit the puppy (Tue slot 2 allows one grown-up or Biscuit)",
+  "last_places": [
+   "LITTLE STARS NURSERY",
+   "BATHROOM",
+   "THE SUPERMARKET"
+  ]
+ },
+ "learning": {
+  "goal": "Be kind to a pet: pet gently with soft hands, give fresh water, play with its ball.",
+  "target_words": [
+   "gentle",
+   "soft",
+   "kind"
+  ],
+  "shown_how": "Ava softly strokes Biscuit's head (gentle hands), holds a blue bowl while he drinks (water), tosses a red ball he jumps for (play).",
+  "song_repeats": "gentle 0:03, 0:12, 0:22 (gently); soft 0:03 x2, 0:15, 0:22; kind 0:12 x3, 0:25",
+  "interactive_moment": "0:18-0:20 'How do we pet a puppy? Hmm?' + 0:20-0:22 humming/daf pause (question boing) -> 0:22 'Gently! Soft hands! Yay!' + cheer + confetti",
+  "copy_me": "'Soft hands with me! Pat, pat, pat!' (0:15) – pat your knees softly",
+  "fact_check": "One puppy, one blue bowl with water, one red ball; bowl absent in shots 1–2, ball absent in shots 1–3 (story order); dogs drink water from a bowl and play ball.",
+  "modeling": "Positive: Ava is gentle and caring with Biscuit; no rough handling shown.",
+  "toddler_fit": "Simple words, one baby + family puppy, big faces, sunny calm backyard, nothing scary."
+ },
+ "story_order": {
+  "blue bowl": "shots 1-2 absent, shot 3 appears (held), shots 4-5 on the grass",
+  "red ball": "shots 1-3 absent, shot 4 appears, shot 5 on the grass"
+ },
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "prompts/f1.txt"
+  },
+  {
+   "role": "gentle hands",
+   "frame": "prompts/f2.txt"
+  },
+  {
+   "role": "water",
+   "frame": "prompts/f3.txt"
+  },
+  {
+   "role": "ball",
+   "frame": "prompts/f4.txt"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "prompts/f5.txt (edit of f1)"
+  }
+ ],
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": "take 1, 30.3 s; gemini-flash-latest instrument check clean (no pitched instruments, no drum kit); transcript on time, pause 0:19-0:22",
+  "lyrics_file": "song_prompt.txt"
+ },
+ "frames_note": "Nano Banana 2 via Gemini API (gemini-3.1-flash-image, 9:16 2K, 0 ViewMax credits); f1 regenerated once (polka-dot dress, too wide); face side-by-side with eva.png OK; C1 input = 1080x1920 crops fNc.jpg (raw GitHub URLs).",
+ "title": "Wow! Hello, Biscuit! 🐶 Be Kind to Animals with Baby Ava | Gentle Hands | Crayon Babies",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Good Habits for Kids"
+ ]
+}

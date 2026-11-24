@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/6af8dc93-66ae-458e-80d9-a9bfcceccbcc.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/9d661bcb-8dd9-49d2-bf6e-1098d218f7f1.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/65f5a2f5-133a-44c7-871e-c09a321afdc9.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/5e00cb1b-f598-4fee-9ee3-ff88087ed077.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/903385f9-ea12-4b51-b069-672c899d0d16.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-kind-puppy/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-kind-puppy/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-kind-puppy/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-kind-puppy/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-kind-puppy/frames/f5c.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video, one at a time. s1 long prompt (with 'baby', 'gasps', 'giggles', 'faces never touch') failed internal_error twice (refunded); a 1 s probe on the same frame passed (2 cr) and a shorter prompt ('cute cartoon character', no clothing words) was accepted. s2 failed once at render (refunded), retry OK. s1 has an internal cut: 0-6.5 s over-the-shoulder on Biscuit with the back of Ava's head on the left (used only with zoom 1.5, x 1.0), 7-10 s Ava close-up wow. s3 Ava's face half out of frame 3-6 s (not used)."
+}

@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Biscuit! Hello, puppy!
+[3.0:6.0] Gentle hands! Soft, soft pat!
+[6.0:9.0] Fresh water for you! Slurp, slurp, slurp!
+[9.0:12.0] Here is your ball! Roll, roll, roll!
+[12.0:15.0] Be kind, be kind! Gentle and kind!
+[15.0:18.0] Soft hands with me! Pat, pat, pat!
+[18.0:20.0] How do we pet a puppy? Hmm?
+[20.0:22.0] (Mmm, mmm hmm)
+[22.0:25.0] Gently! Soft hands! Yay!
+[25.0:27.0] Be kind to animals!
+[27.0:30.0] Bye bye, friends!

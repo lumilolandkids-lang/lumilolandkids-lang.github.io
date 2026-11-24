@@ -22,6 +22,15 @@ This replaces the 13 Nov "send it to her, she publishes" rule. Make the video ex
 4. Save the rebuild files in `jobs/<date>-<slug>/`, commit + push `log/` and `jobs/`, delete the mp4 from `ready/`.
 5. Push notification: "Published now: <title> – <link>" + ViewMax credits used/left.
 
+**OLD READY VIDEOS – ONE PER DAY (her rule, 24 Nov 2026: "كل الفيديوهات القديمه الي جاهزه قديما وما نزلت نزلوها كل يوم").**
+The videos made 12–24 Nov 2026 that were sent to her but never published are in `log/backlog.json` (Thanksgiving first,
+then oldest first). EVERY slot-1 (morning) Daily Short run does this FIRST, before the new Short:
+`python3 backlog.py` → rebuilds the next one from its saved files (0 credits, ~5–15 min) and uploads it PUBLIC at once
+(or sets the private "BIG Teddy" public). It does nothing if one was already published today (New York date).
+LOOK at the rebuilt `final_sheet.jpg` of that job's workdir before trusting it. Then commit + push `log/`, add the link to
+the push notification ("Also published today (old video): <title> – <link>"). If the slot-1 run of a day did not do it
+(skipped/failed), the slot-2 run does it. Queue empty → nothing to do. `python3 backlog.py --status` shows the queue.
+
 
 **Her decision, 10 Nov 2026 (she felt too many Shorts came from the bubble video):** only **2 clips** per long video
 (clip 1 = the opening hook + first chorus, clip 2 = the review/question + "Bye bye, friends!" ending). Every other Short

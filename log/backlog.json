@@ -1,0 +1,84 @@
+{
+ "rule": "her rule 24 Nov 2026: publish the old ready videos, one per day (slot-1 morning run, before the new Short). Thanksgiving first, then oldest first. Checked against the channel on 24 Nov: Shapes Song (Fhlnm73yTPw) and Rocket Lamp (MUu8dreQa5Q) were already public - not in the queue.",
+ "later": "2026-11-22 compilation (10 rebuilt Shorts) is NOT in the queue: most of its Shorts are being published one by one; ask her before publishing it.",
+ "items": [
+  {
+   "slug": "2026-11-22-thank-you-food",
+   "title": "Pop! A Yellow Corn! 🌽 Thank You for My Food with Baby Ava | Thanksgiving Song | Crayon Babies",
+   "kind": "rebuild",
+   "done": "2026-11-24",
+   "url": "https://youtube.com/shorts/HK0B3R1bnKg"
+  },
+  {
+   "slug": "2026-11-12-letter-b",
+   "title": "Wow! A Big Letter B! 🔵 B Is for Ball & Bear | Learn ABC with Baby Jimmy | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-13-big-small",
+   "title": "Wow! A BIG Teddy! 🧸 Big and Small with Baby Ava | Learn Opposites | Crayon Babies",
+   "kind": "make_public",
+   "youtube_id": "dLpMhVVEFoY"
+  },
+  {
+   "slug": "2026-11-14-missing-wheel",
+   "title": "Oh No! My Car Can't Go! 🚗 What's Missing? | Learn with Baby Ava | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-14-float-sink",
+   "title": "Splash! Float or Sink? 🦆 Science for Toddlers with Baby Jimmy | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-19-letter-c",
+   "title": "Wow! A Big Letter C! 🐱 C Is for Cat & Cake | Learn ABC with Baby Ava | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-20-up-down",
+   "title": "Wow! A Big Red Balloon! 🎈 Up and Down with Baby Ava | Learn Opposites | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-20-mv-count-pumpkins",
+   "title": "Wow! A Little Pumpkin! 🎃 Count to 5 with Baby Jimmy | Nursery Rhymes & Kids Songs | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-20-daddy-birthday",
+   "title": "Wow! A Birthday Cupcake! 🧁 Happy Birthday, Daddy! | Family Song with Baby Ava | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-21-snowman-nose",
+   "title": "Oh No! My Snowman Has No Nose! ⛄ What's Missing? | Learn with Baby Jimmy | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-21-ice-melts",
+   "title": "Oh No! My Duck Is in the Ice! 🧊 Melting Ice | Science for Toddlers with Baby Ava | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-22-ball-up-down",
+   "title": "Boing! My Ball Goes Up! 🔴 Up and Down with Baby Jimmy | Learn Opposites | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-23-count-to-ten",
+   "title": "Wow! Ten Little Oranges! 🍊 Count to 10 with Baby Jimmy | Learn Numbers | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-23-wash-hands",
+   "title": "Oh No! Messy Hands! 🧼 Wash Your Hands with Baby Ava | Healthy Habits | Crayon Babies",
+   "kind": "rebuild"
+  },
+  {
+   "slug": "2026-11-24-colors-crayons",
+   "title": "Wow! A Big Blue Crayon! 🖍️ Learn Colors with Baby Jimmy | Blue, Orange, Purple | Crayon Babies",
+   "kind": "rebuild"
+  }
+ ]
+}

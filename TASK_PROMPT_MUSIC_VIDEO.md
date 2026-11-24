@@ -1,16 +1,13 @@
 # Crayon Babies — weekly 2:30-minute MUSIC VIDEO (16:9 long video, every Friday)
 
-**NO PUBLISHING – SEND THE VIDEO TO HER (her rule, 13 Nov 2026: "لا تنزلوا الفيديو، أرسلوه هنا، أنا أنشره – ضعوا بالسكل").**
-This rule wins over every "MODE: LIVE", "publish", "upload" or `publish_at` line in this file and in the scheduled prompt.
-The automation NEVER uploads, schedules or publishes anything on YouTube (no `upload_ready.py`, no API calls that change videos).
-Make the video exactly as before (song, frames, shots, edit, all checks), then DELIVER it:
-1. Copy `W/final.mp4` to `W/Crayon Babies - <Title>.mp4` and send it with the **SendUserFile** tool (status `proactive`, display `attach`).
-2. Send her, in the same caption or a SendUserMessage, the ready-to-copy **title**, **description** (section 10 template, no hashtags),
-   playlist names, "Made for kids = Yes, Altered/synthetic (AI) = Yes", and the suggested publish time (6:53 AM / 1:30 PM New York).
-3. Save the rebuild files in `jobs/<date>-<slug>/` and the job json as usual (`"publish_at": null`), append the log entry with
-   `"status": "delivered: sent to her in chat – she publishes it herself"` (no youtube_id), commit + push `log/` and `jobs/`.
-4. Push notification: "Video ready in the chat: <title> – please publish it yourself" + credits used/left.
-`upload_ready.py` now refuses to upload unless it gets `--her-ok`; use that flag ONLY if she asks in a new message to upload a specific video.
+**PUBLISH AT ONCE – NO SCHEDULE (her rule, 24 Nov 2026: "كل فيديو يجهز نزلوا مباشرتا بدون سكجول" = "upload every video as soon as it is ready, directly, without a schedule").**
+This replaces the 13 Nov "send it to her, she publishes" rule. Make the video exactly as before (song, frames, shots, edit, all checks), then:
+1. Write the job json with `"publish_at": null` (never a schedule), copy `W/final.mp4` to the job's `"video"` path in `ready/`.
+2. `python3 upload_ready.py jobs/<job>.json` ONCE → uploaded PUBLIC immediately (Made for kids, AI = yes, playlists, custom thumbnail if any).
+   Retry only if it failed before a video id was printed. upload_ready.py ignores any `publish_at` (no schedules any more).
+3. Also send the mp4 to her with SendUserFile (status `proactive`, display `attach`) so she has a copy, with the title + YouTube link.
+4. Save the rebuild files in `jobs/<date>-<slug>/`, commit + push `log/` and `jobs/`, delete the mp4 from `ready/`.
+5. Push notification: "Published now: <title> – <link>" + ViewMax credits used/left.
 
 
 **LONG VIDEOS FIRST (her rule, 5 Nov 2026):** "focus on the long videos – two per week" + (5 Nov, later) "make the song only two and a half minutes".

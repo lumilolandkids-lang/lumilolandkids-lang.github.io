@@ -1,0 +1,31 @@
+{
+ "idea": "Colors & shapes – colors #2 (LITTLE STARS NURSERY, Jimmy in HOME onesie at the small round nursery table): hook 'Wow! A big blue crayon!' – Jimmy gasps at a big chunky sparkling BLUE crayon held up right beside his face; say-it-with-me 'Blue, blue, blue! Say it with me!'; ORANGE: 'Orange, orange! Orange like an orange!' (blue crayon now lies on the table); PURPLE: 'Purple, purple! Purple like grapes!'; copy-me chorus 'Colors, colors! Clap with me! Blue and orange and purple, see!' with the three crayons standing in a neat row; question to the viewer 'Which one is purple? Hmm?' (2 s pause) – 'This one! Purple! Yay!' as he taps the purple crayon; lesson 'I know my colors!'. Loop: the hook framing again, now all three crayons standing in a row, bye-bye wave.",
+ "lesson": "Name three colors: blue, orange and purple – and find the purple one.",
+ "calendar": "Tuesday 24 Nov 2026, New York 04:41 = slot 1 = Colors & shapes. Series: colors #1 (10 Nov, supermarket) taught red, yellow, green; shapes done 3 Nov + 13 Nov long. Next colors: blue, orange, purple.",
+ "place": "LITTLE STARS NURSERY (reference nursery.jpg) – first use on the channel; alphabet poster, pencil cups and toy shelves kept out of frame",
+ "star": "Jimmy",
+ "variety": {"place": "LITTLE STARS NURSERY", "star": "Jimmy", "outfit": "HOME (light blue onesie)", "last_places": ["BATHROOM", "THE SUPERMARKET", "KITCHEN"]},
+ "characters": ["BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."],
+ "supporting_objects": "Big chunky toy crayons, one pure solid color each (wrapper the same color, no writing): BLUE (royal blue), ORANGE, PURPLE.",
+ "shots": [
+  {"role": "HOOK", "frame": "f1 – blue crayon held up beside his face with sparkles, big 'wow' gasp; no other crayon"},
+  {"role": "ITEM 1→2 ORANGE", "frame": "f2 – orange crayon beside his face, blue crayon lying on the table"},
+  {"role": "ITEM 3 PURPLE", "frame": "f3 – purple crayon beside his face, blue + orange lying on the table"},
+  {"role": "REVIEW + QUESTION", "frame": "f4 – blue, orange, purple standing in a neat row; he points at purple, curious face"},
+  {"role": "LOOP ENDING", "frame": "f5 – edit of f1: same framing, three crayons in a row, bye-bye wave"}
+ ],
+ "story_order": {"blue crayon": "from shot 1", "orange crayon": "absent shot 1, from shot 2", "purple crayon": "absent shots 1-2, from shot 3", "row of three": "shots 4-5"},
+ "learning": {
+  "goal": "Name three colors – blue, orange, purple – and find the purple one.",
+  "target_words": ["blue", "orange", "purple", "colors"],
+  "shown_how": "One big chunky crayon of one pure color beside Jimmy's face per item (blue, then orange, then purple), then all three standing in a clear row; he taps the purple one.",
+  "song_repeats": "blue 0:00, 0:03 x3, 0:15; orange 0:06 x3 (+ 'like an orange'), 0:15; purple 0:09 x3, 0:15, 0:18, 0:22; colors 0:12 x2, 0:25",
+  "interactive_moment": "0:18-0:20 'Which one is purple? Hmm?' + 0:20-0:22 humming/daf pause (question boing) -> 0:22 'This one! Purple! Yay!' + cheer + confetti",
+  "copy_me": "'Clap with me!' (0:12) and 'Say it with me!' (0:03)",
+  "fact_check": "Exactly one crayon of each color, pure solid colors; counts per frame checked (f1 1, f2 2, f3 3, f4 3, f5 3); purple is the right one in the row and is the one he taps; grapes can be purple, an orange is orange.",
+  "modeling": "Positive: Jimmy names colors and answers; nothing wrong to correct.",
+  "toddler_fit": "Simple words, one baby, big face, calm bright nursery, nothing scary."
+ },
+ "song": {"model": "lyria-3-clip-preview", "take": "take 1, 29.8 s; gemini-flash-latest instrument check clean (no pitched instruments, no drum kit); transcript on time, pause 0:20-0:22", "lyrics_file": "song_prompt.txt"},
+ "frames_note": "Nano Banana 2 via Gemini API (gemini-3.1-flash-image, 9:16 2K, 0 ViewMax credits), all 5 first try; face side-by-side with jimmy.png OK; C1 input = 1080x1920 crops fNc.jpg (raw GitHub URLs)."
+}

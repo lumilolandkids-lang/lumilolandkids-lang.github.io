@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/398fada5-5769-4f26-a37b-b549111d3430.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/d0194d80-3706-4a03-8ae2-08779f3b10d1.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/9257e9b9-eb58-4b7f-9d22-e1c56ac952ef.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/af8c095f-41e5-4284-93dc-35e5ba882c2d.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-24/video/41610788-29d5-413c-956a-2e98d3e08a09.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-colors-crayons/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-colors-crayons/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-colors-crayons/frames/f3t.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-colors-crayons/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-24-colors-crayons/frames/f5t.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video, one at a time. Cool-down internal_error failures (refunded): s2 x1, s3 x3 on f3c (accepted at once as tighter crop f3t after waiting), s5 sent as tight crop f5t first try. No redo. s2 0-3 s = C1 inserted close-up with extra rainbow crayons -> unused; blinks s1 0.5/4.75, s4 3.5/4.75, s5 ~1/~7 cut out."
+}

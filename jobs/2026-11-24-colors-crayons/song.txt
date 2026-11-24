@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! A big blue crayon!
+[3.0:6.0] Blue, blue, blue! Say it with me!
+[6.0:9.0] Orange, orange! Orange like an orange!
+[9.0:12.0] Purple, purple! Purple like grapes!
+[12.0:15.0] Colors, colors! Clap with me!
+[15.0:18.0] Blue and orange and purple, see!
+[18.0:20.0] Which one is purple? Hmm?
+[20.0:22.0] [HUMMING AND DAF ONLY]
+[22.0:25.0] This one! Purple! Yay!
+[25.0:27.0] I know my colors!
+[27.0:30.0] Bye bye, friends!

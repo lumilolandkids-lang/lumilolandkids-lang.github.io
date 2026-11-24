@@ -1,0 +1,257 @@
+{
+ "workdir": "runs/2026-11-24-colors-crayons",
+ "out": "final.mp4",
+ "song": "jobs/2026-11-24-colors-crayons/song.mp3",
+ "song_start": 0.0,
+ "cuts": [
+  {
+   "shot": 1,
+   "start": 0.7,
+   "dur": 1.5,
+   "speed": 0.9,
+   "push": [
+    1.0,
+    1.2
+   ]
+  },
+  {
+   "shot": 1,
+   "start": 2.6,
+   "dur": 1.7,
+   "speed": 1.15,
+   "push": [
+    1.08,
+    1.25
+   ]
+  },
+  {
+   "shot": 1,
+   "start": 5.0,
+   "dur": 1.5,
+   "speed": 1.15,
+   "push": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "shot": 1,
+   "start": 7.0,
+   "dur": 1.5,
+   "zoom": 1.12
+  },
+  {
+   "shot": 2,
+   "start": 3.3,
+   "dur": 1.6
+  },
+  {
+   "shot": 2,
+   "start": 5.3,
+   "dur": 1.4,
+   "zoom": 1.1
+  },
+  {
+   "shot": 3,
+   "start": 0.3,
+   "dur": 1.6
+  },
+  {
+   "shot": 3,
+   "start": 4.0,
+   "dur": 1.4,
+   "zoom": 1.1
+  },
+  {
+   "shot": 4,
+   "start": 7.1,
+   "dur": 1.5
+  },
+  {
+   "shot": 4,
+   "start": 8.6,
+   "dur": 1.4,
+   "zoom": 1.12
+  },
+  {
+   "shot": 3,
+   "start": 7.2,
+   "dur": 1.6,
+   "zoom": 1.12
+  },
+  {
+   "shot": 5,
+   "start": 3.0,
+   "dur": 1.4,
+   "zoom": 1.1
+  },
+  {
+   "shot": 4,
+   "start": 3.75,
+   "dur": 0.9,
+   "speed": 1.1,
+   "push": [
+    1.0,
+    1.15
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 4.9,
+   "dur": 1.5,
+   "push": [
+    1.08,
+    1.22
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 0.0,
+   "dur": 1.7
+  },
+  {
+   "shot": 4,
+   "start": 1.7,
+   "dur": 1.4,
+   "zoom": 1.1
+  },
+  {
+   "shot": 3,
+   "start": 2.5,
+   "dur": 1.6
+  },
+  {
+   "shot": 5,
+   "start": 4.4,
+   "dur": 1.6,
+   "zoom": 1.1
+  },
+  {
+   "shot": 5,
+   "start": 5.4,
+   "dur": 1.2
+  },
+  {
+   "shot": 5,
+   "start": 7.8,
+   "dur": 2.0,
+   "push": [
+    1.0,
+    1.08
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/toddlers_gasp.mp3",
+   "cut": 0,
+   "offset": 0.05,
+   "vol": 0.6,
+   "max": 0.65
+  },
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 0,
+   "offset": 0.1,
+   "vol": 0.5,
+   "max": 1.2
+  },
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 4,
+   "offset": 0.05,
+   "vol": 0.4,
+   "max": 1.0
+  },
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 6,
+   "offset": 0.05,
+   "vol": 0.4,
+   "max": 1.0
+  },
+  {
+   "file": "sfx/question_boing.mp3",
+   "cut": 13,
+   "offset": 0.95,
+   "vol": 0.6,
+   "max": 0.62
+  },
+  {
+   "file": "sfx/toddlers_cheer_clap.mp3",
+   "cut": 16,
+   "offset": 0.1,
+   "vol": 0.75,
+   "max": 2.1
+  }
+ ],
+ "bounce": {
+  "amp": 0.03,
+  "ranges": [
+   [
+    12.0,
+    18.0
+   ],
+   [
+    22.0,
+    25.0
+   ]
+  ]
+ },
+ "vfx": [
+  {
+   "type": "sparkle",
+   "cut": 0,
+   "offset": 0.1,
+   "x": 0.25,
+   "y": 0.58,
+   "arc": [
+    100,
+    260
+   ],
+   "size": 0.5
+  },
+  {
+   "type": "sparkle",
+   "cut": 4,
+   "offset": 0.1,
+   "x": 0.25,
+   "y": 0.58,
+   "arc": [
+    100,
+    260
+   ],
+   "size": 0.45
+  },
+  {
+   "type": "sparkle",
+   "cut": 6,
+   "offset": 0.1,
+   "x": 0.25,
+   "y": 0.55,
+   "arc": [
+    100,
+    260
+   ],
+   "size": 0.45
+  },
+  {
+   "type": "confetti",
+   "cut": 16,
+   "offset": 0.1,
+   "keep_out": [
+    0.5,
+    0.33,
+    0.34,
+    0.23
+   ]
+  },
+  {
+   "type": "hearts",
+   "cut": 19,
+   "offset": 0.3,
+   "x": 0.86,
+   "y": 0.2
+  }
+ ]
+}

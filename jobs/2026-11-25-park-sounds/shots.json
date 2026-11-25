@@ -1,0 +1,15 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-25/video/416db9c8-7ff7-4955-a383-b091e0ae224b.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-25/video/b0e6d172-6e10-49a8-9122-caeb7a77f873.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-25/video/ddae89d6-14f5-45ec-b74e-d53090505e50.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-25/video/fc99a3e9-2d71-4134-80e6-7d6489f774bb.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-25/video/13e0bb0b-08aa-4f1c-9b8e-6da18ffeb79f.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-25-park-sounds/frames/f1c.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-25-park-sounds/frames/f2c.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-25-park-sounds/frames/f3c.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-25-park-sounds/frames/f4c.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-25-park-sounds/frames/f5c.jpg"
+ },
+ "note": "ViewMax C1 768P 10s image-to-video, one at a time. s3 failed twice with cooldown internal_error (refunded), passed after a 4 min wait. No redo. C1 panned item close-up -> baby in s2/s3 (both halves used); s4 0-3 s had a 2nd duck (unused), s4 bottom duck cropped (zoom 1.2-1.25, y 0)."
+}

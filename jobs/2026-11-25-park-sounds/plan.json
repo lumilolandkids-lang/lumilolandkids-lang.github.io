@@ -1,0 +1,78 @@
+{
+ "idea": "Animals & their sounds #3 (SUNNY PARK, at the duck pond, Jimmy in OUTDOOR outfit sitting on the grass beside a low flat grey stone): hook 'Wow! Who says quack?' – a little white duck pops up out of the pond onto the stone right beside Jimmy, splashing, and he gasps; 'Quack, quack, quack! The little duck!'; a little green FROG on the stone: 'Ribbit, ribbit! The little frog!' + copy-me 'Hop, hop, hop! Hop with me!'; a little blue BIRD lands on the stone: 'Tweet, tweet, tweet! The little bird!' + copy-me 'Flap, flap, flap! Flap with me!' (Jimmy flaps his arms like wings); all three in a neat row, Jimmy points at the frog and asks the viewer 'Who says ribbit? Hmm?' (2 s humming pause) – 'The frog! Yay!'; review 'Quack, ribbit, tweet! Sing with me!'. Loop: the hook framing again, duck, frog and bird in a row on the stone, bye-bye wave.",
+ "lesson": "Match three animals to their sounds: duck – quack, frog – ribbit, bird – tweet.",
+ "calendar": "Wednesday 25 Nov 2026, New York 04:42 = slot 1 = Animals & their sounds / nature. Series: #1 cow 'moo' (4 Nov, farm), #2 elephant (11 Nov, zoo) -> #3 park pond animals (duck, frog, bird).",
+ "place": "SUNNY PARK (reference park.jpg), at the duck pond with the little wooden bridge behind; playground and bench out of frame",
+ "star": "Jimmy",
+ "variety": {
+  "place": "SUNNY PARK",
+  "star": "Jimmy",
+  "outfit": "OUTDOOR (light blue t-shirt with yellow star, navy shorts)",
+  "last_places": [
+   "BACKYARD",
+   "LITTLE STARS NURSERY",
+   "BATHROOM"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue t-shirt with a small yellow star, navy blue shorts and white sneakers with yellow laces."
+ ],
+ "supporting_objects": "LITTLE DUCK (round fluffy white, orange beak), LITTLE FROG (round bright green, eyes on top, wide smile), LITTLE BIRD (round small blue with yellow tummy) – one each, toy-like, never scary.",
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1 – duck pops up onto the stone beside him with a splash, big wow gasp; no frog, no bird"
+  },
+  {
+   "role": "ITEM 2 FROG",
+   "frame": "f2 – frog on the stone, Jimmy hands up like a frog; duck gone"
+  },
+  {
+   "role": "ITEM 3 BIRD",
+   "frame": "f3 – bird lands on the stone, wings open; Jimmy arms out like wings"
+  },
+  {
+   "role": "REVIEW + QUESTION",
+   "frame": "f4 – duck, frog, bird in a neat row on the stone; Jimmy points at the frog"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5 – edit of f1: same framing, three animals in a row on the stone, bye-bye wave"
+  }
+ ],
+ "story_order": {
+  "duck": "from shot 1",
+  "frog": "absent shot 1, from shot 2",
+  "bird": "absent shots 1-2, from shot 3",
+  "row of three": "shots 4-5"
+ },
+ "learning": {
+  "goal": "Say which animal makes which sound: duck – quack, frog – ribbit, bird – tweet.",
+  "target_words": [
+   "duck",
+   "quack",
+   "frog",
+   "ribbit",
+   "bird",
+   "tweet"
+  ],
+  "shown_how": "One animal at a time on the same stone beside Jimmy's face (duck, then frog, then bird), then all three in a clear row; he points at the frog for the answer.",
+  "song_repeats": "quack 0:00, 0:03 x3, 0:24; ribbit 0:06 x2, 0:18, 0:24; tweet 0:12 x3, 0:24; frog 0:06, 0:22",
+  "interactive_moment": "0:18-0:20 'Who says ribbit? Hmm?' + 0:20-0:22 wordless humming pause -> 0:22 'The frog! Yay!' + cheer + confetti",
+  "copy_me": "'Hop, hop, hop! Hop with me!' (0:09) and 'Flap, flap, flap! Flap with me!' (0:15)",
+  "fact_check": "Duck says quack, frog says ribbit, bird says tweet (standard English toddler animal sounds). Counts checked in frames: f1 1 duck, f2 1 frog, f3 1 bird, f4 3, f5 3; frog is the middle animal he points at.",
+  "modeling": "Positive: Jimmy watches the animals gently from the grass, never grabs them; nothing wrong to correct.",
+  "toddler_fit": "Simple words, one baby, big face, calm sunny pond, cute round animals, nothing scary."
+ },
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": "take 3 (takes 1–2 rejected: take 1 synth/bass/drum kit per gemini-flash-latest, take 2 sang the stage direction 'humming and daf only' in the pause); take 3 instrument check clean, pause 0:20-0:22 wordless humming",
+  "lyrics_file": "song_prompt.txt"
+ },
+ "frames_note": "Nano Banana 2 via Gemini API (gemini-3.1-flash-image, 9:16 2K, 0 ViewMax credits). f4 retaken (first take did not point at the frog), f5 retaken (duck had moved onto his lap). Face side-by-side with jimmy.png OK. C1 input = 1080x1920 crops fNc.jpg (raw GitHub URLs).",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ],
+ "title": "Wow! Who Says Quack? 🦆 Animal Sounds with Baby Jimmy | Duck, Frog, Bird | Crayon Babies"
+}

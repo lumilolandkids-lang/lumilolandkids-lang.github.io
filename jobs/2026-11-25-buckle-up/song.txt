@@ -1,0 +1,11 @@
+[0.0:3.0] Oh no! No seatbelt!
+[3.0:6.0] Arms in, arms in! One, two!
+[6.0:9.0] Click, click! Buckle up!
+[9.0:12.0] Clap, clap, click! Clap with me!
+[12.0:15.0] Snug and safe! Pat, pat, pat!
+[15.0:18.0] Buckle up, buckle up! Safe in my seat!
+[18.0:20.0] In the car, what do we do? Hmm?
+[20.0:22.0] Hmm-hmm, hmm-hmm...
+[22.0:24.0] Buckle up! Yay!
+[24.0:27.0] Click, click! Buckle up with me!
+[27.0:30.0] Bye bye, friends!

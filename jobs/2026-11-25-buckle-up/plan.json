@@ -1,0 +1,42 @@
+{
+ "idea": "Safety – BUCKLE UP in the car seat (THE FAMILY CAR back seat, Ava in HOME outfit, in her pink car seat; timely for Thanksgiving travel): hook 'Oh no! No seatbelt!' – Ava gasps at the open straps and the empty red buckle; step 1 'Arms in, arms in! One, two!' – straps over her shoulders; step 2 'Click, click! Buckle up!' – she pushes the clips into the red buckle; copy-me 'Clap, clap, click! Clap with me!'; step 3 'Snug and safe! Pat, pat, pat!' – she pats the snug straps; chorus 'Buckle up, buckle up! Safe in my seat!'; question to the viewer 'In the car, what do we do? Hmm?' (2 s pause) – 'Buckle up! Yay!'; review 'Click, click! Buckle up with me!'. Loop: the hook framing again, now fully buckled, bye-bye wave.",
+ "star": "Ava",
+ "place": "THE FAMILY CAR (new place)",
+ "place_block": "THE FAMILY CAR: the cozy back seat of the family's friendly light blue car, soft light gray seats, a side window with sunshine, green trees and blue sky outside, no logos and no text.",
+ "outfit": "HOME (yellow dress)",
+ "variety": {
+  "place": "THE FAMILY CAR",
+  "star": "Ava",
+  "last_places": [
+   "SUNNY PARK",
+   "BACKYARD",
+   "LITTLE STARS NURSERY"
+  ]
+ },
+ "learning": {
+  "goal": "Always buckle up in your car seat (Wed slot 2 – Safety: seatbelt)",
+  "target_words": [
+   "buckle up",
+   "click",
+   "safe",
+   "car seat"
+  ],
+  "shown_how": "open straps + empty red buckle (hook) -> straps over shoulders -> buckled with click sound + sparkle -> pats snug straps -> fully buckled loop",
+  "song_repeats": "buckle up at 0:06, 0:15 (x2), 0:22, 0:25; click at 0:06, 0:09, 0:24",
+  "interactive_moment": "0:18 'In the car, what do we do? Hmm?', humming pause 0:19-0:22, answer 'Buckle up! Yay!' 0:22",
+  "copy_me": "Clap, clap, click! Clap with me! (0:09) + pat pat pat (0:12)",
+  "fact_check": "buckled frames show all clips inside the red buckle (f4/f5 regenerated once: first versions had loose side clips)",
+  "modeling": "the baby is always buckled before the trip; description reminds grown-ups to check the straps",
+  "toddler_fit": "one baby, calm car interior, nothing scary, face big"
+ },
+ "story_order": {
+  "straps on shoulders": "absent shot 1, from shot 2",
+  "buckled": "absent shots 1-2, from the click cut (0:06.3) on"
+ },
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "takes": 1,
+  "instrument_check": "gemini-flash-latest: voices/claps/hand drum only"
+ },
+ "title": "Oh No! No Seatbelt! 🚗 Buckle Up Song with Baby Ava | Car Safety for Kids | Crayon Babies"
+}

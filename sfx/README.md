@@ -39,3 +39,4 @@ with `duration_seconds` 0.5-2.5 and `prompt_influence` 0.6.
 | water_drip.mp3 | three cute water drops dripping, drip drip drip (melting ice) | 1.25 s | 0.6–0.7 |
 | puppy_lapping_water.mp3 | little puppy laps water from a bowl, slurp slurp (quiet file, max -7 dB) | 1.1 s | 1.2 |
 | seatbelt_click.mp3 | seatbelt buckle clicks shut, one clear click (car seat) | 1.0 s | 0.8–1.0 |
+| baby_dino_rawr.mp3 | one tiny cute baby dinosaur toy "rawr", squeaky and playful (loud file) | 0.84 s | 0.4–0.5 |

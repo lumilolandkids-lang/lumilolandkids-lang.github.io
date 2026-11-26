@@ -1,0 +1,79 @@
+{
+ "idea": "Letters & first words #4 – Letter D (JIMMY'S ROOM, Jimmy in HOME onesie on the round blue rug beside his blue toy box with yellow stars): hook 'Wow! Look! A big letter D!' – a big chunky orange foam letter D pops up out of the toy box right beside Baby Jimmy's face and he gasps; chorus 'D, D, D! Duh, duh, duh!'; 'D is for dinosaur! Stomp, stomp, stomp!' (his soft green dinosaur plush) + copy-me 'Stomp your feet! Stomp with me!'; 'D is for dog! Woof, woof, woof!' (a soft brown toy puppy) + copy-me 'Wiggle, wiggle! Wiggle with me!'; D, dinosaur and dog in a neat row on the toy box – Jimmy points at the D and asks the viewer 'Dinosaur, dog... what letter? Hmm?' (2 s humming pause) – 'D! D! D! Yay!'; lesson 'D says duh, duh, duh!'. Loop: the hook framing again, D, dinosaur and dog in a row on the toy box, bye-bye wave.",
+ "lesson": "The letter D: its name, its sound 'duh' and two D words – dinosaur and dog.",
+ "calendar": "Thursday 26 Nov 2026 (Thanksgiving), New York 04:42 = slot 1 = Letters & first words. Series: A (5 Nov), B (12 Nov), C (19 Nov) -> D.",
+ "place": "JIMMY'S ROOM (reference jimmy-room.jpg): on the round blue rug with the big yellow star beside the blue toy box with yellow stars; shelf, bed and armchair out of frame",
+ "star": "Jimmy",
+ "variety": {
+  "place": "JIMMY'S ROOM",
+  "star": "Jimmy",
+  "outfit": "HOME (light blue onesie with yellow star)",
+  "last_places": [
+   "THE FAMILY CAR",
+   "SUNNY PARK",
+   "BACKYARD"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."
+ ],
+ "supporting_objects": "BIG LETTER D (chunky bright orange soft foam capital D), GREEN DINOSAUR (Jimmy's soft green dinosaur plush from his room), BROWN TOY DOG (soft fluffy brown toy puppy plush with floppy ears and a blue collar) – one each.",
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1 – D pops out of the open toy box beside his face, big wow gasp; no dinosaur, no dog"
+  },
+  {
+   "role": "ITEM 1 DINOSAUR",
+   "frame": "f2 – D on the closed toy box, Jimmy holds the green dinosaur and makes it stomp; no dog"
+  },
+  {
+   "role": "ITEM 2 DOG",
+   "frame": "f3 – D on the toy box, Jimmy wiggles the brown toy dog; no dinosaur"
+  },
+  {
+   "role": "REVIEW + QUESTION",
+   "frame": "f4 – D, dinosaur, dog in a neat row on the toy box; Jimmy points at the D"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5 – edit of f1: same framing, D, dinosaur and dog in a row on the toy box, bye-bye wave"
+  }
+ ],
+ "story_order": {
+  "letter D": "from shot 1",
+  "dinosaur": "absent shot 1, from shot 2",
+  "dog": "absent shots 1-2, from shot 3",
+  "row of three": "shots 4-5"
+ },
+ "learning": {
+  "goal": "Recognise the letter D, say its sound 'duh' and two D words: dinosaur and dog.",
+  "target_words": [
+   "D",
+   "duh",
+   "dinosaur",
+   "dog"
+  ],
+  "shown_how": "One big orange 3D foam letter D (correct orientation, checked at full size) beside Jimmy's face in every shot; the dinosaur, then the dog, then all three in one row; no other letters anywhere.",
+  "song_repeats": "D: 0:00, 0:03 x3, 0:06, 0:12, 0:22 x3, 0:24; duh: 0:03 x3, 0:24 x3; dinosaur 0:06, 0:18; dog 0:12, 0:18",
+  "interactive_moment": "0:18-0:19 'Dinosaur, dog... what letter? Hmm?' + 0:19-0:22 wordless humming pause (confirmed by transcription) -> 0:22 'D! D! D! Yay!' + cheer + confetti",
+  "copy_me": "'Stomp your feet! Stomp with me!' (0:09) and 'Wiggle, wiggle! Wiggle with me!' (0:15)",
+  "fact_check": "Dinosaur and dog both start with the letter D (sound /d/ 'duh'); the letter D is upright and not mirrored in all frames; f1 only D, f2 D + dinosaur, f3 D + dog, f4/f5 D + dinosaur + dog (3 items).",
+  "modeling": "Positive: Jimmy plays gently with his toys and tidies them into a neat row; nothing wrong to correct.",
+  "toddler_fit": "Simple words, one baby, big face, his own cozy room, soft plush toys, the dino 'rawr' is a cute squeak, nothing scary."
+ },
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "take": "take 1, 29.8 s, gemini-flash-latest instrument check clean (no pitched instruments, no drum kit), pause 0:19-0:22",
+  "lyrics_file": "song_prompt.txt"
+ },
+ "frames_note": "Nano Banana 2 via Gemini API (gemini-3.1-flash-image, 9:16 2K, 0 ViewMax credits), all 5 frames first take; face side-by-side with jimmy.png OK; D orientation checked. C1 input = 1080x1920 crops fNc.jpg (raw GitHub URLs).",
+ "sfx_new": [
+  "sfx/baby_dino_rawr.mp3"
+ ],
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ],
+ "title": "Wow! A Big Letter D! 🦖 D Is for Dinosaur & Dog | Learn ABC with Baby Jimmy | Crayon Babies"
+}

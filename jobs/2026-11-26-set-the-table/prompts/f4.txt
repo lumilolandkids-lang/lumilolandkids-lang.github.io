@@ -1,0 +1,5 @@
+3D Pixar style still frame for a toddler learning video.
+@COMMON
+SCENE: The table is set. On the coffee table in front of Ava, in ONE neat clear row from left to right: the YELLOW SPOON lying flat, the PINK PLATE lying flat in the middle, and the BLUE CUP standing on the right – exactly one of each, easy to see. Ava points at the pink plate with ONE finger of her hand, looking at the camera with a curious happy smile and her head a little tilted, eyes wide open, her other hand up at shoulder height with an open palm; nothing covers any part of her face. No other things on the table.
+@TAIL
+Image 1 = Baby Ava's character sheet: copy her face design, hair, pink star clip and yellow dress exactly. Image 2 = the approved hook frame: same Baby Ava, same living room, same coffee table, same framing and light. Image 3 = the living room reference. Make ONE single picture (not a sheet), vertical 9:16.

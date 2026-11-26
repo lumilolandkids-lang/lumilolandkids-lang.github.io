@@ -1,0 +1,11 @@
+[0.0:3.0] Oh no! Empty table! Dinner time!
+[3.0:6.0] A pink plate! Plate, plate, plate!
+[6.0:9.0] On the table! Pat, pat, pat!
+[9.0:12.0] A blue cup! Cup, cup, cup!
+[12.0:15.0] Clap with me! Clap, clap, clap!
+[15.0:18.0] A yellow spoon! Spoon, spoon, spoon!
+[18.0:20.0] What do we need? Hmm?
+[20.0:22.0] Hmm-hmm, hmm-hmm...
+[22.0:24.0] Plate, cup, spoon! Yay!
+[24.0:27.0] I can help! I set the table!
+[27.0:30.0] Bye bye, friends!

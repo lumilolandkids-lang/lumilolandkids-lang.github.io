@@ -1,0 +1,70 @@
+{
+ "idea": "Routines & independence #4 – I can help SET THE TABLE (Thanksgiving Day dinner-time routine; LIVING ROOM, Ava in HOME outfit standing behind the low round light-wood coffee table): hook 'Oh no! Empty table! Dinner time!' – Ava gasps holding up a plain PINK PLATE beside her face over the empty table; 'A pink plate! Plate, plate, plate!' + copy-me 'On the table! Pat, pat, pat!' (she puts it down and pats the table); 'A blue cup! Cup, cup, cup!' + copy-me 'Clap with me! Clap, clap, clap!'; 'A yellow spoon! Spoon, spoon, spoon!'; spoon, plate and cup in a neat row – 'What do we need? Hmm?' (2 s humming pause) – 'Plate, cup, spoon! Yay!'; lesson 'I can help! I set the table!'. Loop: the hook framing again with the table set, bye-bye wave.",
+ "lesson": "Helping at home / independence: a toddler can set the table for dinner – plate, cup, spoon.",
+ "calendar": "Thursday 26 Nov 2026 (Thanksgiving Day), New York 08:42 = slot 2 = Routines & independence. Earlier routines: tidy up (5 Nov), dress for winter (12 Nov), bedtime (19 Nov) -> set the table (new; fits Thanksgiving dinner).",
+ "place": "LIVING ROOM (reference living-room.jpg): behind the round light-wood coffee table, mint-green sofa behind her",
+ "star": "Ava",
+ "variety": {
+  "place": "LIVING ROOM",
+  "star": "Ava",
+  "outfit": "HOME (yellow dress)",
+  "last_places": [
+   "JIMMY'S ROOM",
+   "THE FAMILY CAR",
+   "SUNNY PARK"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing a soft yellow dress with ruffle sleeves and a small pink flower, and pink baby shoes with bows."
+ ],
+ "supporting_objects": "PINK PLATE, BLUE CUP, YELLOW SPOON – plain toddler tableware, one each",
+ "shots": [
+  {
+   "role": "HOOK",
+   "frame": "f1 – pink plate held beside her face, empty table, big 'oh!' gasp; no cup, no spoon"
+  },
+  {
+   "role": "ITEM 1 PLATE -> ITEM 2 CUP",
+   "frame": "f2 – plate on the table, blue cup held beside face; no spoon"
+  },
+  {
+   "role": "ITEM 3 SPOON",
+   "frame": "f3 – plate + cup on the table, yellow spoon held beside face"
+  },
+  {
+   "role": "REVIEW + QUESTION",
+   "frame": "f4 – spoon, plate, cup in a row, she points at the plate"
+  },
+  {
+   "role": "LOOP ENDING",
+   "frame": "f5 – edit of f1: same framing, table set, bye-bye wave"
+  }
+ ],
+ "story_order": {
+  "plate": "held in shot 1, on the table from shot 2",
+  "cup": "absent shot 1, held shot 2, on the table shots 3-5",
+  "spoon": "absent shots 1-2, held shot 3, on the table shots 4-5"
+ },
+ "learning": {
+  "goal": "Set the table for dinner: plate, cup, spoon – I can help at home.",
+  "target_words": [
+   "plate",
+   "cup",
+   "spoon",
+   "set the table"
+  ],
+  "shown_how": "one plain pink plate, one plain blue cup, one plain yellow spoon, each held big beside Ava's face, then all three in a neat row on the table",
+  "song_repeats": "plate 0:03-0:06 (x4) + 0:22; cup 0:09-0:12 (x4) + 0:22; spoon 0:15-0:18 (x4) + 0:22; set the table 0:00 + 0:24",
+  "interactive_moment": "0:18 'What do we need? Hmm?' – 0:20-0:22 humming pause – 0:22 answer",
+  "fact_check": "exactly one plate, one cup, one spoon in every frame; colors pink/blue/yellow match the lyrics; checked at full size",
+  "modeling": "toddler helps at home on her own and is proud; no wrong choice shown",
+  "toddler_fit": "three simple nouns, copy-me pat and clap, calm bright living room, face big"
+ },
+ "fun_mechanics": [
+  "say-it-with-me (plate/cup/spoon x4 each)",
+  "copy-me (pat, pat, pat / clap, clap, clap)",
+  "interactive pause 'What do we need? Hmm?'",
+  "loop ending + 'Bye bye, friends!'"
+ ],
+ "song": "song_prompt.txt (Lyria lyria-3-clip-preview, 30 s, one girl voice, voices + claps + daf only; Gemini judge: no instruments)"
+}

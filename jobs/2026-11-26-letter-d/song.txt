@@ -1,0 +1,11 @@
+[0.0:3.0] Wow! Look! A big letter D!
+[3.0:6.0] D, D, D! Duh, duh, duh!
+[6.0:9.0] D is for dinosaur! Stomp, stomp, stomp!
+[9.0:12.0] Stomp your feet! Stomp with me!
+[12.0:15.0] D is for dog! Woof, woof, woof!
+[15.0:18.0] Wiggle, wiggle! Wiggle with me!
+[18.0:20.0] Dinosaur, dog... what letter? Hmm?
+[20.0:22.0] Hmm-hmm, hmm-hmm...
+[22.0:24.0] D! D! D! Yay!
+[24.0:27.0] D says duh, duh, duh!
+[27.0:30.0] Bye bye, friends!

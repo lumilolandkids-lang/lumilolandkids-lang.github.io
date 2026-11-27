@@ -1,0 +1,30 @@
+{
+ "idea": "Opposites – OPEN and CLOSE (Friday slot 1: body parts & opposites; PLAYROOM, Jimmy in HOME onesie at the small round wooden table): hook 'Wow! Look! My box is open!' – the lid of a plain shiny RED toy box pops wide open by itself beside Jimmy's face with a burst of golden sparkles and he gasps; chorus 'Open, close! Open, close!' (he shuts and opens the lid); copy-me with body parts: 'Open your hands! Wiggle, wiggle!' / 'Close your hands! Squeeze, squeeze!' (fingers spread wide, then little fists), 'Open your mouth! Ahh, ahh, ahh!' / 'Close your mouth! Mmm, mmm, mmm!'; the box is now closed – Jimmy points at it and asks the viewer 'My box... open or closed? Hmm?' (2 s humming pause) – 'Closed! Closed! Yay!'; chorus again. Loop: the hook framing again, box open, bye-bye wave.",
+ "lesson": "Opposites: open and close / open and closed – with a box, our hands and our mouth.",
+ "calendar": "Friday 27 Nov 2026, New York 04:42 = slot 1 = Body parts & opposites. Earlier opposites: big/small (13 Nov), up/down (20 + 22 Nov); body parts long video nose/ears/tummy/toes (6 Nov) -> open/close (new) with hands + mouth.",
+ "place": "PLAYROOM (reference playroom.jpg): at the small round wooden table, rainbow pictures, shelves and the blue bean bag with the yellow star cushion behind",
+ "star": "Jimmy",
+ "variety": {"place": "PLAYROOM", "star": "Jimmy", "outfit": "HOME (light blue onesie with yellow star)", "last_places": ["LIVING ROOM", "JIMMY'S ROOM", "THE FAMILY CAR"]},
+ "characters": ["BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."],
+ "supporting_objects": "RED TOY BOX: ONE cute shiny bright RED toy box with soft rounded corners and a hinged lid, plain, yellow empty inside",
+ "shots": [
+  {"role": "HOOK", "frame": "f1 – lid pops open, sparkle burst out of the box, big WOW gasp, open palms"},
+  {"role": "OPEN/CLOSE HANDS", "frame": "f2 – both hands up beside the face, fingers spread wide; box open"},
+  {"role": "OPEN/CLOSE MOUTH", "frame": "f3 – big happy 'ahh' open mouth, hands on the table; box open"},
+  {"role": "QUESTION", "frame": "f4 – box CLOSED, Jimmy points at it with a curious smile"},
+  {"role": "LOOP ENDING", "frame": "f5 – edit of f1: same framing, box open, no sparkles, bye-bye wave"}
+ ],
+ "story_order": {"box": "present in every shot (it is the hook object); open in 1-3 and 5, closed in 4 (the question)", "sparkles": "only in shot 1"},
+ "learning": {
+  "goal": "Know the opposites OPEN and CLOSE(D) and do them with your hands and mouth.",
+  "target_words": ["open", "close", "closed", "hands", "mouth"],
+  "shown_how": "one red box with its lid wide open (yellow inside) vs shut flat; hands with fingers spread wide vs little fists; mouth wide 'ahh' vs closed 'mmm'",
+  "song_repeats": "open: 0:00, 0:03-0:06 (x2), 0:06, 0:12, 0:18, 0:24-0:27 (x2); close/closed: 0:03-0:06 (x2), 0:09, 0:15, 0:18, 0:22 (x2), 0:24-0:27 (x2)",
+  "interactive_moment": "0:18 'My box... open or closed? Hmm?' – 0:20-0:22 humming pause – 0:22 'Closed! Closed! Yay!' (box visibly closed in shot 4)",
+  "fact_check": "f4 box lid shut flat, f1-f3/f5 lid straight up with yellow inside visible; exactly one box; no letters/numbers anywhere",
+  "modeling": "playful copy-me actions any toddler can do safely at home; no wrong choice shown",
+  "toddler_fit": "two simple opposite words, body actions, calm bright playroom, face big"
+ },
+ "fun_mechanics": ["surprise (box pops open with sparkles)", "copy-me (open/close hands: wiggle, squeeze; open/close mouth: ahh, mmm)", "say-it-with-me chorus 'Open, close!'", "interactive pause 'open or closed? Hmm?'", "loop ending + 'Bye bye, friends!'"],
+ "song": "song_prompt.txt (Lyria lyria-3-clip-preview take 2, 30.2 s, one boy voice; take 1 rejected by the Gemini judge (drum kit); take 2 judged twice: voices/claps/daf only)"
+}

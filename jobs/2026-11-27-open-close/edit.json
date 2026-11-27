@@ -1,0 +1,216 @@
+{
+ "workdir": "runs/2026-11-27-open-close",
+ "out": "final.mp4",
+ "song": "jobs/2026-11-27-open-close/song.mp3",
+ "song_start": 0.0,
+ "cuts": [
+  {
+   "shot": 1,
+   "start": 0.0,
+   "dur": 1.2,
+   "speed": 0.85,
+   "push": [
+    1.0,
+    1.1
+   ]
+  },
+  {
+   "shot": 1,
+   "start": 2.0,
+   "dur": 1.6,
+   "zoom": 1.1
+  },
+  {
+   "shot": 1,
+   "start": 4.9,
+   "dur": 1.5
+  },
+  {
+   "shot": 1,
+   "start": 7.4,
+   "dur": 1.5,
+   "zoom": 1.1
+  },
+  {
+   "shot": 2,
+   "start": 0.2,
+   "dur": 1.5
+  },
+  {
+   "shot": 2,
+   "start": 5.0,
+   "dur": 1.5,
+   "zoom": 1.1
+  },
+  {
+   "shot": 2,
+   "start": 2.3,
+   "dur": 1.6
+  },
+  {
+   "shot": 2,
+   "start": 8.6,
+   "dur": 1.4,
+   "zoom": 1.12
+  },
+  {
+   "shot": 3,
+   "start": 0.0,
+   "dur": 1.4,
+   "push": [
+    1.0,
+    1.14
+   ]
+  },
+  {
+   "shot": 3,
+   "start": 6.6,
+   "dur": 1.6,
+   "zoom": 1.1
+  },
+  {
+   "shot": 3,
+   "start": 1.4,
+   "dur": 1.4,
+   "push": [
+    1.04,
+    1.18
+   ]
+  },
+  {
+   "shot": 3,
+   "start": 4.0,
+   "dur": 1.6,
+   "zoom": 1.12
+  },
+  {
+   "shot": 4,
+   "start": 0.2,
+   "dur": 2.0,
+   "push": [
+    1.0,
+    1.12
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 2.4,
+   "dur": 1.9,
+   "push": [
+    1.1,
+    1.22
+   ]
+  },
+  {
+   "shot": 4,
+   "start": 7.2,
+   "dur": 2.1
+  },
+  {
+   "shot": 5,
+   "start": 0.3,
+   "dur": 2.0
+  },
+  {
+   "shot": 5,
+   "start": 2.6,
+   "dur": 2.0,
+   "zoom": 1.1
+  },
+  {
+   "shot": 5,
+   "start": 6.0,
+   "dur": 2.2,
+   "push": [
+    1.0,
+    1.1
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "file": "sfx/box_lid_pop.mp3",
+   "cut": 0,
+   "offset": 0.0,
+   "vol": 0.6,
+   "max": 1.0
+  },
+  {
+   "file": "sfx/sparkle_chime.mp3",
+   "cut": 0,
+   "offset": 0.05,
+   "vol": 0.45,
+   "max": 1.0
+  },
+  {
+   "file": "sfx/toddlers_gasp.mp3",
+   "cut": 0,
+   "offset": 0.15,
+   "vol": 0.55,
+   "max": 0.65
+  },
+  {
+   "file": "sfx/question_boing.mp3",
+   "cut": 12,
+   "offset": 1.4,
+   "vol": 0.6,
+   "max": 0.62
+  },
+  {
+   "file": "sfx/toddlers_cheer_clap.mp3",
+   "cut": 14,
+   "offset": 0.1,
+   "vol": 0.75,
+   "max": 2.0
+  }
+ ],
+ "bounce": {
+  "amp": 0.03,
+  "ranges": [
+   [
+    3.0,
+    6.0
+   ],
+   [
+    22.0,
+    24.0
+   ],
+   [
+    24.0,
+    27.0
+   ]
+  ]
+ },
+ "vfx": [
+  {
+   "type": "sparkle",
+   "cut": 0,
+   "offset": 0.05,
+   "x": 0.72,
+   "y": 0.55,
+   "arc": [
+    20,
+    160
+   ],
+   "size": 0.5
+  },
+  {
+   "type": "confetti",
+   "cut": 14,
+   "offset": 0.1,
+   "keep_out": [
+    0.4,
+    0.3,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "type": "hearts",
+   "cut": 17,
+   "offset": 0.3,
+   "x": 0.8,
+   "y": 0.25
+  }
+ ]
+}

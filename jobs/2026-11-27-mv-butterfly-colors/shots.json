@@ -1,0 +1,30 @@
+{
+ "shot1": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/e77ecae1-d745-4f40-b84b-93f387221625.mp4",
+ "shot2": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/7246da36-f594-49f8-98cd-86e8920e847f.mp4",
+ "shot3": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/2c47eb80-9d2e-4293-b30c-43c196b357a7.mp4",
+ "shot4": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/374f4729-040d-48ba-bf7b-0c6da326a569.mp4",
+ "shot5": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/447d8e97-75c8-4ff5-b89e-bc0b2cc8ea11.mp4",
+ "shot6": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/dfa54b26-3ae1-4a42-a244-a55dc82434cd.mp4",
+ "shot7": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/17bc86a3-2b36-416e-8a84-8d38db5c1757.mp4",
+ "shot8": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/5cde1663-e0cd-48a5-82d3-d2eeb6364972.mp4",
+ "shot10": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/a0cfbb3d-0095-44bc-a510-feb9661a5559.mp4",
+ "shot11": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/e683398e-f587-4b73-b996-75887438e9e8.mp4",
+ "shot12": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/6a4f21da-692a-4f75-8a42-edb4b0af9cd6.mp4",
+ "shot9": "https://r2.vibevideo.app/viewmax/creations/2026-11-27/video/380a0aec-2d69-4d59-bec0-a36b26ff407a.mp4",
+ "frames": {
+  "f1": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f1.jpg",
+  "f2": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f2.jpg",
+  "f3": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f3.jpg",
+  "f4": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f4.jpg",
+  "f5": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f5.jpg",
+  "f6": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f6.jpg",
+  "f7": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f7.jpg",
+  "f8": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f8.jpg",
+  "f9": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f9.jpg",
+  "f10": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f10.jpg",
+  "f11": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f11.jpg",
+  "f12": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f12.jpg",
+  "f6c": "https://raw.githubusercontent.com/lumilolandkids-lang/lumilolandkids-lang.github.io/autopilot/jobs/2026-11-27-mv-butterfly-colors/frames/f6c.jpg"
+ },
+ "note": "ViewMax C1 768P 16:9 7 s image-to-video, 12 clips x 14 = 168 credits + hook frame (nano-banana-2 via ViewMax, 8 credits) = 176. Frames f2-f12 and the thumbnail made with gemini-3.1-flash-image-preview via the Gemini API (0 ViewMax credits). C1 refused (internal_error, refunded) s2 twice, s4 once, s6 twice (accepted as the tighter crop f6c with a shorter prompt), s8 once - always right after another task; waiting >= 6 min fixed it. s3: red butterfly flies off, wide then close at ~5 s. s6: blink at ~4.4 s (not used). s10: blink ~1.8 s (not used)."
+}

@@ -1,0 +1,13 @@
+Song: "Flutter, Flutter, Butterflies (Colors Song)" - 2:40, ONE little girl voice, a cappella (voices, humming, claps, hand drum).
+Built from five Lyria lyria-3-clip-preview parts (song_parts/*.txt prompts, *.mp3 takes), because all 9 full-length lyria-3.5 takes
+were judged by gemini-flash-latest to contain synth / bass / chimes (her no-instruments rule). Every part was judged clean twice;
+the assembled song.mp3 was judged clean again (song_check.json). Part E's chorus sang "flutterflies", so only its outro is used.
+Assembly (each part loudness-matched to -14 LUFS, 30 ms fade-in / 80 ms fade-out, final 1.2 s fade, limiter):
+  0.00  A2  0.00-21.50  hook "Wow! Look! A red butterfly!" (0-4.4) + chorus 1 (4.4-21.5)
+ 21.50  B7  0.00-30.40  red (21.5-36.9) + yellow (36.9-51.9)
+ 51.90  A2  4.42-21.50  chorus 2 (51.9-69.0)
+ 68.98  C7  0.00-30.60  blue (69.0-84.0) + green (84.0-99.6)
+ 99.58  D   0.00-30.40  clap break (99.6-112.9), review "Red, yellow, blue and green! Four butterflies! Which one is blue? Hmm?" (112.9-119.4),
+                        pause 119.4-121.9, answer "The blue one! Yay! You did it!" (121.9-128)
+129.98  A2  4.42-21.50  final chorus (130.0-147.0)
+147.05  E  17.71-30.77  outro "Bye bye, friends! Bye bye, butterflies! La la la... bye bye!"

@@ -1,0 +1,41 @@
+{
+ "idea": "Colors (Friday school readiness, long ~2:40 learning song) in the BACKYARD (Ava in HOME outfit): a little RED butterfly flutters down right beside Baby Ava's cheek ('Wow! Look! A red butterfly!'); chorus 'Flutter, flutter, butterflies! Red and yellow, blue and green! … The prettiest colors I have seen!'; one butterfly per verse lands by her – RED (say it with me + flap your arms like wings), YELLOW (yellow like the sun + wiggle your fingers), BLUE (blue like the sky + clap your hands), GREEN (green like the grass + bounce); clap break; review – the four butterflies in a neat row: 'Red, yellow, blue and green! Four butterflies! Which one is blue? Hmm?' (2 s pause) – 'The blue one! Yay!'; final chorus with all four butterflies dancing around her; loop: the hook framing with the red butterfly, 'Bye bye, friends! Bye bye, butterflies!'.",
+ "star": "Ava",
+ "place": "BACKYARD",
+ "outfit": "HOME",
+ "variety": {
+  "place": "BACKYARD",
+  "star": "Ava",
+  "outfit": "HOME",
+  "last_places": [
+   "PLAYROOM",
+   "KITCHEN",
+   "LIVING ROOM"
+  ],
+  "note": "last 3 Friday long videos were all Jimmy (body parts, shapes, count to 5) - Ava's first long video; last log star = Jimmy"
+ },
+ "learning": {
+  "goal": "Name four basic colors - red, yellow, blue, green - and find the blue one when asked",
+  "target_words": [
+   "red",
+   "yellow",
+   "blue",
+   "green",
+   "butterfly"
+  ],
+  "shown_how": "one single-color cartoon butterfly per verse beside Ava's face (pure red, lemon yellow, sky blue, grass green); the review shows all four in one neat row; the answer shot has the blue one on her hand",
+  "song_repeats": "each color sung 4-6 times in its verse + 'Red and yellow, blue and green' in 3 choruses + the review line",
+  "interactive_moment": "1:57 'Which one is blue? Hmm?' + pause 1:59.4-2:01.9 (question boing), answer 'The blue one!' 2:02 (cheer + confetti)",
+  "copy_me": "flap your arms like wings (red), wiggle your fingers (yellow), clap your hands (blue), bounce (green), clap break",
+  "fact_check": "colors checked in every frame and clip: f1/f4/f5/f12 one red; f6 one yellow; f7 one blue; f8 one green; f9/f10/f11 exactly four (red, yellow, blue, green); color links true (yellow sun, blue sky, green grass)",
+  "modeling": "positive only",
+  "toddler_fit": "one baby, sunny backyard, big face, soft round butterflies with friendly faces, nothing scary"
+ },
+ "story_order": "red from 0:00 (hook); yellow only in the yellow verse 0:37; blue only from 1:09; green only from 1:24; all four together only from the clap break 1:40 on (after green). Chorus 1-2 shots show only Ava or the red butterfly.",
+ "song": "see song.txt",
+ "models": {
+  "frames": "f1 nano-banana-2 via ViewMax (8 credits); f2-f12 + thumbnail gemini-3.1-flash-image-preview via Gemini API, sheet eva.png + hook frame as anchor",
+  "video": "viewmax-c1 image-to-video 768P 16:9 7 s, 14 credits each, strictly one at a time"
+ },
+ "title": "Wow! A Red Butterfly! 🦋 Colors Song with Baby Ava | Nursery Rhymes & Kids Songs | Crayon Babies"
+}

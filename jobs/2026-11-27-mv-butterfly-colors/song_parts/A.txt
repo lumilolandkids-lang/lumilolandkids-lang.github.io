@@ -1,0 +1,11 @@
+Create part 1 of 5 of a happy children's nursery song called "Flutter, Flutter, Butterflies (Colors Song)" that teaches toddlers four colors: red, yellow, blue and green.
+Style: a cappella children's song. ONLY children's voices singing a simple catchy melody, soft humming and "la la la" harmonies, with a hand drum (daf / frame drum) rhythm and hand claps. NO instruments: no piano, no guitar, no ukulele, no bells, no xylophone, no synth, no strings, no flute, no electronic beats. Bouncy and joyful, exactly 110 BPM, in C major, very easy for toddlers to sing along. It starts right away with an excited gasp and goes on into the chorus. The melody is sung by the voice alone, like a nursery rhyme sung by a little girl while clapping.
+Vocals: ONE sweet little girl (a cute toddler girl voice, high-pitched and cheerful) singing solo, slowly and clearly in simple English, with soft children's humming and "la la" backing.
+Lyrics:
+[0:00 - 0:05] Hook (excited gasp): "Wow! Look! A red butterfly!"
+[0:05 - 0:21] Chorus:
+"Flutter, flutter, butterflies!
+Red and yellow, blue and green!
+Flutter, flutter, butterflies!
+The prettiest colors I have seen!"
+[0:21 - 0:30] "La la la, la la la! Flutter, flutter, la la la!"

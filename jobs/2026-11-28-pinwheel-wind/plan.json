@@ -1,0 +1,62 @@
+{
+ "idea": "Little science wonder – WIND (SUNNY PARK, Ava in OUTDOOR pink overalls): a gust of wind makes Baby Ava's colorful toy pinwheel (red, yellow, blue, green) spin round and round beside her face ('Whoosh! Wow! My pinwheel spins!'); the wind stops and the pinwheel stops ('Oh no! It stopped! No more wind!'); she makes her own wind and blows on it – copy-me 'Blow, blow, blow! Round and round! Blow with me!'; orange and yellow autumn leaves swirl around her ('Whoosh, whoosh! The leaves dance too!'); she asks the viewer 'What makes them move? Hmm?' (2 s humming pause) – 'The wind! The wind! Whoosh, whoosh!'; lesson 'I can't see the wind, but I see it move!'; copy-me 'Wave your arms like the wind! Yay!'. Loop: the hook framing again with the pinwheel spinning, 'Bye bye, wind! Bye bye, friends!'.",
+ "lesson": "Wind is moving air: we cannot see it, but we can see it move things (a pinwheel spins, leaves dance); we can make wind ourselves by blowing.",
+ "calendar": "Saturday slot 2 – Little science wonder (earlier: little seed 31 Oct, float/sink 14 Nov, ice melts 21 Nov). Wind/air is new.",
+ "place": "SUNNY PARK (reference image park.jpg)",
+ "star": "Ava",
+ "variety": {
+  "place": "SUNNY PARK",
+  "star": "Ava",
+  "outfit": "OUTDOOR (pink overalls over a yellow t-shirt)",
+  "last_places": [
+   "JIMMY'S ROOM",
+   "PLAYROOM",
+   "BACKYARD"
+  ]
+ },
+ "characters": [
+  "BABY AVA: a cute chubby 1-year-old baby girl with short fluffy curly brown hair, one small curly ponytail on top with a sparkly pink star hair clip, big brown eyes, rosy cheeks. wearing pink overalls over a yellow t-shirt with a small flower and white sneakers with pink laces."
+ ],
+ "supporting": "THE PINWHEEL = a big cute toy pinwheel on a short white stick, with exactly FOUR curved petals in plain solid colors – one red, one yellow, one blue, one green – and a small round white button in the middle; no patterns, no letters. AUTUMN LEAVES = a few big simple orange and yellow leaves (shot 3 only).",
+ "learning": {
+  "goal": "Wind is moving air you cannot see, but it moves things – and blowing makes wind too.",
+  "target_words": [
+   "wind",
+   "blow",
+   "spin / round and round",
+   "whoosh"
+  ],
+  "shown_how": "Shot 1 the pinwheel spins in a gust and Ava's curls flutter, then it stops; shot 2 Ava blows and it spins again; shot 3 leaves swirl around her in the breeze; shot 4 thinking pose for the question, then arms waving like the wind; shot 5 pinwheel spinning, bye wave.",
+  "song_repeats": "wind 0:03, 0:19 (x2), 0:22, 0:25, 0:27 = 6x · blow 0:06 (x3), 0:09 (x4) = 7x · whoosh 0:00, 0:12 (x2), 0:19 (x2) · round and round 0:06",
+  "interactive_moment": "0:15 'What makes them move? Hmm?' + 0:17-0:19 humming-only pause (silencedetect 17.3-19.9) -> 0:19 'The wind! The wind!' + cheer",
+  "copy_me": "blow with me (0:09-0:12), wave your arms like the wind (0:25-0:27), wave bye-bye",
+  "fact_check": "Pinwheel has exactly 4 petals (red, yellow, blue, green) in every frame; leaves only from shot 3; no letters/numbers anywhere; the science is right (moving air turns a pinwheel; blowing = moving air).",
+  "modeling": "Ava solves the problem herself by blowing; nothing wrong to correct.",
+  "toddler_fit": "Simple words, one baby, bright soft daylight, big pinwheel beside her face, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: the wind spins the pinwheel",
+  "problem: the wind stops",
+  "copy-me: blow with me, wave your arms like the wind",
+  "interactive pause: What makes them move?",
+  "say-it-with-me: wind / blow",
+  "loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "leaves": "absent shots 1-2, swirl in shot 3 (start frame already has them in the air – they arrive with the wind), gone again in 4-5 (blown away)",
+  "pinwheel": "present in every shot (Ava's own toy)"
+ },
+ "image_model": "Nano Banana 2 (gemini-3.1-flash-image-preview) via Gemini API, 2K 9:16, 0 ViewMax credits: f1 too wide (legs) -> f1r1 tighter = hook; f2-f5 edits of f1r1 with eva.png + park.jpg; cropped to exact 9:16 (f*c.jpg)",
+ "video_model": "viewmax-c1 768P 9:16 10s image-to-video (20 credits each), short plain prompts without clothing words",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "vocals": "one little girl solo",
+  "note": "take 1 rejected (gemini-flash-latest heard synth/bass/drum kit twice); take 2 (prompt without 'whoosh mouth sounds', + 'pure a cappella, no studio production') clean 3x; pause 0:17-0:19 confirmed"
+ },
+ "title": "Whoosh! My Pinwheel Spins! 🌬️ What Is Wind? Science for Toddlers with Baby Ava | Crayon Babies",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}

@@ -1,0 +1,11 @@
+[0.0:3.0] Whoosh! Wow! My pinwheel spins!
+[3.0:6.0] Oh no! It stopped! No more wind!
+[6.0:9.0] Blow, blow, blow! Round and round!
+[9.0:12.0] Blow with me! Blow, blow, blow!
+[12.0:15.0] Whoosh, whoosh! The leaves dance too!
+[15.0:17.0] What makes them move? Hmm?
+[17.0:19.0] (Hmm-hmm...)
+[19.0:22.0] The wind! The wind! Whoosh, whoosh!
+[22.0:25.0] I can't see the wind, but I see it move!
+[25.0:27.0] Wave your arms like the wind! Yay!
+[27.0:30.0] Bye bye, wind! Bye bye, friends!

@@ -42,3 +42,4 @@ with `duration_seconds` 0.5-2.5 and `prompt_influence` 0.6.
 | baby_dino_rawr.mp3 | one tiny cute baby dinosaur toy "rawr", squeaky and playful (loud file) | 0.84 s | 0.4–0.5 |
 | box_lid_pop.mp3 | toy box lid pops open with a cute springy pop (surprise box hooks) | 1.0 s | 0.5–0.7 |
 | bunny_hop_boing.mp3 | three soft springy cartoon bunny hops "boing boing boing" (hopping drawings/animals) | 0.95 s | 0.6 |
+| wind_whoosh_pinwheel.mp3 | soft gentle gust of wind whoosh with a fluttering toy pinwheel (wind/air/breeze moments) | 1.5 s | 0.5–0.7 |

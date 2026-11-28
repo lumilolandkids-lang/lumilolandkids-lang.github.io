@@ -1,0 +1,10 @@
+[0.0:3.0] Oh no! My bunny has one ear!
+[3.0:6.0] Hop, hop, hop! Look at my bunny!
+[6.0:8.0] What's missing? Hmm?
+[10.0:13.0] An ear! An ear! A long pink ear!
+[13.0:16.0] Magic crayon, draw with me! A long, long ear!
+[16.0:19.0] One ear, two ears! Bunny ears!
+[19.0:22.0] Touch your ears! One, two! Yay!
+[22.0:25.0] Hop, hop, hop! Hop with me!
+[25.0:27.0] Happy bunny! Two long ears!
+[27.0:30.0] Bye bye, bunny! Bye bye, friends!

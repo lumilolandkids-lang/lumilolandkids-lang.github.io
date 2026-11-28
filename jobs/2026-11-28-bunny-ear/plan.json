@@ -1,0 +1,68 @@
+{
+ "idea": "\"What's Missing?\" #4 (JIMMY'S ROOM, Jimmy in HOME onesie on the round blue rug beside a big white paper taped on the light blue wall): Baby Jimmy's toddler crayon drawing of a gray BUNNY comes alive and hops on the paper – but it has only ONE ear ('Oh no! My bunny has one ear!'); 'Hop, hop, hop! Look at my bunny!'; Jimmy points at the empty spot and asks the viewer 'What's missing? Hmm?' (2 s humming pause) – 'An ear! An ear! A long pink ear!'; 'Magic crayon, draw with me! A long, long ear!' – the glowing pink magic crayon draws the second ear; chorus 'One ear, two ears! Bunny ears!'; copy-me 'Touch your ears! One, two! Yay!' and 'Hop, hop, hop! Hop with me!'; 'Happy bunny! Two long ears!'. Loop: the hook framing again with the bunny complete, 'Bye bye, bunny! Bye bye, friends!'.",
+ "lesson": "Look carefully and spot what is missing: a bunny has two long ears; count one ear, two ears; touch your own ears.",
+ "calendar": "Saturday slot 1 – \"What's Missing?\" signature episode #4 (ep.1 kitty tail 30 Oct, ep.2 car wheel 14 Nov, ep.3 snowman nose 21 Nov).",
+ "place": "JIMMY'S ROOM (reference image jimmy-room.jpg)",
+ "star": "Jimmy",
+ "variety": {
+  "place": "JIMMY'S ROOM",
+  "star": "Jimmy",
+  "outfit": "HOME (light blue onesie with yellow star)",
+  "last_places": [
+   "BACKYARD",
+   "PLAYROOM",
+   "KITCHEN"
+  ]
+ },
+ "characters": [
+  "BABY JIMMY: a cute chubby 1-year-old baby boy with fluffy curly ginger hair, big blue eyes, light freckles, rosy cheeks. wearing a light blue short-sleeve onesie with a small yellow star, barefoot."
+ ],
+ "supporting": "THE CRAYON BUNNY = a real toddler's crayon drawing of a simple cute BUNNY on a big sheet of white paper taped flat on the light blue wall: wobbly thick black crayon outlines, a round head and a round body with light gray scribbly crayon fill, two black dot eyes, a small pink triangle nose, a curved happy smile, a round white fluffy tail, little feet, and LONG upright bunny ears with pink scribbly insides. Flat crayon drawing on paper, not a 3D toy.",
+ "learning": {
+  "goal": "Spot the missing part: the crayon bunny has only one ear; Jimmy draws the second ear – one ear, two ears.",
+  "target_words": [
+   "ear",
+   "two ears",
+   "bunny",
+   "hop"
+  ],
+  "shown_how": "Hook/question: the gray crayon bunny with ONE long pink-inside ear and empty white paper where the second ear belongs, big beside Jimmy's face; shot 3 the pink magic crayon draws the second ear; shots 4-5 the bunny with two ears, Jimmy touching his own two ears.",
+  "song_repeats": "ear 0:00, 0:10 (x3), 0:13, 0:16 (x3), 0:19, 0:25 = 10x · bunny 0:00, 0:03, 0:16, 0:25, 0:27 · hop 0:03 (x3), 0:22 (x4)",
+  "interactive_moment": "0:06 'What's missing? Hmm?' + 0:08-0:10 humming-only pause (question boing 0:07.4) -> 0:10 'An ear! An ear! A long pink ear!' + cheer",
+  "copy_me": "touch your ears one, two (0:19-0:22), hop with me (0:22-0:25), wave bye-bye",
+  "fact_check": "Frames checked at full size: f1/f2/f3 one ear + empty spot, f0/f4 exactly two ears; clips s1/s2 one ear for all 10 s (frames-to-video, same frame first and last); no letters or numbers anywhere.",
+  "modeling": "Jimmy notices a problem and fixes it himself by drawing; no wrong behaviour.",
+  "toddler_fit": "Simple words, one baby, soft daylight, big clear drawing beside his face, nothing scary."
+ },
+ "fun_mechanics": [
+  "surprise hook: the crayon bunny comes alive with one ear",
+  "interactive pause: What's missing?",
+  "say-it-with-me: ear / two ears",
+  "copy-me: touch your ears, hop",
+  "Magic crayon, draw with me! + loop ending + Bye bye, friends!"
+ ],
+ "story_order": {
+  "second ear": "absent shots 1-2 (frames-to-video, same frame first and last), drawn in shot 3 (start frame: crayon raised beside the empty spot; appears ~6.5 s), present shots 4-5"
+ },
+ "image_model": "Nano Banana 2 (gemini-3.1-flash-image) via Gemini API, 2K 9:16, 0 ViewMax credits: f0 base (two ears, bye wave) -> f1 hook = edit of f0 (right ear erased + gasp) -> f2r1, f3r2 edits of f1 (f2 pointed at the body, f3/f3r1 crayon on the bunny's face -> rejected); f4 edit of f0 (touches his ears)",
+ "video_model": "viewmax-c1 768P 9:16 10s (20 credits): s1 f1c frames-to-video, s2 f2r1t (tighter crop) frames-to-video, s3 f3r2c image-to-video, s4 f4c, s5 f0c",
+ "song": {
+  "model": "lyria-3-clip-preview",
+  "song_start": 0.0,
+  "vocals": "one little boy solo",
+  "note": "take 1, 30.5 s; gemini-flash-latest instrument check clean twice; humming pause 0:08-0:10 confirmed"
+ },
+ "sfx": [
+  "sfx/magic_poof.mp3",
+  "sfx/bunny_hop_boing.mp3 (new, 5 cr)",
+  "sfx/question_boing.mp3",
+  "sfx/toddlers_cheer_clap.mp3",
+  "sfx/sparkle_chime.mp3",
+  "sfx/crayon_scribble.mp3"
+ ],
+ "title": "Oh No! My Bunny Has One Ear! 🐰 What's Missing? | Learn with Baby Jimmy | Crayon Babies",
+ "playlist": [
+  "Crayon Babies Songs",
+  "Learn with Crayon Babies"
+ ]
+}
